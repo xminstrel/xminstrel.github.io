@@ -1,22 +1,26 @@
-name: Auto Deploy to pages branch
+name: Deploy MkDocs site to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      # 1. 拉取代码
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # 获取完整历史，方便部署分支操作
 
-      # 2. 安装 Python 和 MkDocs
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -24,6 +28,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install jieba
           pip install mkdocs
           pip install mkdocs-material
@@ -34,34 +39,21 @@ jobs:
           pip install mkdocs-minify-plugin
           pip install mkdocs-add-number-plugin
 
-      # 3. 构建 MkDocs 并修复 404 页面
-      - name: Build the site
-        run: |
-          mkdocs build
+      - name: Build site
+        run: mkdocs build --clean
 
-      # 4. 将构建产物部署到 pages 分支
-      - name: Deploy to pages branch
-        run: |
-          set -eux  # 遇错立即退出，打印每条命令
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
 
-          REMOTE_REPO="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-
-          rm -rf ../output-dir
-          mkdir ../output-dir
-          cp -r site/* ../output-dir/
-
-          cd ../output-dir
-          git init
-          git checkout -b pages
-
-          # 设置 Git 用户信息（必须在 init 之后！）
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add .
-
-          # 如果没有变化可提交，也继续执行
-          git commit -m "Deploy: ${{ github.sha }}" || echo "WARNING: Nothing to commit"
-
-          git remote add origin $REMOTE_REPO
-          git push --force origin pages || echo "WARNING: Nothing to push"
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
