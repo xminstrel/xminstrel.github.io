@@ -1,1 +1,40 @@
-site_name: My Docs
+site_name: xminstrel's blog
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  palette: 
+    # 切换日间模式 (点击右上角按钮)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo  # 主色调 (顶部栏)
+      accent: indigo   # 强调色 (链接、按钮)
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # 切换夜间模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate    # 这里是重点！slate 是自带的深色高级配色
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs        # 开启顶部导航栏 (像App一样)
+    - navigation.sections    # 侧边栏分组
+    - toc.integrate          # 将目录集成到左侧
+    - navigation.top         # 返回顶部按钮
+    - search.suggest         # 搜索建议
+    - search.highlight       # 搜索高亮
+
+# 换个字体 (自动从 Google Fonts 拉取)
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourname
