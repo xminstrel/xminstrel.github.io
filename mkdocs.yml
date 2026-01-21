@@ -1,4 +1,6 @@
 site_name: xminstrel's blog
+markdown_extensions:
+  - pymdownx.wikilinks # 开启 Wiki 链接支持
 
 extra_css:
   - stylesheets/extra.css
