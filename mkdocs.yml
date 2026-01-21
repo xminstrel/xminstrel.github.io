@@ -1,6 +1,10 @@
 site_name: xminstrel's blog
+nav:
+  - Home: index.md
+  - 关于赤奈: about_me.md
+
 markdown_extensions:
-  - pymdownx.wikilinks # 开启 Wiki 链接支持
+  - wikilinks # 开启 Wiki 链接支持
 
 extra_css:
   - stylesheets/extra.css
