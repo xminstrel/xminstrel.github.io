@@ -2,7 +2,11 @@ site_name: xminstrel's blog
 nav:
   - Home: index.md
   - 关于赤奈: about_me.md
-
+  - 控制相关:
+    - 控制论: 控制相关/控制论.md
+    - 自动控制理论: 控制相关/自动控制理论.md
+    - Esp32 入门: 控制相关/Esp32.md
+    - stm32 入门: 控制相关/stm32.md
 markdown_extensions:
   - wikilinks # 开启 Wiki 链接支持
 
