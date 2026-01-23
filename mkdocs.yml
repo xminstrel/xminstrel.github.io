@@ -1,26 +1,35 @@
 site_name: xminstrel's blog
+site_author: 赤奈良瞳
+site_url: 'https://xminstrel.github.io/'
+# 站点基本信息
 nav:
-  - Home: index.md
-  - 关于赤奈: about_me.md
-  - AI 相关:
-    - AI工具: AI相关/AI工具.md
-  - 控制相关:
-    - 控制论: 控制相关/控制论.md
-    - 自动控制理论: 控制相关/自动控制理论.md
-    - Esp32 入门: 控制相关/Esp32.md
-    - stm32 入门: 控制相关/stm32.md
-markdown_extensions:
-  - wikilinks # 开启 Wiki 链接支持
-
+  - "🎆 首页": index.md
+  - 😘 关于赤奈: about_me.md
+  - 💎 AI 相关: 
+    - AI工具: ai/tools.md
+  - 🪡 控制相关:
+    - 控制论: control/控制论.md
+    - 自动控制理论: control/自动控制理论.md
+    - Esp32 入门: control/Esp32.md
+    - stm32 入门: control/stm32.md
+  - 🖼️ 其他笔记: 
+    -  emm: others/index.md
+# 自定义样式和脚本
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - javascripts/extra.js
+#主题配置
 theme:
   name: material
   custom_dir: overrides
   language: zh
   favicon: assets/images/favicon.png  # 这里写从 docs 目录开始的相对路径
+  #icon:
+    #repo: fontawesome/brands/github
+  font:
+    text: LXGW WenKai Screen GB Screen # Share Tech
+    code: JetBrains Mono
   palette: 
     # 切换日间模式 (点击右上角按钮)
     - media: "(prefers-color-scheme: light)"
@@ -32,7 +41,7 @@ theme:
         name: Switch to dark mode
     # 切换夜间模式
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate    # 这里是重点！slate 是自带的深色高级配色
+      scheme: slate  
       primary: black
       accent: indigo
       toggle:
@@ -45,9 +54,25 @@ theme:
     - navigation.top         # 返回顶部按钮
     - search.suggest         # 搜索建议
     - search.highlight       # 搜索高亮
-
-# 换个字体 (自动从 Google Fonts 拉取)
+#md扩展
+markdown_extensions:
+  - wikilinks
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+# 社交媒体链接配置
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/xminstrel
+      name: GitHub
+
+# 仓库链接配置
+repo_url: https://github.com/xminstrel/xminstrel.github.io
+repo_name: xminstrel
+edit_uri: edit/main/docs/
