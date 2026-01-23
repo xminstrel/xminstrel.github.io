@@ -35,6 +35,14 @@ hide:
 
     [:arrow_right: 进入控制板块](control/控制论.md)
 
+-   :material-book: **ZJU-Courses**
+
+    ---
+
+    记录在zju学习的课程
+
+    [:arrow_right: 一些笔记](zju-courses/材料力学/材料力学.md)
+
 -   :material-bookshelf: **其他笔记**
 
     ---

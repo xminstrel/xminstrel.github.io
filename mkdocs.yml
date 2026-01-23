@@ -1,4 +1,4 @@
-site_name: xminstrel's blog
+site_name: 赤奈良瞳的博客 | xminstrel's blog
 site_author: 赤奈良瞳
 site_url: 'https://xminstrel.github.io/'
 # 站点基本信息
@@ -12,6 +12,8 @@ nav:
     - 自动控制理论: control/自动控制理论.md
     - Esp32 入门: control/Esp32.md
     - stm32 入门: control/stm32.md
+  - 📚 ZJU-Courses:
+    - 材料力学: zju-courses/材料力学/材料力学.md
   - 🖼️ 其他笔记: 
     -  emm: others/index.md
 # 自定义样式和脚本
