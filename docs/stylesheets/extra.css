@@ -1,0 +1,41 @@
+/* === 定义专属的首页卡片样式 (home-card) === */
+
+/* 1. 设置图标 (这里我借用了 quote 的图标，你也可以换别的) */
+:root {
+  --md-admonition-icon--home-card: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M14 17h3l2-4V7h-6v6h3M6 17h3l2-4V7H5v6h3l-2 4Z"/></svg>');
+}
+
+/* 2. 卡片整体外壳 */
+.md-typeset .admonition.home-card {
+    border-left: none; /* 去掉左边默认的粗线 */
+    border-top: 4px solid #7c4dff; /* 改成顶部线条，颜色是紫色 */
+    background: linear-gradient(135deg, #f3e5f5 0%, #ffffff 100%); /* 渐变背景 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* 悬浮阴影 */
+    border-radius: 12px; /* 大圆角 */
+    max-width: 1200px;    /* 限制最大宽度，防止太宽不好看 */
+    margin: 2em auto;    /* 居中显示 */
+}
+
+/* 3. 标题栏 */
+.md-typeset .admonition.home-card .admonition-title {
+    background: transparent; /* 标题栏背景透明 */
+    border: none;            /* 去掉标题栏边框 */
+    font-size: 1.1em;
+    color: #7c4dff;          /* 标题颜色 */
+    padding-bottom: 0;       /* 减小标题和内容的间距 */
+}
+
+/* 4. 图标颜色 */
+.md-typeset .admonition.home-card .admonition-title:before {
+    background-color: #7c4dff; /* 图标改成紫色 */
+}
+
+/* 5. 内容文字 */
+.md-typeset .admonition.home-card > p {
+    font-family: "Ma Shan Zheng", "KaiTi", "楷体", cursive; /* 尝试使用书法字体 */
+    font-size: 2.5rem;       /* 字号大一点 */
+    line-height: 1.8;
+    color: #4a4a4a;
+    text-align: center;      /* 文字居中 */
+    padding: 10px 20px;
+}

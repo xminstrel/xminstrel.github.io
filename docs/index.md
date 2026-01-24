@@ -6,7 +6,15 @@ hide:
 
 # 👋 欢迎来到 Xminstrel 的知识库
 
-这里是我的个人学习笔记与生活记录，随便看看吧：
+!!! home-card "Quote"
+
+
+    “二泉映月，他才不管红与不红”
+
+
+    ---
+
+**这里是我的个人学习笔记与生活记录，随便看看吧：**
 
 <!-- 下面是网格卡片布局 -->
 <div class="grid cards" markdown>
@@ -50,6 +58,7 @@ hide:
     生活随笔、阅读清单以及杂七杂八的记录。
 
     [:arrow_right: 随便看看](others/index.md)
+
 
 </div>
 
