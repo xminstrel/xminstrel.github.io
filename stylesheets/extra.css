@@ -1,0 +1,102 @@
+/* 引入霞鹜文楷（屏幕阅读优化版） */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css');
+/* 引入 Google Fonts 的思源宋体 (Noto Serif SC) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+/* 从 Google Fonts 引入“马善政”字体 */
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+/* 1. 设置图标 */
+:root {
+  --md-admonition-icon--home-card: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M14 17h3l2-4V7h-6v6h3M6 17h3l2-4V7H5v6h3l-2 4Z"/></svg>');
+}
+
+/* 2. 卡片整体外壳 */
+.md-typeset .admonition.home-card {
+    border-left: none; /* 去掉左边默认的粗线 */
+    border-top: 4px solid #7c4dff; /* 改成顶部线条，颜色是紫色 */
+    background: linear-gradient(135deg, #f3e5f5 0%, #ffffff 100%); /* 渐变背景 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* 悬浮阴影 */
+    border-radius: 12px; /* 大圆角 */
+    max-width: 1200px;    /* 限制最大宽度，防止太宽不好看 */
+    margin: 2em auto;    /* 居中显示 */
+}
+
+/* 3. 标题栏 */
+.md-typeset .admonition.home-card .admonition-title {
+    background: transparent; /* 标题栏背景透明 */
+    border: none;            /* 去掉标题栏边框 */
+    font-size: 1.1em;
+    color: #7c4dff;          /* 标题颜色 */
+    padding-bottom: 0;       /* 减小标题和内容的间距 */
+}
+
+/* 4. 图标颜色 */
+.md-typeset .admonition.home-card .admonition-title:before {
+    background-color: #7c4dff; /* 图标改成紫色 */
+}
+
+/* 5. 内容文字 */
+.md-typeset .admonition.home-card > p {
+    @media screen and (max-width: 768px) {
+    .md-typeset .admonition.home-card > p {
+        font-size: 1.5rem; /* 手机上把字号缩小 */
+        padding: 5px 10px; /* 减小内边距 */
+    }
+    
+    .md-typeset .admonition.home-card {
+        margin: 1em; /* 防止卡片在手机上贴着屏幕边缘 */
+    }
+}
+    font-family: "Ma Shan Zheng", "KaiTi", "楷体", cursive; /* 尝试使用书法字体 */
+    font-size: 2.5rem;       /* 字号大一点 */
+    line-height: 1.8;
+    color: #4a4a4a;
+    text-align: center;      /* 文字居中 */
+    padding: 10px 20px;
+}
+
+
+
+/* 优化后的文章图片样式 */
+.md-typeset img {
+    max-height: 400px;
+    width: auto;
+    border-radius: 8px; /* 增加 8px 的圆角，看起来更温和 */
+    display: block;     /* 把图片变成块级元素... */
+    margin: 1.5em auto; /* ...配合 auto 实现水平居中对齐 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 增加淡淡的立体阴影 */
+}
+
+/* 限制代码块的最大高度 */
+.md-typeset .highlight {
+    max-height: 400px;  /* 这里设置你想要的高度，比如 300px 或 400px */
+    overflow-y: auto;   /* 超过高度自动显示垂直滚动条 */
+}
+
+/* 美化一下滚动条（可选，让它变细一点好看） */
+.md-typeset .highlight::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.md-typeset .highlight::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+/* === 全局字体设置 === */
+/* 将文章内容区域的字体改为霞鹜文楷 */
+.md-typeset {
+    font-family: "LXGW WenKai Screen", sans-serif !important; 
+    line-height: 1.8; /* 稍微拉大行距，配合这款字体的文艺感 */
+}
+
+/* 针对你首页的卡片，也可以统一成这款字体 */
+.md-typeset .admonition.home-card > p {
+    font-family: "LXGW WenKai Screen", sans-serif !important;
+    font-size: 2rem; /* 霞鹜文楷本身偏小，可以稍微调大字号 */
+}
+
+/* 保持代码块里的字体为等宽字体，防止错位 */
+.md-typeset code, 
+.md-typeset pre {
+    font-family: "JetBrains Mono", "Courier New", monospace !important;
+}
