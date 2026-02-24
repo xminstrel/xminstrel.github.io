@@ -10,7 +10,7 @@ nav:
   - 🪡 控制相关:
     - 控制论: control/控制论.md
     - 自动控制理论: control/自动控制理论.md
-    - Esp32 入门: control/ESP32.md
+    - Esp32 入门: control/esp32.md
     - stm32 入门: control/stm32.md
   - 📚 ZJU-Courses:
     - 材料力学: zju-courses/材料力学/材料力学.md
@@ -70,9 +70,15 @@ markdown_extensions:
   - md_in_html
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 # 社交媒体链接配置
 extra:
   social:
