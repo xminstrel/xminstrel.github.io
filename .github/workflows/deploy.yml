@@ -38,6 +38,7 @@ jobs:
           pip install mkdocs-git-authors-plugin
           pip install mkdocs-minify-plugin
           pip install mkdocs-add-number-plugin
+          pip install mkdocs-callouts
 
       - name: Build site
         run: mkdocs build --clean
