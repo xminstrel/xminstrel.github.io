@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/control/esp32.md",
+                "file": "docs/others/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "esp32 的大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -196,9 +196,11 @@
   },
   "active": "cf8d6f2a87bca94f",
   "lastOpenFiles": [
-    "docs/blog/index.md",
-    "docs/others/index.md",
     "docs/control/esp32.md",
+    "docs/others/index.md",
+    "docs/others/assets/4dfc89ad88ba247703d7d540053cb970.jpg",
+    "docs/others/assets",
+    "docs/blog/index.md",
     "docs/assets/images/avatar.png",
     "docs/control/自动控制理论.md",
     "docs/control/控制论.md",
