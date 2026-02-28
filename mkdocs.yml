@@ -67,13 +67,14 @@ plugins:
   - search    # 开启默认的搜索功能（重要！一旦写了 plugins，自带的 search 必须手动写上）
   - tags      # 开启标签系统
   - blog      # 开启博客时间轴模式
+  - callouts
 #md扩展
 markdown_extensions:
   - wikilinks
-  - admonition
+  - pymdownx.blocks.admonition
+  - pymdownx.blocks.details
   - attr_list
   - md_in_html
-  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
