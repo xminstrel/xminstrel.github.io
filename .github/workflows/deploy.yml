@@ -39,6 +39,35 @@ jobs:
           pip install mkdocs-minify-plugin
           pip install mkdocs-add-number-plugin
 
+      - name: Convert Obsidian Callouts
+              run: |
+                python -c "
+                import os, re
+                for root, dirs, files in os.walk('docs'):
+                    for file in files:
+                        if file.endswith('.md'):
+                            filepath = os.path.join(root, file)
+                            with open(filepath, 'r', encoding='utf-8') as f:
+                                lines = f.readlines()
+                            new_lines = []
+                            in_callout = False
+                            for line in lines:
+                                match = re.match(r'^>\s*\[\!([^\]]+)\](.*)', line)
+                                if match:
+                                    ctype = match.group(1).strip()
+                                    title = match.group(2).strip()
+                                    title_str = f' \"{title}\"' if title else ''
+                                    new_lines.append(f'!!! {ctype}{title_str}\n')
+                                    in_callout = True
+                                elif in_callout and line.startswith('>'):
+                                    new_lines.append(re.sub(r'^>\s?', '    ', line))
+                                else:
+                                    in_callout = False
+                                    new_lines.append(line)
+                            with open(filepath, 'w', encoding='utf-8') as f:
+                                f.writelines(new_lines)
+                "
+
       - name: Build site
         run: mkdocs build --clean
 

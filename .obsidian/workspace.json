@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/others/index.md",
+                "file": "docs/control/自动控制理论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "自动控制理论"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/others/index.md",
+                "file": "docs/control/自动控制理论.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "自动控制理论 的大纲"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -196,15 +196,20 @@
   },
   "active": "cf8d6f2a87bca94f",
   "lastOpenFiles": [
-    "docs/others/assets/4dfc89ad88ba247703d7d540053cb970.jpg",
-    "docs/control/esp32.md",
+    "docs/zju-courses/精细农业/精细农业.md",
     "docs/others/index.md",
+    "docs/zju-courses/材料力学/材料力学.md",
+    "docs/control/自动控制理论.md",
+    "docs/control/esp32.md",
+    "docs/control/控制论.md",
+    "docs/control/assets/b0cd7a8da78ef1a0a0532572b0247669.jpg",
+    "docs/zju-courses/精细农业",
+    "docs/about_me.md",
+    "docs/others/assets/4dfc89ad88ba247703d7d540053cb970.jpg",
     "docs/others/assets/1.jpg",
     "docs/others/assets",
     "docs/blog/index.md",
     "docs/assets/images/avatar.png",
-    "docs/control/自动控制理论.md",
-    "docs/control/控制论.md",
     "docs/control/stm32.md",
     "docs/control/index.md",
     "未命名.base",

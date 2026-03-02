@@ -70,6 +70,7 @@ plugins:
 #md扩展
 markdown_extensions:
   - wikilinks
+  - admonition
   - pymdownx.blocks.admonition
   - pymdownx.blocks.details
   - attr_list
