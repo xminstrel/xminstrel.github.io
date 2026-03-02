@@ -52,7 +52,6 @@ theme:
   features:
     - navigation.tabs        # 开启顶部导航栏 (像App一样)
     - navigation.sections    # 侧边栏分组
-    - toc.integrate          # 将目录集成到左侧
     - navigation.top         # 返回顶部按钮
     - search.suggest         # 搜索建议
     - search.highlight       # 搜索高亮
