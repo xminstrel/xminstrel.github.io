@@ -14,6 +14,7 @@ nav:
     - stm32 入门: control/stm32.md
   - 📚 ZJU-Courses:
     - 材料力学: zju-courses/材料力学/材料力学.md
+    - 流体力学&传热学: zju-courses/农业生物系统传输过程/农业生物系统传输过程.md
   - 🖼️ 其他笔记: 
     -  emm: others/index.md
 # 自定义样式和脚本
