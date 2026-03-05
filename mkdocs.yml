@@ -15,13 +15,16 @@ nav:
   - 📚 ZJU-Courses:
     - 材料力学: zju-courses/材料力学/材料力学.md
     - 流体力学&传热学: zju-courses/农业生物系统传输过程/农业生物系统传输过程.md
+    - 发展心理学: zju-courses/发展心理学/发展心理学.md
   - 🖼️ 其他笔记: 
     -  emm: others/index.md
 # 自定义样式和脚本
 extra_css:
   - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 extra_javascript:
   - javascripts/extra.js
+  - javascripts/katex.js
 #主题配置
 theme:
   name: material
@@ -81,10 +84,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra_javascript: # latex
+  - javascripts/extra.js
+  - javascripts/katex.js                        
+  - https://unpkg.com/katex@0/dist/katex.min.js   
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 # 社交媒体链接配置
 extra:
   social:

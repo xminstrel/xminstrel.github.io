@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "农业生物系统传输过程"
+              "title": "发展心理学"
+            }
+          },
+          {
+            "id": "5664b566f01a49ad",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "发展心理学第2版 (苏彦捷)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "农业生物系统传输过程 的反向链接列表"
+              "title": "发展心理学第2版 (苏彦捷) 的反向链接列表"
             }
           },
           {
@@ -113,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "农业生物系统传输过程 的出链列表"
+              "title": "发展心理学第2版 (苏彦捷) 的出链列表"
             }
           },
           {
@@ -156,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "农业生物系统传输过程 的大纲"
+              "title": "发展心理学第2版 (苏彦捷) 的大纲"
             }
           },
           {
@@ -194,13 +207,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf8d6f2a87bca94f",
+  "active": "5664b566f01a49ad",
   "lastOpenFiles": [
-    "docs/zju-courses/材料力学/材料力学.md",
-    "docs/control/自动控制理论.md",
-    "docs/control/控制论.md",
+    "docs/zju-courses/发展心理学/发展心理学.md",
+    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
     "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
     "docs/zju-courses/农业物料学/农业物料学.md",
+    "docs/zju-courses/材料力学/材料力学.md",
+    "docs/zju-courses/精细农业/精细农业.md",
+    "docs/zju-courses/发展心理学",
+    "docs/javascripts/katex.js",
+    "docs/control/自动控制理论.md",
+    "docs/control/控制论.md",
     "docs/zju-courses/农业物料学/assets/作业1.png",
     "docs/zju-courses/农业物料学/assets/c2ffb8fe0c6cf763585cc82a44570cd5.jpg",
     "docs/zju-courses/农业物料学/assets",
@@ -215,7 +233,6 @@
     "docs/zju-courses/精细农业/未命名",
     "docs/control/esp32.md",
     "docs/control/index.md",
-    "docs/zju-courses/精细农业/精细农业.md",
     "docs/control/assets/b0cd7a8da78ef1a0a0532572b0247669.jpg",
     "docs/zju-courses/精细农业",
     "docs/about_me.md",
@@ -224,8 +241,6 @@
     "docs/others/assets",
     "docs/blog/index.md",
     "docs/assets/images/avatar.png",
-    "docs/control/stm32.md",
-    "未命名.base",
-    "未命名 1.base"
+    "docs/control/stm32.md"
   ]
 }
