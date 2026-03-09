@@ -9,8 +9,8 @@ nav:
     - AI工具: ai/tools.md
   - 🪡 控制相关:
     - 控制论: control/控制论.md
-    - 自动控制理论: control/自动控制理论.md
-    - Esp32 入门: control/esp32.md
+    - 自动控制理论: control/自动控制理论/自动控制理论.md
+    - Esp32 入门: control/esp32/esp32.md
     - stm32 入门: control/stm32.md
   - 📚 ZJU-Courses:
     - 材料力学: zju-courses/材料力学/材料力学.md
