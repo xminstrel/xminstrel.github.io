@@ -37,12 +37,24 @@
             "id": "9e5b2843f8be820d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "docs/control/自动控制理论/pdfs/第二章  控制系统的数学模型(1).pdf"
+                "file": "docs/zju-courses/农业物料学/农业物料学.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "第二章  控制系统的数学模型(1)"
+              "icon": "lucide-file",
+              "title": "农业物料学"
+            }
+          },
+          {
+            "id": "3bc51645a0df3354",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ],
@@ -123,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -250,14 +261,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b92e0c22ba2189b6",
+  "active": "cf8d6f2a87bca94f",
   "lastOpenFiles": [
-    "docs/control/自动控制理论/pdfs/第二章  控制系统的数学模型(1).pdf",
-    "docs/control/自动控制理论/自动控制理论.md",
-    "docs/control/自动控制理论/pdfs/第一章 引论(1).pdf",
-    "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
-    "docs/zju-courses/精细农业/精细农业.md",
     "docs/zju-courses/农业物料学/农业物料学.md",
+    "docs/control/自动控制理论/pdfs/第二章  控制系统的数学模型(1).pdf",
+    "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
+    "docs/control/自动控制理论/自动控制理论.md",
+    "docs/control/自动控制理论/assets/传递函数.png",
+    "docs/control/自动控制理论/pdfs/第一章 引论(1).pdf",
+    "docs/zju-courses/精细农业/精细农业.md",
     "docs/control/esp32/esp32.md",
     "docs/control/自动控制理论/pdfs/第四章讲义.pdf",
     "docs/control/自动控制理论/assets/方框.png",
@@ -279,7 +291,6 @@
     "docs/zju-courses/发展心理学/发展心理学.md",
     "docs/zju-courses/材料力学/材料力学.md",
     "docs/control/控制论.md",
-    "docs/zju-courses/农业物料学/assets/c2ffb8fe0c6cf763585cc82a44570cd5.jpg",
     "docs/others/index.md",
     "docs/control/index.md",
     "docs/about_me.md",
