@@ -1,25 +1,26 @@
 {
   "docs/control/自动控制理论/自动控制理论.md": {
-    "scroll": 184.34743411927877,
+    "scroll": 182.15503875968992,
     "cursor": {
       "from": {
-        "line": 197,
-        "ch": 0
+        "line": 203,
+        "ch": 21
       },
       "to": {
-        "line": 197,
-        "ch": 0
+        "line": 203,
+        "ch": 21
       }
     },
     "expandedKeys": [
       "item-2-1",
       "item-1-0",
       "item-3-6",
-      "item-2-5"
+      "item-2-5",
+      "item-3-8"
     ]
   },
   "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md": {
-    "scroll": 22.8590882178804,
+    "scroll": 20.52452025586354,
     "cursor": {
       "from": {
         "line": 35,
@@ -49,14 +50,14 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 70.8501213592233,
+    "scroll": 71.13020833333333,
     "cursor": {
       "from": {
-        "line": 71,
+        "line": 79,
         "ch": 0
       },
       "to": {
-        "line": 71,
+        "line": 79,
         "ch": 0
       }
     },
@@ -65,18 +66,21 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 8.9375,
+    "scroll": 24.346354166666668,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 20
+        "line": 36,
+        "ch": 10
       },
       "to": {
-        "line": 9,
-        "ch": 20
+        "line": 36,
+        "ch": 10
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1"
+    ]
   },
   "docs/control/esp32/esp32.md": {
     "scroll": 0,
@@ -116,6 +120,20 @@
       "to": {
         "line": 52,
         "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/index.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 14
+      },
+      "to": {
+        "line": 5,
+        "ch": 14
       }
     },
     "expandedKeys": []
