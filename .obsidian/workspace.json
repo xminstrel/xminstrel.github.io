@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 32,
-                "left": 607,
-                "top": 784,
-                "zoom": 1
+                "page": 54,
+                "left": 554,
+                "top": 685,
+                "zoom": 0.8075038038662984
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
@@ -29,14 +29,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "docs/control/自动控制理论/pdfs/第二章  控制系统的数学模型(1).pdf",
-                "page": 39,
+                "file": "docs/control/自动控制理论/pdfs/第三章_时域分析法.pdf",
+                "page": 11,
                 "left": -20,
-                "top": 515,
+                "top": 78,
                 "zoom": 0.75625
               },
               "icon": "lucide-file-text",
-              "title": "第二章  控制系统的数学模型(1)"
+              "title": "第三章_时域分析法"
             }
           },
           {
@@ -45,12 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/others/index.md",
+                "file": "docs/zju-courses/精细农业/精细农业.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "精细农业"
             }
           }
         ]
@@ -87,8 +87,7 @@
               "title": "发展心理学"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -162,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学.md",
+                "file": "docs/others/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "发展心理学 的反向链接列表"
+              "title": "index 的反向链接列表"
             }
           },
           {
@@ -181,12 +179,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学.md",
+                "file": "docs/others/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "发展心理学 的出链列表"
+              "title": "index 的出链列表"
             }
           },
           {
@@ -224,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学.md",
+                "file": "docs/others/index.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "发展心理学 的大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -276,14 +274,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3b52de2c03fbe938",
+  "active": "8454dacde2285dc6",
   "lastOpenFiles": [
-    "docs/control/自动控制理论/自动控制理论.md",
-    "docs/zju-courses/发展心理学/发展心理学.md",
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+    "docs/zju-courses/发展心理学/发展心理学.md",
+    "docs/zju-courses/精细农业/精细农业.md",
+    "docs/control/自动控制理论/自动控制理论.md",
+    "docs/zju-courses/精细农业/task1.md",
+    "docs/zju-courses/精细农业/task2.md",
+    "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
+    "docs/zju-courses/农业物料学/农业物料学.md",
     "docs/others/index.md",
-    "docs/control/自动控制理论/assets/反馈结构.png",
+    "docs/control/自动控制理论/pdfs/第三章_时域分析法.pdf",
     "docs/control/自动控制理论/pdfs/第二章  控制系统的数学模型(1).pdf",
+    "docs/control/自动控制理论/assets/反馈结构.png",
     "docs/control/自动控制理论/assets/并联变换.png",
     "docs/others/assets/3878b0b95ac3cc2b34d0ea455904e4a9.jpg",
     "docs/control/自动控制理论/assets/串联结构.png",
@@ -291,9 +295,7 @@
     "docs/zju-courses/发展心理学/assets/生态系统结构.png",
     "docs/zju-courses/发展心理学/assets",
     "docs/zju-courses/材料力学/材料力学.md",
-    "docs/zju-courses/农业物料学/农业物料学.md",
     "docs/control/控制论.md",
-    "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
     "docs/index.md",
     "docs/zju-courses/材料力学/assets/斜截面应力.png",
     "docs/control/esp32/esp32.md",
@@ -302,12 +304,10 @@
     "docs/control/自动控制理论/assets/梅逊.png",
     "docs/zju-courses/材料力学/assets",
     "docs/control/自动控制理论/pdfs/第一章 引论(1).pdf",
-    "docs/zju-courses/精细农业/精细农业.md",
     "docs/control/自动控制理论/pdfs/第四章讲义.pdf",
     "docs/control/自动控制理论/pdfs/自动控制理论 第4版 (夏德钤，翁贻方编著, 夏德钤, 翁贻方编著, 夏德钤, 翁贻方, 夏德钤, 1928-) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "docs/control/自动控制理论/pdfs/第六章_控制系统的校正(2).pdf",
     "docs/control/自动控制理论/pdfs/第五章.pdf",
-    "docs/control/自动控制理论/pdfs/第三章_时域分析法.pdf",
     "docs/control/index.md",
     "docs/about_me.md",
     "docs/blog/index.md",
