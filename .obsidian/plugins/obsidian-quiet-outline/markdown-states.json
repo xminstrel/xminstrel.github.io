@@ -1,14 +1,14 @@
 {
   "docs/control/自动控制理论/自动控制理论.md": {
-    "scroll": 225.5,
+    "scroll": 238.7239341924311,
     "cursor": {
       "from": {
-        "line": 235,
-        "ch": 102
+        "line": 267,
+        "ch": 9
       },
       "to": {
-        "line": 235,
-        "ch": 102
+        "line": 267,
+        "ch": 9
       }
     },
     "expandedKeys": [
@@ -20,15 +20,15 @@
     ]
   },
   "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md": {
-    "scroll": 19.347547974413647,
+    "scroll": 15.393707139975797,
     "cursor": {
       "from": {
-        "line": 62,
-        "ch": 9
+        "line": 12,
+        "ch": 12
       },
       "to": {
-        "line": 62,
-        "ch": 0
+        "line": 12,
+        "ch": 12
       }
     },
     "expandedKeys": [
@@ -50,14 +50,14 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 139.44173177083334,
+    "scroll": 137.9443359375,
     "cursor": {
       "from": {
-        "line": 152,
+        "line": 151,
         "ch": 0
       },
       "to": {
-        "line": 152,
+        "line": 151,
         "ch": 0
       }
     },
@@ -176,6 +176,20 @@
       "to": {
         "line": 1,
         "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/数学建模笔记.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 14
+      },
+      "to": {
+        "line": 2,
+        "ch": 14
       }
     },
     "expandedKeys": []
