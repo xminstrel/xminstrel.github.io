@@ -1,0 +1,115 @@
+\documentclass{article}
+\usepackage[UTF8]{ctex}  % 支持中文
+\usepackage{amsmath,amssymb}  % 数学符号
+\usepackage{graphicx}  % 图片支持
+\usepackage{hyperref}  % 超链接
+\usepackage{listings}  % 代码高亮
+
+% 页面边距设置
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+% 标题信息
+\title{LaTeX 功能测试文档}
+\author{测试用户}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{概述}
+这是一个基本的 LaTeX 模板，用于测试您的 LaTeX 编译功能是否正常工作。
+
+\section{文本格式}
+
+\subsection{基本文本}
+这是一段普通的文本。我们可以进行\textbf{加粗}、\textit{斜体}和\underline{下划线}等文本格式。
+
+\subsection{列表}
+\begin{itemize}
+    \item 无序列表项 1
+    \item 无序列表项 2
+    \item 无序列表项 3
+\end{itemize}
+
+\begin{enumerate}
+    \item 有序列表项 1
+    \item 有序列表项 2
+    \item 有序列表项 3
+\end{enumerate}
+
+\section{数学公式}
+
+\subsection{行内公式}
+爱因斯坦的质能方程：$E = mc^2$
+
+\subsection{独立公式}
+勾股定理：
+\[
+a^2 + b^2 = c^2
+\]
+
+\subsection{复杂公式}
+二次方程求根公式：
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+\section{表格}
+
+\begin{table}[h]
+    \centering
+    \caption{测试表格}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{姓名} & \textbf{年龄} & \textbf{职业} \\
+        \hline
+        张三 & 25 & 工程师 \\
+        \hline
+        李四 & 30 & 设计师 \\
+        \hline
+        王五 & 28 & 教师 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\section{代码高亮}
+
+\begin{lstlisting}[language=Python]
+def hello_world():
+    """简单的 Python 函数"""
+    print("Hello, LaTeX!")
+    return True
+
+# 调用函数
+hello_world()
+\end{lstlisting}
+
+\section{引用和链接}
+
+这是一个测试\href{https://www.example.com}{超链接}的示例。您可以使用 hyperref 包来创建指向网页或文档内部的链接。
+
+\section{图片插入}
+
+如果需要插入图片，可以使用 graphicx 包：
+\begin{center}
+    % \includegraphics[width=0.5\textwidth]{example.png}
+    % （请将 example.png 替换为您的图片路径）
+\end{center}
+
+\section*{结论}
+
+这个模板展示了 LaTeX 的基本功能，包括：
+\begin{itemize}
+    \item 中文支持
+    \item 文本格式化
+    \item 数学公式
+    \item 表格
+    \item 代码高亮
+    \item 超链接
+\end{itemize}
+
+您可以根据需要扩展和修改此模板。
+
+\end{document}

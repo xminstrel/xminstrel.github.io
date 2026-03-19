@@ -1,6 +1,6 @@
 {
   "docs/control/自动控制理论/自动控制理论.md": {
-    "scroll": 331.30861020607216,
+    "scroll": 330.64651960652924,
     "cursor": {
       "from": {
         "line": 343,
@@ -37,7 +37,7 @@
     ]
   },
   "docs/zju-courses/农业物料学/农业物料学.md": {
-    "scroll": 0,
+    "scroll": 7.184613799675484,
     "cursor": {
       "from": {
         "line": 14,
@@ -51,15 +51,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 196.85026041666666,
+    "scroll": 135.4553649316662,
     "cursor": {
       "from": {
-        "line": 219,
-        "ch": 2
+        "line": 155,
+        "ch": 10
       },
       "to": {
-        "line": 219,
-        "ch": 2
+        "line": 155,
+        "ch": 10
       }
     },
     "expandedKeys": [
@@ -67,15 +67,15 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 0,
+    "scroll": 48.739428606575025,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 10
+        "line": 50,
+        "ch": 22
       },
       "to": {
-        "line": 16,
-        "ch": 10
+        "line": 50,
+        "ch": 22
       }
     },
     "expandedKeys": [
@@ -205,6 +205,34 @@
       "to": {
         "line": 2,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/自学计划/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/自学计划/Study Plan.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 8
+      },
+      "to": {
+        "line": 0,
+        "ch": 8
       }
     },
     "expandedKeys": []
