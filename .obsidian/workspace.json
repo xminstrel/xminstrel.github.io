@@ -6,6 +6,7 @@
       {
         "id": "821878feb43f1268",
         "type": "tabs",
+        "dimension": 54.538216560509554,
         "children": [
           {
             "id": "bea20ae2b942c81b",
@@ -30,9 +31,9 @@
               "type": "pdf",
               "state": {
                 "file": "docs/control/自动控制理论/pdfs/第三章_时域分析法.pdf",
-                "page": 42,
+                "page": 47,
                 "left": -20,
-                "top": 189,
+                "top": 50,
                 "zoom": 0.75625
               },
               "icon": "lucide-file-text",
@@ -68,11 +69,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "d704f6458438ce2b",
         "type": "tabs",
+        "dimension": 45.461783439490446,
         "children": [
           {
             "id": "8454dacde2285dc6",
@@ -116,7 +118,8 @@
               "title": "农业物料学"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -304,28 +306,29 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8454dacde2285dc6",
+  "active": "1816ed8ccf75156e",
   "lastOpenFiles": [
+    "docs/zju-courses/农业物料学/农业物料学.md",
+    "docs/zju-courses/材料力学/材料力学.md",
+    "docs/zju-courses/材料力学/assets/应变能密度.png",
+    "docs/control/esp32/esp32.md",
+    "docs/ai/tools.md",
+    "docs/control/自动控制理论/自动控制理论.md",
     "docs/control/自动控制理论/assets/超调量and阻尼比.png",
     "docs/control/自动控制理论/assets/欠阻尼.png",
     "docs/control/自动控制理论/pdfs/第三章_时域分析法.pdf",
-    "docs/control/自动控制理论/自动控制理论.md",
     "docs/control/自动控制理论/assets/临界阻尼.png",
     "docs/control/自动控制理论/assets/过阻尼.png",
-    "docs/zju-courses/农业物料学/农业物料学.md",
     "docs/control/自动控制理论/assets/调节时间2.png",
     "docs/control/自动控制理论/assets/调节时间1.png",
     "docs/control/自动控制理论/assets/例题-1.png",
     "docs/control/自动控制理论/assets/正弦信号.png",
     "docs/control/自动控制理论/assets/单位脉冲.png",
-    "docs/control/自动控制理论/assets/斜坡.png",
-    "docs/control/自动控制理论/assets/阶跃.png",
     "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
     "docs/others/index.md",
     "docs/others/数学建模/数学建模笔记.md",
     "docs/others/数学建模",
-    "docs/zju-courses/材料力学/材料力学.md",
     "未命名.md",
     "docs/zju-courses/精细农业/精细农业.md",
     "docs/zju-courses/发展心理学/发展心理学.md",
@@ -335,7 +338,6 @@
     "docs/zju-courses/发展心理学/assets",
     "docs/control/控制论.md",
     "docs/index.md",
-    "docs/control/esp32/esp32.md",
     "docs/zju-courses/材料力学/assets",
     "docs/control/自动控制理论/pdfs/第一章 引论(1).pdf",
     "docs/control/自动控制理论/pdfs/第四章讲义.pdf",

@@ -1,14 +1,14 @@
 {
   "docs/control/自动控制理论/自动控制理论.md": {
-    "scroll": 330.13503695615657,
+    "scroll": 331.30861020607216,
     "cursor": {
       "from": {
-        "line": 329,
-        "ch": 1
+        "line": 343,
+        "ch": 9
       },
       "to": {
-        "line": 329,
-        "ch": 1
+        "line": 343,
+        "ch": 9
       }
     },
     "expandedKeys": [
@@ -51,15 +51,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 137.9443359375,
+    "scroll": 196.85026041666666,
     "cursor": {
       "from": {
-        "line": 151,
-        "ch": 0
+        "line": 219,
+        "ch": 2
       },
       "to": {
-        "line": 151,
-        "ch": 0
+        "line": 219,
+        "ch": 2
       }
     },
     "expandedKeys": [
@@ -87,11 +87,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 8,
+        "ch": 65
       },
       "to": {
-        "line": 4,
+        "line": 8,
         "ch": 0
       }
     },
@@ -191,6 +191,20 @@
       "to": {
         "line": 2,
         "ch": 14
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/ai/tools.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": []

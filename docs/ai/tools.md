@@ -1,3 +1,4 @@
 # AI工具和资源
 此处用来存放一些AI相关的工具？
 
+<a href="https://www.helpaio.com/transit" target="_blank">ai 中转站 </a>  
