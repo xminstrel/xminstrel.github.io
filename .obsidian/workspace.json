@@ -15,10 +15,10 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 182,
-                "left": 578,
-                "top": 422,
-                "zoom": 1.36
+                "page": 33,
+                "left": 539,
+                "top": 218,
+                "zoom": 1.23
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
@@ -270,7 +270,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -296,6 +296,8 @@
   "lastOpenFiles": [
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
     "docs/zju-courses/发展心理学/发展心理学.md",
+    "docs/zju-courses/发展心理学/assets/八阶段论.png",
+    "test_template.tex",
     "docs/zju-courses/发展心理学/assets/flyd.png",
     "docs/others/自学计划/Study Plan.md",
     "docs/zju-courses/材料力学/材料力学.md",
@@ -319,11 +321,9 @@
     "docs/control/自动控制理论/assets/过阻尼.png",
     "docs/control/自动控制理论/assets/调节时间2.png",
     "docs/control/自动控制理论/assets/调节时间1.png",
-    "docs/control/自动控制理论/assets/例题-1.png",
     "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
     "docs/others/index.md",
     "docs/others/数学建模/数学建模笔记.md",
-    "docs/others/数学建模",
     "未命名.md",
     "docs/zju-courses/精细农业/精细农业.md",
     "docs/zju-courses/精细农业/task1.md",
