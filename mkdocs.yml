@@ -8,7 +8,7 @@ nav:
   - 💎 AI 相关: 
     - AI工具: ai/tools.md
   - 🪡 控制相关:
-    - 控制论: control/控制论.md
+    - 控制论: control/控制论/控制论.md
     - 自动控制理论: control/自动控制理论/自动控制理论.md
     - Esp32 入门: control/esp32/esp32.md
     - stm32 入门: control/stm32.md
@@ -67,7 +67,7 @@ theme:
     - content.code.annotate  # 允许在代码中添加注释气泡
 # 元数据
 plugins:
-  - search    # 开启默认的搜索功能（重要！一旦写了 plugins，自带的 search 必须手动写上）
+  - search    # 开启默认的搜索功能
   - tags      # 开启标签系统
   - blog      # 开启博客时间轴模式
 #md扩展

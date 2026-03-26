@@ -42,7 +42,7 @@ comments: false
 
     一些课程笔记和学习记录
 
-    [:arrow_right: 进入控制板块](control/控制论.md)
+    [:arrow_right: 进入控制板块](control/控制论/控制论.md)
 
 -   :material-book: **ZJU-Courses**
 
