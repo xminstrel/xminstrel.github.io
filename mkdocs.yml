@@ -9,7 +9,9 @@ nav:
     - AI工具: ai/tools.md
   - 🪡 控制相关:
     - 控制论: control/控制论/控制论.md
-    - 自动控制理论: control/自动控制理论/自动控制理论.md
+    - 自动控制理论:
+      - 笔记: control/自动控制理论/自动控制理论.md
+      - 小测复习: control/自动控制理论/pdfs/小测复习.md
     - Esp32 入门: control/esp32/esp32.md
     - stm32 入门: control/stm32.md
   - 📚 ZJU-Courses:
