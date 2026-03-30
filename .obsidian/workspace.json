@@ -43,9 +43,9 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 25,
+                "page": 27,
                 "left": 574,
-                "top": 797,
+                "top": 160,
                 "zoom": 1.03
               },
               "icon": "lucide-file-text",
@@ -351,6 +351,7 @@
   },
   "active": "b97fcc53917e54b1",
   "lastOpenFiles": [
+    "docs/zju-courses/发展心理学/assets/序列设计2.png",
     "docs/zju-courses/发展心理学/assets/序列设计.png",
     "docs/zju-courses/发展心理学/assets/横断设计.png",
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
@@ -377,7 +378,6 @@
     "docs/control/自动控制理论/pdfs/第四章讲义.pdf",
     "docs/zju-courses/精细农业/task1.md",
     "docs/zju-courses/农业物料学/assets/实验.png",
-    "docs/zju-courses/材料力学/assets/剪切胡克.png",
     "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
     "docs/others/cs50x/hello.exe",
     "docs/others/cs50x/hello.c",
