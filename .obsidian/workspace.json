@@ -44,9 +44,9 @@
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
                 "page": 11,
-                "left": 567,
-                "top": 610,
-                "zoom": 0.6409562032312902
+                "left": 552,
+                "top": 55,
+                "zoom": 0.8916187834357044
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
@@ -218,7 +218,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a33e15a0d0342cde",
