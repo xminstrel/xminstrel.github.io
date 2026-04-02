@@ -82,21 +82,23 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 0,
+    "scroll": 344.0852864583333,
     "cursor": {
       "from": {
-        "line": 148,
-        "ch": 22
+        "line": 336,
+        "ch": 15
       },
       "to": {
-        "line": 148,
-        "ch": 22
+        "line": 336,
+        "ch": 15
       }
     },
     "expandedKeys": [
       "item-1-1",
       "item-2-6",
-      "item-2-2"
+      "item-2-2",
+      "item-1-11",
+      "item-2-12"
     ]
   },
   "docs/control/esp32/esp32.md": {
@@ -142,15 +144,15 @@
     "expandedKeys": []
   },
   "docs/others/index.md": {
-    "scroll": 8.440591364074214,
+    "scroll": 16.347552806962852,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 16,
+        "ch": 48
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 16,
+        "ch": 48
       }
     },
     "expandedKeys": []
@@ -457,12 +459,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 9
+        "line": 3,
+        "ch": 8
       },
       "to": {
-        "line": 20,
-        "ch": 9
+        "line": 3,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "2026-04-02.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
