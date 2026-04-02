@@ -6,7 +6,7 @@
       {
         "id": "6d4aacdce6e85f9f",
         "type": "tabs",
-        "dimension": 54.75578406169666,
+        "dimension": 48.1687898089172,
         "children": [
           {
             "id": "7753dda7c520335f",
@@ -26,58 +26,16 @@
             "id": "e824cfdd9a2eb408",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "发展心理学"
-            }
-          },
-          {
-            "id": "673a1b27cb33bcfa",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 33,
-                "left": 688,
-                "top": 180,
-                "zoom": 0.75
+                "page": 35,
+                "left": 550,
+                "top": 129,
+                "zoom": 0.978537595657424
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
-            }
-          },
-          {
-            "id": "f2be5f98264280ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/control/控制论/控制论.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "控制论"
-            }
-          },
-          {
-            "id": "d42a0514cb8660ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/材料力学/材料力学.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "材料力学"
             }
           },
           {
@@ -86,26 +44,106 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/pdfs/农业生物系统传输过程-2026-03-24第1-2节.pdf",
-                "page": 56,
-                "left": -3,
-                "top": 503,
-                "zoom": 0.5
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+                "page": 53,
+                "left": 571,
+                "top": 106,
+                "zoom": 0.4177710651947169
               },
               "icon": "lucide-file-text",
-              "title": "农业生物系统传输过程-2026-03-24第1-2节"
+              "title": "发展心理学第2版 (苏彦捷)"
+            }
+          },
+          {
+            "id": "1d66ff7b161741a9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/cad/homework/必做-齿轮轴-Model.pdf",
+                "page": 1,
+                "left": -33,
+                "top": 847,
+                "zoom": 0.4704030226700252
+              },
+              "icon": "lucide-file-text",
+              "title": "必做-齿轮轴-Model"
+            }
+          },
+          {
+            "id": "488e42f626eb0404",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/cad/homework/必做-从动轴.pdf",
+                "page": 1,
+                "left": -23,
+                "top": 1182,
+                "zoom": 0.654753389644936
+              },
+              "icon": "lucide-file-text",
+              "title": "必做-从动轴"
+            }
+          },
+          {
+            "id": "26a1465c60d415e1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/cad/homework/必做-大调整环与小调整环.pdf",
+                "page": 1,
+                "left": -17,
+                "top": 835,
+                "zoom": 0.9259725706179438
+              },
+              "icon": "lucide-file-text",
+              "title": "必做-大调整环与小调整环"
+            }
+          },
+          {
+            "id": "80ef61174c2bbd32",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/cad/homework/必做-大闷盖与小闷盖.pdf",
+                "page": 1,
+                "left": -23,
+                "top": 1194,
+                "zoom": 0.654753389644936
+              },
+              "icon": "lucide-file-text",
+              "title": "必做-大闷盖与小闷盖"
+            }
+          },
+          {
+            "id": "a7db12c8fa06b67a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/cad/homework/必做-从动轴.pdf",
+                "page": 1,
+                "left": -5,
+                "top": 1191,
+                "zoom": 0.65
+              },
+              "icon": "lucide-file-text",
+              "title": "必做-从动轴"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "a72d29b991c1d9dc",
         "type": "tabs",
-        "dimension": 45.24421593830334,
+        "dimension": 51.831210191082796,
         "children": [
           {
-            "id": "b97fcc53917e54b1",
+            "id": "09f4a9c7e282ab15",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -130,6 +168,34 @@
               },
               "icon": "lucide-file",
               "title": "材料力学公式整理"
+            }
+          },
+          {
+            "id": "1aaa4c208d7933a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/control/自动控制理论/自动控制理论.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "自动控制理论"
+            }
+          },
+          {
+            "id": "4d498f0dbf699739",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/cad/cad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cad"
             }
           }
         ]
@@ -320,41 +386,42 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b97fcc53917e54b1",
+  "active": "09f4a9c7e282ab15",
   "lastOpenFiles": [
-    "docs/zju-courses/发展心理学/读书笔记.md",
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+    "docs/zju-courses/发展心理学/发展心理学.md",
+    "docs/zju-courses/cad/homework/必做-从动轴.pdf",
+    "docs/zju-courses/cad/homework/必做-大调整环与小调整环.pdf",
+    "docs/zju-courses/cad/homework/必做-大闷盖与小闷盖.pdf",
+    "docs/zju-courses/cad/homework/选做-选做-箱盖.pdf",
+    "docs/zju-courses/cad/cad.md",
+    "docs/zju-courses/cad/homework/必做-齿轮轴-Model.pdf",
+    "docs/zju-courses/cad/homework",
+    "docs/zju-courses/cad",
+    "docs/others/assets/4dfc89ad88ba247703d7d540053cb970.jpg",
+    "docs/zju-courses/农业生物系统传输过程/pdfs/农业生物系统传输过程-2026-03-24第1-2节.pdf",
+    "docs/zju-courses/发展心理学/读书笔记.md",
+    "docs/control/自动控制理论/pdfs/第五章.pdf",
+    "docs/others/自学计划/Study Plan.md",
+    "docs/control/自动控制理论/自动控制理论.md",
+    "docs/zju-courses/农业物料学/农业物料学.md",
+    "docs/control/自动控制理论/assets/例-1.png",
+    "docs/control/自动控制理论/assets/虚轴焦点.png",
+    "docs/control/自动控制理论/assets/起始角.png",
+    "docs/control/自动控制理论/assets/分离点.png",
+    "docs/control/自动控制理论/assets/例.png",
+    "docs/control/自动控制理论/assets/渐近线.png",
+    "docs/control/自动控制理论/assets/根轨迹方程-1.png",
+    "docs/control/自动控制理论/assets/根轨迹方程.png",
+    "docs/control/自动控制理论/assets/例题-2.png",
     "docs/zju-courses/材料力学/材料力学.md",
-    "docs/zju-courses/材料力学/assets/圆舟强度.png",
     "docs/zju-courses/材料力学/材料力学公式整理.md",
     "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
-    "docs/zju-courses/材料力学/assets/483f82a2f79275532b833ad36c84e7eb.jpg",
-    "docs/zju-courses/材料力学/assets/3621f0a58e3b9fbf8fc11e252e087e3a.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/实际水头.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/水头.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/例3.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/例二.png",
-    "docs/zju-courses/农业生物系统传输过程/pdfs/农业生物系统传输过程-2026-03-24第1-2节.pdf",
-    "docs/zju-courses/农业生物系统传输过程/assets/例题1.png",
-    "docs/zju-courses/发展心理学/发展心理学.md",
-    "docs/zju-courses/农业生物系统传输过程/pdfs",
-    "docs/zju-courses/发展心理学/assets/序列设计2.png",
-    "docs/zju-courses/发展心理学/assets/序列设计.png",
     "docs/control/控制论/控制论.md",
-    "docs/zju-courses/发展心理学/人的毕生发展.pdf",
     "docs/zju-courses/精细农业/精细农业.md",
-    "docs/zju-courses/农业物料学/农业物料学.md",
-    "docs/control/自动控制理论/pdfs/第一次小测.pdf",
-    "docs/control/自动控制理论/pdfs/第一章 引论(1).pdf",
-    "docs/control/自动控制理论/pdfs/第三章_时域分析法.pdf",
-    "docs/control/自动控制理论/pdfs/第二章  控制系统的数学模型(1).pdf",
     "docs/control/自动控制理论/小测复习.md",
-    "docs/control/自动控制理论/自动控制理论.md",
-    "docs/control/自动控制理论/pdfs/第四章讲义.pdf",
     "docs/zju-courses/精细农业/task1.md",
-    "docs/others/cs50x/hello.exe",
     "docs/others/cs50x/set0/set0.md",
-    "docs/others/自学计划/Study Plan.md",
     "docs/others/cs50x/cs50x.md",
     "docs/zju-courses/精细农业/task2.md",
     "docs/about_me.md",
@@ -362,7 +429,6 @@
     "docs/ai/tools.md",
     "docs/others/index.md",
     "docs/others/数学建模/数学建模笔记.md",
-    "未命名.md",
     "docs/index.md",
     "docs/control/index.md",
     "docs/blog/index.md",

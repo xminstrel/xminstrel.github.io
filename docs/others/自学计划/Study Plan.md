@@ -4,3 +4,10 @@ cs 50 x  https://cs50.harvard.edu/x/
 c++
 Ubuntu
 linux
+
+
+第一性原则
+
+fdc 2214 模块原理学习
+pfc 电路板绘制
+深度学习
