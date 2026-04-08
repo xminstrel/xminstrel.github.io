@@ -15,10 +15,10 @@
               "type": "pdf",
               "state": {
                 "file": "docs/control/自动控制理论/pdfs/第五章.pdf",
-                "page": 53,
-                "left": -22,
-                "top": 294,
-                "zoom": 0.7166666666666668
+                "page": 60,
+                "left": -30,
+                "top": 184,
+                "zoom": 0.5322916666666666
               },
               "icon": "lucide-file-text",
               "title": "第五章"
@@ -58,8 +58,23 @@
               "icon": "lucide-file",
               "title": "自动控制理论"
             }
+          },
+          {
+            "id": "ee2d1c8e5e26c26f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/农业物料学/农业物料学.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "农业物料学"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -195,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/control/自动控制理论/自动控制理论.md",
+                "file": "docs/zju-courses/农业物料学/农业物料学.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "自动控制理论 的大纲"
+              "title": "农业物料学 的大纲"
             }
           },
           {
@@ -246,10 +260,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d9673273e0501ece",
+  "active": "0730e18f499e3b70",
   "lastOpenFiles": [
-    "docs/control/自动控制理论/pdfs/第五章.pdf",
+    "docs/zju-courses/农业物料学/assets/作业3.jpg",
     "docs/control/自动控制理论/自动控制理论.md",
+    "docs/control/自动控制理论/assets/裕度.png",
+    "docs/control/自动控制理论/assets/于都.png",
+    "docs/control/自动控制理论/pdfs/第五章.pdf",
     "docs/control/自动控制理论/assets/临界稳定.png",
     "docs/control/自动控制理论/assets/作业2.png",
     "docs/control/自动控制理论/assets/作业1.png",
@@ -261,8 +278,6 @@
     "docs/zju-courses/农业物料学/农业物料学.md",
     "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
     "docs/zju-courses/材料力学/assets/弯矩图.png",
-    "docs/zju-courses/材料力学/assets/例题-2.png",
-    "docs/zju-courses/材料力学/assets/例题-1.png",
     "docs/zju-courses/精细农业/task2.md",
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
     "规则.md",

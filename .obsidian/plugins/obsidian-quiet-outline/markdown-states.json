@@ -1,14 +1,14 @@
 {
   "docs/control/自动控制理论/自动控制理论.md": {
-    "scroll": 569.7489790918,
+    "scroll": 578.6021558775415,
     "cursor": {
       "from": {
         "line": 583,
-        "ch": 0
+        "ch": 18
       },
       "to": {
         "line": 583,
-        "ch": 0
+        "ch": 18
       }
     },
     "expandedKeys": [
@@ -44,12 +44,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 22
+        "line": 27,
+        "ch": 3
       },
       "to": {
-        "line": 7,
-        "ch": 0
+        "line": 27,
+        "ch": 3
       }
     },
     "expandedKeys": []
