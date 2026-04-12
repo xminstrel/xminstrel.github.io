@@ -19,3 +19,24 @@
 
 分解对象 explode
 - 可以把矩形炸开
+
+多段线 pline
+
+
+样条曲线 spline
+
+面域 region
+
+布尔运算
+union
+sub
+
+
+图案填充 bhatch  / hatch
+
+标注文字
+“% %D”为°
+
+
+
+下偏差默认为负，输出-0.1 则下偏差为+0.1
