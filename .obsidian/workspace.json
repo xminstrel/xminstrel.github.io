@@ -72,7 +72,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/control/自动控制理论/自动控制理论.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/others/index.md",
+                "file": "docs/control/自动控制理论/自动控制理论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "自动控制理论 的反向链接列表"
             }
           },
           {
@@ -245,8 +245,7 @@
               "title": "标签"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
