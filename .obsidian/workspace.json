@@ -4,55 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "356153c03b5cf158",
+        "id": "4c373fbab2ee4e70",
         "type": "tabs",
         "children": [
           {
-            "id": "d9673273e0501ece",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/精细农业/精细农业.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "精细农业"
-            }
-          },
-          {
-            "id": "ee2d1c8e5e26c26f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/control/自动控制理论/小测复习.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "小测复习"
-            }
-          },
-          {
-            "id": "e1be8ab4d12ab939",
+            "id": "8b8e9040cbb2e5c6",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 83,
-                "left": 553,
-                "top": 204,
-                "zoom": 0.8916187834357044
+                "file": "docs/control/自动控制理论/pdfs/第五章.pdf",
+                "page": 74,
+                "left": -13,
+                "top": 367,
+                "zoom": 1.2541666666666667
               },
               "icon": "lucide-file-text",
-              "title": "发展心理学第2版 (苏彦捷)"
+              "title": "第五章"
             }
           },
           {
-            "id": "e76037b8717a43a0",
+            "id": "9cc3d98dcd9185cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "农业生物系统传输过程"
+            }
+          },
+          {
+            "id": "4c23f2bcc98180fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ai/tools.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tools"
+            }
+          },
+          {
+            "id": "dc8ad380cddfa311",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,17 +66,51 @@
             }
           },
           {
-            "id": "8095b08a65b3e30e",
+            "id": "657084b60dd985dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "pdf",
+              "state": {
+                "file": "docs/control/自动控制理论/pdfs/第六章_控制系统的校正(2).pdf",
+                "page": 14,
+                "left": -16,
+                "top": 416,
+                "zoom": 0.9770833333333333
+              },
+              "icon": "lucide-file-text",
+              "title": "第六章_控制系统的校正(2)"
+            }
+          },
+          {
+            "id": "9e884729be17dd59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/农业物料学/农业物料学.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "农业物料学"
+            }
+          },
+          {
+            "id": "80167d9458777a14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/材料力学/材料力学.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "材料力学"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -164,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/control/自动控制理论/自动控制理论.md",
+                "file": "docs/zju-courses/农业物料学/农业物料学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +208,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "自动控制理论 的反向链接列表"
+              "title": "农业物料学 的反向链接列表"
             }
           },
           {
@@ -183,12 +217,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/others/index.md",
+                "file": "docs/zju-courses/农业物料学/农业物料学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index 的出链列表"
+              "title": "农业物料学 的出链列表"
             }
           },
           {
@@ -197,13 +231,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/control/自动控制理论/自动控制理论.md",
+                "file": "docs/zju-courses/农业物料学/农业物料学.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "自动控制理论 的大纲"
+              "title": "农业物料学 的大纲"
             }
           },
           {
@@ -242,11 +276,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 293.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -263,29 +297,40 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e76037b8717a43a0",
+  "active": "80167d9458777a14",
   "lastOpenFiles": [
-    "docs/control/自动控制理论/自动控制理论.md",
-    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-    "docs/control/自动控制理论/小测复习.md",
-    "docs/control/自动控制理论/assets/lQLPJxLHb9MchsXNBDrNBb-wynPmvNwEGRYJsrPdk_5PAA_1471_1082.png",
-    "docs/control/自动控制理论/assets/66819b5c004a0b5010ac075c9e8745e9.jpg",
-    "docs/control/自动控制理论/assets/5d950e5fb769eaa86e5f668ffaf0a112.jpg",
-    "docs/control/自动控制理论/assets/lQDPJx7_MG82GI3NAtDNBQCw4HNjPn6kgwkJoMeXIkz6AA_1280_720.jpg",
-    "docs/control/自动控制理论/pdfs/第一次小测.pdf",
     "docs/zju-courses/农业物料学/农业物料学.md",
-    "docs/zju-courses/精细农业/精细农业.md",
-    "docs/zju-courses/发展心理学/发展心理学.md",
-    "docs/zju-courses/cad/cad.md",
-    "docs/zju-courses/农业物料学/assets/作业3.jpg",
-    "docs/control/自动控制理论/assets/裕度.png",
-    "docs/control/自动控制理论/assets/于都.png",
-    "docs/control/自动控制理论/pdfs/第五章.pdf",
-    "docs/control/自动控制理论/assets/临界稳定.png",
-    "docs/control/自动控制理论/assets/作业2.png",
-    "docs/control/自动控制理论/assets/作业1.png",
+    "docs/control/自动控制理论/自动控制理论.md",
+    "docs/control/自动控制理论/assets/滞后-2.png",
+    "docs/control/自动控制理论/assets/滞后-1.png",
+    "docs/control/自动控制理论/assets/滞后.png",
+    "docs/control/自动控制理论/assets/PI.png",
+    "docs/control/自动控制理论/assets/PID.png",
+    "docs/control/自动控制理论/assets/PD.png",
+    "docs/control/自动控制理论/assets/滞后校正.png",
+    "docs/control/自动控制理论/assets/超前校正-4.png",
+    "docs/control/自动控制理论/assets/超前校正-3.png",
+    "docs/control/自动控制理论/pdfs/第六章_控制系统的校正(2).pdf",
+    "docs/control/自动控制理论/assets/超前校正-2.png",
+    "docs/ai/tools.md",
     "docs/zju-courses/材料力学/材料力学.md",
     "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
+    "未命名.md",
+    "docs/control/自动控制理论/pdfs/第五章.pdf",
+    "docs/robotic/timeline.md",
+    "docs/robotic/未命名 1.md",
+    "docs/robotic/未命名.md",
+    "docs/robotic/study plan.md",
+    "docs/others/自学计划/Study Plan.md",
+    "docs/zju-courses/精细农业/精细农业.md",
+    "docs/control/自动控制理论/小测复习.md",
+    "docs/robotic/机器人工程师学习计划.md",
+    "docs/robotic",
+    "docs/control/自动控制理论/pdfs/第五章课件 黄梓宸 5.1-5.3.pdf",
+    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+    "docs/control/自动控制理论/pdfs/第一次小测.pdf",
+    "docs/zju-courses/发展心理学/发展心理学.md",
+    "docs/zju-courses/cad/cad.md",
     "docs/zju-courses/精细农业/task2.md",
     "规则.md",
     "docs/others/index.md",
@@ -295,20 +340,9 @@
     "docs/zju-courses/cad/homework/必做-齿轮轴-Model.pdf",
     "docs/zju-courses/材料力学/材料力学公式整理.md",
     "2026-04-02.md",
-    "docs/zju-courses/cad/homework/选做-选做-箱盖.pdf",
-    "docs/zju-courses/cad/homework",
-    "docs/zju-courses/cad",
     "docs/zju-courses/发展心理学/读书笔记.md",
-    "docs/others/自学计划/Study Plan.md",
     "docs/control/控制论/控制论.md",
     "docs/zju-courses/精细农业/task1.md",
-    "docs/others/cs50x/set0/set0.md",
-    "docs/others/cs50x/cs50x.md",
-    "docs/about_me.md",
-    "docs/control/esp32/esp32.md",
-    "docs/ai/tools.md",
-    "docs/others/数学建模/数学建模笔记.md",
-    "docs/index.md",
-    "docs/control/index.md"
+    "docs/others/cs50x/set0/set0.md"
   ]
 }
