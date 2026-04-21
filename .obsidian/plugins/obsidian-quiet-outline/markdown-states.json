@@ -77,15 +77,15 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 407.42747187685023,
+    "scroll": 442.8929036458333,
     "cursor": {
       "from": {
-        "line": 413,
-        "ch": 16
+        "line": 369,
+        "ch": 0
       },
       "to": {
-        "line": 413,
-        "ch": 16
+        "line": 369,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -94,10 +94,11 @@
       "item-2-6",
       "item-1-11",
       "item-2-12",
-      "item-2-17",
+      "item-2-24",
+      "item-3-13",
       "item-3-18",
-      "item-3-20",
-      "item-3-13"
+      "item-3-25",
+      "item-2-33"
     ]
   },
   "docs/control/esp32/esp32.md": {
@@ -1009,6 +1010,34 @@
       "to": {
         "line": 1,
         "ch": 3
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/材料力学/未命名 2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/材料力学/question.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 6
+      },
+      "to": {
+        "line": 0,
+        "ch": 6
       }
     },
     "expandedKeys": []

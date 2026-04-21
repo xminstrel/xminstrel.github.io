@@ -58,7 +58,7 @@ comments: false
 
     生活随笔、阅读清单以及杂七杂八的记录。
 
-    [:arrow_right: 随便看看](others/index.md)
+    [:arrow_right: 随便看看](others/moments/moments.md)
 
 
 </div>
