@@ -6,7 +6,7 @@
       {
         "id": "9a311fdb958aa2c3",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 50.38560411311054,
         "children": [
           {
             "id": "d70c9c1f817413b3",
@@ -25,52 +25,58 @@
             }
           },
           {
-            "id": "8c01652b9eac6111",
+            "id": "0d4d26e8841ed415",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 91,
-                "left": 540,
-                "top": 393,
-                "zoom": 0.85
+                "page": 128,
+                "left": 611,
+                "top": 371,
+                "zoom": 0.9961357553403489
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
             }
           },
           {
-            "id": "bc1c3c73c41371e5",
+            "id": "d187ef0c123aa660",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+                "page": 18,
+                "left": -25,
+                "top": 364,
+                "zoom": 0.9
+              },
+              "icon": "lucide-file-text",
+              "title": "发展心理学复习资料"
+            }
+          },
+          {
+            "id": "4e88010d5c89bbbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/材料力学/question.md",
+                "file": "docs/zju-courses/发展心理学/读书笔记Claude.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "question"
-            }
-          },
-          {
-            "id": "1e51f88ab6d8765f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "读书笔记Claude"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "0c9c09378264eee6",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 49.61439588688946,
         "children": [
           {
             "id": "0194292f8c4c5b7d",
@@ -183,9 +189,19 @@
               "icon": "lucide-file",
               "title": "材料力学"
             }
+          },
+          {
+            "id": "0482c6b26ecd7f8e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -242,7 +258,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -372,28 +389,32 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0730e18f499e3b70",
+  "active": "2da1d84bba882ffc",
   "lastOpenFiles": [
-    "docs/others/moments",
+    "docs/zju-courses/发展心理学/读书笔记Claude.md",
+    "docs/zju-courses/发展心理学/发展心理学.md",
+    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+    "docs/zju-courses/材料力学/材料力学.md",
+    "docs/zju-courses/发展心理学/assets/元认知结构.png",
+    "docs/zju-courses/发展心理学/assets/元认知.png",
+    "docs/zju-courses/发展心理学/assets/转化.png",
+    "docs/zju-courses/发展心理学/assets/中心化.png",
+    "docs/control/自动控制理论/pdfs/第六章_控制系统的校正(2).pdf",
     "docs/zju-courses/材料力学/question.md",
+    "docs/others/moments",
     "docs/zju-courses/材料力学/未命名 1.md",
     "docs/zju-courses/材料力学/未命名 2.md",
-    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
     "docs/zju-courses/材料力学/未命名",
-    "docs/zju-courses/材料力学/材料力学.md",
-    "docs/zju-courses/发展心理学/发展心理学.md",
-    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
     "docs/scholar/启真问学/pdfs/立项书pdf.pdf",
     "docs/zju-courses/发展心理学/assets/形状知觉.png",
     "docs/zju-courses/发展心理学/assets/恒常性.png",
-    "docs/control/自动控制理论/pdfs/第六章_控制系统的校正(2).pdf",
     "docs/zju-courses/材料力学/pdfs/13 弯曲5.pdf",
     "docs/zju-courses/材料力学/pdfs/12 弯曲4.pdf",
     "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
     "docs/control/自动控制理论/pdfs/第五章.pdf",
     "docs/zju-courses/农业生物系统传输过程/assets/探究性实验.jpg",
     "docs/zju-courses/材料力学/pdfs/材料力学期中复习+.pdf",
-    "docs/zju-courses/材料力学/pdfs/9 扭转3.pdf",
     "docs/control/自动控制理论/自动控制理论.md",
     "docs/control/控制论/控制论.md",
     "docs/control/控制论/assets/调参-2.png",
@@ -402,10 +423,6 @@
     "docs/others/知识库/food/杭州美食？.md",
     "docs/robotic/ROS/ROS.md",
     "docs/others/知识库/护照/护照签证.md",
-    "docs/control/自动控制理论/assets/伯德图流程.png",
-    "docs/control/自动控制理论/assets/开环-2.png",
-    "docs/control/自动控制理论/assets/开环-1.png",
-    "docs/control/自动控制理论/assets/一阶滞后-2.png",
     "docs/others/群调.md",
     "docs/control/自动控制理论/期末复习.md",
     "docs/robotic/ROS/指令.md",
@@ -418,7 +435,6 @@
     "docs/others/知识库/文化中国/复盘.md",
     "docs/others/知识库/文化中国/文化中国讲座.md",
     "docs/ai/tools.md",
-    "docs/zju-courses/农业物料学/农业物料学.md",
-    "答辩问题.md"
+    "docs/zju-courses/农业物料学/农业物料学.md"
   ]
 }
