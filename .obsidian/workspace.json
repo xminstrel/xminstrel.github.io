@@ -31,9 +31,9 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 160,
-                "left": 681,
-                "top": 742,
+                "page": 161,
+                "left": 538,
+                "top": 412,
                 "zoom": 0.65
               },
               "icon": "lucide-file-text",
@@ -69,9 +69,25 @@
               "icon": "lucide-file",
               "title": "读书笔记Claude"
             }
+          },
+          {
+            "id": "df3b4bccfc469e49",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/others/ASABE 2026/美签攻略/DS160 byby Teo.pdf",
+                "page": 5,
+                "left": -21,
+                "top": 294,
+                "zoom": 0.7361839451391691
+              },
+              "icon": "lucide-file-text",
+              "title": "DS160 byby Teo"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "0c9c09378264eee6",
@@ -182,16 +198,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/农业物料学/农业物料学.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "农业物料学"
+              "title": "发展心理学"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -378,12 +394,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a3b9526f80e87051",
+  "active": "80e3f926386e31d2",
   "lastOpenFiles": [
-    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-    "docs/zju-courses/发展心理学/发展心理学.md",
-    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+    "docs/others/ASABE 2026/美签攻略/DS160 byby Teo.pdf",
     "docs/zju-courses/发展心理学/读书笔记Claude.md",
+    "docs/others/ASABE 2026/美签攻略/description of robot.pdf",
+    "docs/zju-courses/发展心理学/发展心理学.md",
+    "docs/others/ASABE 2026/美签攻略/resume.pdf",
+    "docs/others/ASABE 2026/美签攻略/面签材料 ASABE版.pdf",
+    "docs/others/ASABE 2026/美签攻略/面签材料 ASABE版.docx",
+    "docs/others/ASABE 2026/美签攻略/美签攻略小总结 初版 Teo.pdf",
+    "docs/others/ASABE 2026/美签攻略/schedule .pdf",
+    "docs/others/ASABE 2026/美签攻略/resume.docx",
+    "docs/others/ASABE 2026/美签攻略/invitation.pdf",
+    "docs/others/ASABE 2026/美签攻略",
     "docs/zju-courses/发展心理学/assets/智商正态.png",
     "docs/zju-courses/农业物料学/农业物料学.md",
     "docs/zju-courses/发展心理学/assets/多元智力.png",
@@ -394,21 +418,13 @@
     "docs/zju-courses/发展心理学/assets/元认知.png",
     "docs/zju-courses/发展心理学/assets/转化.png",
     "docs/zju-courses/发展心理学/assets/中心化.png",
-    "docs/control/自动控制理论/pdfs/第六章_控制系统的校正(2).pdf",
     "docs/zju-courses/材料力学/question.md",
-    "docs/others/moments",
     "docs/zju-courses/材料力学/未命名 1.md",
     "docs/zju-courses/材料力学/未命名 2.md",
-    "docs/zju-courses/材料力学/未命名",
-    "docs/scholar/启真问学/pdfs/立项书pdf.pdf",
     "docs/zju-courses/发展心理学/assets/形状知觉.png",
     "docs/zju-courses/发展心理学/assets/恒常性.png",
-    "docs/zju-courses/材料力学/pdfs/13 弯曲5.pdf",
-    "docs/zju-courses/材料力学/pdfs/12 弯曲4.pdf",
     "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
-    "docs/control/自动控制理论/pdfs/第五章.pdf",
     "docs/zju-courses/农业生物系统传输过程/assets/探究性实验.jpg",
-    "docs/zju-courses/材料力学/pdfs/材料力学期中复习+.pdf",
     "docs/control/自动控制理论/自动控制理论.md",
     "docs/control/控制论/控制论.md",
     "docs/others/知识库/food/杭州美食？.md",
