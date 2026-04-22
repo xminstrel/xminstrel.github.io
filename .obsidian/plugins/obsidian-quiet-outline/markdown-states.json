@@ -46,21 +46,21 @@
     ]
   },
   "docs/zju-courses/农业物料学/农业物料学.md": {
-    "scroll": 28.037428352571382,
+    "scroll": 28.52921722760691,
     "cursor": {
       "from": {
-        "line": 33,
-        "ch": 0
+        "line": 39,
+        "ch": 8
       },
       "to": {
-        "line": 33,
-        "ch": 0
+        "line": 39,
+        "ch": 8
       }
     },
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 0,
+    "scroll": 35.968706978714394,
     "cursor": {
       "from": {
         "line": 8,
@@ -77,15 +77,15 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 698.9633882509569,
+    "scroll": 852.3961588541666,
     "cursor": {
       "from": {
-        "line": 706,
-        "ch": 12
+        "line": 862,
+        "ch": 22
       },
       "to": {
-        "line": 706,
-        "ch": 12
+        "line": 862,
+        "ch": 22
       }
     },
     "expandedKeys": [
@@ -94,18 +94,21 @@
       "item-2-6",
       "item-1-11",
       "item-2-12",
-      "item-2-35",
       "item-3-13",
-      "item-3-36",
-      "item-2-51",
-      "item-3-21",
       "item-3-18",
+      "item-3-21",
       "item-3-27",
       "item-3-31",
-      "item-3-42",
+      "item-2-35",
+      "item-3-36",
       "item-4-38",
+      "item-3-42",
       "item-3-46",
-      "item-3-52"
+      "item-2-51",
+      "item-3-52",
+      "item-3-57",
+      "item-3-60",
+      "item-4-62"
     ]
   },
   "docs/control/esp32/esp32.md": {
@@ -1050,15 +1053,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/发展心理学/读书笔记Claude.md": {
-    "scroll": 262.24445120097295,
+    "scroll": 317.70077519379845,
     "cursor": {
       "from": {
-        "line": 268,
-        "ch": 4
+        "line": 371,
+        "ch": 16
       },
       "to": {
-        "line": 268,
-        "ch": 4
+        "line": 371,
+        "ch": 16
       }
     },
     "expandedKeys": [
@@ -1077,7 +1080,10 @@
       "item-3-35",
       "item-4-41",
       "item-3-39",
-      "item-2-38"
+      "item-2-38",
+      "item-3-46",
+      "item-3-49",
+      "item-2-55"
     ]
   }
 }
