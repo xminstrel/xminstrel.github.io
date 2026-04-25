@@ -4,9 +4,137 @@
     "type": "split",
     "children": [
       {
+        "id": "6a71356f2bcd0f77",
+        "type": "tabs",
+        "dimension": 50.72765072765073,
+        "children": [
+          {
+            "id": "6fd95070d45f90ed",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/others/ASABE 2026/美签攻略/面签材料 ASABE版.pdf",
+                "page": 1,
+                "left": -22,
+                "top": 743,
+                "zoom": 0.7294396291070349
+              },
+              "icon": "lucide-file-text",
+              "title": "面签材料 ASABE版"
+            }
+          },
+          {
+            "id": "7c7d5ef7c1ede6ef",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/others/ASABE 2026/美签攻略/resume.pdf",
+                "page": 1,
+                "left": -28,
+                "top": 846,
+                "zoom": 0.5555835517032857
+              },
+              "icon": "lucide-file-text",
+              "title": "resume"
+            }
+          },
+          {
+            "id": "2bb9bb6c0eea68b8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/others/ASABE 2026/美签攻略/schedule .pdf",
+                "page": 1,
+                "left": -4,
+                "top": 599,
+                "zoom": 1
+              },
+              "icon": "lucide-file-text",
+              "title": "schedule"
+            }
+          },
+          {
+            "id": "5c0978db5d74c89b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/others/ASABE 2026/美签攻略/description of robot.pdf",
+                "page": 1,
+                "left": -40,
+                "top": 156,
+                "zoom": 0.3754409541407694
+              },
+              "icon": "lucide-file-text",
+              "title": "description of robot"
+            }
+          },
+          {
+            "id": "f6a017f291ddd1ae",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/others/ASABE 2026/美签攻略/DS160 byby Teo.pdf",
+                "page": 1,
+                "left": 215,
+                "top": 619,
+                "zoom": 1.1
+              },
+              "icon": "lucide-file-text",
+              "title": "DS160 byby Teo"
+            }
+          },
+          {
+            "id": "b02e31e6abff3d70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/others/ASABE 2026/我的签证/ds 160.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ds 160"
+            }
+          },
+          {
+            "id": "547cc297c98475b7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "5e008c17f07f4bb6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/others/ASABE 2026/美签攻略/美签攻略小总结 初版 Teo.pdf",
+                "page": 1,
+                "left": -21,
+                "top": 796,
+                "zoom": 0.7408029564925249
+              },
+              "icon": "lucide-file-text",
+              "title": "美签攻略小总结 初版 Teo"
+            }
+          }
+        ],
+        "currentTab": 7
+      },
+      {
         "id": "9a311fdb958aa2c3",
         "type": "tabs",
-        "dimension": 50.38560411311054,
+        "dimension": 49.272349272349274,
         "children": [
           {
             "id": "d70c9c1f817413b3",
@@ -77,137 +205,83 @@
               "type": "pdf",
               "state": {
                 "file": "docs/others/ASABE 2026/美签攻略/DS160 byby Teo.pdf",
-                "page": 5,
-                "left": -21,
-                "top": 294,
-                "zoom": 0.7361839451391691
+                "page": 1,
+                "left": -10,
+                "top": 846,
+                "zoom": 1.5265732150060507
               },
               "icon": "lucide-file-text",
               "title": "DS160 byby Teo"
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "0c9c09378264eee6",
-        "type": "tabs",
-        "dimension": 49.61439588688946,
-        "children": [
-          {
-            "id": "0194292f8c4c5b7d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 1,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "发展心理学第2版 (苏彦捷)"
-            }
           },
           {
-            "id": "a8a9b66cd3e8e765",
+            "id": "b364fbe144adf562",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/robotic/ROS/Ubuntu安装教程.md",
+                "file": "docs/others/ASABE 2026/我的签证/材料准备.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ubuntu安装教程"
+              "title": "材料准备"
             }
           },
           {
-            "id": "96571349731cc660",
+            "id": "2ad5d18910502cea",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "8f3df927be7f13ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/robotic/ROS/指令.md",
+                "file": "docs/zju-courses/cad/cad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "指令"
+              "title": "cad"
             }
           },
           {
-            "id": "d6faa780fdaa43d4",
+            "id": "39720af7b9539cd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/control/自动控制理论/自动控制理论.md",
+                "file": "docs/zju-courses/cad/solidworks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "自动控制理论"
+              "title": "solidworks"
             }
           },
           {
-            "id": "edbca36edb3e2a9d",
+            "id": "33ba36aa0c084483",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/robotic/ROS/ROS.md",
+                "file": "docs/others/知识库/横纵分析法/横纵prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ROS"
-            }
-          },
-          {
-            "id": "2da1d84bba882ffc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "发展心理学"
-            }
-          },
-          {
-            "id": "a3b9526f80e87051",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "发展心理学"
-            }
-          },
-          {
-            "id": "80e3f926386e31d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "发展心理学"
+              "title": "横纵prompt"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -295,7 +369,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zju-courses/农业物料学/农业物料学.md",
+                "file": "docs/others/ASABE 2026/美签攻略/美签攻略小总结 初版 Teo.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +379,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "农业物料学 的反向链接列表"
+              "title": "美签攻略小总结 初版 Teo 的反向链接列表"
             }
           },
           {
@@ -314,12 +388,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zju-courses/农业物料学/农业物料学.md",
+                "file": "docs/others/ASABE 2026/美签攻略/美签攻略小总结 初版 Teo.pdf",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "农业物料学 的出链列表"
+              "title": "美签攻略小总结 初版 Teo 的出链列表"
             }
           },
           {
@@ -328,13 +402,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/zju-courses/农业物料学/农业物料学.md",
+                "file": "docs/others/ASABE 2026/美签攻略/美签攻略小总结 初版 Teo.pdf",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "农业物料学 的大纲"
+              "title": "美签攻略小总结 初版 Teo 的大纲"
             }
           },
           {
@@ -394,52 +468,52 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "80e3f926386e31d2",
+  "active": "5e008c17f07f4bb6",
   "lastOpenFiles": [
-    "docs/others/ASABE 2026/美签攻略/DS160 byby Teo.pdf",
-    "docs/zju-courses/发展心理学/读书笔记Claude.md",
+    "docs/others/ASABE 2026/我的签证/ds 160.md",
     "docs/others/ASABE 2026/美签攻略/description of robot.pdf",
-    "docs/zju-courses/发展心理学/发展心理学.md",
-    "docs/others/ASABE 2026/美签攻略/resume.pdf",
-    "docs/others/ASABE 2026/美签攻略/面签材料 ASABE版.pdf",
-    "docs/others/ASABE 2026/美签攻略/面签材料 ASABE版.docx",
+    "docs/others/ASABE 2026/美签攻略/DS160 byby Teo.pdf",
     "docs/others/ASABE 2026/美签攻略/美签攻略小总结 初版 Teo.pdf",
-    "docs/others/ASABE 2026/美签攻略/schedule .pdf",
-    "docs/others/ASABE 2026/美签攻略/resume.docx",
+    "docs/others/ASABE 2026/美签攻略/面签材料 ASABE版.pdf",
     "docs/others/ASABE 2026/美签攻略/invitation.pdf",
-    "docs/others/ASABE 2026/美签攻略",
+    "docs/others/ASABE 2026/美签攻略/schedule .pdf",
+    "docs/others/ASABE 2026/美签攻略/resume.pdf",
+    "docs/others/ASABE 2026/我的签证/assets/question.png",
+    "docs/others/ASABE 2026/我的签证/assets/id.png",
+    "docs/others/ASABE 2026/我的签证/assets/密保问题.png",
+    "docs/others/ASABE 2026/我的签证/assets",
+    "docs/others/知识库/灵感/灵感.md",
+    "docs/robotic/ROS/ROS.md",
+    "docs/others/知识库/灵感",
+    "docs/others/知识库/横纵分析法/横纵prompt.md",
+    "docs/others/知识库/横纵分析法",
+    "docs/zju-courses/发展心理学/发展心理学.md",
+    "docs/control/stm32.md",
+    "docs/robotic/ROS/指令.md",
+    "docs/zju-courses/cad/solidworks.md",
+    "docs/zju-courses/cad/cad.md",
+    "docs/others/ASABE 2026/我的签证/材料准备.md",
+    "docs/control/控制论/控制论.md",
+    "docs/control/自动控制理论/自动控制理论.md",
+    "docs/robotic/ROS/Ubuntu安装教程.md",
+    "docs/others/知识库/文化中国/讲座总结.md",
+    "docs/zju-courses/材料力学/材料力学.md",
+    "docs/zju-courses/材料力学/材料力学公式整理.md",
+    "docs/about_me.md",
+    "docs/index.md",
+    "docs/robotic/强化学习/动手学强化学习.md",
+    "docs/robotic/技术栈.md",
+    "docs/robotic/未命名.md",
+    "docs/robotic/未命名 1.md",
+    "docs/zju-courses/发展心理学/读书笔记Claude.md",
     "docs/zju-courses/发展心理学/assets/智商正态.png",
     "docs/zju-courses/农业物料学/农业物料学.md",
     "docs/zju-courses/发展心理学/assets/多元智力.png",
-    "docs/zju-courses/材料力学/材料力学.md",
-    "docs/robotic/ROS/指令.md",
     "docs/zju-courses/发展心理学/assets/层次结构模型.png",
     "docs/zju-courses/发展心理学/assets/元认知结构.png",
     "docs/zju-courses/发展心理学/assets/元认知.png",
     "docs/zju-courses/发展心理学/assets/转化.png",
     "docs/zju-courses/发展心理学/assets/中心化.png",
-    "docs/zju-courses/材料力学/question.md",
-    "docs/zju-courses/材料力学/未命名 1.md",
-    "docs/zju-courses/材料力学/未命名 2.md",
-    "docs/zju-courses/发展心理学/assets/形状知觉.png",
-    "docs/zju-courses/发展心理学/assets/恒常性.png",
-    "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md",
-    "docs/zju-courses/农业生物系统传输过程/assets/探究性实验.jpg",
-    "docs/control/自动控制理论/自动控制理论.md",
-    "docs/control/控制论/控制论.md",
-    "docs/others/知识库/food/杭州美食？.md",
-    "docs/robotic/ROS/ROS.md",
-    "docs/others/知识库/护照/护照签证.md",
-    "docs/others/群调.md",
-    "docs/control/自动控制理论/期末复习.md",
-    "docs/others/moments/moments.md",
-    "docs/robotic/未命名 1.md",
-    "docs/robotic/ROS/github.md",
-    "docs/robotic/ROS/Ubuntu安装教程.md",
-    "docs/robotic/机器人工程师学习计划.md",
-    "docs/others/知识库/文化中国/讲座总结.md",
-    "docs/others/知识库/文化中国/复盘.md",
-    "docs/others/知识库/文化中国/文化中国讲座.md",
-    "docs/ai/tools.md"
+    "docs/zju-courses/材料力学/question.md"
   ]
 }

@@ -76,4 +76,12 @@ sub
 12.8
 打开极轴画 558
 创建有属性的块 ATTDEF
+
+purge 清理块
 ![370](assets/粗糙度、.jpg)
+
+
+
+布局，打印
+
+offset

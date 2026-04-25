@@ -1,6 +1,6 @@
 {
   "docs/control/自动控制理论/自动控制理论.md": {
-    "scroll": 640.2796223958334,
+    "scroll": 633.7933610844274,
     "cursor": {
       "from": {
         "line": 646,
@@ -20,7 +20,9 @@
       "item-2-11",
       "item-3-6",
       "item-2-5",
-      "item-3-48"
+      "item-3-48",
+      "item-3-53",
+      "item-2-52"
     ]
   },
   "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md": {
@@ -60,7 +62,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 35.968706978714394,
+    "scroll": 8.416666666666666,
     "cursor": {
       "from": {
         "line": 8,
@@ -77,15 +79,15 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 500.9947916666667,
+    "scroll": 899.1165364583334,
     "cursor": {
       "from": {
-        "line": 516,
-        "ch": 21
+        "line": 926,
+        "ch": 5
       },
       "to": {
-        "line": 516,
-        "ch": 21
+        "line": 926,
+        "ch": 5
       }
     },
     "expandedKeys": [
@@ -104,11 +106,13 @@
       "item-4-38",
       "item-3-42",
       "item-3-46",
-      "item-2-51",
       "item-3-52",
       "item-3-57",
       "item-3-60",
-      "item-4-62"
+      "item-4-62",
+      "item-1-68",
+      "item-2-51",
+      "item-2-69"
     ]
   },
   "docs/control/esp32/esp32.md": {
@@ -140,7 +144,7 @@
     "expandedKeys": []
   },
   "docs/index.md": {
-    "scroll": 15.143229166666666,
+    "scroll": 46.5,
     "cursor": {
       "from": {
         "line": 52,
@@ -269,12 +273,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 3,
+        "ch": 14
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 3,
+        "ch": 14
       }
     },
     "expandedKeys": []
@@ -336,15 +340,15 @@
     "expandedKeys": []
   },
   "docs/control/控制论/控制论.md": {
-    "scroll": 51.178286648947044,
+    "scroll": 51.73278050006282,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 19
+        "line": 55,
+        "ch": 17
       },
       "to": {
-        "line": 42,
-        "ch": 19
+        "line": 54,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -466,15 +470,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/cad/cad.md": {
-    "scroll": 56.231119791666664,
+    "scroll": 74.03059895833333,
     "cursor": {
       "from": {
-        "line": 77,
-        "ch": 14
+        "line": 87,
+        "ch": 0
       },
       "to": {
-        "line": 77,
-        "ch": 14
+        "line": 87,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -522,7 +526,7 @@
     "expandedKeys": []
   },
   "docs/robotic/未命名.md": {
-    "scroll": 41.219701743331235,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -678,15 +682,15 @@
     "expandedKeys": []
   },
   "docs/robotic/技术栈.md": {
-    "scroll": 0,
+    "scroll": 40.53660300925926,
     "cursor": {
       "from": {
-        "line": 541,
-        "ch": 201
+        "line": 40,
+        "ch": 145
       },
       "to": {
-        "line": 541,
-        "ch": 201
+        "line": 40,
+        "ch": 145
       }
     },
     "expandedKeys": [
@@ -754,18 +758,22 @@
     ]
   },
   "docs/robotic/ROS/ROS.md": {
-    "scroll": 35.361607142857146,
+    "scroll": 178.662109375,
     "cursor": {
       "from": {
-        "line": 52,
-        "ch": 0
+        "line": 146,
+        "ch": 43
       },
       "to": {
-        "line": 52,
-        "ch": 0
+        "line": 146,
+        "ch": 43
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-2",
+      "item-2-7",
+      "item-3-8"
+    ]
   },
   "指令.md": {
     "scroll": 0,
@@ -782,7 +790,7 @@
     "expandedKeys": []
   },
   "docs/robotic/ROS/指令.md": {
-    "scroll": 24.95990104112978,
+    "scroll": 20.779296875,
     "cursor": {
       "from": {
         "line": 41,
@@ -884,7 +892,7 @@
     ]
   },
   "docs/others/知识库/文化中国/讲座总结.md": {
-    "scroll": 215.50604651162791,
+    "scroll": 205.0546875,
     "cursor": {
       "from": {
         "line": 229,
@@ -1085,5 +1093,201 @@
       "item-3-49",
       "item-2-55"
     ]
+  },
+  "docs/robotic/强化学习/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/robotic/强化学习/动手学强化学习.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 3
+      },
+      "to": {
+        "line": 1,
+        "ch": 3
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/ASABE 2026/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/ASABE 2026/材料准备.md": {
+    "scroll": 0.3333333333333333,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 12
+      },
+      "to": {
+        "line": 2,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/ASABE 2026/我的签证/材料准备.md": {
+    "scroll": 5.381395348837209,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 39
+      },
+      "to": {
+        "line": 16,
+        "ch": 39
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/cad/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/cad/solidworks.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/control/stm32.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/知识库/横纵分析法/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/知识库/横纵分析法/横纵prompt.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 0
+      },
+      "to": {
+        "line": 37,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/知识库/灵感/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/知识库/灵感/灵感.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/ASABE 2026/我的签证/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/ASABE 2026/我的签证/ds 160.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 24
+      },
+      "to": {
+        "line": 1,
+        "ch": 24
+      }
+    },
+    "expandedKeys": []
   }
 }
