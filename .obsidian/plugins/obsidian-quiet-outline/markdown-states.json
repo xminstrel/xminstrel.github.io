@@ -26,7 +26,7 @@
     ]
   },
   "docs/zju-courses/农业生物系统传输过程/农业生物系统传输过程.md": {
-    "scroll": 339.5631510416667,
+    "scroll": 305.1432291666667,
     "cursor": {
       "from": {
         "line": 358,
@@ -172,18 +172,20 @@
     "expandedKeys": []
   },
   "docs/zju-courses/精细农业/精细农业.md": {
-    "scroll": 0,
+    "scroll": 17.668619791666668,
     "cursor": {
       "from": {
-        "line": 4,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 4,
+        "line": 31,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0"
+    ]
   },
   "docs/zju-courses/精细农业/task1.md": {
     "scroll": 0,
@@ -340,14 +342,14 @@
     "expandedKeys": []
   },
   "docs/control/控制论/控制论.md": {
-    "scroll": 51.73278050006282,
+    "scroll": 48.324455611390285,
     "cursor": {
       "from": {
-        "line": 55,
-        "ch": 17
+        "line": 68,
+        "ch": 0
       },
       "to": {
-        "line": 54,
+        "line": 68,
         "ch": 0
       }
     },
@@ -584,14 +586,14 @@
     "expandedKeys": []
   },
   "docs/robotic/机器人工程师学习计划.md": {
-    "scroll": 0,
+    "scroll": 76.96875,
     "cursor": {
       "from": {
-        "line": 48,
+        "line": 81,
         "ch": 0
       },
       "to": {
-        "line": 48,
+        "line": 81,
         "ch": 0
       }
     },
@@ -758,21 +760,22 @@
     ]
   },
   "docs/robotic/ROS/ROS.md": {
-    "scroll": 178.662109375,
+    "scroll": 222.2109375,
     "cursor": {
       "from": {
-        "line": 146,
-        "ch": 43
+        "line": 244,
+        "ch": 157
       },
       "to": {
-        "line": 146,
-        "ch": 43
+        "line": 244,
+        "ch": 157
       }
     },
     "expandedKeys": [
       "item-3-2",
       "item-2-7",
-      "item-3-8"
+      "item-3-8",
+      "item-2-17"
     ]
   },
   "指令.md": {
@@ -1151,15 +1154,15 @@
     "expandedKeys": []
   },
   "docs/others/ASABE 2026/我的签证/材料准备.md": {
-    "scroll": 5.381395348837209,
+    "scroll": 4.428837209302325,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 39
+        "line": 17,
+        "ch": 0
       },
       "to": {
-        "line": 16,
-        "ch": 39
+        "line": 17,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1221,7 +1224,7 @@
     "expandedKeys": []
   },
   "docs/others/知识库/横纵分析法/横纵prompt.md": {
-    "scroll": 0,
+    "scroll": 1.26232741617357,
     "cursor": {
       "from": {
         "line": 37,
@@ -1280,14 +1283,156 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 24
+        "line": 2,
+        "ch": 25
       },
       "to": {
-        "line": 1,
-        "ch": 24
+        "line": 2,
+        "ch": 15
       }
     },
     "expandedKeys": []
+  },
+  "docs/zju-courses/精细农业/实验/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/精细农业/实验/task3.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/精细农业/实验/task1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/精细农业/实验/task2.md": {
+    "scroll": 11.568684895833334,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/ASABE 2026/邀请函/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/ASABE 2026/邀请函/官网.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/农业生物系统传输过程/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/农业生物系统传输过程/传热学.md": {
+    "scroll": 34.82047193877551,
+    "cursor": {
+      "from": {
+        "line": 36,
+        "ch": 43
+      },
+      "to": {
+        "line": 36,
+        "ch": 43
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-3-2",
+      "item-4-3",
+      "item-4-7",
+      "item-4-10"
+    ]
+  },
+  "docs/zju-courses/农业生物系统传输过程/工传.md": {
+    "scroll": 78.65169270833333,
+    "cursor": {
+      "from": {
+        "line": 87,
+        "ch": 12
+      },
+      "to": {
+        "line": 87,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-4-3",
+      "item-4-8",
+      "item-4-11",
+      "item-3-2",
+      "item-2-14",
+      "item-3-15"
+    ]
   }
 }

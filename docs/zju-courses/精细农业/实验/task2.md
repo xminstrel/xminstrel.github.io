@@ -7,7 +7,7 @@
 
 取跑道中点
 
-![](assets/步骤.png)
+![](../assets/步骤.png)
 
 
 

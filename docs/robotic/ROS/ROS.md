@@ -197,3 +197,49 @@ ros2 pkg create example_py --build-type ament_python --dependencies rclpy
 #### [2.1.7 开启构建日志](https://fishros.com/d2lros2/#/humble/chapt2/advanced/3.Colcon%E4%BD%BF%E7%94%A8%E8%BF%9B%E9%98%B6?id=_217-%e5%bc%80%e5%90%af%e6%9e%84%e5%bb%ba%e6%97%a5%e5%bf%97)
 
 使用 `--log-level` 可以设置日志级别，比如 `--log-level info`。
+
+
+
+
+## [3.ROS2服务常用命令](https://fishros.com/d2lros2/#/humble/chapt3/get_started/4.ROS2%E6%9C%8D%E5%8A%A1%E5%85%A5%E9%97%A8?id=_3ros2%e6%9c%8d%e5%8a%a1%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4)
+
+ROS 2 的命令行工具，小鱼觉得还是非常值得一学的，毕竟确实很实用（装 X），之前已经给大家讲过了关于节点、话题、接口相关的命令了，现在小鱼说一下关于服务的那些命令行。
+
+### [3.1查看服务列表](https://fishros.com/d2lros2/#/humble/chapt3/get_started/4.ROS2%E6%9C%8D%E5%8A%A1%E5%85%A5%E9%97%A8?id=_31%e6%9f%a5%e7%9c%8b%e6%9c%8d%e5%8a%a1%e5%88%97%e8%a1%a8)
+
+```
+ros2 service list
+```
+
+![image-20210810115216800](https://fishros.com/d2lros2/humble/chapt3/get_started/4.ROS2%E6%9C%8D%E5%8A%A1%E5%85%A5%E9%97%A8/imgs/image-20210810115216800.png)
+
+### [3.2手动调用服务](https://fishros.com/d2lros2/#/humble/chapt3/get_started/4.ROS2%E6%9C%8D%E5%8A%A1%E5%85%A5%E9%97%A8?id=_32%e6%89%8b%e5%8a%a8%e8%b0%83%e7%94%a8%e6%9c%8d%e5%8a%a1)
+
+```
+ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{a: 5,b: 10}"
+```
+
+![image-20210810115316799](https://fishros.com/d2lros2/humble/chapt3/get_started/4.ROS2%E6%9C%8D%E5%8A%A1%E5%85%A5%E9%97%A8/imgs/image-20210810115316799.png)
+
+如果不写参数值调用会怎么样？比如下面这种，大家可以尝试下。
+
+```
+ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts
+```
+
+### [3.3 查看服务接口类型](https://fishros.com/d2lros2/#/humble/chapt3/get_started/4.ROS2%E6%9C%8D%E5%8A%A1%E5%85%A5%E9%97%A8?id=_33-%e6%9f%a5%e7%9c%8b%e6%9c%8d%e5%8a%a1%e6%8e%a5%e5%8f%a3%e7%b1%bb%e5%9e%8b)
+
+```
+ros2 service type /add_two_ints
+```
+
+![image-20210810115428267|397](https://fishros.com/d2lros2/humble/chapt3/get_started/4.ROS2%E6%9C%8D%E5%8A%A1%E5%85%A5%E9%97%A8/imgs/image-20210810115428267.png)
+
+### [3.4查找使用某一接口的服务](https://fishros.com/d2lros2/#/humble/chapt3/get_started/4.ROS2%E6%9C%8D%E5%8A%A1%E5%85%A5%E9%97%A8?id=_34%e6%9f%a5%e6%89%be%e4%bd%bf%e7%94%a8%e6%9f%90%e4%b8%80%e6%8e%a5%e5%8f%a3%e7%9a%84%e6%9c%8d%e5%8a%a1)
+
+这个命令看起来和 3.3 刚好相反。
+
+```
+ros2 service find example_interfaces/srv/AddTwoInts
+```
+![image-20210810115552147](https://fishros.com/d2lros2/humble/chapt3/get_started/4.ROS2%E6%9C%8D%E5%8A%A1%E5%85%A5%E9%97%A8/imgs/image-20210810115552147.png)
