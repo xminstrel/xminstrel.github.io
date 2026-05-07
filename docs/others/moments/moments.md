@@ -18,3 +18,6 @@
 
 4.19 夜晚的潜水艇
 ![](assets/夜晚的潜水艇.jpg)
+
+5.6   嗡嗡嗡
+![](assets/37cabb92c5ae9f7b809ef04ced14cf97.jpg)
