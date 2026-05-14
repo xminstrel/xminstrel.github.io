@@ -1,0 +1,159 @@
+{
+  "selected_venues": [
+    "丽水市",
+    "台州市",
+    "宁波市",
+    "嵊州市",
+    "杭州市",
+    "绍兴市",
+    "衢州市",
+    "金华市"
+  ],
+  "region_count": 6,
+  "regions": [
+    "浙东",
+    "浙中",
+    "浙北",
+    "浙南",
+    "浙西",
+    "浙西南"
+  ],
+  "county_venue_count": 1,
+  "team_avg_distance": 131.02789106128074,
+  "team_max_distance": 260.7521363971776,
+  "group_avg_distance_mean": 131.02789106128074,
+  "group_distance_fairness_mean": 46.54483515051513,
+  "home_penalty_sum": 1.5,
+  "groups": [
+    {
+      "group": "G01",
+      "venue": "嵊州市",
+      "avg_distance": 117.34770224097676,
+      "std_distance": 37.63607439862108,
+      "max_distance": 168.3497118083999,
+      "home_penalty": 0
+    },
+    {
+      "group": "G02",
+      "venue": "绍兴市",
+      "avg_distance": 113.54889143355366,
+      "std_distance": 19.880708062727166,
+      "max_distance": 142.90661900760088,
+      "home_penalty": 0
+    },
+    {
+      "group": "G03",
+      "venue": "丽水市",
+      "avg_distance": 72.16939541443166,
+      "std_distance": 33.360225785716985,
+      "max_distance": 104.716532636034,
+      "home_penalty": 0.5
+    },
+    {
+      "group": "G04",
+      "venue": "金华市",
+      "avg_distance": 140.69840267661013,
+      "std_distance": 62.46581115118147,
+      "max_distance": 212.81949042739745,
+      "home_penalty": 0
+    },
+    {
+      "group": "G05",
+      "venue": "衢州市",
+      "avg_distance": 160.55891827610105,
+      "std_distance": 57.55373252293209,
+      "max_distance": 246.65102981707182,
+      "home_penalty": 0
+    },
+    {
+      "group": "G06",
+      "venue": "台州市",
+      "avg_distance": 145.88853462938357,
+      "std_distance": 32.209676210917785,
+      "max_distance": 169.87658909023864,
+      "home_penalty": 0
+    },
+    {
+      "group": "G07",
+      "venue": "衢州市",
+      "avg_distance": 166.2427436468758,
+      "std_distance": 71.07058365546658,
+      "max_distance": 260.7521363971776,
+      "home_penalty": 0
+    },
+    {
+      "group": "G08",
+      "venue": "杭州市",
+      "avg_distance": 121.11306303484731,
+      "std_distance": 55.64260265565052,
+      "max_distance": 193.18756865237836,
+      "home_penalty": 0
+    },
+    {
+      "group": "G09",
+      "venue": "宁波市",
+      "avg_distance": 92.66500542704317,
+      "std_distance": 51.55141551794907,
+      "max_distance": 156.17625661888613,
+      "home_penalty": 0.5
+    },
+    {
+      "group": "G10",
+      "venue": "嵊州市",
+      "avg_distance": 166.1268173653917,
+      "std_distance": 36.93596845844385,
+      "max_distance": 227.58739807604238,
+      "home_penalty": 0
+    },
+    {
+      "group": "G11",
+      "venue": "金华市",
+      "avg_distance": 127.930859742297,
+      "std_distance": 40.166976923523414,
+      "max_distance": 184.83987159483493,
+      "home_penalty": 0
+    },
+    {
+      "group": "G12",
+      "venue": "绍兴市",
+      "avg_distance": 135.38288476346378,
+      "std_distance": 34.816709200377566,
+      "max_distance": 181.64449213606144,
+      "home_penalty": 0
+    },
+    {
+      "group": "G13",
+      "venue": "杭州市",
+      "avg_distance": 102.65226933484485,
+      "std_distance": 66.82893993398449,
+      "max_distance": 209.5187169935587,
+      "home_penalty": 0.5
+    },
+    {
+      "group": "G14",
+      "venue": "台州市",
+      "avg_distance": 145.95348324352688,
+      "std_distance": 39.0358704309303,
+      "max_distance": 178.75457221687708,
+      "home_penalty": 0
+    },
+    {
+      "group": "G15",
+      "venue": "丽水市",
+      "avg_distance": 130.71568154026855,
+      "std_distance": 62.17681461737476,
+      "max_distance": 235.0699094740865,
+      "home_penalty": 0
+    },
+    {
+      "group": "G16",
+      "venue": "宁波市",
+      "avg_distance": 157.45160421087604,
+      "std_distance": 43.38525288244496,
+      "max_distance": 226.2297696533813,
+      "home_penalty": 0
+    }
+  ],
+  "objective_score": 3.7680085063523086,
+  "candidate_count": 30
+}

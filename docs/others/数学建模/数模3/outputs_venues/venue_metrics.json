@@ -1,0 +1,164 @@
+{
+  "selected_venues": [
+    "台州市",
+    "宁波市",
+    "嵊州市",
+    "杭州市",
+    "温州市",
+    "衢州市",
+    "金华市",
+    "青田县"
+  ],
+  "region_count": 6,
+  "regions": [
+    "浙东",
+    "浙中",
+    "浙北",
+    "浙南",
+    "浙西",
+    "浙西南"
+  ],
+  "county_venue_count": 2,
+  "region_balance_penalty": 0.2222222222222222,
+  "team_avg_distance": 135.84470477393882,
+  "team_max_distance": 270.7603995923565,
+  "group_avg_distance_mean": 135.84470477393882,
+  "group_distance_fairness_mean": 56.24266228607649,
+  "home_penalty_sum": 3.5,
+  "strong_home_group_count": 2,
+  "home_attention_bonus": 1.921050792914644,
+  "groups": [
+    {
+      "group": "G01",
+      "venue": "杭州市",
+      "avg_distance": 124.04304340670812,
+      "std_distance": 94.63259607357898,
+      "max_distance": 263.01559465547973,
+      "home_penalty": 1
+    },
+    {
+      "group": "G02",
+      "venue": "温州市",
+      "avg_distance": 152.58033361193088,
+      "std_distance": 58.870984575957486,
+      "max_distance": 224.7430800853824,
+      "home_penalty": 0
+    },
+    {
+      "group": "G03",
+      "venue": "温州市",
+      "avg_distance": 89.45195483012742,
+      "std_distance": 59.155612235336115,
+      "max_distance": 163.71632249079912,
+      "home_penalty": 1
+    },
+    {
+      "group": "G04",
+      "venue": "衢州市",
+      "avg_distance": 193.42410920983397,
+      "std_distance": 65.56868273064073,
+      "max_distance": 270.61057287704637,
+      "home_penalty": 0
+    },
+    {
+      "group": "G05",
+      "venue": "嵊州市",
+      "avg_distance": 162.23519231962078,
+      "std_distance": 38.473502619167846,
+      "max_distance": 227.58739807604238,
+      "home_penalty": 0
+    },
+    {
+      "group": "G06",
+      "venue": "嵊州市",
+      "avg_distance": 102.98440495460981,
+      "std_distance": 49.36088543438435,
+      "max_distance": 151.63812621916273,
+      "home_penalty": 0.5
+    },
+    {
+      "group": "G07",
+      "venue": "衢州市",
+      "avg_distance": 128.86333702475574,
+      "std_distance": 92.22487343081511,
+      "max_distance": 270.7603995923565,
+      "home_penalty": 0.5
+    },
+    {
+      "group": "G08",
+      "venue": "青田县",
+      "avg_distance": 148.57585024156822,
+      "std_distance": 43.39384290952484,
+      "max_distance": 214.99602129357163,
+      "home_penalty": 0
+    },
+    {
+      "group": "G09",
+      "venue": "台州市",
+      "avg_distance": 160.18112524912806,
+      "std_distance": 57.166726323223834,
+      "max_distance": 240.63148425873575,
+      "home_penalty": 0
+    },
+    {
+      "group": "G10",
+      "venue": "青田县",
+      "avg_distance": 119.11510922048213,
+      "std_distance": 46.69892889137498,
+      "max_distance": 180.2100136944746,
+      "home_penalty": 0
+    },
+    {
+      "group": "G11",
+      "venue": "金华市",
+      "avg_distance": 148.54754162252988,
+      "std_distance": 45.82201394535714,
+      "max_distance": 192.43245225357464,
+      "home_penalty": 0
+    },
+    {
+      "group": "G12",
+      "venue": "宁波市",
+      "avg_distance": 154.2649258967246,
+      "std_distance": 57.427372048404834,
+      "max_distance": 212.74268887463333,
+      "home_penalty": 0
+    },
+    {
+      "group": "G13",
+      "venue": "宁波市",
+      "avg_distance": 101.2039015316909,
+      "std_distance": 49.1394775615031,
+      "max_distance": 160.1711415893884,
+      "home_penalty": 0.5
+    },
+    {
+      "group": "G14",
+      "venue": "杭州市",
+      "avg_distance": 106.38316066016498,
+      "std_distance": 56.35354770939041,
+      "max_distance": 164.00670120631884,
+      "home_penalty": 0
+    },
+    {
+      "group": "G15",
+      "venue": "金华市",
+      "avg_distance": 143.19832790584047,
+      "std_distance": 49.93676472504899,
+      "max_distance": 202.64132707688694,
+      "home_penalty": 0
+    },
+    {
+      "group": "G16",
+      "venue": "台州市",
+      "avg_distance": 138.46295869730517,
+      "std_distance": 35.6567853635151,
+      "max_distance": 178.75457221687708,
+      "home_penalty": 0
+    }
+  ],
+  "objective_score": 3.063227358462789,
+  "candidate_count": 30,
+  "profile": "balanced",
+  "fixed_venues": []
+}

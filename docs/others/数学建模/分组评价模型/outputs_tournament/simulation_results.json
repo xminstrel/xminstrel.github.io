@@ -1,0 +1,142 @@
+[
+  {
+    "format": "A_current",
+    "simulations": 3000,
+    "total_matches": 127.0,
+    "minimum_matches_per_team": 3,
+    "champion_max_matches": 8,
+    "top16_group_qualification_rate": 0.7302083333333333,
+    "top8_reach_16_rate": 0.6726666666666666,
+    "best_team_champion_rate": 0.44433333333333336,
+    "top8_early_elimination_event_rate": 0.521,
+    "upset_rate": 0.06556430446194225,
+    "average_suspense": 0.2637665323600142,
+    "most_common_champions": [
+      [
+        "T01",
+        1333
+      ],
+      [
+        "T05",
+        949
+      ],
+      [
+        "T10",
+        285
+      ],
+      [
+        "T29",
+        95
+      ],
+      [
+        "T33",
+        78
+      ]
+    ]
+  },
+  {
+    "format": "B_seeded",
+    "simulations": 3000,
+    "total_matches": 127.0,
+    "minimum_matches_per_team": 3,
+    "champion_max_matches": 8,
+    "top16_group_qualification_rate": 0.7295,
+    "top8_reach_16_rate": 0.6675833333333333,
+    "best_team_champion_rate": 0.4503333333333333,
+    "top8_early_elimination_event_rate": 0.5426666666666666,
+    "upset_rate": 0.06590813648293964,
+    "average_suspense": 0.2635446556336438,
+    "most_common_champions": [
+      [
+        "T01",
+        1351
+      ],
+      [
+        "T05",
+        943
+      ],
+      [
+        "T10",
+        307
+      ],
+      [
+        "T29",
+        92
+      ],
+      [
+        "T33",
+        77
+      ]
+    ]
+  },
+  {
+    "format": "C_constrained_ko",
+    "simulations": 3000,
+    "total_matches": 127.0,
+    "minimum_matches_per_team": 3,
+    "champion_max_matches": 8,
+    "top16_group_qualification_rate": 0.72625,
+    "top8_reach_16_rate": 0.6863333333333334,
+    "best_team_champion_rate": 0.4723333333333333,
+    "top8_early_elimination_event_rate": 0.48833333333333334,
+    "upset_rate": 0.06679002624671916,
+    "average_suspense": 0.2625578420697326,
+    "most_common_champions": [
+      [
+        "T01",
+        1417
+      ],
+      [
+        "T05",
+        849
+      ],
+      [
+        "T10",
+        334
+      ],
+      [
+        "T33",
+        89
+      ],
+      [
+        "T29",
+        88
+      ]
+    ]
+  },
+  {
+    "format": "D_double_rr",
+    "simulations": 3000,
+    "total_matches": 223.0,
+    "minimum_matches_per_team": 6,
+    "champion_max_matches": 11,
+    "top16_group_qualification_rate": 0.77,
+    "top8_reach_16_rate": 0.7467083333333333,
+    "best_team_champion_rate": 0.44966666666666666,
+    "top8_early_elimination_event_rate": 0.32233333333333336,
+    "upset_rate": 0.05930642750373692,
+    "average_suspense": 0.28331126606115553,
+    "most_common_champions": [
+      [
+        "T01",
+        1349
+      ],
+      [
+        "T05",
+        942
+      ],
+      [
+        "T10",
+        300
+      ],
+      [
+        "T29",
+        98
+      ],
+      [
+        "T33",
+        80
+      ]
+    ]
+  }
+]

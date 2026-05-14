@@ -1,0 +1,12 @@
+{
+  "public_random_number": 37838100108686303626276845160287082767765736816108041668775211552726908569115,
+  "public_seed": "7392048615",
+  "random_source": "SHA256(7392048615|161397349afa037aac81fe5af3813c218c085a21507afa0531b3aabfe3f2455a)=53a79b1088df3b6622a881525c9583281c20c6be5f08fde5fac807c2e4e2861b",
+  "pool_size": 100,
+  "selected_index": 16,
+  "selected_pool_id": "P0016",
+  "selected_source_scheme_id": "S0098",
+  "selected_topsis_score": 0.5981156995946165,
+  "pool_sha256": "161397349afa037aac81fe5af3813c218c085a21507afa0531b3aabfe3f2455a",
+  "draw_rule": "R = int(SHA256(s | H), 16); q = (R mod K) + 1"
+}

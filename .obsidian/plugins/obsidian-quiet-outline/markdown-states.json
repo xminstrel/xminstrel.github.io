@@ -1,14 +1,14 @@
 {
   "docs/control/自动控制理论/自动控制理论.md": {
-    "scroll": 628.2805989583334,
+    "scroll": 625.3805152163615,
     "cursor": {
       "from": {
-        "line": 635,
-        "ch": 20
+        "line": 634,
+        "ch": 38
       },
       "to": {
-        "line": 635,
-        "ch": 20
+        "line": 634,
+        "ch": 38
       }
     },
     "expandedKeys": [
@@ -56,28 +56,28 @@
     ]
   },
   "docs/zju-courses/农业物料学/农业物料学.md": {
-    "scroll": 22.344858662680792,
+    "scroll": 32.9716796875,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 0
+        "line": 51,
+        "ch": 10
       },
       "to": {
-        "line": 27,
-        "ch": 0
+        "line": 51,
+        "ch": 10
       }
     },
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 499.708984375,
+    "scroll": 563.235644257703,
     "cursor": {
       "from": {
-        "line": 507,
+        "line": 570,
         "ch": 0
       },
       "to": {
-        "line": 507,
+        "line": 570,
         "ch": 0
       }
     },
@@ -87,7 +87,6 @@
       "item-3-3",
       "item-3-7",
       "item-2-10",
-      "item-4-13",
       "item-2-19",
       "item-3-20",
       "item-2-22",
@@ -97,18 +96,24 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 919.8052713178295,
+    "scroll": 948.9873046875,
     "cursor": {
       "from": {
-        "line": 938,
-        "ch": 0
+        "line": 957,
+        "ch": 14
       },
       "to": {
-        "line": 938,
-        "ch": 0
+        "line": 957,
+        "ch": 14
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-69",
+      "item-1-68",
+      "item-1-11",
+      "item-2-72",
+      "item-3-73"
+    ]
   },
   "docs/control/esp32/esp32.md": {
     "scroll": 0,
@@ -167,15 +172,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/精细农业/精细农业.md": {
-    "scroll": 17.668619791666668,
+    "scroll": 13.913545696490795,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 0
+        "line": 33,
+        "ch": 1
       },
       "to": {
-        "line": 31,
-        "ch": 0
+        "line": 33,
+        "ch": 1
       }
     },
     "expandedKeys": [
@@ -439,15 +444,15 @@
     ]
   },
   "未命名.md": {
-    "scroll": 0,
+    "scroll": 0.20242914979757085,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 1377,
+        "ch": 110
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 1377,
+        "ch": 110
       }
     },
     "expandedKeys": []
@@ -567,18 +572,20 @@
     "expandedKeys": []
   },
   "未命名 1.md": {
-    "scroll": 4.536475190350898,
+    "scroll": 126.73046875,
     "cursor": {
       "from": {
-        "line": 541,
-        "ch": 201
+        "line": 138,
+        "ch": 20
       },
       "to": {
-        "line": 541,
-        "ch": 201
+        "line": 136,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-3"
+    ]
   },
   "docs/robotic/机器人工程师学习计划.md": {
     "scroll": 76.96875,
@@ -1408,26 +1415,27 @@
     ]
   },
   "docs/zju-courses/农业生物系统传输过程/工传.md": {
-    "scroll": 73.5022723383217,
+    "scroll": 48.558678735905985,
     "cursor": {
       "from": {
-        "line": 86,
-        "ch": 0
+        "line": 64,
+        "ch": 14
       },
       "to": {
-        "line": 86,
+        "line": 64,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-2-0",
+      "item-3-15",
+      "item-2-14",
       "item-1-0",
       "item-2-1",
-      "item-4-3",
-      "item-4-8",
       "item-4-11",
       "item-3-2",
-      "item-2-14",
-      "item-3-15"
+      "item-4-8",
+      "item-4-3"
     ]
   },
   "docs/zju-courses/材料力学实验/未命名.md": {
@@ -1506,12 +1514,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 6
+        "line": 9,
+        "ch": 1
       },
       "to": {
-        "line": 2,
-        "ch": 6
+        "line": 9,
+        "ch": 1
       }
     },
     "expandedKeys": []
@@ -1547,31 +1555,1028 @@
     ]
   },
   "模拟卷.md": {
-    "scroll": 0.8097165991902834,
+    "scroll": 49.95190661478599,
     "cursor": {
       "from": {
-        "line": 10,
+        "line": 68,
+        "ch": 88
+      },
+      "to": {
+        "line": 68,
+        "ch": 88
+      }
+    },
+    "expandedKeys": [
+      "item-3-0",
+      "item-3-7"
+    ]
+  },
+  "docs/others/moments/moments.md": {
+    "scroll": 21.632486979166668,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 9
+      },
+      "to": {
+        "line": 21,
+        "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "实践部.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 18,
         "ch": 0
       },
       "to": {
+        "line": 18,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "发言稿.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 51
+      },
+      "to": {
+        "line": 4,
+        "ch": 51
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/cad/作业进度.md": {
+    "scroll": 3.6592248062015504,
+    "cursor": {
+      "from": {
         "line": 10,
+        "ch": 5
+      },
+      "to": {
+        "line": 10,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/2026校赛/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/2026校赛/idea.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 6
+      },
+      "to": {
+        "line": 3,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "建模方案.md": {
+    "scroll": 220.32567771084337,
+    "cursor": {
+      "from": {
+        "line": 226,
+        "ch": 10
+      },
+      "to": {
+        "line": 226,
+        "ch": 10
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-3-4",
+      "item-4-5",
+      "item-4-9"
+    ]
+  },
+  "未命名 2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "评价指标.md": {
+    "scroll": 145.765625,
+    "cursor": {
+      "from": {
+        "line": 834,
+        "ch": 41
+      },
+      "to": {
+        "line": 834,
+        "ch": 41
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-1-7"
+    ]
+  },
+  "docs/others/数学建模/建模方案.md": {
+    "scroll": 253.16686390532544,
+    "cursor": {
+      "from": {
+        "line": 226,
+        "ch": 10
+      },
+      "to": {
+        "line": 226,
+        "ch": 10
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-3-4",
+      "item-2-2",
+      "item-4-9",
+      "item-4-5"
+    ]
+  },
+  "docs/others/数学建模/分组评价模型/README.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 0
+      },
+      "to": {
+        "line": 30,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-0"
+      "item-1-0"
     ]
   },
-  "docs/others/moments/moments.md": {
-    "scroll": 16.94390019462699,
+  "docs/others/数学建模/分组评价模型/outputs/best_scheme.md": {
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 21,
-        "ch": 6
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 21,
-        "ch": 6
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/分组评价模型/outputs/top_schemes_comparison.md": {
+    "scroll": 139.31746279367258,
+    "cursor": {
+      "from": {
+        "line": 160,
+        "ch": 0
+      },
+      "to": {
+        "line": 160,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/分组评价模型/建模思路与公式汇总.md": {
+    "scroll": 156.47233072916666,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 2
+      },
+      "to": {
+        "line": 33,
+        "ch": 2
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-8",
+      "item-2-13",
+      "item-2-16",
+      "item-2-20",
+      "item-2-23",
+      "item-2-28",
+      "item-2-34",
+      "item-2-42",
+      "item-2-48"
+    ]
+  },
+  "docs/others/数学建模/未命名.md": {
+    "scroll": 0.20242914979757085,
+    "cursor": {
+      "from": {
+        "line": 1377,
+        "ch": 110
+      },
+      "to": {
+        "line": 1377,
+        "ch": 110
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/分组评价模型/直接寻优说明.md": {
+    "scroll": 83.88205128205128,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/评价指标.md": {
+    "scroll": 197.900390625,
+    "cursor": {
+      "from": {
+        "line": 209,
+        "ch": 0
+      },
+      "to": {
+        "line": 209,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-7",
+      "item-1-3",
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/未命名 2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 879,
+        "ch": 20
+      },
+      "to": {
+        "line": 879,
+        "ch": 20
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/问题二思路.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-2",
+      "item-1-4",
+      "item-1-10"
+    ]
+  },
+  "docs/others/数学建模/问题二抽签方案.md": {
+    "scroll": 327.41691493463253,
+    "cursor": {
+      "from": {
+        "line": 251,
+        "ch": 0
+      },
+      "to": {
+        "line": 251,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-8"
+    ]
+  },
+  "docs/others/数学建模/未命名 1.md": {
+    "scroll": 126.73046875,
+    "cursor": {
+      "from": {
+        "line": 138,
+        "ch": 20
+      },
+      "to": {
+        "line": 136,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/问题三思路.md": {
+    "scroll": 157.22721354166666,
+    "cursor": {
+      "from": {
+        "line": 817,
+        "ch": 63
+      },
+      "to": {
+        "line": 817,
+        "ch": 63
+      }
+    },
+    "expandedKeys": [
+      "item-1-6",
+      "item-2-8"
+    ]
+  },
+  "docs/others/数学建模/问题三解法.md": {
+    "scroll": 394.7954427083333,
+    "cursor": {
+      "from": {
+        "line": 399,
+        "ch": 0
+      },
+      "to": {
+        "line": 399,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-14",
+      "item-2-7",
+      "item-2-3"
+    ]
+  },
+  "docs/others/数学建模/分组评价模型/资料来源.md": {
+    "scroll": 28.610462692788662,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/问题三改进.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/问题四思路.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "docs/others/数学建模/问题四解法.md": {
+    "scroll": 322.1529947916667,
+    "cursor": {
+      "from": {
+        "line": 370,
+        "ch": 0
+      },
+      "to": {
+        "line": 370,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-12",
+      "item-2-20",
+      "item-2-25"
+    ]
+  },
+  "docs/others/数学建模/初版结果说明/建模思路与公式汇总.md": {
+    "scroll": 292.69110764430576,
+    "cursor": {
+      "from": {
+        "line": 777,
+        "ch": 12
+      },
+      "to": {
+        "line": 777,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-8",
+      "item-2-13",
+      "item-2-16",
+      "item-2-20",
+      "item-2-23",
+      "item-2-28",
+      "item-2-34",
+      "item-2-42",
+      "item-2-48"
+    ]
+  },
+  "docs/others/数学建模/分组评价模型/outputs_venues/venue_solution.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/分组评价模型/outputs_tournament/simulation_summary.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/分组评价模型/outputs_venues_balanced_search/venue_solution.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/初版结果说明/问题二抽签方案.md": {
+    "scroll": 335.16162109375,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-8"
+    ]
+  },
+  "docs/others/数学建模/初版结果说明/问题三解法.md": {
+    "scroll": 232.1884765625,
+    "cursor": {
+      "from": {
+        "line": 244,
+        "ch": 13
+      },
+      "to": {
+        "line": 244,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-7",
+      "item-2-14"
+    ]
+  },
+  "docs/others/数学建模/初版结果说明/问题四解法.md": {
+    "scroll": 194.6787109375,
+    "cursor": {
+      "from": {
+        "line": 277,
+        "ch": 0
+      },
+      "to": {
+        "line": 277,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-12",
+      "item-2-20",
+      "item-2-25"
+    ]
+  },
+  "docs/others/数学建模/数模1/math_model/docs/modeling/problem_formalization.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/数模1/math_model/docs/prompts/ai_usage_log.md": {
+    "scroll": 1.8541666666666665,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/数模1/math_model/docs/prompts/master_prompt.md": {
+    "scroll": 83.65128205128205,
+    "cursor": {
+      "from": {
+        "line": 98,
+        "ch": 0
+      },
+      "to": {
+        "line": 98,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/数模1/math_model/docs/project_summary.md": {
+    "scroll": 120.05598958333333,
+    "cursor": {
+      "from": {
+        "line": 139,
+        "ch": 27
+      },
+      "to": {
+        "line": 139,
+        "ch": 2
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "docs/others/数学建模/数模1/math_model/iterations/2026-05-12_iter00_project_setup.md": {
+    "scroll": 100.66354816354816,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/数模1/math_model/浙超B题解题总报告.md": {
+    "scroll": 561.990234375,
+    "cursor": {
+      "from": {
+        "line": 438,
+        "ch": 9
+      },
+      "to": {
+        "line": 438,
+        "ch": 22
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-12",
+      "item-2-16",
+      "item-2-21",
+      "item-2-24",
+      "item-2-30"
+    ]
+  },
+  "docs/others/数学建模/数模1/math_model/agent.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 79
+      },
+      "to": {
+        "line": 10,
+        "ch": 79
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/数模1/math_model/README.md": {
+    "scroll": 230.73958333333334,
+    "cursor": {
+      "from": {
+        "line": 246,
+        "ch": 54
+      },
+      "to": {
+        "line": 246,
+        "ch": 54
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-5",
+      "item-2-8"
+    ]
+  },
+  "docs/others/数学建模/数模2/mm/问题1.md": {
+    "scroll": 318.2506756203423,
+    "cursor": {
+      "from": {
+        "line": 324,
+        "ch": 13
+      },
+      "to": {
+        "line": 324,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-6",
+      "item-2-10"
+    ]
+  },
+  "docs/others/数学建模/数模2/mm/问题2.md": {
+    "scroll": 299.0455729166667,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4",
+      "item-2-9",
+      "item-2-14",
+      "item-2-19"
+    ]
+  },
+  "docs/others/数学建模/数模2/mm/问题3.md": {
+    "scroll": 367.4446511627907,
+    "cursor": {
+      "from": {
+        "line": 170,
+        "ch": 0
+      },
+      "to": {
+        "line": 170,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-11",
+      "item-2-20",
+      "item-2-24"
+    ]
+  },
+  "docs/others/数学建模/数模2/mm/问题4.md": {
+    "scroll": 384.2027994791667,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 5
+      },
+      "to": {
+        "line": 12,
+        "ch": 5
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-11",
+      "item-2-19"
+    ]
+  },
+  "docs/others/数学建模/数模3/融合采用建议.md": {
+    "scroll": 10.070963541666666,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 0
+      },
+      "to": {
+        "line": 25,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/数模3/三种方案对比分析.md": {
+    "scroll": 77.610069331348,
+    "cursor": {
+      "from": {
+        "line": 44,
+        "ch": 68
+      },
+      "to": {
+        "line": 44,
+        "ch": 104
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3"
+    ]
+  },
+  "docs/others/数学建模/数模3/最终方案.md": {
+    "scroll": 192.4563716932993,
+    "cursor": {
+      "from": {
+        "line": 67,
+        "ch": 59
+      },
+      "to": {
+        "line": 67,
+        "ch": 59
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-9"
+    ]
+  },
+  "docs/others/数学建模/数模3/最终方案摘要.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/数模3/建模总方案.md": {
+    "scroll": 386.0181818181818,
+    "cursor": {
+      "from": {
+        "line": 133,
+        "ch": 0
+      },
+      "to": {
+        "line": 133,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-8",
+      "item-3-11",
+      "item-3-19",
+      "item-2-25",
+      "item-2-30",
+      "item-2-35"
+    ]
+  },
+  "docs/others/数学建模/数模3/输出文件口径说明.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/数模3/问题三选址模型与准确性检查.md": {
+    "scroll": 97.11752988047809,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/数模3/交接文档.md": {
+    "scroll": 220.43619791666666,
+    "cursor": {
+      "from": {
+        "line": 243,
+        "ch": 0
+      },
+      "to": {
+        "line": 243,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-8"
+    ]
+  },
+  "docs/zju-courses/材料力学/实验四数据.md": {
+    "scroll": 0.15656565656565657,
+    "cursor": {
+      "from": {
+        "line": 55,
+        "ch": 11
+      },
+      "to": {
+        "line": 55,
+        "ch": 11
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/数学建模/final/math_model/项目说明.md": {
+    "scroll": 92.06758914316126,
+    "cursor": {
+      "from": {
+        "line": 77,
+        "ch": 0
+      },
+      "to": {
+        "line": 77,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/others/数学建模/final/math_model/项目总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 12
+      },
+      "to": {
+        "line": 2,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4",
+      "item-2-7",
+      "item-2-13",
+      "item-2-17",
+      "item-2-20",
+      "item-2-24"
+    ]
+  },
+  "docs/others/数学建模/final/math_model/results/结果汇总.md": {
+    "scroll": 57.69282402601896,
+    "cursor": {
+      "from": {
+        "line": 68,
+        "ch": 0
+      },
+      "to": {
+        "line": 68,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/zju-courses/发展心理学/文献报告.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
