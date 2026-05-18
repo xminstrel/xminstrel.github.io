@@ -28,7 +28,7 @@ nav:
     -  emm: others/moments/moments.md
 # 自定义样式和脚本
 extra_css:
-  - stylesheets/extra.css?v=20260518-green
+  - stylesheets/extra.css?v=20260518-nav
   - https://unpkg.com/katex@0/dist/katex.min.css
 #主题配置
 theme:
@@ -60,7 +60,6 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs        # 开启顶部导航栏 (像App一样)
-    - navigation.sections    # 侧边栏分组
     - navigation.top         # 返回顶部按钮
     - search.suggest         # 搜索建议
     - search.highlight       # 搜索高亮
@@ -93,7 +92,7 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_javascript: # latex
-  - javascripts/extra.js?v=20260518-green
+  - javascripts/extra.js?v=20260518-nav
   - javascripts/recent-notes.js?v=20260518-green
   - javascripts/katex.js?v=20260518-green
   - https://unpkg.com/katex@0/dist/katex.min.js   
