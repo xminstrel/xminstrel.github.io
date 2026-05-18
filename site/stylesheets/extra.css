@@ -3,10 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
 
 :root {
-  --home-accent: #4f46e5;
-  --home-accent-soft: rgba(79, 70, 229, 0.1);
-  --home-green: #0f766e;
-  --home-green-soft: rgba(15, 118, 110, 0.1);
+  --md-primary-fg-color: #426666;
+  --md-primary-fg-color--light: #6f8f8b;
+  --md-primary-fg-color--dark: #2f4f4f;
+  --md-accent-fg-color: #4f7f74;
+  --home-accent: #426666;
+  --home-accent-soft: rgba(66, 102, 102, 0.12);
+  --home-green: #4f7f74;
+  --home-green-soft: rgba(79, 127, 116, 0.12);
   --home-amber: #b45309;
   --home-amber-soft: rgba(180, 83, 9, 0.12);
   --home-border: rgba(75, 85, 99, 0.18);
@@ -15,10 +19,14 @@
 }
 
 [data-md-color-scheme="slate"] {
-  --home-accent: #a5b4fc;
-  --home-accent-soft: rgba(165, 180, 252, 0.14);
-  --home-green: #5eead4;
-  --home-green-soft: rgba(45, 212, 191, 0.12);
+  --md-primary-fg-color: #385858;
+  --md-primary-fg-color--light: #6f9a92;
+  --md-primary-fg-color--dark: #203737;
+  --md-accent-fg-color: #8bb8aa;
+  --home-accent: #8bb8aa;
+  --home-accent-soft: rgba(139, 184, 170, 0.14);
+  --home-green: #a7c7b7;
+  --home-green-soft: rgba(167, 199, 183, 0.12);
   --home-amber: #fbbf24;
   --home-amber-soft: rgba(251, 191, 36, 0.12);
   --home-border: rgba(226, 232, 240, 0.16);
