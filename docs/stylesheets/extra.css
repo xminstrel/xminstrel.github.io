@@ -200,9 +200,9 @@
 }
 
 .md-typeset .home-tile {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.35rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
   min-height: 8rem;
   padding: 1rem;
   border: 1px solid var(--home-border);
@@ -224,17 +224,17 @@
 
 .md-typeset .home-tile__icon {
   display: grid;
-  grid-row: span 2;
   place-items: center;
   width: 2.25rem;
   height: 2.25rem;
+  flex: 0 0 auto;
   border-radius: 8px;
   background: var(--home-accent-soft);
   font-size: 1.1rem;
+  line-height: 1;
 }
 
 .md-typeset .home-tile__title {
-  align-self: end;
   color: var(--md-default-fg-color);
   font-size: 1.02rem;
   font-weight: 700;
