@@ -15,9 +15,9 @@
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
                 "page": 24,
-                "left": -17,
-                "top": 635,
-                "zoom": 0.9146341463414634
+                "left": -8,
+                "top": 44,
+                "zoom": 0.94
               },
               "icon": "lucide-file-text",
               "title": "发展心理学复习资料"
@@ -30,10 +30,10 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 183,
-                "left": 667,
-                "top": 22,
-                "zoom": 0.72
+                "page": 182,
+                "left": 599,
+                "top": 131,
+                "zoom": 1.03
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
@@ -43,13 +43,18 @@
             "id": "34471a85c1c788e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/发展心理学/发展心理学.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "发展心理学"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "1f789f6e5ad4ffc5",
@@ -126,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -253,9 +257,12 @@
   },
   "active": "abcb79060ae67807",
   "lastOpenFiles": [
-    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+    "docs/zju-courses/发展心理学/复习资料.txt",
+    "docs/zju-courses/发展心理学/读书笔记.md",
     "docs/zju-courses/发展心理学/发展心理学.md",
+    "docs/zju-courses/发展心理学/读书笔记Claude.md",
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
     "site/javascripts/recent-notes.js",
     "site/assets/data/recent_notes.json",
     "site/assets/data",
@@ -295,8 +302,6 @@
     "docs/others/数学建模/分组评价模型/建模思路与公式汇总.md",
     "docs/others/数学建模/数模3/交接文档.md",
     "docs/others/数学建模/数模3/最终方案.md",
-    "docs/others/数学建模/数模3/最终方案摘要.md",
-    "docs/others/数学建模/初版结果说明/建模思路与公式汇总.md",
-    "docs/others/数学建模/数模3/outputs_method_compare/问题一分组生成方法对比.md"
+    "docs/others/数学建模/数模3/最终方案摘要.md"
   ]
 }

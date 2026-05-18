@@ -96,48 +96,61 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 1064.9261067708333,
+    "scroll": 1484.8209635416667,
     "cursor": {
       "from": {
-        "line": 1066,
-        "ch": 16
+        "line": 1074,
+        "ch": 45
       },
       "to": {
-        "line": 1066,
-        "ch": 16
+        "line": 1074,
+        "ch": 45
       }
     },
     "expandedKeys": [
+      "item-4-62",
+      "item-3-60",
+      "item-2-51",
+      "item-1-11",
+      "item-1-68",
+      "item-2-90",
+      "item-3-91",
+      "item-4-92",
+      "item-4-95",
+      "item-4-98",
+      "item-3-103",
+      "item-4-105",
+      "item-4-109",
+      "item-2-117",
+      "item-3-86",
+      "item-2-69",
+      "item-3-118",
+      "item-4-125",
+      "item-3-124",
+      "item-4-129",
+      "item-4-133",
+      "item-3-136",
+      "item-4-138",
+      "item-3-142",
+      "item-3-57",
+      "item-2-35",
+      "item-3-46",
+      "item-3-42",
+      "item-4-38",
+      "item-3-36",
+      "item-3-31",
+      "item-2-12",
+      "item-3-27",
+      "item-3-21",
+      "item-3-18",
+      "item-3-13",
+      "item-2-6",
       "item-1-1",
       "item-2-2",
-      "item-2-6",
-      "item-1-11",
-      "item-2-12",
-      "item-3-13",
-      "item-3-18",
-      "item-3-21",
-      "item-3-27",
-      "item-3-31",
-      "item-2-35",
-      "item-3-36",
-      "item-3-42",
-      "item-3-46",
-      "item-2-51",
-      "item-3-52",
-      "item-3-57",
-      "item-3-60",
-      "item-1-68",
-      "item-2-69",
+      "item-4-72",
       "item-3-70",
-      "item-3-76",
-      "item-3-86",
-      "item-2-89",
-      "item-3-90",
-      "item-3-96",
-      "item-3-100",
       "item-4-80",
-      "item-4-62",
-      "item-4-72"
+      "item-3-76"
     ]
   },
   "docs/control/esp32/esp32.md": {
@@ -425,7 +438,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/发展心理学/读书笔记.md": {
-    "scroll": 3.7473958333333335,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 2,
@@ -1091,7 +1104,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/发展心理学/读书笔记Claude.md": {
-    "scroll": 323.073927238806,
+    "scroll": 0.9387755102040817,
     "cursor": {
       "from": {
         "line": 371,
