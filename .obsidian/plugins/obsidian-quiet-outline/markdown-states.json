@@ -96,23 +96,27 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 948.9873046875,
+    "scroll": 903.6769992663243,
     "cursor": {
       "from": {
-        "line": 957,
-        "ch": 14
+        "line": 921,
+        "ch": 55
       },
       "to": {
-        "line": 957,
-        "ch": 14
+        "line": 921,
+        "ch": 55
       }
     },
     "expandedKeys": [
-      "item-2-69",
       "item-1-68",
       "item-1-11",
-      "item-2-72",
-      "item-3-73"
+      "item-2-75",
+      "item-3-76",
+      "item-3-82",
+      "item-3-86",
+      "item-2-69",
+      "item-3-70",
+      "item-4-72"
     ]
   },
   "docs/control/esp32/esp32.md": {
@@ -172,15 +176,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/精细农业/精细农业.md": {
-    "scroll": 13.913545696490795,
+    "scroll": 14.993440034841308,
     "cursor": {
       "from": {
-        "line": 33,
-        "ch": 1
+        "line": 38,
+        "ch": 0
       },
       "to": {
-        "line": 33,
-        "ch": 1
+        "line": 38,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -1614,15 +1618,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/cad/作业进度.md": {
-    "scroll": 3.6592248062015504,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 5
+        "line": 12,
+        "ch": 9
       },
       "to": {
-        "line": 10,
-        "ch": 5
+        "line": 12,
+        "ch": 9
       }
     },
     "expandedKeys": []
