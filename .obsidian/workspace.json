@@ -239,11 +239,13 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 291.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,6 +264,7 @@
   },
   "active": "abcb79060ae67807",
   "lastOpenFiles": [
+    "docs/zju-courses/发展心理学/index.md",
     "docs/zju-courses/发展心理学/笔记2.md",
     "docs/zju-courses/发展心理学/笔记1.md",
     "site/search/search_index.json",
