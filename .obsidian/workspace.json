@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
-                "page": 23,
-                "left": -22,
-                "top": 87,
-                "zoom": 0.730699455754888
+                "page": 24,
+                "left": -17,
+                "top": 635,
+                "zoom": 0.9146341463414634
               },
               "icon": "lucide-file-text",
               "title": "发展心理学复习资料"
@@ -31,16 +31,25 @@
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
                 "page": 183,
-                "left": 591,
+                "left": 667,
                 "top": 22,
                 "zoom": 0.72
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
             }
+          },
+          {
+            "id": "34471a85c1c788e7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "1f789f6e5ad4ffc5",
@@ -168,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+                "file": "docs/zju-courses/发展心理学/发展心理学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +187,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "发展心理学第2版 (苏彦捷) 的反向链接列表"
+              "title": "发展心理学 的反向链接列表"
             }
           },
           {
@@ -187,12 +196,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+                "file": "docs/zju-courses/发展心理学/发展心理学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "发展心理学第2版 (苏彦捷) 的出链列表"
+              "title": "发展心理学 的出链列表"
             }
           },
           {
@@ -224,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 291.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,8 +251,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b92e0c22ba2189b6",
+  "active": "abcb79060ae67807",
   "lastOpenFiles": [
+    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+    "docs/zju-courses/发展心理学/发展心理学.md",
+    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
     "site/javascripts/recent-notes.js",
     "site/assets/data/recent_notes.json",
     "site/assets/data",
@@ -251,9 +264,6 @@
     "hooks/__pycache__/recent_notes.cpython-312.pyc",
     "hooks/__pycache__",
     "docs/javascripts/recent-notes.js",
-    "hooks/recent_notes.py",
-    "hooks",
-    "site/search/search_index.json",
     "site/others/知识库/文化中国/assets/黄2.jpg",
     "site/others/知识库/文化中国/assets/黄.jpg",
     "site/others/知识库/文化中国/assets/郭9.jpg",
@@ -265,7 +275,6 @@
     "site/others/知识库/文化中国/assets/郭11.jpg",
     "site/others/知识库/文化中国/assets/郭10.jpg",
     "docs/index.md",
-    "docs/zju-courses/发展心理学/发展心理学.md",
     "docs/zju-courses/精细农业/精细农业.md",
     "docs/zju-courses/cad/作业进度.md",
     "docs/zju-courses/材料力学/实验四数据.md",

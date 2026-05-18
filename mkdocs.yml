@@ -24,11 +24,8 @@ nav:
     -  emm: others/moments/moments.md
 # 自定义样式和脚本
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.css?v=20260518
   - https://unpkg.com/katex@0/dist/katex.min.css
-extra_javascript:
-  - javascripts/extra.js
-  - javascripts/katex.js
 #主题配置
 theme:
   name: material
@@ -92,9 +89,9 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_javascript: # latex
-  - javascripts/extra.js
-  - javascripts/recent-notes.js
-  - javascripts/katex.js                        
+  - javascripts/extra.js?v=20260518
+  - javascripts/recent-notes.js?v=20260518
+  - javascripts/katex.js?v=20260518
   - https://unpkg.com/katex@0/dist/katex.min.js   
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 # 社交媒体链接配置

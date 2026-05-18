@@ -96,15 +96,15 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 1041.2180989583333,
+    "scroll": 1059.3397720956086,
     "cursor": {
       "from": {
-        "line": 1054,
-        "ch": 0
+        "line": 1066,
+        "ch": 16
       },
       "to": {
-        "line": 1054,
-        "ch": 0
+        "line": 1066,
+        "ch": 16
       }
     },
     "expandedKeys": [
@@ -134,7 +134,10 @@
       "item-2-89",
       "item-3-90",
       "item-3-96",
-      "item-3-100"
+      "item-3-100",
+      "item-4-80",
+      "item-4-62",
+      "item-4-72"
     ]
   },
   "docs/control/esp32/esp32.md": {
