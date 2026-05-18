@@ -96,61 +96,19 @@
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
-    "scroll": 1484.8209635416667,
+    "scroll": 7.862630208333333,
     "cursor": {
       "from": {
-        "line": 1074,
-        "ch": 45
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 1074,
-        "ch": 45
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-4-62",
-      "item-3-60",
-      "item-2-51",
-      "item-1-11",
-      "item-1-68",
-      "item-2-90",
-      "item-3-91",
-      "item-4-92",
-      "item-4-95",
-      "item-4-98",
-      "item-3-103",
-      "item-4-105",
-      "item-4-109",
-      "item-2-117",
-      "item-3-86",
-      "item-2-69",
-      "item-3-118",
-      "item-4-125",
-      "item-3-124",
-      "item-4-129",
-      "item-4-133",
-      "item-3-136",
-      "item-4-138",
-      "item-3-142",
-      "item-3-57",
-      "item-2-35",
-      "item-3-46",
-      "item-3-42",
-      "item-4-38",
-      "item-3-36",
-      "item-3-31",
-      "item-2-12",
-      "item-3-27",
-      "item-3-21",
-      "item-3-18",
-      "item-3-13",
-      "item-2-6",
-      "item-1-1",
-      "item-2-2",
-      "item-4-72",
-      "item-3-70",
-      "item-4-80",
-      "item-3-76"
+      "item-1-0"
     ]
   },
   "docs/control/esp32/esp32.md": {
@@ -2618,5 +2576,96 @@
       }
     },
     "expandedKeys": []
+  },
+  "docs/zju-courses/发展心理学/笔记1.md": {
+    "scroll": 256.08750198507227,
+    "cursor": {
+      "from": {
+        "line": 187,
+        "ch": 0
+      },
+      "to": {
+        "line": 187,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-5"
+    ]
+  },
+  "docs/zju-courses/发展心理学/笔记2.md": {
+    "scroll": 544.9964192708334,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-3-2",
+      "item-3-7",
+      "item-3-10",
+      "item-3-16",
+      "item-3-20",
+      "item-2-24",
+      "item-3-25",
+      "item-4-27",
+      "item-3-31",
+      "item-3-35",
+      "item-2-40",
+      "item-3-41",
+      "item-3-46",
+      "item-3-49",
+      "item-4-51"
+    ]
+  },
+  "docs/zju-courses/发展心理学/笔记3.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 13
+      },
+      "to": {
+        "line": 23,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-4-4",
+      "item-3-2",
+      "item-4-9",
+      "item-3-8",
+      "item-4-12",
+      "item-4-15",
+      "item-3-18",
+      "item-4-24",
+      "item-3-23",
+      "item-2-22",
+      "item-4-27",
+      "item-4-30",
+      "item-4-37",
+      "item-3-35",
+      "item-4-41",
+      "item-3-50",
+      "item-2-49",
+      "item-3-56",
+      "item-4-57",
+      "item-4-61",
+      "item-4-65",
+      "item-3-68",
+      "item-4-70",
+      "item-3-74"
+    ]
   }
 }

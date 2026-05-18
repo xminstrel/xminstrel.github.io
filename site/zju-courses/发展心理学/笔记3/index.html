@@ -1,0 +1,4159 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="赤奈良瞳">
+      
+      
+        <link rel="canonical" href="https://xminstrel.github.io/zju-courses/%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%94%E8%AE%B03/">
+      
+      
+        <link rel="prev" href="../%E7%AC%94%E8%AE%B02/">
+      
+      
+        <link rel="next" href="../../../others/moments/moments/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>笔记 3 - 赤奈良瞳的博客 | xminstrel's blog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=LXGW+WenKai+Screen+GB+Screen:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"LXGW WenKai Screen GB Screen";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css?v=20260518-green">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#3" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="赤奈良瞳的博客 | xminstrel&#39;s blog" class="md-header__button md-logo" aria-label="赤奈良瞳的博客 | xminstrel's blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            赤奈良瞳的博客 | xminstrel's blog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              笔记 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/xminstrel/xminstrel.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    xminstrel
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🎆 首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../about_me/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  😘 关于赤奈
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../ai/tools/" class="md-tabs__link">
+          
+  
+  
+  💎 AI 相关
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../control/%E6%8E%A7%E5%88%B6%E8%AE%BA/%E6%8E%A7%E5%88%B6%E8%AE%BA/" class="md-tabs__link">
+          
+  
+  
+  🪡 控制相关
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-tabs__link">
+          
+  
+  
+  📚 ZJU-Courses
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../others/moments/moments/" class="md-tabs__link">
+          
+  
+  
+  🖼️ 其他笔记
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="赤奈良瞳的博客 | xminstrel&#39;s blog" class="md-nav__button md-logo" aria-label="赤奈良瞳的博客 | xminstrel's blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    赤奈良瞳的博客 | xminstrel's blog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/xminstrel/xminstrel.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    xminstrel
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎆 首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about_me/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    😘 关于赤奈
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    💎 AI 相关
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    💎 AI 相关
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ai/tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI工具
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🪡 控制相关
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🪡 控制相关
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/%E6%8E%A7%E5%88%B6%E8%AE%BA/%E6%8E%A7%E5%88%B6%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    控制论
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自动控制理论
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    自动控制理论
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    笔记
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E5%B0%8F%E6%B5%8B%E5%A4%8D%E4%B9%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    小测复习
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/esp32/esp32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esp32 入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/stm32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    stm32 入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📚 ZJU-Courses
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📚 ZJU-Courses
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    材料力学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    流体力学&传热学
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    流体力学&传热学
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B/%E5%B7%A5%E6%B5%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工程流体力学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B/%E5%B7%A5%E4%BC%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    传热学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    发展心理学
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    发展心理学
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    封面
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%AC%94%E8%AE%B01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    笔记 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%AC%94%E8%AE%B02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    笔记 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    笔记 3
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    笔记 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 情绪、气质与人格发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. 情绪、气质与人格发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 情绪的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1 情绪的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        情绪的含义与功能
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        情绪的产生和发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="情绪的产生和发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        婴儿的情绪发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        学前儿童和学龄儿童的情绪发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        青少年的情绪发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 气质的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2 气质的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        含义与稳定性
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="含义与稳定性">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        气质含义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        气质的稳定性
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        类型与测量
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="类型与测量">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        气质的类型
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        气质的测量
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        气质发展的影响因素
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="气质发展的影响因素">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        遗传因素
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        环境因素
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 人格的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.3 人格的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        人格发展理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        人格的测量
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        人格的影响因素
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 自我与社会认知
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 自我与社会认知">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 自我的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.1 自我的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自我概念
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="自我概念">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自我的形成
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自我概念的发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自尊
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="自尊">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自尊的结构
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自尊的发展与影响因素
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自我控制与自我调节
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="自我控制与自我调节">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        机制
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        构成
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自我同一性
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 社会认知的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.2 社会认知的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        社会认知的定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        儿童观点采择能力的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="儿童观点采择能力的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        特点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        分类
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        发展阶段
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        儿童对心理现象的认知
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="儿童对心理现象的认知">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        婴幼儿对心理现象的认知
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        心理理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        心理理论的发展阶段
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        经典研究：错误信念任务
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        心理理论的影响因素
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        儿童对权威的认知
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        其他社会认知
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.性别差异与性别角色的社会化
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.性别差异与性别角色的社会化">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 儿童的性别差异
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.1 儿童的性别差异">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        数学能力差异
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        空间能力差异
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        语言能力差异
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        攻击性差异
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        其他方面差异
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 性别角色发展理论
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.2 性别角色发展理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        生物取向理论
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="生物取向理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_48" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        精神分析观点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_49" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        进化心理学观点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_50" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        其他生物取向解释
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        社会取向理论
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="社会取向理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_52" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        社会学习理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        社会结构理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_54" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        群体社会化理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_55" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        认知取向理论
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="认知取向理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_56" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        认知发展理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_57" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别图式理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 儿童性别化的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.3 儿童性别化的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_58" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别恒常性的发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_59" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别刻板印象的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="性别刻板印象的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_60" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别刻板知识的发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别刻板灵活性的发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别特征行为模式的发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#84" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4 心理的双性化
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.4 心理的双性化">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        心理双性化的提出
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_64" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        心理双性化的测量
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🖼️ 其他笔记
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🖼️ 其他笔记
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../others/moments/moments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    emm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 情绪、气质与人格发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. 情绪、气质与人格发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 情绪的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1 情绪的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        情绪的含义与功能
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        情绪的产生和发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="情绪的产生和发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        婴儿的情绪发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        学前儿童和学龄儿童的情绪发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        青少年的情绪发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 气质的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2 气质的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        含义与稳定性
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="含义与稳定性">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        气质含义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        气质的稳定性
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        类型与测量
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="类型与测量">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        气质的类型
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        气质的测量
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        气质发展的影响因素
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="气质发展的影响因素">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        遗传因素
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        环境因素
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 人格的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.3 人格的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        人格发展理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        人格的测量
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        人格的影响因素
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 自我与社会认知
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 自我与社会认知">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 自我的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.1 自我的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自我概念
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="自我概念">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自我的形成
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自我概念的发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自尊
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="自尊">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自尊的结构
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自尊的发展与影响因素
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自我控制与自我调节
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="自我控制与自我调节">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        机制
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        构成
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自我同一性
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 社会认知的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.2 社会认知的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        社会认知的定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        儿童观点采择能力的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="儿童观点采择能力的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        特点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        分类
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        发展阶段
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        儿童对心理现象的认知
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="儿童对心理现象的认知">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        婴幼儿对心理现象的认知
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        心理理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        心理理论的发展阶段
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        经典研究：错误信念任务
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        心理理论的影响因素
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        儿童对权威的认知
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        其他社会认知
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.性别差异与性别角色的社会化
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.性别差异与性别角色的社会化">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 儿童的性别差异
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.1 儿童的性别差异">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        数学能力差异
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        空间能力差异
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        语言能力差异
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        攻击性差异
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        其他方面差异
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 性别角色发展理论
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.2 性别角色发展理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        生物取向理论
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="生物取向理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_48" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        精神分析观点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_49" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        进化心理学观点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_50" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        其他生物取向解释
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        社会取向理论
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="社会取向理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_52" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        社会学习理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        社会结构理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_54" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        群体社会化理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_55" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        认知取向理论
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="认知取向理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_56" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        认知发展理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_57" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别图式理论
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 儿童性别化的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.3 儿童性别化的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_58" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别恒常性的发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_59" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别刻板印象的发展
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="性别刻板印象的发展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_60" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别刻板知识的发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别刻板灵活性的发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性别特征行为模式的发展
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#84" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4 心理的双性化
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.4 心理的双性化">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        心理双性化的提出
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_64" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        心理双性化的测量
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="导航栏" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    🎆 首页
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    📚 ZJU-Courses
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    发展心理学
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="3">笔记 3</h1>
+<p>何洁老师  主讲</p>
+<div class="admonition tip">
+<p class="admonition-title">标注</p>
+<p>重点使用加粗、高亮标注，思考使用框图 note 标注，在最后总结重点和思考<br />
+笔记：上课&amp;书本</p>
+</div>
+<h2 id="6">6. 情绪、气质与人格发展</h2>
+<h3 id="61">6.1 情绪的发展</h3>
+<h4 id="_1">情绪的含义与功能</h4>
+<p>定义：情绪(emotion)是对客观事物与人的需要之间关系的反映，是个体内部或外部事物的主观感觉和体验。<br />
+情绪功能：<br />
+1. 情绪可以组织和调节功能<br />
+2. 情绪影响认知过程<br />
+3. 情绪影响人际交往  </p>
+<h4 id="_2">情绪的产生和发展</h4>
+<h5 id="_3">婴儿的情绪发展</h5>
+<ol>
+<li>情绪的早期表现  <br />
+<strong>情绪分化理论</strong>：新生儿的情绪只是一种弥散的兴奋或激动，是一种杂乱的、未分化的反应。之后，痛苦和快乐逐渐分化为特殊的反应，痛苦分化为愤怒、厌恶、恐惧和嫉妒，快乐分化为高兴、喜悦和喜爱。    </li>
+<li>婴儿基本情绪发展    <ul>
+<li>高兴：主要通过<strong>微笑和大笑</strong>等方式来表达自己的积极情绪。  </li>
+<li>愤怒与悲伤：当婴儿愤怒与悲伤时会以<strong>哭泣</strong>的形式反映出来    <ul>
+<li>一般性哭泣：常常是饥饿诱发的， 以一种有节奏的方式表现出来。  </li>
+<li>愤怒的哭泣：是指婴儿发怒时用力吸气，迫使大量空气从声带通过，引起声带振动，从而产生哭泣。  </li>
+<li>痛苦的哭泣：由于高度紧张的刺激引发的，经常表现为突然响亮的哭声，接着屏住呼吸，随后出现更高的哭声。  </li>
+</ul>
+</li>
+<li>害怕、恐惧：害怕/恐惧是婴儿最早表现出来的情绪之一。<strong>陌生人焦虑</strong>即认生，指婴儿害怕跟陌生人说话或在一起，表现出警惕的反映。这种对陌生人的警惕在 8-10 个月时表现强烈。婴儿也会出现对父母或照料者的依恋，表现出<strong>分离焦虑</strong>，即不愿和父母分开。</li>
+</ul>
+</li>
+<li>婴儿情绪是被与情绪理解的发展<br />
+<strong>社会参照</strong>：是婴儿情绪发展一个重要事件。婴儿在 6 个月以后出现情绪的社会参照，<strong>即婴儿能够利用他人的表情作为参照来决定自己的行为反应</strong>。社会参照是人与人之间发生的主动的情绪交流活动。（e.g.视崖）
+    <mark>社会性参照例子</mark><br />
+    饼干花椰菜实验  <br />
+    理解他人情绪  </li>
+<li>婴儿情绪调节能力的发展
+    随着语言能力的发展，到 2 岁左右，婴儿就能使用语言来定义自己的情绪。同时婴儿也逐渐学会采用一定的方式来控制自己的情绪。</li>
+</ol>
+<h5 id="_4">学前儿童和学龄儿童的情绪发展</h5>
+<p>一些新特点：  <br />
+1. 自我意识情绪  <br />
+<strong>自我意识情绪</strong>：是一种以自我参照行为的出现为前提，通过自我察觉、自我评价和自我反思而产生的情绪，包括内疚、羞愧、尴尬、嫉妒和自豪等。 
+    - 对自我的肯定<br />
+    - 对自我的否定<br />
+    自我意识情绪表明儿童能使用社会标准和规则来评价自己的行为。父母对儿童行为的反应影响儿童自我意识情绪的表达。<br />
+2. 情绪理解和情绪表达能力  <br />
+<strong>情绪理解</strong>：指的是儿童理解情绪的原因和结果的能力，以及运用这些信息对自我和他人产生恰当情绪反应的能力<br />
+<strong>移情(empathy)</strong>：是指儿童在察觉到他人情绪反应时同时也能体验到与他人相似的情绪反应。
+        包括两个成分：认知成分和情绪成分。
+        <strong>认知成分</strong>：指儿童能认识以及区分他人的情绪以及推测他人的想法。
+        <strong>情绪成分</strong>：也称情绪共情，是指由他人情绪情感所引发的与之相一致的情绪情感反应，如看到别人悲伤自己也会难过。
+3. 情绪调节能力
+    儿童能够用语言表达的方式采取各种策略调节自己的情绪。<br />
+    注意力转移<br />
+    自我安慰<br />
+    自我满意的方式解释  </p>
+<h5 id="_5">青少年的情绪发展</h5>
+<ol>
+<li>自我意识情绪<br />
+    青少年自我意识的增强使他们的情绪更加丰富，内心体验更加深刻。他们的身体和心理正在发生巨大变化，对自我的认识和评价也在改变，产生了“成人感”，要求独立和自主。<br />
+    具有强烈的自我意识和自我中心特点<br />
+    关于自我的探索和思考影响青少年的情绪和行为表现，使其自我意识情绪得到飞速发展。     </li>
+<li>情绪理解与情绪表达能力 <br />
+    情绪理解：青少年对他人的情绪有很强的理解力，认识到人具有复杂的情绪体验。  <br />
+    情绪表达：能更熟练掌握情绪表达的社会规则。可以在内心隐藏自己真实的情感。能够很好的掩饰自己内心的情感。   </li>
+<li>情绪调节能力 <br />
+    在深刻理解情绪和自我意识发展的基础上，青少年能更好地认识各种积极情绪和消极情绪产生的原因，从而运用各种策略来调节自己的情绪。  </li>
+</ol>
+<p>上课：
+情绪调节策略</p>
+<ul>
+<li>转移注意力</li>
+<li>自我安慰</li>
+<li>情绪命名</li>
+<li>认知重评</li>
+<li>正念</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">thinking</p>
+<p>怎么测量情绪？</p>
+</div>
+<p>儿童情绪的测量：<br />
+生理测量</p>
+<h3 id="62">6.2 气质的发展</h3>
+<h4 id="_6">含义与稳定性</h4>
+<h5 id="_7">气质含义</h5>
+<p>定义：<strong>个体在反应性和自我调节等方面的稳定特征</strong>
+<strong>反应性</strong>：情绪唤醒、注意以及活动的速度与强度
+<strong>自我调节</strong>：用于改变反应性的方法</p>
+<h5 id="_8">气质的稳定性</h5>
+<p>气质在个体发展中具有中等程度的稳定性。婴儿期较低，幼儿期开始有中等程度稳定性  <br />
+气质并非一成不变。因为气质的生物基础处于发展中的系统，这些系统的成熟过程可能改变气质的特征和结构。<br />
+后天经验或社会环境也会作用与生物基础影响气质  </p>
+<h4 id="_9">类型与测量</h4>
+<h5 id="_10">气质的类型</h5>
+<p>几种分类：</p>
+<ol>
+<li>托马斯&amp;切斯分类
+    三种基本气质类型：容易型、困难型、迟缓型  <ul>
+<li><strong>容易型儿童</strong>：一般处于愉快、积极的心境或情绪状态中，其饮食、大小便、睡眠都很有规律，他们乐于探究新事物，容易适应新环境。约占 40%    </li>
+<li><strong>困难型儿童</strong>：反应消极，容易紧张、哭泣，日常没什么规律，不容易预测和把握。他们对新环境很难适应，退缩，反应强烈而敏感。约占总数的 10%    </li>
+<li><strong>迟缓型儿童</strong>：居于上述两种类型之间，活动水平低，安静，不爱活动，心境有些消极，容易对环境做出温和低调的反应，对新环境的适应速度比较慢，约占总数的 15%。  </li>
+</ul>
+</li>
+<li>凯根的行为抑制-非抑制分类  <br />
+    凯跟关注两类儿童：一类是羞怯、抑制、胆怯的儿童。另一类是合群、外向、大胆的儿童。<br />
+    分为两类：抑制型、非抑制型    <ul>
+<li>抑制型：对不熟悉事物做出逃避害怕和抑制情感的反应  </li>
+<li>非抑制型：无拘无束，自由自在，具有冲动性  </li>
+</ul>
+</li>
+<li>罗斯巴特的气质分类<br />
+    3 个表征维度：
+    外向性：包括积极参与、冲动、主动性和感觉追求，凯跟理论中的非抑制型儿童属于此维度。
+    消极情绪性：包括过敏性和害怕。这类儿童容易忧伤，经常哭泣或感到烦恼。凯跟所说的抑制性儿童属于此维度。
+    努力控制：包括注意力集中和转移、抑制控制、知觉敏感和低强度的愉悦。努力控制是自我调节的一个基本成分。  </li>
+</ol>
+<h5 id="_11">气质的测量</h5>
+<ol>
+<li>问卷法：通过询问儿童和能够概括其行为特点的成人来获得相关信息   </li>
+<li>观察法：<strong>对于气质的测量，研究者倾向于使用陌生情景观察法</strong>。例如，先要观察儿童的行为抑制性，研究者会让儿童置身于有不熟悉的玩具或有陌生人场景，观察儿童对这些物体、人和情境的反应。</li>
+<li>生理测量法：研究者发现敏感、害羞儿童的右半球大脑皮质比左半球表现出更多的脑电活动。</li>
+</ol>
+<h4 id="_12">气质发展的影响因素</h4>
+<h5 id="_13">遗传因素</h5>
+<p>遗传的生物基础使个体的气质表现出较强的稳定性<br />
+不同的气质特征与独特的生理特征相联系  </p>
+<h5 id="_14">环境因素</h5>
+<p>气质特征只有中度遗传性，环境同样影响儿童<br />
+儿童不是被动地接受环境的影响，而是以个人的独特方式去影响环境 <br />
+不同文化环境对婴儿气质的反应存在差异  </p>
+<h3 id="63">6.3 人格的发展</h3>
+<p>人格：是指源自个人自身的稳定行为方式和内部心理过程。<br />
+每名儿童都有其独特的人格特征，这些人格特征具有稳定性，让儿童的行为表现出跨时间和跨情景的一致性。</p>
+<h4 id="_15">人格发展理论</h4>
+<p>（1）<strong>弗洛伊德 心理性欲发展理论</strong>  </p>
+<p>心理结构：意识、前意识和潜意识<br />
+人格：本我、自我和超越  </p>
+<table>
+<thead>
+<tr>
+<th><strong>结构</strong></th>
+<th><strong>核心特点</strong></th>
+<th><strong>遵循原则</strong></th>
+<th><strong>详细描述</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>本我 (id)</strong></td>
+<td>生理成分、潜意识</td>
+<td><strong>快乐原则</strong></td>
+<td>与生俱来，最原始的部分。是心理活动的主要能量（力比多）来源。只追求本能的即时满足，不能忍耐，无视社会道德。</td>
+</tr>
+<tr>
+<td><strong>自我 (ego)</strong></td>
+<td>心理，理性成分、意识</td>
+<td><strong>现实原则</strong></td>
+<td>从本我中分化出来。作为理性的调节者，既要满足本我的需求，又要控制其冲动以避免被现实惩罚。寻找现实手段解决问题。</td>
+</tr>
+<tr>
+<td><strong>超我 (superego)</strong></td>
+<td>社会成分、意识</td>
+<td><strong>道德原则</strong></td>
+<td>代表社会的习俗、道德和法律。主要作用是抑制本我中被认为是“恶”的欲望。通过3-6岁儿童内化父母的观念形成，包含“良心”。</td>
+</tr>
+</tbody>
+</table>
+<p>弗洛伊德人格发展阶段：认为人格是在儿童早期逐步形成的，主要通过一系列心理发展的阶段完成。每个阶段都围绕“力比多”集中在身体的不同部位展开；结果在某一阶段冲突未能顺利解决；如果在某一阶段冲突未能顺利解决，就可能造成“固着”，并影响成年后的人格特征。</p>
+<p>（2）埃里克森的心理社会发展理论</p>
+<p>人的发展时按阶段依次进行的，如果人的生命是一个周期，可划分为八个阶段。八个阶段以不变的顺序依次出现，且具有文化一致性。他们是由遗传因素决定的，但每一个阶段是否能顺利过度则是社会环境决定的。社会环境不同，阶段出现的时间可能不一样。在心理发展的每一阶段都存在“危机”——发展中的一个重要转折点。</p>
+<p><img alt="400" src="../assets/%E5%85%AB%E9%98%B6%E6%AE%B5%E8%AE%BA.png" /></p>
+<h4 id="_16">人格的测量</h4>
+<ol>
+<li>儿童十四种人格因素问卷(CPQ)，由波特(R. Porter)和卡特尔(R. B. Cattell)共同编制，测验内容包括非常多的人格因素。适用于 8-14 岁的青少年，是各国广泛使用的儿童人格测验。  </li>
+<li>艾森克人格问卷(EPQ)是英国心理学家艾森克夫妇提出的人格三维度理论编制成的。问卷包括少年版和成人版两个版本。   </li>
+<li>大五人格问卷(NEO-PI)是由五因素理论的代表人物编制的，适用于 16 岁以上的个体使用。  </li>
+</ol>
+<h4 id="_17">人格的影响因素</h4>
+<p>遗传生物因素对儿童人格发展的影响主要体现在气质上。<br />
+而环境上在儿童的人格发展中，家庭、同伴和社会文化等多方面的环境塑造了其相对稳定的行为习惯和人格特点。  </p>
+<h2 id="7">7. 自我与社会认知</h2>
+<h3 id="71">7.1 自我的发展</h3>
+<h4 id="_18">自我概念</h4>
+<p><strong>自我</strong>(self)：个体关于自己与周围人、事物之间关系的认识，包括知、情、意三个方面，主要表现为：</p>
+<ul>
+<li><strong>自我概念</strong>：个体对“我是谁”的认知。</li>
+<li><strong>自我体验</strong>：个体对自己的情绪性体验和评价。</li>
+<li><strong>自我控制 / 自我调节</strong>：个体对自身情绪、动机、行为和认知活动的调节。</li>
+</ul>
+<h5 id="_19">自我的形成</h5>
+<p>经典研究：<strong>点红实验</strong>（路易斯和布鲁克斯）</p>
+<ul>
+<li>方法：在婴儿鼻子上悄悄点红点，再让婴儿照镜子。</li>
+<li>结果解释：如果婴儿摸自己的鼻子，说明其知道镜中形象是“自己”，已经形成基本的<strong>客体自我</strong>。</li>
+</ul>
+<h5 id="_20">自我概念的发展</h5>
+<p>自我概念的发展既受到环境塑造，也依赖儿童的积极反应。</p>
+<ul>
+<li><strong>1 岁以内</strong>：以模仿为主。</li>
+<li><strong>2-4 岁</strong>：游戏阶段，儿童通过游戏，尤其是角色游戏，发展出更有组织的整体自我。</li>
+<li><strong>4 岁以后</strong>：博弈阶段，儿童开始与家庭以外的团体建立关系，自我概念随社会关系扩展而变化。</li>
+<li><strong>青少年期</strong>：个体自我概念形成和发展的关键时期。</li>
+</ul>
+<h4 id="_21">自尊</h4>
+<p><strong>自尊</strong>：个体通过评价构成自我概念的特征，对自身存在价值作出的认定。</p>
+<ul>
+<li>基础与来源：能力和价值。</li>
+<li>表现形式：认知评价和情感过程。</li>
+<li>类型：<ul>
+<li><strong>内隐自尊</strong>：对与自我相关或与自我分离的客体所持有的自动化态度，个体通常不能通过内省直接意识到。</li>
+<li><strong>外显自尊</strong>：个体对自己的有意识、推理性的评价。</li>
+</ul>
+</li>
+</ul>
+<h5 id="_22">自尊的结构</h5>
+<p>重要感、自我胜任感、外表感、归属感是自尊获得的重要途径；社会认可是青少年自尊发展的较高表现形式。</p>
+<h5 id="_23">自尊的发展与影响因素</h5>
+<ul>
+<li>自尊具有较高稳定性，但不是一成不变的。</li>
+<li>青春期个体开始寻求稳定的成人认同感，社会比较对象的变化会影响自尊。</li>
+<li>影响因素：<ul>
+<li>个体层面：外貌、年龄、性别等。</li>
+<li>家庭层面：父母教养方式。</li>
+<li>人际层面：同伴关系、社会认可等。</li>
+</ul>
+</li>
+</ul>
+<h4 id="_24">自我控制与自我调节</h4>
+<p><strong>自我调节</strong>(self-regulation)：个体为实现适应，主动调节情绪、动机、行为与认知唤醒，使其达到最优水平的过程。<br />
+<strong>自我控制</strong>(self-control)：一种有意识且需要努力的自我调节过程，核心是抑制冲动和自动化行为反应。</p>
+<h5 id="_25">机制</h5>
+<p>成功的自我控制可以用<strong>两阶段模型</strong>解释：</p>
+<ol>
+<li>识别与自我控制有关的冲突或需求。</li>
+<li>调用有效的自我控制策略。</li>
+</ol>
+<p>神经机制上，额叶和伏隔核对自我调节具有重要作用；背外侧前额叶皮质与计划、新异性加工、选择、工作记忆和语言功能相关。</p>
+<h5 id="_26">发展</h5>
+<ul>
+<li>儿童的自我控制和自我调节能力在 <strong>2-3 岁</strong>开始正式发展。</li>
+<li>婴幼儿自我控制研究常集中在：<ul>
+<li><strong>服从任务</strong>：如要求儿童暂时不要碰玩具电话。</li>
+<li><strong>延迟满足任务</strong>：如“葡萄干-杯子”任务、礼物任务，用儿童坚持等待的时间计分。</li>
+</ul>
+</li>
+</ul>
+<h5 id="_27">构成</h5>
+<p>儿童自我控制能力可分为：</p>
+<ul>
+<li>自制力</li>
+<li>自觉性</li>
+<li>坚持性</li>
+<li>自我延迟满足</li>
+</ul>
+<p>我国幼儿自我控制总体处于中等偏上水平，男孩自我控制能力显著弱于女孩；其中自我延迟满足发展最好，坚持性发展最差。</p>
+<h4 id="_28">自我同一性</h4>
+<p><strong>自我同一性</strong>：个体在青少年期把过去经验、当前角色和未来目标整合为连续一致的自我理解。它对应埃里克森心理社会发展理论中“自我同一性 vs 角色混乱”的发展危机。</p>
+<p>马西亚用“探索”和“承诺”两个维度区分同一性状态：</p>
+<table>
+<thead>
+<tr>
+<th>状态</th>
+<th>探索</th>
+<th>承诺</th>
+<th>特点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>同一性达成</td>
+<td>高</td>
+<td>高</td>
+<td>经历探索后形成稳定选择</td>
+</tr>
+<tr>
+<td>同一性延缓</td>
+<td>高</td>
+<td>低</td>
+<td>正在探索，但尚未作出稳定承诺</td>
+</tr>
+<tr>
+<td>同一性早闭</td>
+<td>低</td>
+<td>高</td>
+<td>未充分探索就接受既定选择</td>
+</tr>
+<tr>
+<td>同一性扩散</td>
+<td>低</td>
+<td>低</td>
+<td>缺乏探索，也缺乏明确承诺</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">thinking</p>
+<p>同一性的延缓 = 高探索、低承诺，常见于仍在主动尝试和思考人生方向的青少年。</p>
+</div>
+<h3 id="72">7.2 社会认知的发展</h3>
+<h4 id="_29">社会认知的定义</h4>
+<p><strong>社会认知</strong>(social cognition)：个体对自我、他人、社会关系、社会规则等社会性客体和社会现象及其关系的感知与理解。</p>
+<p>不同理论取向的侧重点：</p>
+<ul>
+<li>信息加工心理学：强调对社会信息的综合加工，包括对自我、他人行为和关系的理解与推测。</li>
+<li>社会心理学：强调社会认知对理解复杂社会行为的意义。</li>
+<li>发展心理学：强调儿童对人及人类事件的知识和认知如何发展。</li>
+</ul>
+<h4 id="_30">儿童观点采择能力的发展</h4>
+<p><strong>观点采择</strong>：从他人的角度看待问题的能力，是儿童社会认知发展的核心能力。</p>
+<h5 id="_31">特点</h5>
+<ul>
+<li>本质是认知发展上的<strong>去自我中心化</strong>。</li>
+<li>要求儿童能区分自己与他人的观点。</li>
+<li>要求儿童能控制自己的直接表象或当前视角。</li>
+<li>具有递推性质：能超越直接给出的信息，对他人的想法或反应作出判断。</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">e.g.</p>
+<p>皮亚杰“三山实验”体现了观点采择能力：儿童要判断别人从另一个位置看到什么，必须抑制自己的视觉表象。</p>
+</div>
+<h5 id="_32">分类</h5>
+<ul>
+<li><strong>社会观点采择</strong>：对社会客体以及他人情感、态度、观念的思考与判断。</li>
+<li><strong>空间观点采择 / 视觉观点采择</strong>：理解处于不同空间位置的他人对事物空间特征或空间关系的反映。<ul>
+<li>一级空间观点采择：判断他人能否看到某个物体。</li>
+<li>二级空间观点采择：理解同一物体从不同视角看，外观可能不同。</li>
+</ul>
+</li>
+</ul>
+<h5 id="_33">发展阶段</h5>
+<p>塞尔曼等人采用个别访谈法，通过“两难故事”考察儿童观点采择能力，并将其划分为水平 0 到水平 4 的五个阶段。</p>
+<h4 id="_34">儿童对心理现象的认知</h4>
+<h5 id="_35">婴幼儿对心理现象的认知</h5>
+<ul>
+<li>2 岁左右：儿童开始表现出共情，会安慰或关心他人，说明其心理活动感增强。</li>
+<li>3-4 岁：儿童能区分自己的想法和客观事实，也能在假装游戏中把“假装发生”的事情作为行动依据。</li>
+</ul>
+<h5 id="_36">心理理论</h5>
+<p><strong>心理理论</strong>(theory of mind, TOM)：儿童对他人的愿望、信念、动机等心理状态，以及心理状态与行为之间关系的认识。</p>
+<p>心理理论的发展模式：</p>
+<ul>
+<li><strong>理论论</strong>：儿童对心理状态的理解类似科学理论建构过程。</li>
+<li><strong>模仿论</strong>：儿童通过想象和心理模拟他人处境来推测心理状态。</li>
+<li><strong>模块论</strong>：心理理论是一种内在能力，以模块形式存在于神经系统中。</li>
+</ul>
+<h5 id="_37">心理理论的发展阶段</h5>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>年龄</th>
+<th>核心特点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>愿望心理学</td>
+<td>约 2 岁</td>
+<td>首先形成对愿望的认知，愿望理解是进一步理解复杂心理状态的基础</td>
+</tr>
+<tr>
+<td>愿望-信念心理学</td>
+<td>约 3 岁</td>
+<td>开始涉及想法和信念，但解释事实、行为和情感时仍主要依赖愿望</td>
+</tr>
+<tr>
+<td>信念-愿望心理学</td>
+<td>约 4 岁起</td>
+<td>认识到行为建立在信念基础上，而不一定建立在事实基础上；能通过错误信念任务和外表-事实区分任务</td>
+</tr>
+</tbody>
+</table>
+<h5 id="_38">经典研究：错误信念任务</h5>
+<p><strong>错误信念任务</strong>(false belief task)：考察儿童是否理解他人的行为取决于他人的信念，即使该信念与现实不一致。</p>
+<p>常见范式：</p>
+<ol>
+<li><strong>意外地点任务</strong>：小球先放在篮子里，角色离开后被转移到盒子里，问儿童角色回来会去哪里找。3 岁儿童常依据自己知道的事实回答“盒子”，不能理解角色的错误信念。</li>
+<li><strong>意外内容任务</strong>：糖果盒里实际装铅笔，问儿童其他小朋友打开前会认为里面是什么。年幼儿童常回答“铅笔”，难以区分自己已知事实与他人未知状态。</li>
+<li><strong>外表-事实区分任务</strong>：外表像石头的海绵，儿童触摸后知道是海绵，再问“看起来像什么、实际上是什么”。3 岁儿童常坚持说看起来也是海绵。</li>
+</ol>
+<h5 id="_39">心理理论的影响因素</h5>
+<ul>
+<li>家庭背景和语言交流方式。</li>
+<li>语言能力与心理理论相互关联：<ul>
+<li>语言可能是心理理论发展的基础。</li>
+<li>心理理论也可能是语言发展的前提。</li>
+<li>执行控制和成长环境可能共同影响二者。</li>
+</ul>
+</li>
+<li>阅读促进心理理论发展，因为儿童读物包含丰富的心理状态信息。</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">thinking</p>
+<p>为什么孤独症患者会喜欢旋转的东西：可以从感觉加工偏好、重复刻板行为、对可预测刺激的偏好等角度理解；同时，孤独症个体在心理理论和社会线索理解上可能存在困难，因此社会刺激的吸引力和可预测性可能弱于重复性物体刺激。</p>
+</div>
+<h4 id="_40">儿童对权威的认知</h4>
+<p><strong>权威认知</strong>：个体对权威关系的认知。对儿童而言，主要指对儿童与成人之间关系的认知。<br />
+<strong>父母权威认知</strong>：儿童对父母权威合理性的认可程度。</p>
+<p>儿童权威认知具有阶段性和年龄差异。影响因素包括：</p>
+<ul>
+<li><strong>权威特征</strong>：成人身份、知识、社会地位等。</li>
+<li><strong>问题领域</strong>：儿童在道德、社会规范、个人和安全领域中，对父母权威的认可程度不同。</li>
+<li><strong>文化背景</strong>：不同文化对社会地位和权威的强调不同。</li>
+<li><strong>儿童人格特征</strong>：也会影响儿童对权威的接受和判断。</li>
+</ul>
+<h4 id="_41">其他社会认知</h4>
+<ul>
+<li><strong>社会学习</strong>：班杜拉社会学习理论强调观察学习和模仿。儿童会通过观察他人的行为及其结果学习社会行为。</li>
+<li><strong>过度模仿</strong>：儿童可能模仿成人示范中的非必要动作，这反映了儿童对社会信息和示范意图的敏感。</li>
+<li><strong>意图理解</strong>：儿童逐渐能够推断他人行为背后的目的和意图，是社会认知发展的重要组成部分。</li>
+</ul>
+<h2 id="8">8.性别差异与性别角色的社会化</h2>
+<h3 id="81">8.1 儿童的性别差异</h3>
+<h4 id="_42">数学能力差异</h4>
+<p>童年中期以前，男孩和女孩的数学能力尚未表现出明显差异；从青少年期开始，男孩的数学能力平均水平高于女孩。</p>
+<p>可能原因：</p>
+<ul>
+<li>女孩语言能力较强，因此在精算任务中可能更有优势。</li>
+<li>男孩空间能力较强，因此在估算、空间数量加工等任务中可能更有优势。</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">e.g.</p>
+<p>实验：<br />
+- 精算任务<br />
+- 数量加工任务<br />
+- 空间任务  </p>
+</div>
+<h4 id="_43">空间能力差异</h4>
+<p><strong>空间能力</strong>：根据图片进行推理，或在心理上操作图像信息的能力，如心理旋转任务。</p>
+<ul>
+<li>男孩的大脑右半球发达程度可能高于女孩，这与空间能力优势有关。</li>
+<li>环境因素也会影响空间能力差异，例如户外运动频率、空间类玩具和活动经验等。</li>
+</ul>
+<h4 id="_44">语言能力差异</h4>
+<p>女孩在语言能力上通常占优势，尤其体现在词汇、阅读理解和语言流畅性方面。整个童年期和青少年期，女孩在阅读理解和语言流畅性方面一般优于男孩。</p>
+<p>差异原因可以归因于：</p>
+<ul>
+<li>生理因素</li>
+<li>社会性因素</li>
+<li>经验因素</li>
+</ul>
+<h4 id="_45">攻击性差异</h4>
+<p>男性的攻击性通常大于女性，但攻击行为的一般发展趋势并不存在显著的性别差异。</p>
+<h4 id="_46">其他方面差异</h4>
+<ul>
+<li>玩具偏好</li>
+<li>情绪情感特点</li>
+<li>发展问题表现</li>
+</ul>
+<h3 id="82">8.2 性别角色发展理论</h3>
+<p><strong>性别角色</strong>(gender role)：个体基于性别差异而形成的、与社会或群体规定相适应的心理特点和行为模式。</p>
+<p>性别角色发展理论主要包括生物取向、社会取向和认知取向三类。</p>
+<h4 id="_47">生物取向理论</h4>
+<h5 id="_48">精神分析观点</h5>
+<p>乔德鲁提出重构理论，认为性别认同始于婴儿期，而不是弗洛伊德所说的生殖器期。</p>
+<ul>
+<li>最初男婴和女婴都认同母亲。</li>
+<li>女孩与母亲性别相同，因此女孩与母亲的认同可能更强，并在发展中继续认同母亲。</li>
+<li>男孩需要与母亲分离，通过强调与女性的差异来确定自己的身份，进而建构独立性和个体性。</li>
+</ul>
+<h5 id="_49">进化心理学观点</h5>
+<p>进化心理学认为，史前狩猎采集社会中男女承担不同角色和任务，这可能导致心理上的性别差异。繁殖压力不同，也是两性产生不同适应问题的重要原因。</p>
+<h5 id="_50">其他生物取向解释</h5>
+<ul>
+<li><strong>跨物种比较研究</strong>：一些性别差异可能源于共同的身体或行为特征。</li>
+<li><strong>行为遗传学研究</strong>：关注遗传因素对性别差异的影响。</li>
+<li><strong>青春期激素影响</strong>：青春期激素变化会影响性别相关行为和心理特点。</li>
+<li><strong>生物社会理论</strong>：强调生物因素与社会环境共同塑造性别角色。</li>
+</ul>
+<h4 id="_51">社会取向理论</h4>
+<h5 id="_52">社会学习理论</h5>
+<p>社会学习理论认为，儿童主要通过两种途径获得性别认同和性别角色行为：</p>
+<ul>
+<li><strong>直接教导</strong>：父母、教师等成人对适合性别的行为进行强化。</li>
+<li><strong>观察学习</strong>：儿童选择性观察并模仿同性别榜样，学习“适合自己性别”的行为。</li>
+</ul>
+<p>只有当儿童认识到性别是人格中相对稳定、不可随意改变的特征时，他们才会更多注意同性别榜样。</p>
+<h5 id="_53">社会结构理论</h5>
+<p>社会结构理论强调社会结构模式对性别角色发展的作用，认为男女的性别差异在很大程度上由社会结构模式和社会限制导致。</p>
+<h5 id="_54">群体社会化理论</h5>
+<p>群体社会化理论认为，同伴群体在儿童性别角色发展中具有重要作用，家庭影响相对较小。该理论预测：当某一性别不在场时，性别分化行为会明显减少。</p>
+<h4 id="_55">认知取向理论</h4>
+<h5 id="_56">认知发展理论</h5>
+<p>科尔伯格认为，儿童理解性别范畴不会发生变化，是获得性别角色的关键因素，其中最重要的是<strong>性别一致性</strong>。</p>
+<ul>
+<li>儿童只有获得性别一致性后，才能表现出一贯的性别角色行为。</li>
+<li>儿童一旦认识到自己的性别稳定不变，就会更希望像同一性别群体的其他成员那样行动。</li>
+<li>儿童会主动寻找同性别榜样和相关信息，学习如何表现得更像“男孩”或“女孩”。</li>
+</ul>
+<h5 id="_57">性别图式理论</h5>
+<p><strong>性别图式</strong>(gender schema)：人们关于男性特点和女性特点的朴素理论观念。</p>
+<p>性别图式理论认为，儿童和成人都会形成关于性别的图式，这种图式直接影响个体的思维和行为。</p>
+<p>性别图式有两种主要取向：</p>
+<ul>
+<li>强调性别图式的发展变化：儿童如何获得性别知识，如何形成稳定而合适的性别脚本。</li>
+<li>强调个体性别图式差异：不同个体加工性别信息的方式不同。</li>
+</ul>
+<p>性别图式的发展可分为两个水平：</p>
+<ol>
+<li>儿童评价信息是否符合自己的性别，需要先建立男性和女性两种图式。</li>
+<li>儿童进一步评价某个环境刺激是否适合自己。</li>
+</ol>
+<p>性别图式的功能：</p>
+<ul>
+<li>行为引导</li>
+<li>组织信息</li>
+<li>推理功能</li>
+</ul>
+<h3 id="83">8.3 儿童性别化的发展</h3>
+<p><strong>性别化</strong>(gender typing)：儿童获得性别认同，获得所属社会文化认为该性别成员应持有的动机、价值观和行为方式的过程，也就是获得性别角色行为和性别角色信念的过程。</p>
+<h4 id="_58">性别恒常性的发展</h4>
+<p><strong>性别恒常性</strong>(gender constancy)：个体认识到性别是基于生物特征的永久特征，不依赖外表特征，也不会随着发型、服饰、活动等变化而变化。</p>
+<p>科尔伯格认为，只有儿童达到具体运算阶段、获得守恒概念后，才具有性别恒常性概念。</p>
+<p>儿童性别恒常性的发展经历三个阶段：</p>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>含义</th>
+<th>发展特点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>性别认同</td>
+<td>正确把自己和他人标记为男性或女性</td>
+<td>也称性别标志；约 1.5-2 岁能使用性别标签，2.5-3 岁大多能准确说出自己是男孩还是女孩</td>
+</tr>
+<tr>
+<td>性别稳定性</td>
+<td>认识到人的性别不随年龄变化而改变</td>
+<td>知道一生中性别稳定，但仍可能认为发型、服饰或行为变化会改变性别</td>
+</tr>
+<tr>
+<td>性别一致性</td>
+<td>认识到外表变化不改变人的性别</td>
+<td>理解无论外表如何变化，性别仍保持不变</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">补充</p>
+<p>3-4 个月的婴儿已经能够区分男性和女性。性别认同不仅包括性别分类知识，也包括对自身性别的满意度、压力以及对性别群体的态度。</p>
+</div>
+<h4 id="_59">性别刻板印象的发展</h4>
+<p><strong>性别刻板印象</strong>(gender stereotype)：人们对男性或女性在活动、行为、人格特征等方面的固定看法或信念。这种印象不一定有事实依据，也常常忽视个体差异。</p>
+<p>儿童性别刻板印象发展包括两个方面：</p>
+<ul>
+<li>性别刻板印象知识的发展</li>
+<li>性别刻板灵活性的发展</li>
+</ul>
+<p>总体发展阶段：</p>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>年龄</th>
+<th>特点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>建构期</td>
+<td>约 3 岁</td>
+<td>开始习得性别刻板印象</td>
+</tr>
+<tr>
+<td>固着期</td>
+<td>5-7 岁</td>
+<td>性别刻板印象的僵化程度达到顶峰</td>
+</tr>
+<tr>
+<td>整合期</td>
+<td>约 8 岁起</td>
+<td>性别刻板印象变得相对灵活</td>
+</tr>
+</tbody>
+</table>
+<p>马丁等人认为，儿童性别刻板印象的领域与成人类似，主要包括：</p>
+<ul>
+<li>外貌</li>
+<li>角色行为</li>
+<li>职业</li>
+<li>特质</li>
+</ul>
+<h5 id="_60">性别刻板知识的发展</h5>
+<p>儿童首先获得有关外貌和角色行为的性别刻板知识，随后随着认知发展，逐渐获得有关职业和特质的性别刻板知识。</p>
+<h5 id="_61">性别刻板灵活性的发展</h5>
+<p><strong>性别刻板灵活性</strong>：意识到男性和女性可以拥有相似特质，或可以参与相似活动的程度。</p>
+<ul>
+<li>学前儿童的性别刻板印象比较僵化，学前晚期僵化程度最高。</li>
+<li>7 岁左右，儿童性别刻板灵活性显著增强，小学高年级达到较高水平。</li>
+<li>青春期个体会产生较强的性别相关期望，性别刻板印象可能重新恢复到早期的僵化状态。</li>
+<li>不同领域中，性别刻板灵活性开始变化的年龄不同。</li>
+</ul>
+<h4 id="_62">性别特征行为模式的发展</h4>
+<p>评估儿童行为的性别适宜性，常用方法是观察儿童“玩什么”以及游戏性质上的差异；另一种方法是观察儿童“和谁玩”。</p>
+<p><strong>性别分离</strong>(gender segregation)：儿童喜欢和同性别伙伴交往，并将异性伙伴看作圈外人的倾向。</p>
+<ul>
+<li>性别分离在许多文化中普遍存在，具有跨文化一致性。</li>
+<li>同伴数量、教师对性别的要求等因素会影响性别分离水平。</li>
+</ul>
+<h3 id="84">8.4 心理的双性化</h3>
+<h4 id="_63">心理双性化的提出</h4>
+<p>传统观点把性别角色看成单一维度：高度男性化意味着缺乏女性化特质，高度女性化也意味着缺乏男性化特质。</p>
+<p>1964 年，罗西提出<strong>双性化</strong>(androgyny)概念：个体同时具有传统的男性化和女性化特质。双性化被认为是一种更适合的性别角色模式，因为个体可以在不同情境中表现出更高的灵活性和适应性。</p>
+<h4 id="_64">心理双性化的测量</h4>
+<ul>
+<li><strong>贝姆性别角色量表</strong>(Bem Sex-Role Inventory, BSRI)：根据被试自陈是否具有社会赞许的男性化或女性化特质，评价其男性化和女性化程度。</li>
+<li><strong>个人特征问卷</strong>(Personal Attributes Questionnaire, PAQ)：斯宾塞等人开发的常用性别角色测量工具。</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="xminstrel/xminstrel.github.io"
+        data-repo-id="R_kgDOQ7oY9A"
+        data-category="[在此输入分类名]"
+        data-category-id="[在此输入分类 ID]"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../%E7%AC%94%E8%AE%B02/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 笔记 2">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                笔记 2
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../../others/moments/moments/" class="md-footer__link md-footer__link--next" aria-label="下一页: emm">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                emm
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  <div class="md-copyright__highlight">
+    Copyright &copy; 2025 - 2026 赤奈良瞳
+  </div>
+  
+  Made with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a> 
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/xminstrel" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "navigation.expand", "navigation.path", "navigation.tracking", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js?v=20260518-green"></script>
+      
+        <script src="../../../javascripts/recent-notes.js?v=20260518-green"></script>
+      
+        <script src="../../../javascripts/katex.js?v=20260518-green"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

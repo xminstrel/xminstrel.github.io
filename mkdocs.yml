@@ -19,7 +19,11 @@ nav:
     - 流体力学&传热学: 
       - 工程流体力学: zju-courses/农业生物系统传输过程/工流.md
       - 传热学: zju-courses/农业生物系统传输过程/工传.md
-    - 发展心理学: zju-courses/发展心理学/发展心理学.md
+    - 发展心理学:
+      - 封面: zju-courses/发展心理学/发展心理学.md
+      - 笔记 1: zju-courses/发展心理学/笔记1.md
+      - 笔记 2: zju-courses/发展心理学/笔记2.md
+      - 笔记 3: zju-courses/发展心理学/笔记3.md
   - 🖼️ 其他笔记: 
     -  emm: others/moments/moments.md
 # 自定义样式和脚本
