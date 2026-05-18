@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
-                "page": 21,
+                "page": 23,
                 "left": -17,
-                "top": 698,
+                "top": 524,
                 "zoom": 0.9146341463414632
               },
               "icon": "lucide-file-text",
@@ -30,10 +30,10 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 170,
-                "left": 610,
-                "top": 221,
-                "zoom": 0.9879707081654281
+                "page": 180,
+                "left": 599,
+                "top": 287,
+                "zoom": 1.07
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
@@ -224,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
-    "collapsed": true
+    "width": 291.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,8 +244,8 @@
   "active": "abcb79060ae67807",
   "lastOpenFiles": [
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-    "docs/zju-courses/发展心理学/发展心理学.md",
     "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+    "docs/zju-courses/发展心理学/发展心理学.md",
     "docs/zju-courses/精细农业/精细农业.md",
     "docs/zju-courses/cad/homework/必做-大调整环与小调整环.pdf",
     "docs/zju-courses/cad/作业进度.md",
