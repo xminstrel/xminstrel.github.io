@@ -1,0 +1,2235 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="赤奈良瞳">
+      
+      
+        <link rel="canonical" href="https://xminstrel.github.io/others/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/%E6%95%B0%E6%A8%A11/math_model/%E6%B5%99%E8%B6%85B%E9%A2%98%E8%A7%A3%E9%A2%98%E6%80%BB%E6%8A%A5%E5%91%8A/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>“浙超”分组方案数学建模总报告 - 赤奈良瞳的博客 | xminstrel's blog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=LXGW+WenKai+Screen+GB+Screen:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"LXGW WenKai Screen GB Screen";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../../../.." title="赤奈良瞳的博客 | xminstrel&#39;s blog" class="md-header__button md-logo" aria-label="赤奈良瞳的博客 | xminstrel's blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            赤奈良瞳的博客 | xminstrel's blog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              “浙超”分组方案数学建模总报告
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/xminstrel/xminstrel.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    xminstrel
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🎆 首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../../about_me/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  😘 关于赤奈
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../ai/tools/" class="md-tabs__link">
+          
+  
+  
+  💎 AI 相关
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../control/%E6%8E%A7%E5%88%B6%E8%AE%BA/%E6%8E%A7%E5%88%B6%E8%AE%BA/" class="md-tabs__link">
+          
+  
+  
+  🪡 控制相关
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../zju-courses/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-tabs__link">
+          
+  
+  
+  📚 ZJU-Courses
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../moments/moments/" class="md-tabs__link">
+          
+  
+  
+  🖼️ 其他笔记
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="赤奈良瞳的博客 | xminstrel&#39;s blog" class="md-nav__button md-logo" aria-label="赤奈良瞳的博客 | xminstrel's blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    赤奈良瞳的博客 | xminstrel's blog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/xminstrel/xminstrel.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    xminstrel
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎆 首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../about_me/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    😘 关于赤奈
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    💎 AI 相关
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    💎 AI 相关
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../ai/tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI工具
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🪡 控制相关
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🪡 控制相关
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../control/%E6%8E%A7%E5%88%B6%E8%AE%BA/%E6%8E%A7%E5%88%B6%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    控制论
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自动控制理论
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    自动控制理论
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../control/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    笔记
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../control/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E5%B0%8F%E6%B5%8B%E5%A4%8D%E4%B9%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    小测复习
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../control/esp32/esp32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esp32 入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../control/stm32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    stm32 入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📚 ZJU-Courses
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📚 ZJU-Courses
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../zju-courses/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    材料力学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    流体力学&传热学
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    流体力学&传热学
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../zju-courses/%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B/%E5%B7%A5%E6%B5%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工程流体力学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../zju-courses/%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B/%E5%B7%A5%E4%BC%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    传热学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../zju-courses/%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    发展心理学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🖼️ 其他笔记
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🖼️ 其他笔记
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../moments/moments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    emm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        摘要
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 问题重述
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 使用资料及使用理由
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 使用资料及使用理由">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 题面 PDF
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 浙江统计年鉴
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 行政区划代码资料
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 地理与交通数据
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 体育场地与承办能力资料
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6 运筹优化与体育赛事文献
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 基本假设
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 符号定义
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 分组模型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 分组模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 硬约束
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 软约束
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 多目标评价
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 解题算法
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. 解题算法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-cp-sat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 第一层：CP-SAT 或整数规划生成可行解
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 第二层：加入代理指标做多目标优化
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-pareto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 第三层：局部搜索与 Pareto 筛选
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 最终算法流程
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 抽签方案设计
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 抽签方案设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 抽签步骤
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 抽签公平性审计
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 承办地选择模型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. 承办地选择模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 决策变量
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 约束
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 目标函数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#84" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4 场地选择策略
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. 分组方案评价体系
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. 赛制建议
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. 赛制建议">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#101" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.1 设置合理分档
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#102" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.2 保持行政回避规则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#103" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.3 同市县级队回避作为软约束
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#104" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.4 淘汰赛路径应避免同组队过早重逢
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#105" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.5 承办地应兼顾中立性和覆盖面
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#106" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.6 控制旅行负担
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. 最优性说明
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. 后续计算结果应补充的位置
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        参考资料
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="_1">“浙超”分组方案数学建模总报告</h1>
+<h2 id="_2">摘要</h2>
+<p>本文研究拟议中的浙江省市县足球联赛“浙超”的分组、抽签、承办地选择与赛制优化问题。参赛单位共 64 个，包括浙江省 11 个市级队和 53 个县级队。比赛第一阶段为 16 个小组，每组 4 队进行单循环比赛，小组前两名进入 32 强淘汰赛。</p>
+<p>本题的核心不是简单随机分组，而是一个带有行政回避约束、公平性要求、地理交通因素和赛事传播目标的组合优化问题。本文将分组问题建模为 0-1 整数规划或 CP-SAT 约束规划问题，以“市级队分散”“市级队不与其代管县级队同组”为硬约束，以“同一市代管县级队尽量不同组”“组间实力与影响力均衡”“地域分散合理”为软目标。随后，本文设计一种“分档随机 + 实时可行性检查 + 蒙特卡洛审计”的抽签机制，使抽签既能公开执行，又能保证结果满足约束。对于承办地选择问题，本文将其建模为带容量约束的设施选址问题，在 8 个承办地点每地承办 2 个小组的条件下，综合考虑旅行成本、空间覆盖、城市影响力、场馆能力与主场优势。</p>
+<p>本文使用题面给出的行政隶属关系作为硬约束依据，使用浙江统计年鉴中的人口、GDP、财政、消费和收入数据作为城市影响力与球队潜在实力的代理指标，使用行政区划代码校验参赛单位名称与层级，使用地理坐标或地图服务估计各队旅行距离，并参考体育赛程优化、世界杯抽签公平性、旅行公平和设施选址相关文献建立评价体系。最终目标是在满足全部硬约束的前提下，给出若干可解释、可复现、可比较的分组方案，并从公平性、观赏性、交通便利性和赛事传播效果等维度进行综合评价。</p>
+<p>关键词：数学建模；组合优化；约束规划；公平抽签；设施选址；体育赛程；多目标优化</p>
+<hr />
+<h2 id="1">1. 问题重述</h2>
+<p>拟议中的浙江省市县足球联赛共有 64 个参赛单位，其中包括浙江省 11 个市级单位和 53 个县级单位。赛事分为两个阶段：</p>
+<ol>
+<li>小组赛阶段：64 支队伍分成 16 个小组，每组 4 队，组内单循环比赛，小组前两名晋级。</li>
+<li>淘汰赛阶段：32 支晋级队伍经过 5 轮淘汰赛决出冠军。</li>
+</ol>
+<p>题目要求解决四个问题：</p>
+<ol>
+<li>给出若干满足要求的分组方案，并从不同维度比较优劣。</li>
+<li>设计一种公平、透明、可执行的抽签方案，使抽签结果满足约束并具有较好性质。</li>
+<li>根据分组结果选择 8 个市或县作为小组赛承办地，每个地点承办 2 个小组。</li>
+<li>基于数学模型和定量分析，对赛制提出合理化建议。</li>
+</ol>
+<p>题面明确要求分组遵循以下原则：</p>
+<ol>
+<li>各市级队应分配在不同小组。</li>
+<li>市级队不与该市代管县级队分配在同一小组。</li>
+<li>同一市代管县的县级队应尽量不分配在同一小组。</li>
+</ol>
+<p>前两条是必须满足的硬约束，第三条是“尽量满足”的软约束。</p>
+<hr />
+<h2 id="2">2. 使用资料及使用理由</h2>
+<p>本文使用的资料分为五类：题面资料、官方统计数据、行政区划资料、地理交通数据、运筹优化与体育赛事文献。</p>
+<h3 id="21-pdf">2.1 题面 PDF</h3>
+<p>资料：</p>
+<ul>
+<li><code>2026problem.pdf</code>，浙江大学第二十四届大学生数学建模竞赛试题。</li>
+</ul>
+<p>使用理由：</p>
+<p>题面是本题所有硬约束的唯一依据。参赛单位数量、市级队与县级队划分、各县级单位所属市、分组规模、晋级规则和承办地数量均来自题面。因此，题面信息不作为可调参数，而作为模型必须满足的基本约束。</p>
+<p>具体使用：</p>
+<ul>
+<li>将 64 个参赛单位整理为 <code>teams_from_problem.csv</code>。</li>
+<li>建立市级队集合、县级队集合和县级队所属市映射。</li>
+<li>构造“市级队不同组”和“市级队与代管县级队不同组”的硬约束。</li>
+</ul>
+<h3 id="22">2.2 浙江统计年鉴</h3>
+<p>资料：</p>
+<ul>
+<li>浙江省统计局，2024 年浙江统计年鉴。</li>
+<li>已使用表：</li>
+<li><code>17-25 各市、县国民经济主要指标（2023年）</code></li>
+<li><code>17-26 各市、县年末人口数（2023年）</code></li>
+</ul>
+<p>使用理由：</p>
+<p>题目没有提供各参赛队真实竞技实力、球迷基础、场馆容量和城市影响力数据。为了构造可量化的公平性和影响力评价指标，需要引入公开、权威、可复核的数据。浙江统计年鉴提供县市层面的人口、GDP、财政、消费、居民收入等指标，可以作为以下内容的代理变量：</p>
+<ul>
+<li>人口：潜在球迷基础、赛事覆盖人数。</li>
+<li>GDP：地区经济规模、赛事商业影响力。</li>
+<li>社会消费品零售总额：消费活跃度和赛事带动潜力。</li>
+<li>财政收入：地区公共服务和承办能力的间接反映。</li>
+<li>城乡居民收入：居民消费能力和观赛潜力。</li>
+</ul>
+<p>具体使用：</p>
+<ul>
+<li>构造“城市影响力指数”。</li>
+<li>构造“潜在球队实力代理指数”。</li>
+<li>用于比较不同分组方案在影响力均衡、强弱均衡和赛事传播方面的差异。</li>
+</ul>
+<p>需要说明的是，这些指标不能等同于真实球队实力，只能作为没有真实球队数据时的代理指标。因此，最终论文必须对代理指标做权重敏感性分析。</p>
+<h3 id="23">2.3 行政区划代码资料</h3>
+<p>资料：</p>
+<ul>
+<li>国家统计局统计用区划和城乡划分代码。</li>
+<li>民政部行政区划代码。</li>
+</ul>
+<p>使用理由：</p>
+<p>题面给出了参赛单位及其隶属关系，但在数据处理和外部统计数据匹配时，需要确认县、市、自治县名称的一致性。例如“景宁畲族自治县”应作为县级参赛单位处理，但行政类型不同于普通县。行政区划代码可用于校验名称、层级和归属关系，避免因简称或旧称造成数据匹配错误。</p>
+<p>具体使用：</p>
+<ul>
+<li>校验县市名称。</li>
+<li>区分市级队、县级市、县、自治县。</li>
+<li>在后续扩展地理坐标和统计数据时作为匹配依据。</li>
+</ul>
+<h3 id="24">2.4 地理与交通数据</h3>
+<p>资料：</p>
+<ul>
+<li>OpenStreetMap Nominatim 或 GeoNames 地理数据。</li>
+<li>若条件允许，可使用高德、百度、腾讯地图开放平台路径规划 API。</li>
+</ul>
+<p>使用理由：</p>
+<p>承办地选择和分组地域分散度需要距离或交通时间数据。理想情况下，应使用真实公路或铁路出行时间；如果受限于 API key 或时间成本，可以先使用县市政府驻地经纬度计算球面距离，再通过敏感性分析说明近似误差。</p>
+<p>具体使用：</p>
+<ul>
+<li>构造 64 个参赛单位之间的距离矩阵。</li>
+<li>构造各参赛单位到候选承办地的旅行成本矩阵。</li>
+<li>评价分组的地域分散度。</li>
+<li>评价承办地方案的总旅行距离、最大旅行距离和区域覆盖面。</li>
+</ul>
+<h3 id="25">2.5 体育场地与承办能力资料</h3>
+<p>资料：</p>
+<ul>
+<li>国家体育总局体育场地统计调查数据。</li>
+<li>浙江省体育局及各市县体育局、体育场馆官网。</li>
+</ul>
+<p>使用理由：</p>
+<p>题目要求选择 8 个市或县作为小组赛比赛地点。承办地选择不能只看距离，还应考虑场馆条件、交通便利性、人口覆盖和赛事传播能力。体育场地资料可以支撑承办能力评价。</p>
+<p>具体使用：</p>
+<ul>
+<li>判断候选地点是否具备承办足球比赛的基础设施。</li>
+<li>构造场馆能力评分。</li>
+<li>与人口、GDP、交通距离共同构成承办地综合评价指标。</li>
+</ul>
+<p>如果短时间内无法获得完整场馆数据，第一版模型可先用“参赛单位所在地”作为候选地点，并将场馆能力作为后续修正项。</p>
+<h3 id="26">2.6 运筹优化与体育赛事文献</h3>
+<p>参考方向：</p>
+<ul>
+<li>世界杯抽签公平性研究。</li>
+<li>体育赛程优化综述。</li>
+<li>循环赛赛程公平研究。</li>
+<li>旅行距离公平研究。</li>
+<li>p-median、p-center 和设施选址理论。</li>
+</ul>
+<p>使用理由：</p>
+<p>本题涉及约束分组、随机抽签、赛程公平和承办地选址，这些问题在运筹学和体育赛程优化中已有成熟研究。引用这些文献不是为了堆砌理论，而是为了说明本文模型选择的合理性：</p>
+<ul>
+<li>抽签公平性文献支持“受限随机抽签”和“偏差审计”。</li>
+<li>体育赛程优化文献支持用数学规划处理赛事组织问题。</li>
+<li>旅行公平文献支持将总旅行距离和最大旅行距离作为承办地评价指标。</li>
+<li>设施选址理论支持用 p-median / p-center 模型选择 8 个承办地。</li>
+</ul>
+<hr />
+<h2 id="3">3. 基本假设</h2>
+<p>为使问题可建模，本文作如下假设：</p>
+<ol>
+<li>每个参赛单位对应一支代表队，且每支队伍参赛资格相同。</li>
+<li>题面给出的行政隶属关系准确无误。</li>
+<li>市级队分散、市级队与代管县级队不同组为必须满足的硬约束。</li>
+<li>同一市代管县级队不同组为软约束，若完全避免会显著损害其他目标，可允许少量冲突，但应最小化。</li>
+<li>在缺少真实球队实力数据时，人口、GDP、消费、财政和居民收入等指标可作为潜在实力与影响力的代理变量。</li>
+<li>第一版承办地模型可用县市中心点近似代表队伍所在地；若获得真实场馆或交通时间数据，应替换该近似。</li>
+<li>抽签方案必须能由人工公开执行，不能完全依赖黑箱算法。</li>
+</ol>
+<hr />
+<h2 id="4">4. 符号定义</h2>
+<p>设：</p>
+<ul>
+<li><code>T</code> 为全部参赛队集合，<code>|T|=64</code>。</li>
+<li><code>C</code> 为市级队集合，<code>|C|=11</code>。</li>
+<li><code>K</code> 为县级队集合，<code>|K|=53</code>。</li>
+<li><code>G</code> 为小组集合，<code>|G|=16</code>。</li>
+<li><code>P(k)</code> 表示县级队 <code>k</code> 所属或被代管的市级单位。</li>
+<li><code>V</code> 为候选承办地集合。</li>
+</ul>
+<p>定义决策变量：</p>
+<div class="highlight"><pre><span></span><code>x[t,g] = 1，表示队伍 t 被分到小组 g；
+x[t,g] = 0，表示队伍 t 不在小组 g。
+</code></pre></div>
+<p>承办地变量：</p>
+<div class="highlight"><pre><span></span><code>z[v] = 1，表示地点 v 被选为承办地；
+a[g,v] = 1，表示小组 g 安排在承办地 v。
+</code></pre></div>
+<hr />
+<h2 id="5">5. 分组模型</h2>
+<h3 id="51">5.1 硬约束</h3>
+<p>每支队伍恰好进入一个小组：</p>
+<div class="highlight"><pre><span></span><code>sum_g x[t,g] = 1,  对所有 t 属于 T
+</code></pre></div>
+<p>每个小组恰好 4 支队伍：</p>
+<div class="highlight"><pre><span></span><code>sum_t x[t,g] = 4,  对所有 g 属于 G
+</code></pre></div>
+<p>每个小组最多 1 支市级队：</p>
+<div class="highlight"><pre><span></span><code>sum_{t in C} x[t,g] &lt;= 1,  对所有 g 属于 G
+</code></pre></div>
+<p>市级队不与其代管县级队同组：</p>
+<div class="highlight"><pre><span></span><code>x[c,g] + x[k,g] &lt;= 1,
+对所有市级队 c、县级队 k，若 P(k)=c，对所有 g 属于 G
+</code></pre></div>
+<h3 id="52">5.2 软约束</h3>
+<p>同一市代管县级队应尽量不同组。对任意同属一个市的两个县级队 <code>k1,k2</code>，若它们被分到同一小组，则记一次冲突。</p>
+<p>冲突变量：</p>
+<div class="highlight"><pre><span></span><code>y[k1,k2,g] = 1，表示 k1 与 k2 在小组 g 同组
+</code></pre></div>
+<p>模型目标之一是最小化：</p>
+<div class="highlight"><pre><span></span><code>same_parent_conflict = sum y[k1,k2,g]
+</code></pre></div>
+<h3 id="53">5.3 多目标评价</h3>
+<p>仅最小化行政冲突会忽略竞技公平和赛事传播，因此本文构造综合目标函数：</p>
+<div class="highlight"><pre><span></span><code>min F =
+w1 * 同市县级队冲突数
++ w2 * 组间实力代理指标方差
++ w3 * 组间影响力指标方差
++ w4 * 旅行距离不均衡
+- w5 * 地域覆盖和观赏性得分
+</code></pre></div>
+<p>其中：</p>
+<ul>
+<li><code>w1</code> 权重最大，因为行政回避直接来自题目原则。</li>
+<li><code>w2</code> 控制各组强弱均衡。</li>
+<li><code>w3</code> 控制各组关注度和传播影响力均衡。</li>
+<li><code>w4</code> 控制交通便利性。</li>
+<li><code>w5</code> 适度鼓励地域覆盖和观赏性，但不能压过公平性。</li>
+</ul>
+<p>不同权重组合可得到不同类型方案：</p>
+<ol>
+<li>公平优先方案：强调行政回避和实力均衡。</li>
+<li>地理便利方案：强调旅行距离和区域分布。</li>
+<li>影响力传播方案：强调人口、GDP 和消费覆盖。</li>
+<li>综合推荐方案：在上述目标间折中。</li>
+</ol>
+<p>最终推荐方案应来自 Pareto 前沿，即不存在另一个方案在所有指标上都不差且至少一个指标更好。</p>
+<hr />
+<h2 id="6">6. 解题算法</h2>
+<p>本文建议采用“三层算法”：</p>
+<ol>
+<li>精确约束求解，保证硬约束满足。</li>
+<li>多目标搜索，生成若干高质量候选方案。</li>
+<li>敏感性分析和模拟审计，判断方案是否稳定可靠。</li>
+</ol>
+<h3 id="61-cp-sat">6.1 第一层：CP-SAT 或整数规划生成可行解</h3>
+<p>步骤：</p>
+<ol>
+<li>读取 <code>teams_from_problem.csv</code>。</li>
+<li>构造 64 支队伍、16 个小组和行政隶属映射。</li>
+<li>建立 0-1 变量 <code>x[t,g]</code>。</li>
+<li>添加硬约束：</li>
+<li>每队唯一；</li>
+<li>每组 4 队；</li>
+<li>市级队不同组；</li>
+<li>市级队与代管县级队不同组。</li>
+<li>添加软约束目标：</li>
+<li>最小化同市县级队同组冲突。</li>
+<li>调用 OR-Tools CP-SAT 或 PuLP 求解。</li>
+<li>输出第一版可行分组。</li>
+<li>用独立检查器再次验证全部硬约束。</li>
+</ol>
+<h3 id="62">6.2 第二层：加入代理指标做多目标优化</h3>
+<p>利用浙江统计年鉴数据，构造每支队伍的指标：</p>
+<div class="highlight"><pre><span></span><code>population_score = 标准化常住人口
+gdp_score = 标准化 GDP
+consumption_score = 标准化社会消费品零售总额
+fiscal_score = 标准化一般公共预算收入
+income_score = 标准化居民收入
+</code></pre></div>
+<p>构造潜在实力或影响力指数：</p>
+<div class="highlight"><pre><span></span><code>strength_proxy =
+alpha1 * population_score
++ alpha2 * gdp_score
++ alpha3 * consumption_score
++ alpha4 * fiscal_score
++ alpha5 * income_score
+</code></pre></div>
+<p>其中 <code>alpha</code> 不固定为唯一值，而应设多组权重进行敏感性分析。例如：</p>
+<ol>
+<li>人口优先型；</li>
+<li>GDP 优先型；</li>
+<li>消费优先型；</li>
+<li>均衡权重型。</li>
+</ol>
+<p>每个小组的代理实力为：</p>
+<div class="highlight"><pre><span></span><code>group_strength[g] = sum strength_proxy[t] * x[t,g]
+</code></pre></div>
+<p>公平性指标为组间方差：</p>
+<div class="highlight"><pre><span></span><code>variance(group_strength)
+</code></pre></div>
+<p>方差越小，说明各组强弱越均衡。</p>
+<h3 id="63-pareto">6.3 第三层：局部搜索与 Pareto 筛选</h3>
+<p>在精确求解得到可行解后，可以使用局部搜索进一步改进：</p>
+<ol>
+<li>随机选取两个不同小组中的县级队尝试交换。</li>
+<li>检查交换后是否仍满足硬约束。</li>
+<li>若软目标改善，则接受交换。</li>
+<li>若使用模拟退火，可允许少量劣解以跳出局部最优。</li>
+<li>多个随机种子重复运行。</li>
+<li>保存所有非支配解，形成候选方案集。</li>
+</ol>
+<p>该方法的优点是可解释、可控、容易与整数规划结合。整数规划负责可行性，局部搜索负责在多目标评价下继续改进。</p>
+<h3 id="64">6.4 最终算法流程</h3>
+<p>完整流程如下：</p>
+<div class="highlight"><pre><span></span><code>输入：
+  题面队伍表、行政隶属关系、统计年鉴数据、地理距离数据
+
+步骤 1：读取并校验 64 支队伍
+步骤 2：建立硬约束分组模型
+步骤 3：求解可行分组
+步骤 4：计算行政冲突、实力均衡、影响力均衡、地域分散等指标
+步骤 5：改变权重，多次求解得到候选方案
+步骤 6：对候选方案做 Pareto 筛选
+步骤 7：对最终候选方案做多 seed 局部搜索改进
+步骤 8：输出若干分组方案及分项评价表
+步骤 9：设计抽签机制并用蒙特卡洛模拟审计
+步骤 10：基于分组结果求解 8 个承办地选择问题
+步骤 11：基于模型结果提出赛制建议
+
+输出：
+  多个分组方案、评价指标、抽签流程、承办地方案、赛制建议
+</code></pre></div>
+<hr />
+<h2 id="7">7. 抽签方案设计</h2>
+<p>分组方案不能只由程序直接指定。为了体现体育赛事的公平与透明，应设计公开抽签流程。</p>
+<p>本文建议采用“分档随机 + 受限抽签 + 在线可行性检查”的方式。</p>
+<h3 id="71">7.1 抽签步骤</h3>
+<p>第一步：设定 16 个空小组。</p>
+<p>第二步：将 11 个市级队作为第一档，随机抽入 11 个不同小组，剩余 5 个小组为空市级小组。</p>
+<p>第三步：将县级队按所属市、实力代理指标或地理区块分成若干档。分档原则是避免同一市县级队集中在同一抽签阶段造成后续不可行。</p>
+<p>第四步：依次抽取县级队。每抽出一支队伍，只允许放入满足以下条件的小组：</p>
+<ol>
+<li>小组未满 4 队。</li>
+<li>若小组已有市级队，该县级队不能属于该市。</li>
+<li>放入后，剩余未抽队伍仍存在完整可行分组。</li>
+</ol>
+<p>第五步：如果某次抽签导致无可行位置，则不是简单全部重抽，而是回溯到最近一次造成不可行的抽签步骤重新抽取。</p>
+<p>第六步：全部抽签完成后，公布完整分组，并运行约束检查。</p>
+<h3 id="72">7.2 抽签公平性审计</h3>
+<p>为避免“看似随机但实际偏向某些队伍”，应对抽签机制做蒙特卡洛模拟。</p>
+<p>模拟次数建议不少于 10000 次。每次模拟完整抽签流程，记录：</p>
+<ul>
+<li>每支队伍进入每个小组的概率；</li>
+<li>任意两队同组概率；</li>
+<li>各队所在小组的平均实力；</li>
+<li>抽签失败或回溯次数；</li>
+<li>各约束的满足情况。</li>
+</ul>
+<p>评价指标：</p>
+<div class="highlight"><pre><span></span><code>draw_entropy：落组分布熵，越高说明随机性越充分；
+pair_bias：两队同组概率相对理想随机值的偏差；
+max_group_strength_bias：不同队伍被分到强组的概率差异；
+retry_rate：抽签过程回溯或重抽比例。
+</code></pre></div>
+<p>如果某些队伍显著更容易进入强组或弱组，需要调整分档方式或抽签顺序。</p>
+<hr />
+<h2 id="8">8. 承办地选择模型</h2>
+<p>题目要求选择 8 个市或县作为小组赛比赛地点，每个地点承办 2 个小组。该问题本质上是带容量约束的设施选址问题。</p>
+<h3 id="81">8.1 决策变量</h3>
+<div class="highlight"><pre><span></span><code>z[v] = 1，表示地点 v 被选为承办地；
+a[g,v] = 1，表示小组 g 安排到承办地 v。
+</code></pre></div>
+<h3 id="82">8.2 约束</h3>
+<p>选出 8 个承办地：</p>
+<div class="highlight"><pre><span></span><code>sum_v z[v] = 8
+</code></pre></div>
+<p>每个承办地承办 2 个小组：</p>
+<div class="highlight"><pre><span></span><code>sum_g a[g,v] = 2 z[v]
+</code></pre></div>
+<p>每个小组恰好安排到 1 个承办地：</p>
+<div class="highlight"><pre><span></span><code>sum_v a[g,v] = 1
+</code></pre></div>
+<h3 id="83">8.3 目标函数</h3>
+<p>承办地选择应兼顾公平性、便利性和影响力。目标函数可设为：</p>
+<div class="highlight"><pre><span></span><code>min H =
+beta1 * 总旅行距离
++ beta2 * 最大单队旅行距离
++ beta3 * 旅行距离方差
+- beta4 * 承办地影响力得分
+- beta5 * 空间覆盖得分
++ beta6 * 主场优势惩罚
+</code></pre></div>
+<p>其中：</p>
+<ul>
+<li>总旅行距离反映整体交通成本。</li>
+<li>最大单队旅行距离避免个别队伍负担过重。</li>
+<li>旅行距离方差反映旅行公平性。</li>
+<li>承办地影响力得分由人口、GDP、消费能力和场馆能力构成。</li>
+<li>空间覆盖得分鼓励赛事覆盖浙江不同区域。</li>
+<li>主场优势惩罚用于避免承办地队伍获得过大优势。</li>
+</ul>
+<h3 id="84">8.4 场地选择策略</h3>
+<p>第一版可将 64 个参赛单位所在地均作为候选承办地，并用县市中心点近似位置。后续若能查到真实体育场馆数据，则将候选点替换为具体场馆。</p>
+<p>最终输出应包括：</p>
+<ul>
+<li>8 个承办地；</li>
+<li>每个承办地承办的两个小组；</li>
+<li>每支队伍到承办地的距离；</li>
+<li>总旅行距离；</li>
+<li>最大旅行距离；</li>
+<li>各地区覆盖情况；</li>
+<li>是否存在明显主场优势。</li>
+</ul>
+<hr />
+<h2 id="9">9. 分组方案评价体系</h2>
+<p>每个候选分组方案应输出分项指标，而不是只给一个总分。</p>
+<p>建议评价表如下：</p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>含义</th>
+<th>优化方向</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>硬约束通过率</td>
+<td>是否满足所有必须约束</td>
+<td>必须全部通过</td>
+</tr>
+<tr>
+<td>同市县级队冲突数</td>
+<td>同一市代管县级队同组次数</td>
+<td>越小越好</td>
+</tr>
+<tr>
+<td>组间实力方差</td>
+<td>各组代理实力是否均衡</td>
+<td>越小越好</td>
+</tr>
+<tr>
+<td>组间影响力方差</td>
+<td>各组人口/GDP/消费覆盖是否均衡</td>
+<td>越小越好</td>
+</tr>
+<tr>
+<td>平均组内距离</td>
+<td>同组队伍地域分散程度</td>
+<td>适中或较大</td>
+</tr>
+<tr>
+<td>总旅行距离</td>
+<td>场地安排后的总交通成本</td>
+<td>越小越好</td>
+</tr>
+<tr>
+<td>最大旅行距离</td>
+<td>最远队伍的交通负担</td>
+<td>越小越好</td>
+</tr>
+<tr>
+<td>抽签熵</td>
+<td>抽签随机性</td>
+<td>越大越好</td>
+</tr>
+<tr>
+<td>同组概率偏差</td>
+<td>抽签是否偏向特定组合</td>
+<td>越小越好</td>
+</tr>
+<tr>
+<td>承办地覆盖度</td>
+<td>赛事是否覆盖全省</td>
+<td>越大越好</td>
+</tr>
+</tbody>
+</table>
+<p>最终推荐方案不一定每个指标都是第一，但应在关键指标上均衡，并且不被其他方案 Pareto 支配。</p>
+<hr />
+<h2 id="10">10. 赛制建议</h2>
+<p>基于上述模型，本文建议从以下方面优化赛制。</p>
+<h3 id="101">10.1 设置合理分档</h3>
+<p>由于浙江各市县人口、经济体量和潜在足球基础差异较大，完全随机分组可能导致某些小组过强、某些小组过弱。因此建议在抽签前设置分档。分档不应只按行政级别，还应综合人口、经济、历史足球基础或代理实力指标。</p>
+<h3 id="102">10.2 保持行政回避规则</h3>
+<p>市级队不与代管县级队同组可以避免行政隶属关系引发的公平争议，也能提升比赛的公开性和透明度。该约束应作为硬约束保留。</p>
+<h3 id="103">10.3 同市县级队回避作为软约束</h3>
+<p>同一市代管县级队完全回避在数学上可能可行，但会限制抽签随机性并增加流程复杂度。因此建议将其作为优先级很高的软约束，即尽量避免，但在必要时允许极少量冲突，并公开说明原因。</p>
+<h3 id="104">10.4 淘汰赛路径应避免同组队过早重逢</h3>
+<p>小组前两名进入淘汰赛后，应设计交叉对阵，使同组出线队至少在较后轮次才可能再次相遇。这可以提升淘汰赛多样性和观赏性。</p>
+<h3 id="105">10.5 承办地应兼顾中立性和覆盖面</h3>
+<p>若某队在本地承办地比赛，可能形成主场优势。建议优先安排相对中立的承办地，或者在模型中加入主场优势惩罚。同时，8 个承办地应尽量覆盖浙北、浙东、浙南、浙中、浙西等区域，以扩大赛事影响和普及面。</p>
+<h3 id="106">10.6 控制旅行负担</h3>
+<p>集中赛会制虽然便于组织，但如果承办地选择不合理，会使部分队伍旅行距离过长。因此建议将最大旅行距离作为硬性审查指标，避免出现极端不公平。</p>
+<hr />
+<h2 id="11">11. 最优性说明</h2>
+<p>本题属于组合优化问题，理论上可行分组数量巨大。如果仅凭人工经验给出分组，难以说明方案最优。因此本文采用以下方式说明方案质量：</p>
+<ol>
+<li>所有输出方案必须通过硬约束检查。</li>
+<li>使用整数规划或 CP-SAT 得到可行解，并尽量给出最优性 gap 或搜索证据。</li>
+<li>使用多组权重生成候选方案，避免结果依赖单一主观权重。</li>
+<li>使用局部搜索或模拟退火对候选方案继续改进。</li>
+<li>使用 Pareto 筛选保留非支配方案。</li>
+<li>对最终方案做多 seed 重复实验，检验稳定性。</li>
+<li>对抽签机制做蒙特卡洛模拟，检验随机公平性。</li>
+<li>对承办地方案计算总旅行距离、最大旅行距离和覆盖指标。</li>
+</ol>
+<p>因此，最终只能在严谨意义上表述为：</p>
+<blockquote>
+<p>在当前公开数据、模型假设和计算预算下，本文给出的方案是满足全部硬约束并在多目标评价下表现稳定的近优方案。</p>
+</blockquote>
+<p>除非求解器明确证明全局最优，否则不应直接声称“绝对最优”。</p>
+<hr />
+<h2 id="12">12. 后续计算结果应补充的位置</h2>
+<p>当前文档是总报告框架和算法说明。后续完成程序求解后，应将以下结果补入本文：</p>
+<ol>
+<li>若干具体分组方案表。</li>
+<li>各分组方案的指标对比表。</li>
+<li>最终推荐方案。</li>
+<li>抽签模拟结果表。</li>
+<li>8 个承办地及其对应小组。</li>
+<li>各队旅行距离统计。</li>
+<li>敏感性分析图表。</li>
+<li>最终赛制建议的定量依据。</li>
+</ol>
+<hr />
+<h2 id="_3">参考资料</h2>
+<p>[1] 浙江大学第二十四届大学生数学建模竞赛试题，<code>2026problem.pdf</code>。</p>
+<p>[2] 浙江省统计局，2024 年浙江统计年鉴，https://tjj.zj.gov.cn/art/2024/12/2/art_1525563_58962725.html，访问时间：2026 年 5 月 12 日。</p>
+<p>[3] 浙江省统计局，2024 年浙江省国民经济和社会发展统计公报，https://tjj.zj.gov.cn/art/2025/3/1/art_1229129205_5469690.html，访问时间：2026 年 5 月 12 日。</p>
+<p>[4] 国家统计局，统计用区划和城乡划分代码，https://www.stats.gov.cn/sj/tjbz/tjyqhdmhcxhfdm/，访问时间：2026 年 5 月 12 日。</p>
+<p>[5] 中华人民共和国民政部，行政区划代码，https://www.mca.gov.cn/，访问时间：2026 年 5 月 12 日。</p>
+<p>[6] OpenStreetMap Foundation, Nominatim Usage Policy, https://operations.osmfoundation.org/policies/nominatim/，访问时间：2026 年 5 月 12 日。</p>
+<p>[7] GeoNames, The GeoNames geographical database, https://www.geonames.org/，访问时间：2026 年 5 月 12 日。</p>
+<p>[8] Guyon, J. Rethinking the FIFA World Cup final draw. Journal of Quantitative Analysis in Sports, 11(3):169-182, 2015.</p>
+<p>[9] Rasmussen, R. V., Trick, M. A. Round robin scheduling - a survey. European Journal of Operational Research, 188(3):617-636, 2008.</p>
+<p>[10] Kendall, G., Knust, S., Ribeiro, C. C., Urrutia, S. Scheduling in sports: An annotated bibliography. Computers &amp; Operations Research, 37(1):1-19, 2010.</p>
+<p>[11] Hakimi, S. L. Optimum locations of switching centers and the absolute centers and medians of a graph. Operations Research, 12(3):450-459, 1964.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="xminstrel/xminstrel.github.io"
+        data-repo-id="R_kgDOQ7oY9A"
+        data-category="[在此输入分类名]"
+        data-category-id="[在此输入分类 ID]"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  <div class="md-copyright__highlight">
+    Copyright &copy; 2025 - 2026 赤奈良瞳
+  </div>
+  
+  Made with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a> 
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/xminstrel" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "navigation.expand", "navigation.path", "navigation.tracking", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../../../javascripts/extra.js"></script>
+      
+        <script src="../../../../../javascripts/recent-notes.js"></script>
+      
+        <script src="../../../../../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

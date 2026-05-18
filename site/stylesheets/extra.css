@@ -1,102 +1,376 @@
-/* 引入霞鹜文楷（屏幕阅读优化版） */
+/* Web fonts */
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css');
-/* 引入 Google Fonts 的思源宋体 (Noto Serif SC) */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
-/* 从 Google Fonts 引入“马善政”字体 */
-@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
-/* 1. 设置图标 */
+
 :root {
+  --home-accent: #4f46e5;
+  --home-accent-soft: rgba(79, 70, 229, 0.1);
+  --home-green: #0f766e;
+  --home-green-soft: rgba(15, 118, 110, 0.1);
+  --home-amber: #b45309;
+  --home-amber-soft: rgba(180, 83, 9, 0.12);
+  --home-border: rgba(75, 85, 99, 0.18);
+  --home-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
   --md-admonition-icon--home-card: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M14 17h3l2-4V7h-6v6h3M6 17h3l2-4V7H5v6h3l-2 4Z"/></svg>');
 }
 
-/* 2. 卡片整体外壳 */
-.md-typeset .admonition.home-card {
-    border-left: none; /* 去掉左边默认的粗线 */
-    border-top: 4px solid #7c4dff; /* 改成顶部线条，颜色是紫色 */
-    background: linear-gradient(135deg, #f3e5f5 0%, #ffffff 100%); /* 渐变背景 */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* 悬浮阴影 */
-    border-radius: 12px; /* 大圆角 */
-    max-width: 1200px;    /* 限制最大宽度，防止太宽不好看 */
-    margin: 2em auto;    /* 居中显示 */
+[data-md-color-scheme="slate"] {
+  --home-accent: #a5b4fc;
+  --home-accent-soft: rgba(165, 180, 252, 0.14);
+  --home-green: #5eead4;
+  --home-green-soft: rgba(45, 212, 191, 0.12);
+  --home-amber: #fbbf24;
+  --home-amber-soft: rgba(251, 191, 36, 0.12);
+  --home-border: rgba(226, 232, 240, 0.16);
+  --home-shadow: 0 18px 45px rgba(0, 0, 0, 0.2);
 }
 
-/* 3. 标题栏 */
-.md-typeset .admonition.home-card .admonition-title {
-    background: transparent; /* 标题栏背景透明 */
-    border: none;            /* 去掉标题栏边框 */
-    font-size: 1.1em;
-    color: #7c4dff;          /* 标题颜色 */
-    padding-bottom: 0;       /* 减小标题和内容的间距 */
-}
-
-/* 4. 图标颜色 */
-.md-typeset .admonition.home-card .admonition-title:before {
-    background-color: #7c4dff; /* 图标改成紫色 */
-}
-
-/* 5. 内容文字 */
-.md-typeset .admonition.home-card > p {
-    @media screen and (max-width: 768px) {
-    .md-typeset .admonition.home-card > p {
-        font-size: 1.5rem; /* 手机上把字号缩小 */
-        padding: 5px 10px; /* 减小内边距 */
-    }
-    
-    .md-typeset .admonition.home-card {
-        margin: 1em; /* 防止卡片在手机上贴着屏幕边缘 */
-    }
-}
-    font-family: "Ma Shan Zheng", "KaiTi", "楷体", cursive; /* 尝试使用书法字体 */
-    font-size: 2.5rem;       /* 字号大一点 */
-    line-height: 1.8;
-    color: #4a4a4a;
-    text-align: center;      /* 文字居中 */
-    padding: 10px 20px;
-}
-
-
-
-/* 优化后的文章图片样式 */
-.md-typeset img {
-    max-height: 400px;
-    width: auto;
-    border-radius: 8px; /* 增加 8px 的圆角，看起来更温和 */
-    display: block;     /* 把图片变成块级元素... */
-    margin: 1.5em auto; /* ...配合 auto 实现水平居中对齐 */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 增加淡淡的立体阴影 */
-}
-
-/* 限制代码块的最大高度 */
-.md-typeset .highlight {
-    max-height: 400px;  /* 这里设置你想要的高度，比如 300px 或 400px */
-    overflow-y: auto;   /* 超过高度自动显示垂直滚动条 */
-}
-
-/* 美化一下滚动条（可选，让它变细一点好看） */
-.md-typeset .highlight::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-.md-typeset .highlight::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 4px;
-}
-
-/* === 全局字体设置 === */
-/* 将文章内容区域的字体改为霞鹜文楷 */
+/* Global reading style */
 .md-typeset {
-    font-family: "LXGW WenKai Screen", sans-serif !important; 
-    line-height: 1.8; /* 稍微拉大行距，配合这款字体的文艺感 */
+  font-family: "LXGW WenKai Screen", sans-serif !important;
+  line-height: 1.8;
 }
 
-/* 针对你首页的卡片，也可以统一成这款字体 */
-.md-typeset .admonition.home-card > p {
-    font-family: "LXGW WenKai Screen", sans-serif !important;
-    font-size: 2rem; /* 霞鹜文楷本身偏小，可以稍微调大字号 */
-}
-
-/* 保持代码块里的字体为等宽字体，防止错位 */
-.md-typeset code, 
+.md-typeset code,
 .md-typeset pre {
-    font-family: "JetBrains Mono", "Courier New", monospace !important;
+  font-family: "JetBrains Mono", "Courier New", monospace !important;
+}
+
+.md-typeset img:not(.home-avatar) {
+  display: block;
+  width: auto;
+  max-height: 400px;
+  margin: 1.5em auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset .highlight {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.md-typeset .highlight::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.md-typeset .highlight::-webkit-scrollbar-thumb {
+  background-color: #b8bec8;
+  border-radius: 4px;
+}
+
+/* Legacy quote admonition, kept for pages that may reuse it later */
+.md-typeset .admonition.home-card {
+  max-width: 1200px;
+  margin: 2em auto;
+  border-left: none;
+  border-top: 4px solid var(--home-accent);
+  border-radius: 8px;
+  background: var(--home-accent-soft);
+  box-shadow: var(--home-shadow);
+}
+
+.md-typeset .admonition.home-card .admonition-title {
+  color: var(--home-accent);
+  background: transparent;
+  border: none;
+}
+
+.md-typeset .admonition.home-card .admonition-title::before {
+  background-color: var(--home-accent);
+}
+
+.md-typeset .admonition.home-card > p {
+  padding: 10px 20px;
+  color: var(--md-default-fg-color);
+  font-size: 2rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+/* Home page */
+.md-typeset .home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, 18rem);
+  gap: clamp(1.2rem, 4vw, 3rem);
+  align-items: center;
+  margin: 0.5rem 0 2.4rem;
+  padding: clamp(1.5rem, 5vw, 3.2rem);
+  border: 1px solid var(--home-border);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, var(--home-accent-soft), transparent 54%),
+    linear-gradient(315deg, var(--home-green-soft), transparent 52%),
+    var(--md-default-bg-color);
+  box-shadow: var(--home-shadow);
+}
+
+.md-typeset .home-kicker {
+  margin: 0 0 0.7rem;
+  color: var(--home-green);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.md-typeset .home-hero h1 {
+  margin: 0;
+  color: var(--md-default-fg-color);
+  font-size: clamp(2rem, 6vw, 3.4rem);
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+
+.md-typeset .home-hero__copy > p:not(.home-kicker) {
+  max-width: 37rem;
+  margin: 1rem 0 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 1.02rem;
+}
+
+.md-typeset .home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.4rem;
+}
+
+.md-typeset .home-actions .md-button {
+  margin: 0;
+  border-radius: 8px;
+}
+
+.md-typeset .home-profile {
+  display: grid;
+  justify-items: center;
+  gap: 0.75rem;
+  padding: 1.15rem;
+  border: 1px solid var(--home-border);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.56);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .home-profile {
+  background: rgba(15, 23, 42, 0.4);
+}
+
+.md-typeset .home-avatar {
+  width: 7rem;
+  height: 7rem;
+  margin: 0;
+  border: 3px solid var(--md-default-bg-color);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.18);
+}
+
+.md-typeset .home-quote {
+  margin: 0;
+  color: var(--md-default-fg-color);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.md-typeset .home-note {
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.82rem;
+  text-align: center;
+}
+
+.md-typeset .home-section {
+  margin: 2.2rem 0;
+}
+
+.md-typeset .home-section h2 {
+  margin: 0 0 1rem;
+  color: var(--md-default-fg-color);
+  font-size: 1.45rem;
+  letter-spacing: 0;
+}
+
+.md-typeset .home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.md-typeset .home-tile {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 0.75rem;
+  min-height: 8rem;
+  padding: 1rem;
+  border: 1px solid var(--home-border);
+  border-radius: 8px;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.md-typeset .home-tile:hover {
+  border-color: var(--home-accent);
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.11);
+  transform: translateY(-2px);
+}
+
+.md-typeset .home-tile__icon {
+  display: grid;
+  grid-row: span 2;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 8px;
+  background: var(--home-accent-soft);
+  font-size: 1.1rem;
+}
+
+.md-typeset .home-tile__title {
+  align-self: end;
+  color: var(--md-default-fg-color);
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.md-typeset .home-tile__text {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.md-typeset .home-tile--about .home-tile__icon,
+.md-typeset .home-tile--course .home-tile__icon {
+  background: var(--home-amber-soft);
+}
+
+.md-typeset .home-tile--ai .home-tile__icon,
+.md-typeset .home-tile--robot .home-tile__icon {
+  background: var(--home-green-soft);
+}
+
+.md-typeset .home-section--compact {
+  padding: 1.2rem;
+  border: 1px solid var(--home-border);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--md-default-bg-color) 88%, var(--home-accent-soft));
+}
+
+.md-typeset .home-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.md-typeset .home-list a {
+  display: block;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--home-border);
+  border-radius: 8px;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.md-typeset .home-list a:hover {
+  border-color: var(--home-green);
+  color: var(--home-green);
+}
+
+.md-typeset .home-update-card {
+  display: flex;
+  min-height: 4.3rem;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.45rem;
+}
+
+.md-typeset .home-update-card__title {
+  color: var(--md-default-fg-color);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.md-typeset .home-update-card__meta {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
+.md-typeset .home-update-card--empty {
+  padding: 0.75rem 0.85rem;
+  border: 1px dashed var(--home-border);
+  border-radius: 8px;
+  color: var(--md-default-fg-color--light);
+  background: transparent;
+  font-size: 0.88rem;
+}
+
+@media screen and (max-width: 960px) {
+  .md-typeset .home-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .md-typeset .home-profile {
+    justify-items: start;
+    grid-template-columns: auto 1fr;
+    text-align: left;
+  }
+
+  .md-typeset .home-avatar {
+    grid-row: span 2;
+    width: 5.25rem;
+    height: 5.25rem;
+  }
+
+  .md-typeset .home-quote,
+  .md-typeset .home-note {
+    text-align: left;
+  }
+
+  .md-typeset .home-grid,
+  .md-typeset .home-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .md-typeset .home-hero {
+    margin-top: 0;
+    padding: 1.15rem;
+  }
+
+  .md-typeset .home-profile,
+  .md-typeset .home-grid,
+  .md-typeset .home-list {
+    grid-template-columns: 1fr;
+  }
+
+  .md-typeset .home-avatar {
+    grid-row: auto;
+  }
+
+  .md-typeset .home-actions .md-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .md-typeset .home-tile {
+    min-height: 0;
+  }
+
+  .md-typeset .admonition.home-card > p {
+    padding: 5px 10px;
+    font-size: 1.35rem;
+  }
 }

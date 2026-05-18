@@ -1,0 +1,2305 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="赤奈良瞳">
+      
+      
+        <link rel="canonical" href="https://xminstrel.github.io/zju-courses/%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B/%E5%B7%A5%E6%B5%81/">
+      
+      
+        <link rel="prev" href="../../%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/">
+      
+      
+        <link rel="next" href="../%E5%B7%A5%E4%BC%A0/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>工程流体力学 - 赤奈良瞳的博客 | xminstrel's blog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=LXGW+WenKai+Screen+GB+Screen:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"LXGW WenKai Screen GB Screen";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="赤奈良瞳的博客 | xminstrel&#39;s blog" class="md-header__button md-logo" aria-label="赤奈良瞳的博客 | xminstrel's blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            赤奈良瞳的博客 | xminstrel's blog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              工程流体力学
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/xminstrel/xminstrel.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    xminstrel
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🎆 首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../about_me/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  😘 关于赤奈
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../ai/tools/" class="md-tabs__link">
+          
+  
+  
+  💎 AI 相关
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../control/%E6%8E%A7%E5%88%B6%E8%AE%BA/%E6%8E%A7%E5%88%B6%E8%AE%BA/" class="md-tabs__link">
+          
+  
+  
+  🪡 控制相关
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-tabs__link">
+          
+  
+  
+  📚 ZJU-Courses
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../others/moments/moments/" class="md-tabs__link">
+          
+  
+  
+  🖼️ 其他笔记
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="赤奈良瞳的博客 | xminstrel&#39;s blog" class="md-nav__button md-logo" aria-label="赤奈良瞳的博客 | xminstrel's blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    赤奈良瞳的博客 | xminstrel's blog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/xminstrel/xminstrel.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    xminstrel
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎆 首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about_me/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    😘 关于赤奈
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    💎 AI 相关
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    💎 AI 相关
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ai/tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI工具
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🪡 控制相关
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🪡 控制相关
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/%E6%8E%A7%E5%88%B6%E8%AE%BA/%E6%8E%A7%E5%88%B6%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    控制论
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自动控制理论
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    自动控制理论
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    笔记
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E5%B0%8F%E6%B5%8B%E5%A4%8D%E4%B9%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    小测复习
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/esp32/esp32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esp32 入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/stm32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    stm32 入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📚 ZJU-Courses
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📚 ZJU-Courses
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    材料力学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    流体力学&传热学
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    流体力学&传热学
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工程流体力学
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工程流体力学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.流体的力学性质
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2流体静力学
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2流体静力学">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        倾斜平面总压力
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        曲面总压力
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.流体流动特性
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.流体流动特性">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        流线与迹线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        流管
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        流量
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        流速
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        连续性方程
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        理想流体的运动微分方程和伯努利积分
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="理想流体的运动微分方程和伯努利积分">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        欧拉运动微分方程（理想流体）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        实际流体运动微分方程：纳维尔-斯托克斯方程
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        伯努利方程
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        伯努利方程工程应用
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="伯努利方程工程应用">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        测量流速仪表
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        粘性流体流动阻力计算
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="粘性流体流动阻力计算">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        雷诺数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        圆管层流速度分布规律
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        圆管层流中的沿程损失
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        达西公式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        紊流
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="紊流">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        紊流摩擦
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        速度分布
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        紊流核心与层流边界
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%B7%A5%E4%BC%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    传热学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    发展心理学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🖼️ 其他笔记
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🖼️ 其他笔记
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../others/moments/moments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    emm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.流体的力学性质
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2流体静力学
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2流体静力学">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        倾斜平面总压力
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        曲面总压力
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.流体流动特性
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.流体流动特性">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        流线与迹线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        流管
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        流量
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        流速
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        连续性方程
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        理想流体的运动微分方程和伯努利积分
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="理想流体的运动微分方程和伯努利积分">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        欧拉运动微分方程（理想流体）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        实际流体运动微分方程：纳维尔-斯托克斯方程
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        伯努利方程
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        伯努利方程工程应用
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="伯努利方程工程应用">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        测量流速仪表
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        粘性流体流动阻力计算
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="粘性流体流动阻力计算">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        雷诺数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        圆管层流速度分布规律
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        圆管层流中的沿程损失
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        达西公式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        紊流
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="紊流">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        紊流摩擦
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        速度分布
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        紊流核心与层流边界
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="导航栏" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    🎆 首页
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    📚 ZJU-Courses
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    流体力学&传热学
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="_1">流体力学</h1>
+<div class="admonition warning">
+<p class="admonition-title">评分标准</p>
+<ul>
+<li>笔试 60%</li>
+<li>平时作业 10%</li>
+<li>验证性实验 10%</li>
+<li>探究性实验 20%</li>
+</ul>
+</div>
+<p>探究性实验要求
+<img alt="" src="../assets/%E6%8E%A2%E7%A9%B6%E6%80%A7%E5%AE%9E%E9%AA%8C.jpg" /></p>
+<h2 id="1">1.流体的力学性质</h2>
+<p>混合气体密度    </p>
+<p>牛顿内摩擦定律  </p>
+<p><strong>粘性系数</strong></p>
+<ul>
+<li>运动粘性系数    </li>
+<li>动力粘性系数μ：<br />
+ $$
+ \tau=\frac{F}{A}=\pm\mu\frac{du}{dy}
+ $$  <ul>
+<li>水的动力粘度系数经验公式：
+    $$
+    \mu=\frac{\mu_0}{1+0.0337t+0.000221t^2}(Pa*s)
+    $$</li>
+<li>气体动力粘度系数经验公式：</li>
+<li>混合气体动力粘度系数  </li>
+<li>例题
+    <img alt="" src="../assets/%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B.png" />
+    <img alt="" src="../assets/%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B2.png" /></li>
+</ul>
+</li>
+</ul>
+<h2 id="2">2流体静力学</h2>
+<p>欧拉平衡微分方程，流体平衡微分方程</p>
+<p>流体压差方程</p>
+<h3 id="_2">倾斜平面总压力</h3>
+<p>总压力大小</p>
+<div class="arithmatex">\[
+F=p_c A
+\]</div>
+<p>总压力作用点：
+$$
+y_D=
+$$
+$$
+x_D=
+$$</p>
+<h3 id="_3">曲面总压力</h3>
+<p>实体虚体
+<img alt="" src="../assets/%E5%8E%8B%E5%8A%9B%E4%BD%93.png" /></p>
+<p>总压力水平分力<br />
+$$
+F_x=\rho gh_cA_x<br />
+$$</p>
+<p>总压力垂直压力
+等效于压力体液重
+$$
+F_y=pgV_p
+$$</p>
+<p>!!！note "e.g."
+    <img alt="" src="../assets/%E6%9B%B2%E9%9D%A2%E5%8E%8B%E5%8A%9B.png" />
+    <img alt="" src="../assets/%E4%BE%A7%E7%9B%96.png" /></p>
+<h2 id="3">3.流体流动特性</h2>
+<h3 id="_4">流线与迹线</h3>
+<p>定常流动中，流线与迹线重合</p>
+<h3 id="_5">流管</h3>
+<p>流体质点只能在流管内部或外部运动，不能穿梭
+<img alt="400" src="../assets/%E6%B5%81%E7%AE%A1.png" /></p>
+<h3 id="_6">流量</h3>
+<ul>
+<li>体积流量</li>
+<li>质量流量</li>
+</ul>
+<h3 id="_7">流速</h3>
+<p>断面平均流速</p>
+<h3 id="_8">连续性方程</h3>
+<p>流体流动连续性方程</p>
+<p>设在某一时刻，流体流过 <span class="arithmatex">\(C\)</span> 点的流速为 <span class="arithmatex">\(u\)</span>，<span class="arithmatex">\(u\)</span> 在 <span class="arithmatex">\(x、y、z\)</span> 各轴上的分量为 <span class="arithmatex">\(u_x、u_y、u_z\)</span>，流体的密度为 <span class="arithmatex">\(\rho\)</span>。</p>
+<p><strong>可压缩流体（<span class="arithmatex">\(\rho\)</span> 不是常数）三维流动的连续性方程为：</strong></p>
+<p>$$
+\frac{\partial \rho}{\partial t} + \frac{\partial(\rho u_x)}{\partial x} + \frac{\partial(\rho u_y)}{\partial y} + \frac{\partial(\rho u_z)}{\partial z} = 0 \qquad 
+$$
+分类：<br />
+1. 可压缩流体定常流动</p>
+<p>对于可压缩流体的定常流动，由于密度 <span class="arithmatex">\(\rho\)</span> 不随时间变化，即 <span class="arithmatex">\(\frac{\partial \rho}{\partial t} = 0\)</span>，则连续性方程简化为：</p>
+<div class="arithmatex">\[
+\frac{\partial(\rho u_x)}{\partial x} + \frac{\partial(\rho u_y)}{\partial y} + \frac{\partial(\rho u_z)}{\partial z} = 0 \qquad 
+\]</div>
+<ol>
+<li>不可压缩流体（三维定常流动）</li>
+</ol>
+<p>对于不可压缩流体，由于密度 <span class="arithmatex">\(\rho\)</span> 为常数，其三维定常流动的连续性方程进一步简化为：</p>
+<div class="arithmatex">\[
+\frac{\partial u_x}{\partial x} + \frac{\partial u_y}{\partial y} + \frac{\partial u_z}{\partial z} = 0 \qquad 
+\]</div>
+<ol>
+<li>不可压缩流体二维定常流动</li>
+</ol>
+<p>对于流体的二维流动（假设在 <span class="arithmatex">\(xy\)</span> 平面内），不可压缩流体二维定常流动的连续性方程为：</p>
+<div class="arithmatex">\[
+\frac{\partial u_x}{\partial x} + \frac{\partial u_y}{\partial y} = 0 \qquad
+\]</div>
+<p>不可压缩流体微小流束定常流动连续性方程</p>
+<h3 id="_9">理想流体的运动微分方程和伯努利积分</h3>
+<p><img alt="" src="../assets/%E8%BF%90%E5%8A%A8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B.png" /></p>
+<h4 id="_10"><strong>欧拉运动微分方程</strong>（理想流体）</h4>
+<h4 id="-"><strong>实际流体运动微分方程：纳维尔-斯托克斯方程</strong></h4>
+<p>对于实际流体，微元六面体流体质点除了受表面压力、质量力以外还受切应力的作用。实际流体运动的微分方程一般称为<strong>纳维尔—斯托克斯方程</strong>，可写为：</p>
+<div class="arithmatex">\[\begin{cases} X - \dfrac{1}{\rho} \dfrac{\partial p}{\partial x} + \nu \Delta^2 u_x = \dfrac{du_x}{dt} \\ Y - \dfrac{1}{\rho} \dfrac{\partial p}{\partial y} + \nu \Delta^2 u_y = \dfrac{du_y}{dt} \\ Z - \dfrac{1}{\rho} \dfrac{\partial p}{\partial z} + \nu \Delta^2 u_z = \dfrac{du_z}{dt} \end{cases}\]</div>
+<p><strong>参数说明：</strong></p>
+<ul>
+<li>
+<p><span class="arithmatex">\(\Delta^2\)</span> <strong>：称为</strong>拉普拉斯算子** (Laplace Operator)，定义为：
+    $$
+    \Delta^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}
+    $$</p>
+</li>
+<li>
+<p><span class="arithmatex">\(\nu\)</span> <strong>：流体的</strong>运动粘性系数 (Kinematic Viscosity)；</p>
+</li>
+<li>
+<p><span class="arithmatex">\(X, Y, Z\)</span> **：单位质量流体所受的质量力分量；</p>
+</li>
+<li>
+<p><span class="arithmatex">\(p\)</span> **：流体压力；</p>
+</li>
+<li>
+<p><span class="arithmatex">\(\rho\)</span> **：流体密度。</p>
+</li>
+</ul>
+<h4 id="_11">伯努利方程</h4>
+<p><strong>伯努利方程与水头的三个组成部分</strong></p>
+<p>对于不可压缩的理想流体，其在流动过程中的总机械能是守恒的。伯努利方程将其表示为三种“水头”的总和：</p>
+<div class="arithmatex">\[
+H = z + \frac{p}{\rho g} + \frac{v^2}{2g} = \text{常数}
+\]</div>
+<p>在这个公式中，<span class="arithmatex">\(H\)</span> 代表<strong>总水头（Total Head）</strong>，它由以下三个部分组成：</p>
+<ul>
+<li>
+<p><strong>位置水头（Elevation Head / Position Head），<span class="arithmatex">\(z\)</span>：</strong></p>
+<p>代表单位重量流体由于所处的海拔高度（相对于某一基准面）而具有的<strong>重力势能</strong>。位置越高，位置水头越大。</p>
+</li>
+<li>
+<p><strong>压力水头（Pressure Head），<span class="arithmatex">\(\frac{p}{\rho g}\)</span>：</strong></p>
+<p>代表单位重量流体由于内部静压力 <span class="arithmatex">\(p\)</span> 而具有的<strong>压力能</strong>。其中 <span class="arithmatex">\(\rho\)</span> 是流体密度，<span class="arithmatex">\(g\)</span> 是重力加速度。你可以把它想象成：如果在这个管道上插一根开口向上的透明管子（测压管），管里的水能被管道内的压力顶起多高。</p>
+</li>
+<li>
+<p><strong>速度水头（Velocity Head），<span class="arithmatex">\(\frac{v^2}{2g}\)</span>：</strong></p>
+<p>代表单位重量流体由于流动速度 <span class="arithmatex">\(v\)</span> 而具有的<strong>动能</strong>。速度越快，流体的动能越大，转化成的速度水头就越高。</p>
+</li>
+</ul>
+<p>总水头线<br />
+测压管水头线
+<img alt="400" src="../assets/%E6%B0%B4%E5%A4%B4.png" /></p>
+<p>在真实的物理世界中，流体是具有粘性（摩擦力）的。因此，流体在管道中流动时，总会有一部分机械能转化为热能散失掉，这就是所谓的<strong>水头损失（Head Loss）</strong>。</p>
+<p>考虑到水头损失 <span class="arithmatex">\(h_f\)</span>，实际流体的伯努利方程变为（假设流体从截面 1 流向截面 2）：</p>
+<div class="arithmatex">\[
+z_1 + \frac{p_1}{\rho g} + \frac{v_1^2}{2g} = z_2 + \frac{p_2}{\rho g} + \frac{v_2^2}{2g} + h_f
+\]</div>
+<p><img alt="400" src="../assets/%E5%AE%9E%E9%99%85%E6%B0%B4%E5%A4%B4.png" /></p>
+<p><strong>实际流体总水头线沿流体流动方向降低</strong></p>
+<h3 id="_12">伯努利方程工程应用</h3>
+<p>例题：</p>
+<p><img alt="" src="../assets/%E4%BE%8B%E9%A2%981.png" /></p>
+<p><img alt="" src="../assets/%E4%BE%8B%E4%BA%8C.png" /></p>
+<p><img alt="" src="../assets/%E4%BE%8B3.png" /></p>
+<h4 id="_13">测量流速仪表</h4>
+<p>毕托管</p>
+<p>文丘里管<br />
+    流量公式</p>
+<p><img alt="" src="../assets/%E6%96%87%E4%B8%98%E9%87%8C%E7%AE%A1%E4%BE%8B%E9%A2%98.png" />
+<img alt="" src="../assets/%E6%96%87%E4%B8%98%E9%87%8C%E7%AE%A1%E4%BE%8B%E9%A2%98-1.png" />
+<img alt="" src="../assets/%E6%96%87%E4%B8%98%E9%87%8C%E7%AE%A1%E4%BE%8B%E9%A2%98-2.png" /></p>
+<p><img alt="" src="../assets/%E4%BC%AF%E5%8A%AA%E5%88%A9%E6%96%B9%E7%A8%8B%E4%BE%8B%E9%A2%98.png" />
+<img alt="" src="../assets/%E4%BC%AF%E5%8A%AA%E5%88%A9%E6%96%B9%E7%A8%8B%E4%BE%8B%E9%A2%98-1.png" /></p>
+<p>虹吸现象</p>
+<h2 id="_14">粘性流体流动阻力计算</h2>
+<p><img alt="" src="../assets/%E6%B5%81%E5%8A%A8%E9%98%BB%E5%8A%9B.png" /><img alt="" src="../assets/%E6%B5%81%E5%8A%A8%E9%98%BB%E5%8A%9B-1.png" /></p>
+<p>流体流动两种状态：
+平流
+紊流</p>
+<p>雷诺实验
+<img alt="" src="../assets/%E9%9B%B7%E8%AF%BA%E5%AE%9E%E9%AA%8C.png" /></p>
+<p><img alt="" src="../assets/%E9%9B%B7%E8%AF%BA%E5%AE%9E%E9%AA%8C-2.png" /></p>
+<p><img alt="" src="../assets/%E9%9B%B7%E8%AF%BA%E5%AE%9E%E9%AA%8C-1.png" /></p>
+<h3 id="_15">雷诺数</h3>
+<p>流动状态判别
+雷诺数是一个无因次综合量，用以判别流体流动状态。</p>
+<ul>
+<li>
+<p><strong>基本定义</strong>：</p>
+<div class="arithmatex">\[
+Re = \frac{\rho v d}{\mu} = \frac{v d}{\nu} \qquad
+\]</div>
+</li>
+<li>
+<p><strong>参数说明</strong>：<span class="arithmatex">\(d\)</span> 为特征长度，圆管为直径 <span class="arithmatex">\(d\)</span>。</p>
+</li>
+<li>
+<p><strong>临界雷诺数</strong>：</p>
+<ul>
+<li>
+<p><strong>上临界雷诺数</strong>：<span class="arithmatex">\(Re'_{cr} = \frac{v'_{cr} d}{\nu}\)</span></p>
+</li>
+<li>
+<p><strong>下临界雷诺数</strong>：<span class="arithmatex">\(Re_{cr} = \frac{v_{cr} d}{\nu}\)</span></p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../assets/%E9%9B%B7%E8%AF%BA%E6%95%B0.png" />
+<img alt="" src="../assets/%E9%9B%B7%E8%AF%BA%E6%95%B0-1.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">e.g.</p>
+<p><img alt="" src="../assets/%E4%BE%8B%E9%A2%98.png" />
+<img alt="" src="../assets/%E4%BE%8B%E9%A2%98-1.png" /></p>
+</div>
+<p><img alt="" src="../assets/%E5%B1%82%E6%B5%81.png" /></p>
+<p><img alt="" src="../assets/%E5%B1%82%E6%B5%81-1.png" /></p>
+<p>层流运动时，流体切应力分布为沿半径 r 按直线规律分布</p>
+<h3 id="_16">圆管层流速度分布规律</h3>
+<p><img alt="" src="../assets/%E5%88%86%E5%B8%83.png" />
+<img alt="" src="../assets/%E6%96%AF%E6%89%98%E5%85%8B%E6%96%AF%E5%85%AC%E5%BC%8F.png" />
+<img alt="" src="../assets/%E5%93%88%E6%A0%B9-%E6%B3%8A%E8%82%83%E5%8F%B6%E5%85%AC%E5%BC%8F.png" />
+<mark><strong>斯托克斯公式：</strong></mark></p>
+<p><mark><strong>哈根-泊肃叶公式</strong></mark>(计算流体的粘性系数)</p>
+<h3 id="_17">圆管层流中的沿程损失</h3>
+<p><img alt="" src="../assets/%E6%B2%BF%E7%A8%8B%E6%8D%9F%E5%A4%B1.png" /></p>
+<h3 id="_18">达西公式</h3>
+<p><img alt="" src="../assets/%E8%BE%BE%E8%A5%BF%E5%85%AC%E5%BC%8F.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">e.g.</p>
+<p><img alt="" src="../assets/%E4%BE%8B%E9%A2%98-2.png" />
+<img alt="" src="../assets/%E4%BE%8B%E9%A2%98-3.png" /></p>
+</div>
+<h3 id="_19">紊流</h3>
+<p>摩擦损耗远大于层流</p>
+<h4 id="_20">紊流摩擦</h4>
+<p><img alt="" src="../assets/%E7%B4%8A%E6%B5%81%E6%91%A9%E6%93%A6.png" /></p>
+<h4 id="_21">速度分布</h4>
+<p><img alt="" src="../assets/%E9%80%9F%E5%BA%A6%E5%88%86%E5%B8%83.png" />
+<img alt="" src="../assets/%E9%80%9F%E5%BA%A6%E5%88%86%E5%B8%83-1.png" /></p>
+<h4 id="_22">紊流核心与层流边界</h4>
+<p><img alt="" src="../assets/%E7%B4%8A%E6%B5%81%E6%A0%B8%E5%BF%83.png" /></p>
+<p>层流边界厚度公式：
+$$
+\sigma=32.8\frac{d}{Re\sqrt{\lambda}}
+$$</p>
+<p>沿程损失公式：
+$$
+\lambda=\frac{Lv^2}{D2g}
+$$</p>
+<p>雷诺数（判断层流）：</p>
+<div class="arithmatex">\[
+Re=\frac{\rho VD}{\mu}
+\]</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="xminstrel/xminstrel.github.io"
+        data-repo-id="R_kgDOQ7oY9A"
+        data-category="[在此输入分类名]"
+        data-category-id="[在此输入分类 ID]"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../../%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 材料力学">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                材料力学
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../%E5%B7%A5%E4%BC%A0/" class="md-footer__link md-footer__link--next" aria-label="下一页: 传热学">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                传热学
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  <div class="md-copyright__highlight">
+    Copyright &copy; 2025 - 2026 赤奈良瞳
+  </div>
+  
+  Made with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a> 
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/xminstrel" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "navigation.expand", "navigation.path", "navigation.tracking", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+        <script src="../../../javascripts/recent-notes.js"></script>
+      
+        <script src="../../../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

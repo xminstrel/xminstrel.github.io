@@ -15,9 +15,9 @@
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
                 "page": 23,
-                "left": -17,
-                "top": 524,
-                "zoom": 0.9146341463414632
+                "left": -22,
+                "top": 87,
+                "zoom": 0.730699455754888
               },
               "icon": "lucide-file-text",
               "title": "发展心理学复习资料"
@@ -30,10 +30,10 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 180,
-                "left": 599,
-                "top": 287,
-                "zoom": 1.07
+                "page": 183,
+                "left": 591,
+                "top": 22,
+                "zoom": 0.72
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "发展心理学 的反向链接列表"
+              "title": "发展心理学第2版 (苏彦捷) 的反向链接列表"
             }
           },
           {
@@ -187,12 +187,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "发展心理学 的出链列表"
+              "title": "发展心理学第2版 (苏彦捷) 的出链列表"
             }
           },
           {
@@ -241,33 +241,40 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "abcb79060ae67807",
+  "active": "b92e0c22ba2189b6",
   "lastOpenFiles": [
-    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+    "site/javascripts/recent-notes.js",
+    "site/assets/data/recent_notes.json",
+    "site/assets/data",
+    "docs/assets/data/recent_notes.json",
+    "docs/assets/data",
+    "hooks/__pycache__/recent_notes.cpython-312.pyc",
+    "hooks/__pycache__",
+    "docs/javascripts/recent-notes.js",
+    "hooks/recent_notes.py",
+    "hooks",
+    "site/search/search_index.json",
+    "site/others/知识库/文化中国/assets/黄2.jpg",
+    "site/others/知识库/文化中国/assets/黄.jpg",
+    "site/others/知识库/文化中国/assets/郭9.jpg",
+    "site/others/知识库/文化中国/assets/郭8.jpg",
+    "site/others/知识库/文化中国/assets/郭4.jpg",
+    "site/others/知识库/文化中国/assets/郭7.jpg",
+    "site/others/知识库/文化中国/assets/郭6.jpg",
+    "site/others/知识库/文化中国/assets/郭3.jpg",
+    "site/others/知识库/文化中国/assets/郭11.jpg",
+    "site/others/知识库/文化中国/assets/郭10.jpg",
+    "docs/index.md",
     "docs/zju-courses/发展心理学/发展心理学.md",
     "docs/zju-courses/精细农业/精细农业.md",
-    "docs/zju-courses/cad/homework/必做-大调整环与小调整环.pdf",
     "docs/zju-courses/cad/作业进度.md",
-    "docs/others/数学建模/2026校赛/2026problem.pdf",
-    "docs/zju-courses/cad/homework/必做-齿轮与窥视孔盖.pdf",
     "docs/zju-courses/材料力学/实验四数据.md",
     "docs/zju-courses/发展心理学/文献报告.md",
     "docs/others/数学建模/final/math_model/results/结果汇总.md",
     "docs/zju-courses/电视节目策划与编导/电视节目策划与编导.md",
-    "docs/zju-courses/cad/homework/必做-小盖与通气塞.pdf",
     "docs/others/数学建模/final/math_model/项目总结.md",
     "docs/others/数学建模/final/math_model/项目说明.md",
-    "docs/others/数学建模/final/math_model/tests/test_core_model.py",
-    "docs/others/数学建模/final/math_model/tests",
-    "docs/others/数学建模/final/math_model/src/math_model/venues.py",
-    "docs/others/数学建模/final/math_model/src/math_model/__init__.py",
     "docs/zju-courses/材料力学/材料力学.md",
-    "docs/zju-courses/材料力学/assets/应力圆-4.png",
-    "docs/zju-courses/材料力学/assets/应力圆-3.png",
-    "docs/zju-courses/材料力学/assets/应力圆-2.png",
-    "docs/zju-courses/材料力学/assets/应力圆-1.png",
-    "docs/zju-courses/材料力学/assets/应力圆.png",
     "docs/others/数学建模/数模1/math_model/docs/project_summary.md",
     "docs/others/数学建模/数模1/math_model/iterations/2026-05-12_iter00_project_setup.md",
     "docs/others/数学建模/数模2/mm/问题4.md",
@@ -281,12 +288,6 @@
     "docs/others/数学建模/数模3/最终方案.md",
     "docs/others/数学建模/数模3/最终方案摘要.md",
     "docs/others/数学建模/初版结果说明/建模思路与公式汇总.md",
-    "docs/others/数学建模/数模3/outputs_method_compare/问题一分组生成方法对比.md",
-    "docs/others/数学建模/数模3/outputs_candidate_eval/top_schemes_comparison.md",
-    "assets/地理覆盖均衡性.png",
-    "assets/地理合理性.png",
-    "assets/文旅.png",
-    "assets/热点对决.png",
-    "assets/竞争激烈.png"
+    "docs/others/数学建模/数模3/outputs_method_compare/问题一分组生成方法对比.md"
   ]
 }

@@ -74,6 +74,8 @@ plugins:
   - search    # 开启默认的搜索功能
   - tags      # 开启标签系统
   - blog      # 开启博客时间轴模式
+hooks:
+  - hooks/recent_notes.py
 #md扩展
 markdown_extensions:
   - wikilinks
@@ -91,6 +93,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_javascript: # latex
   - javascripts/extra.js
+  - javascripts/recent-notes.js
   - javascripts/katex.js                        
   - https://unpkg.com/katex@0/dist/katex.min.js   
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js

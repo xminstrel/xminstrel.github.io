@@ -1,0 +1,2185 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="赤奈良瞳">
+      
+      
+        <link rel="canonical" href="https://xminstrel.github.io/others/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/%E9%97%AE%E9%A2%98%E4%B8%89%E6%80%9D%E8%B7%AF/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>问题三思路 - 赤奈良瞳的博客 | xminstrel's blog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=LXGW+WenKai+Screen+GB+Screen:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"LXGW WenKai Screen GB Screen";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="赤奈良瞳的博客 | xminstrel&#39;s blog" class="md-header__button md-logo" aria-label="赤奈良瞳的博客 | xminstrel's blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            赤奈良瞳的博客 | xminstrel's blog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              问题三思路
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/xminstrel/xminstrel.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    xminstrel
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🎆 首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../about_me/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  😘 关于赤奈
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../ai/tools/" class="md-tabs__link">
+          
+  
+  
+  💎 AI 相关
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../control/%E6%8E%A7%E5%88%B6%E8%AE%BA/%E6%8E%A7%E5%88%B6%E8%AE%BA/" class="md-tabs__link">
+          
+  
+  
+  🪡 控制相关
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../zju-courses/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-tabs__link">
+          
+  
+  
+  📚 ZJU-Courses
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../moments/moments/" class="md-tabs__link">
+          
+  
+  
+  🖼️ 其他笔记
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="赤奈良瞳的博客 | xminstrel&#39;s blog" class="md-nav__button md-logo" aria-label="赤奈良瞳的博客 | xminstrel's blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    赤奈良瞳的博客 | xminstrel's blog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/xminstrel/xminstrel.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    xminstrel
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎆 首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about_me/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    😘 关于赤奈
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    💎 AI 相关
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    💎 AI 相关
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ai/tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI工具
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🪡 控制相关
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🪡 控制相关
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/%E6%8E%A7%E5%88%B6%E8%AE%BA/%E6%8E%A7%E5%88%B6%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    控制论
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自动控制理论
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    自动控制理论
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    笔记
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E5%B0%8F%E6%B5%8B%E5%A4%8D%E4%B9%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    小测复习
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/esp32/esp32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esp32 入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../control/stm32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    stm32 入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📚 ZJU-Courses
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📚 ZJU-Courses
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../zju-courses/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    材料力学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    流体力学&传热学
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    流体力学&传热学
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../zju-courses/%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B/%E5%B7%A5%E6%B5%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工程流体力学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../zju-courses/%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B/%E5%B7%A5%E4%BC%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    传热学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../zju-courses/%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    发展心理学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🖼️ 其他笔记
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🖼️ 其他笔记
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../moments/moments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    emm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<p>下面把问题三拆成两部分来做：</p>
+<blockquote>
+<p><strong>第一部分：建立一般性的比赛地点选择模型；</strong><br />
+<strong>第二部分：把模型应用到你问题一的主推荐分组 D 001，给出一版可行的 8 个比赛地点安排。</strong></p>
+</blockquote>
+<p>赛题要求是：根据分组结果，选择 8 个市或县作为小组赛比赛地点，每个地点承办两个小组；选择地点时既要保证公平性，又要扩大赛事影响和普及面，并便利各队参赛。 你当前问题一推荐的 D 001 方案已经满足市级队分散、市级队不与本市代管县同组、同市代管县级队不重复同组等要求，并且在竞技均衡、竞争悬念和资源均衡方面表现较好。</p>
+<hr />
+<h1 id="_1">一、问题三的本质</h1>
+<p>问题三不是单纯“挑 8 个大城市”，而是一个：</p>
+<blockquote>
+<p><strong>带容量约束的多目标选址—分配问题</strong></p>
+</blockquote>
+<p>具体来说：</p>
+<ul>
+<li>
+<p>从 64 个市县参赛单位中选择 8 个作为比赛地点；</p>
+</li>
+<li>
+<p>16 个小组要分配到这 8 个地点；</p>
+</li>
+<li>
+<p>每个地点恰好承办 2 个小组；</p>
+</li>
+<li>
+<p>每个小组 4 队，单循环比赛，共：</p>
+</li>
+</ul>
+<p>[<br />
+\binom{4}{2}=6<br />
+]</p>
+<p>场比赛；</p>
+<ul>
+<li>每个地点承办两个小组，因此每个地点需要承办：</li>
+</ul>
+<p>[<br />
+2\times 6=12<br />
+]</p>
+<p>场小组赛。</p>
+<p>所以每个承办地点都要具备一定的交通、场馆、住宿、组织能力。</p>
+<hr />
+<h1 id="_2">二、问题三的评价目标</h1>
+<p>题目给出的关键词是：</p>
+<ol>
+<li>
+<p>公平性；</p>
+</li>
+<li>
+<p>扩大赛事影响；</p>
+</li>
+<li>
+<p>普及面；</p>
+</li>
+<li>
+<p>便利各队参加比赛。</p>
+</li>
+</ol>
+<p>可以转化为 4 类数学指标。</p>
+<hr />
+<h2 id="1">1. 公平性</h2>
+<p>公平性不只是分组公平，还包括比赛地点公平。</p>
+<p>可以考虑：</p>
+<table>
+<thead>
+<tr>
+<th>公平维度</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>出行负担公平</td>
+<td>同一小组内各队到比赛地点的距离差异不宜过大</td>
+</tr>
+<tr>
+<td>主场优势控制</td>
+<td>尽量避免某队在本地比赛获得过强主场优势</td>
+</tr>
+<tr>
+<td>区域机会公平</td>
+<td>承办地点不要全部集中在浙北或大城市</td>
+</tr>
+<tr>
+<td>赛事资源公平</td>
+<td>县级市、山区、沿海地区也应有一定承办机会</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2">2. 扩大赛事影响</h2>
+<p>可以用：</p>
+<ul>
+<li>
+<p>常住人口；</p>
+</li>
+<li>
+<p>GDP；</p>
+</li>
+<li>
+<p>文旅热度；</p>
+</li>
+<li>
+<p>媒体传播能力；</p>
+</li>
+<li>
+<p>城市交通枢纽能力；</p>
+</li>
+<li>
+<p>体育场馆容量。</p>
+</li>
+</ul>
+<p>构建赛事影响力指数。</p>
+<hr />
+<h2 id="3">3. 普及面</h2>
+<p>普及面强调不要只在少数中心城市办赛，可以引入：</p>
+<ul>
+<li>
+<p>区域覆盖数；</p>
+</li>
+<li>
+<p>是否覆盖浙北、浙东、浙中、浙南、浙西、浙西南；</p>
+</li>
+<li>
+<p>是否包含县级市或县；</p>
+</li>
+<li>
+<p>是否覆盖山区、沿海、平原等不同地理类型。</p>
+</li>
+</ul>
+<hr />
+<h2 id="4">4. 参赛便利性</h2>
+<p>主要可以用距离或交通时间衡量：</p>
+<ul>
+<li>
+<p>小组内队伍到承办地的平均距离；</p>
+</li>
+<li>
+<p>小组内最远出行距离；</p>
+</li>
+<li>
+<p>小组内出行距离方差；</p>
+</li>
+<li>
+<p>是否有高铁、高速或机场等交通条件。</p>
+</li>
+</ul>
+<hr />
+<h1 id="_3">三、一般性建模方案</h1>
+<h2 id="1_1">1. 集合与变量</h2>
+<p>设：</p>
+<table>
+<thead>
+<tr>
+<th>符号</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(V)</td>
+<td>候选比赛地点集合，可以是 64 个市县，也可以先筛选出具备办赛能力的地点</td>
+</tr>
+<tr>
+<td>(G)</td>
+<td>16 个小组集合</td>
+</tr>
+<tr>
+<td>(T_g)</td>
+<td>第 (g) 个小组内的 4 支队伍</td>
+</tr>
+<tr>
+<td>(d_{tv})</td>
+<td>队伍 (t) 到候选地点 (v) 的距离或交通时间</td>
+</tr>
+<tr>
+<td>(I_v)</td>
+<td>候选地点 (v) 的赛事影响力指数</td>
+</tr>
+<tr>
+<td>(C_v)</td>
+<td>候选地点 (v) 的承办能力指数</td>
+</tr>
+<tr>
+<td>(R_v)</td>
+<td>候选地点 (v) 所属区域</td>
+</tr>
+</tbody>
+</table>
+<p>定义决策变量：</p>
+<p>[<br />
+y_v=<br />
+\begin{cases}<br />
+1, &amp; \text{地点 }v\text{ 被选为比赛地点}\<br />
+0, &amp; \text{否则}<br />
+\end{cases}<br />
+]</p>
+<p>[<br />
+z_{gv}=<br />
+\begin{cases}<br />
+1, &amp; \text{第 }g\text{ 组安排到地点 }v\<br />
+0, &amp; \text{否则}<br />
+\end{cases}<br />
+]</p>
+<hr />
+<h2 id="2_1">2. 基本约束</h2>
+<h3 id="1-8">约束 1：选择 8 个比赛地点</h3>
+<p>[<br />
+\sum_{v\in V}y_v=8<br />
+]</p>
+<hr />
+<h3 id="2_2">约束 2：每个小组只能安排到一个地点</h3>
+<p>[<br />
+\sum_{v\in V}z_{gv}=1,\quad \forall g\in G<br />
+]</p>
+<hr />
+<h3 id="3_1">约束 3：每个被选地点承办两个小组</h3>
+<p>[<br />
+\sum_{g\in G}z_{gv}=2 y_v,\quad \forall v\in V<br />
+]</p>
+<p>如果 (y_v=1)，则该地点承办两个小组；<br />
+如果 (y_v=0)，则该地点不承办任何小组。</p>
+<hr />
+<h3 id="4_1">约束 4：小组只能分配给被选地点</h3>
+<p>[<br />
+z_{gv}\leq y_v,\quad \forall g,v<br />
+]</p>
+<hr />
+<h3 id="5">约束 5：承办能力门槛</h3>
+<p>如果某地场馆、住宿、交通等不满足最低要求，则不能被选为承办地：</p>
+<p>[<br />
+y_v=0,\quad \forall v\notin V_{\text{eligible}}<br />
+]</p>
+<p>其中 (V_{\text{eligible}}) 是具备办赛能力的候选地点集合。</p>
+<hr />
+<h3 id="6">约束 6：区域覆盖约束</h3>
+<p>为了扩大普及面，可以将浙江划分为若干区域，例如：</p>
+<table>
+<thead>
+<tr>
+<th>区域</th>
+<th>可包含城市</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>浙北</td>
+<td>杭州、嘉兴、湖州</td>
+</tr>
+<tr>
+<td>浙东</td>
+<td>宁波、绍兴、舟山</td>
+</tr>
+<tr>
+<td>浙中</td>
+<td>金华、衢州</td>
+</tr>
+<tr>
+<td>浙南</td>
+<td>温州、台州</td>
+</tr>
+<tr>
+<td>浙西南</td>
+<td>丽水</td>
+</tr>
+</tbody>
+</table>
+<p>可以设置：</p>
+<p>[<br />
+\sum_{v\in V_r}y_v\geq L_r,\quad \forall r<br />
+]</p>
+<p>其中 (L_r) 是区域 (r) 的最低承办点数量。</p>
+<p>例如可以要求：</p>
+<ul>
+<li>
+<p>浙北至少 1 个；</p>
+</li>
+<li>
+<p>浙东至少 1 个；</p>
+</li>
+<li>
+<p>浙中至少 1 个；</p>
+</li>
+<li>
+<p>浙南至少 1 个；</p>
+</li>
+<li>
+<p>浙西南至少 1 个。</p>
+</li>
+</ul>
+<p>这样可以避免承办地点过度集中。</p>
+<hr />
+<h1 id="_4">四、目标函数设计</h1>
+<p>问题三是多目标问题，可以建立综合目标函数。</p>
+<hr />
+<h2 id="1_2">1. 参赛便利性指标</h2>
+<p>第 (g) 组安排到地点 (v) 的平均出行距离：</p>
+<p>[<br />
+\bar d_{gv}=\frac{1}{4}\sum_{t\in T_g}d_{tv}<br />
+]</p>
+<p>总平均出行成本：</p>
+<p>[<br />
+D_{\text{avg}}=\sum_{g\in G}\sum_{v\in V}z_{gv}\bar d_{gv}<br />
+]</p>
+<p>方向：<strong>越小越好</strong>。</p>
+<hr />
+<h2 id="2_3">2. 出行公平性指标</h2>
+<p>同一小组内，各队到比赛地点距离差异不宜太大。</p>
+<p>可以定义：</p>
+<p>[<br />
+D_{\text{fair}}=\sum_{g\in G}\sum_{v\in V}z_{gv}\operatorname{Std}{d_{tv}:t\in T_g}<br />
+]</p>
+<p>方向：<strong>越小越好</strong>。</p>
+<p>它表示同组队伍出行负担是否均衡。</p>
+<hr />
+<h2 id="3_2">3. 最远出行惩罚</h2>
+<p>为避免某些队伍出行特别远，可以定义：</p>
+<p>[<br />
+D_{\max}=\max_{g,v,t}{z_{gv}d_{tv}}<br />
+]</p>
+<p>方向：<strong>越小越好</strong>。</p>
+<p>在整数规划中可以引入辅助变量 (L)：</p>
+<p>[<br />
+L\geq z_{gv}d_{tv},\quad \forall g,v,t\in T_g<br />
+]</p>
+<p>然后最小化 (L)。</p>
+<hr />
+<h2 id="4_2">4. 主场优势惩罚</h2>
+<p>如果比赛地点 (v) 正好是小组中某支队伍所在地，可能产生主场优势。</p>
+<p>定义：</p>
+<p>[<br />
+h_{gv}=<br />
+\begin{cases}<br />
+1, &amp; \text{地点 }v\text{ 与第 }g\text{ 组某队所在地相同或高度相关}\<br />
+0, &amp; \text{否则}<br />
+\end{cases}<br />
+]</p>
+<p>主场优势惩罚：</p>
+<p>[<br />
+H=\sum_{g\in G}\sum_{v\in V}z_{gv}h_{gv}<br />
+]</p>
+<p>方向：<strong>越小越好</strong>。</p>
+<p>注意：这个指标建议作为软惩罚，而不是硬约束。因为如果完全禁止本地队所在组在本地比赛，可能会损害宣传效果和现场人气。</p>
+<hr />
+<h2 id="5_1">5. 赛事影响力指数</h2>
+<p>设候选地点 (v) 的赛事影响力为：</p>
+<p>[<br />
+I_v=w_1 P_v'+w_2 Eco_v'+w_3 Tour_v'+w_4 S_v'<br />
+]</p>
+<p>其中：</p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(P_v')</td>
+<td>人口标准化值</td>
+</tr>
+<tr>
+<td>(Eco_v')</td>
+<td>经济标准化值</td>
+</tr>
+<tr>
+<td>(Tour_v')</td>
+<td>文旅标准化值</td>
+</tr>
+<tr>
+<td>(S_v')</td>
+<td>体育场馆或办赛能力标准化值</td>
+</tr>
+</tbody>
+</table>
+<p>影响力总得分：</p>
+<p>[<br />
+I=\sum_{v\in V}y_vI_v<br />
+]</p>
+<p>方向：<strong>越大越好</strong>。</p>
+<hr />
+<h2 id="6_1">6. 普及面指数</h2>
+<p>可以定义为区域覆盖数：</p>
+<p>[<br />
+U=\sum_{r}q_r<br />
+]</p>
+<p>其中：</p>
+<p>[<br />
+q_r=<br />
+\begin{cases}<br />
+1, &amp; \text{区域 }r\text{ 至少有一个承办点}\<br />
+0, &amp; \text{否则}<br />
+\end{cases}<br />
+]</p>
+<p>方向：<strong>越大越好</strong>。</p>
+<p>也可以给县级承办点一定奖励：</p>
+<p>[<br />
+U_{\text{county}}=\sum_{v\in V}y_v\cdot \mathbf{1}(v\text{为县级市或县})<br />
+]</p>
+<p>方向：<strong>适度越大越好</strong>。</p>
+<p>但不建议县级点过多，因为每个地点要承办 12 场比赛，必须具备场馆和组织能力。</p>
+<hr />
+<h2 id="7">7. 综合目标函数</h2>
+<p>可以将所有指标统一为：</p>
+<p>[<br />
+\min Z=<br />
+\alpha D_{\text{avg}}<br />
++\beta D_{\text{fair}}<br />
++\gamma D_{\max}<br />
++\eta H<br />
+-\lambda I<br />
+-\mu U<br />
+]</p>
+<p>其中：</p>
+<ul>
+<li>
+<p>(D_{\text{avg}})：平均出行距离；</p>
+</li>
+<li>
+<p>(D_{\text{fair}})：出行负担不均衡；</p>
+</li>
+<li>
+<p>(D_{\max})：最远出行距离；</p>
+</li>
+<li>
+<p>(H)：主场优势惩罚；</p>
+</li>
+<li>
+<p>(I)：赛事影响力；</p>
+</li>
+<li>
+<p>(U)：普及覆盖度。</p>
+</li>
+</ul>
+<p>权重可以设置为：</p>
+<table>
+<thead>
+<tr>
+<th>目标</th>
+<th style="text-align: right;">建议权重</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>平均出行距离</td>
+<td style="text-align: right;">0.30</td>
+</tr>
+<tr>
+<td>出行公平性</td>
+<td style="text-align: right;">0.20</td>
+</tr>
+<tr>
+<td>最远出行惩罚</td>
+<td style="text-align: right;">0.15</td>
+</tr>
+<tr>
+<td>主场优势惩罚</td>
+<td style="text-align: right;">0.10</td>
+</tr>
+<tr>
+<td>赛事影响力</td>
+<td style="text-align: right;">0.15</td>
+</tr>
+<tr>
+<td>普及覆盖度</td>
+<td style="text-align: right;">0.10</td>
+</tr>
+</tbody>
+</table>
+<p>这组权重可以作为初始值，后续做灵敏度分析。</p>
+<hr />
+<h1 id="_5">五、问题三的实际求解流程</h1>
+<p>建议论文中写成如下流程：</p>
+<div class="highlight"><pre><span></span><code>输入问题一分组结果
+↓
+确定候选比赛地点集合
+↓
+收集候选地点经纬度、交通、场馆、人口、文旅等数据
+↓
+计算各队到候选地点的距离矩阵
+↓
+计算候选地点影响力和承办能力得分
+↓
+建立 8 选址 + 16 组分配模型
+↓
+求解得到 8 个比赛地点
+↓
+将 16 个小组分配到 8 个地点
+↓
+计算平均距离、最大距离、区域覆盖、影响力等指标
+</code></pre></div>
+<hr />
+<h1 id="_6">六、可用算法</h1>
+<h2 id="1_3">方案 1：整数规划</h2>
+<h3 id="_7">适用条件</h3>
+<p>候选地点数量不太大，例如先筛选出 20 到 30 个候选地点。</p>
+<h3 id="_8">核心思想</h3>
+<p>用 (y_v) 表示地点是否被选中，用 (z_{gv}) 表示小组是否分配到地点，建立 0-1 整数规划。</p>
+<h3 id="_9">需要数据</h3>
+<ul>
+<li>
+<p>分组结果；</p>
+</li>
+<li>
+<p>候选地点；</p>
+</li>
+<li>
+<p>经纬度或交通时间；</p>
+</li>
+<li>
+<p>人口、经济、文旅、场馆指标。</p>
+</li>
+</ul>
+<h3 id="_10">优点</h3>
+<ul>
+<li>
+<p>约束清晰；</p>
+</li>
+<li>
+<p>结果可复现；</p>
+</li>
+<li>
+<p>适合论文表达；</p>
+</li>
+<li>
+<p>可以直接保证每个地点承办两个小组。</p>
+</li>
+</ul>
+<h3 id="_11">缺点</h3>
+<ul>
+<li>
+<p>若候选地点过多或目标函数复杂，求解难度增加；</p>
+</li>
+<li>
+<p>文旅、场馆等指标数据需要外部收集。</p>
+</li>
+</ul>
+<h3 id="_12">改进方向</h3>
+<p>可先用启发式筛选候选地点，再用整数规划精确分配。</p>
+<hr />
+<h2 id="2_4">方案 2：两阶段启发式</h2>
+<h3 id="_13">适用条件</h3>
+<p>时间有限，或者没有完整场馆数据。</p>
+<h3 id="_14">核心思想</h3>
+<p>先选 8 个区域代表性强、交通条件较好的地点，再把 16 个小组按距离和均衡性分配给这 8 个地点。</p>
+<h3 id="_15">步骤</h3>
+<ol>
+<li>
+<p>选择 8 个承办地点，确保覆盖不同区域；</p>
+</li>
+<li>
+<p>计算每个小组到每个地点的平均距离；</p>
+</li>
+<li>
+<p>每次将距离较小、主场惩罚较低的小组分配给地点；</p>
+</li>
+<li>
+<p>保证每个地点恰好两个小组；</p>
+</li>
+<li>
+<p>计算总指标并调整。</p>
+</li>
+</ol>
+<h3 id="_16">优点</h3>
+<ul>
+<li>
+<p>实现简单；</p>
+</li>
+<li>
+<p>适合快速形成可行方案；</p>
+</li>
+<li>
+<p>解释性强。</p>
+</li>
+</ul>
+<h3 id="_17">缺点</h3>
+<ul>
+<li>
+<p>不保证全局最优；</p>
+</li>
+<li>
+<p>容易受人工选择影响。</p>
+</li>
+</ul>
+<h3 id="_18">改进方向</h3>
+<p>用局部搜索交换小组分配，降低总距离和不公平性。</p>
+<hr />
+<h1 id="d-001">七、针对 D 001 的可行比赛地点方案</h1>
+<p>你当前主推荐方案 D 001 的分组如下：G 01 到 G 16 已经确定，且所有小组均为 4 支队伍，11 个市级队位于 G 01-G 11，各小组行政来源均不同。</p>
+<p>由于你目前文档中也说明经济、人口、文旅、坐标和足球基础字段仍是可运行代理数据，正式论文中若替换为统计年鉴、统计公报或地图 API 数据，应重新运行程序得到最终指标和排序。<br />
+所以下面先给一版<strong>可解释的人工可行方案</strong>，后续可以用正式数据替换后优化。</p>
+<hr />
+<h2 id="_19">推荐比赛地点</h2>
+<p>我建议选择 8 个比赛地点：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">序号</th>
+<th>比赛地点</th>
+<th>选择理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>杭州市</td>
+<td>省会城市，交通枢纽强，赛事传播能力强</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>宁波市</td>
+<td>浙东核心城市，港口城市影响力大</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>温州市</td>
+<td>浙南核心城市，群众关注度和商业传播能力强</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>嘉兴市</td>
+<td>浙北节点，连接杭州、上海、湖州、宁波方向</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>义乌市</td>
+<td>县级市代表，位于浙中，商业影响力强，有助于普及面</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>衢州市</td>
+<td>浙西代表，有利于扩大西部地区赛事覆盖</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>台州市</td>
+<td>东南沿海代表，便于服务台州、温州、宁波南部等地区</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td>丽水市</td>
+<td>浙西南代表，有利于山区地区普及和区域公平</td>
+</tr>
+</tbody>
+</table>
+<p>这 8 个点兼顾：</p>
+<ul>
+<li>
+<p>浙北：杭州、嘉兴；</p>
+</li>
+<li>
+<p>浙东：宁波；</p>
+</li>
+<li>
+<p>浙中：义乌；</p>
+</li>
+<li>
+<p>浙西：衢州；</p>
+</li>
+<li>
+<p>浙南：温州、台州；</p>
+</li>
+<li>
+<p>浙西南：丽水。</p>
+</li>
+</ul>
+<p>其中义乌市作为县级市承办点，可以体现赛事不仅集中在地级市，也向县级城市普及。</p>
+<hr />
+<h1 id="d-001_1">八、D 001 分组对应比赛地点安排</h1>
+<p>结合 D 001 的小组构成，可以给出如下安排：</p>
+<table>
+<thead>
+<tr>
+<th>比赛地点</th>
+<th>承办小组</th>
+<th>小组队伍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>杭州市</td>
+<td>G 01、G 13</td>
+<td>G 01：杭州市、江山市、东阳市、海盐县；G 13：新昌县、海宁市、常山县、淳安县</td>
+</tr>
+<tr>
+<td>宁波市</td>
+<td>G 02、G 14</td>
+<td>G 02：宁波市、临海市、义乌市、长兴县；G 14：余姚市、嵊泗县、瑞安市、缙云县</td>
+</tr>
+<tr>
+<td>温州市</td>
+<td>G 03、G 15</td>
+<td>G 03：温州市、开化县、景宁畲族自治县、永康市；G 15：永嘉县、兰溪市、玉环市、宁海县</td>
+</tr>
+<tr>
+<td>嘉兴市</td>
+<td>G 04、G 09</td>
+<td>G 04：嘉兴市、云和县、文成县、龙游县；G 09：舟山市、慈溪市、天台县、桐乡市</td>
+</tr>
+<tr>
+<td>义乌市</td>
+<td>G 05、G 07</td>
+<td>G 05：湖州市、磐安县、松阳县、龙港市；G 07：金华市、嘉善县、平阳县、龙泉市</td>
+</tr>
+<tr>
+<td>衢州市</td>
+<td>G 08、G 16</td>
+<td>G 08：衢州市、安吉县、浦江县、嵊州市；G 16：仙居县、诸暨市、庆元县、建德市</td>
+</tr>
+<tr>
+<td>台州市</td>
+<td>G 10、G 12</td>
+<td>G 10：台州市、青田县、苍南县、德清县；G 12：武义县、三门县、平湖市、象山县</td>
+</tr>
+<tr>
+<td>丽水市</td>
+<td>G 06、G 11</td>
+<td>G 06：绍兴市、遂昌县、岱山县、泰顺县；G 11：丽水市、温岭市、乐清市、桐庐县</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="_20">九、这套安排的合理性分析</h1>
+<h2 id="1_4">1. 区域覆盖较好</h2>
+<p>该方案不是全部集中在杭州、宁波、温州等大城市，而是覆盖了：</p>
+<ul>
+<li>
+<p>浙北；</p>
+</li>
+<li>
+<p>浙东；</p>
+</li>
+<li>
+<p>浙中；</p>
+</li>
+<li>
+<p>浙西；</p>
+</li>
+<li>
+<p>浙南；</p>
+</li>
+<li>
+<p>浙西南。</p>
+</li>
+</ul>
+<p>其中义乌作为县级市承办点，可以体现“省级赛事下沉到县级城市”，有助于扩大普及面。</p>
+<hr />
+<h2 id="2_5">2. 兼顾赛事影响力</h2>
+<p>杭州、宁波、温州属于高影响力城市，适合承担赛事宣传、媒体传播和观众聚集功能。</p>
+<p>嘉兴、台州、义乌具有较强区域辐射能力。</p>
+<p>衢州、丽水虽然人口和经济总量可能弱于杭州、宁波，但作为浙西和浙西南代表，有助于赛事均衡覆盖全省。</p>
+<hr />
+<h2 id="3_3">3. 兼顾参赛便利性</h2>
+<p>这套方案大致采用“区域中心 + 交通节点”的思想：</p>
+<ul>
+<li>
+<p>杭州承接浙北、浙西、浙中交叉小组；</p>
+</li>
+<li>
+<p>宁波承接浙东和沿海相关小组；</p>
+</li>
+<li>
+<p>温州、台州承接浙南和东南沿海小组；</p>
+</li>
+<li>
+<p>义乌承接浙中方向小组；</p>
+</li>
+<li>
+<p>衢州、丽水承接西部和西南方向小组；</p>
+</li>
+<li>
+<p>嘉兴承接北部和东部交叉小组。</p>
+</li>
+</ul>
+<p>需要说明的是，由于 D 001 本身在分组时强调行政分散和竞技均衡，每个小组成员地理分布比较分散，因此不可能让所有组内队伍都距离很近。你当前 D 001 的平均组内距离为 179.07 km，本身就说明它不是纯地理邻近型方案，而是更偏向“竞技公平 + 竞争悬念 + 资源均衡”的稳健型方案。</p>
+<hr />
+<h2 id="4_3">4. 公平性处理</h2>
+<p>这套方案中部分小组会在某队所在地或相邻区域比赛，例如 G 01 在杭州，G 03 在温州，G 10 在台州。这样有利于现场观众和传播，但可能带来一定主场优势。</p>
+<p>论文中可以这样处理：</p>
+<blockquote>
+<p>本文不将“主场关联”作为绝对禁止条件，而是将其作为惩罚项纳入选址模型。原因是完全禁止本地队参赛组在本地比赛会降低赛事影响力和观众参与度；而小组赛采取单循环，且每个地点承办两个小组，主场优势可以通过统一赛程、统一场地、统一裁判和封闭训练安排等方式减弱。</p>
+</blockquote>
+<p>如果你想更强调公平，可以把上述安排进一步改成“弱主场版本”，即尽量让一个地点承办不含本地市级队的小组。但那样平均出行距离和观众热度可能变差。</p>
+<hr />
+<h1 id="_21">十、论文中可直接使用的模型表述</h1>
+<p>你可以在问题三这样写：</p>
+<blockquote>
+<p>针对小组赛比赛地点选择问题，本文将其建模为带容量约束的选址—分配问题。设候选比赛地点集合为 (V)，小组集合为 (G)，用二元变量 (y_v) 表示地点 (v) 是否被选为承办地，用二元变量 (z_{gv}) 表示第 (g) 组是否安排到地点 (v)。模型要求共选择 8 个承办地点，每个小组恰好分配到一个地点，每个承办地点恰好承办两个小组。在目标函数中，本文综合考虑参赛队平均出行距离、出行负担公平性、最远出行距离、主场优势惩罚、赛事影响力和区域普及面，建立多目标综合评价模型。该模型既能保证地点选择的公平性，又能兼顾赛事传播和参赛便利。</p>
+</blockquote>
+<hr />
+<h1 id="_22">十一、可直接写进论文的完整模型</h1>
+<p>[<br />
+\min Z=<br />
+\alpha D_{\text{avg}}<br />
++\beta D_{\text{fair}}<br />
++\gamma D_{\max}<br />
++\eta H<br />
+-\lambda I<br />
+-\mu U<br />
+]</p>
+<p>其中：</p>
+<p>[<br />
+D_{\text{avg}}=\sum_{g\in G}\sum_{v\in V}z_{gv}\frac{1}{4}\sum_{t\in T_g}d_{tv}<br />
+]</p>
+<p>[<br />
+D_{\text{fair}}=\sum_{g\in G}\sum_{v\in V}z_{gv}\operatorname{Std}{d_{tv}:t\in T_g}<br />
+]</p>
+<p>[<br />
+I=\sum_{v\in V}y_vI_v<br />
+]</p>
+<p>约束为：</p>
+<p>[<br />
+\sum_{v\in V}y_v=8<br />
+]</p>
+<p>[<br />
+\sum_{v\in V}z_{gv}=1,\quad \forall g\in G<br />
+]</p>
+<p>[<br />
+\sum_{g\in G}z_{gv}=2 y_v,\quad \forall v\in V<br />
+]</p>
+<p>[<br />
+z_{gv}\leq y_v,\quad \forall g,v<br />
+]</p>
+<p>[<br />
+y_v\in{0,1},\quad z_{gv}\in{0,1}<br />
+]</p>
+<p>区域覆盖约束：</p>
+<p>[<br />
+\sum_{v\in V_r}y_v\geq L_r,\quad \forall r<br />
+]</p>
+<p>承办能力约束：</p>
+<p>[<br />
+y_v=0,\quad \forall v\notin V_{\text{eligible}}<br />
+]</p>
+<hr />
+<h1 id="_23">十二、需要注意的风险点</h1>
+<h2 id="1_5">风险 1：没有正式场馆数据</h2>
+<p>如果你没有体育场容量、住宿、交通条件数据，不要直接说某地“必然最适合承办”。<br />
+可以写成：</p>
+<blockquote>
+<p>在缺乏完整场馆数据的情况下，本文先假设所选市县均具备基本承办能力；若后续取得正式场馆容量和交通数据，可将其纳入承办能力指数重新求解。</p>
+</blockquote>
+<hr />
+<h2 id="2_6">风险 2：人口、经济、文旅数据不能替代交通便利性</h2>
+<p>杭州、宁波、温州影响力大，但不一定对所有小组最方便。<br />
+所以模型中必须同时有距离或交通时间指标。</p>
+<hr />
+<h2 id="3_4">风险 3：普及面和便利性存在冲突</h2>
+<p>如果为了普及面选择较偏远地区，可能增加部分队伍出行距离。<br />
+如果只追求交通便利，承办地点又可能集中在杭州、宁波、绍兴、嘉兴等区域。</p>
+<p>所以论文应说明：</p>
+<blockquote>
+<p>比赛地点选择是多目标权衡问题，不存在单一指标最优方案。</p>
+</blockquote>
+<hr />
+<h1 id="_24">十三、建议最终采用的写法</h1>
+<p>你可以把问题三最终写成：</p>
+<ol>
+<li>
+<p>先建立一般选址—分配模型；</p>
+</li>
+<li>
+<p>说明评价指标包括平均出行距离、出行公平性、主场优势惩罚、赛事影响力和区域普及面；</p>
+</li>
+<li>
+<p>使用整数规划或两阶段启发式求解；</p>
+</li>
+<li>
+<p>在当前 D 001 分组下，给出 8 个比赛地点；</p>
+</li>
+<li>
+<p>说明该方案覆盖多个区域，兼顾中心城市和县级市，具备较好的赛事传播和普及意义；</p>
+</li>
+<li>
+<p>诚实说明如果替换为正式交通和场馆数据，比赛地点可以重新优化。</p>
+</li>
+</ol>
+<hr />
+<h1 id="_25">十四、当前推荐结论</h1>
+<p>对于你现在的问题一主推荐方案 D 001，我建议当前问题三采用：</p>
+<table>
+<thead>
+<tr>
+<th>比赛地点</th>
+<th>承办小组</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>杭州市</td>
+<td>G 01、G 13</td>
+</tr>
+<tr>
+<td>宁波市</td>
+<td>G 02、G 14</td>
+</tr>
+<tr>
+<td>温州市</td>
+<td>G 03、G 15</td>
+</tr>
+<tr>
+<td>嘉兴市</td>
+<td>G 04、G 09</td>
+</tr>
+<tr>
+<td>义乌市</td>
+<td>G 05、G 07</td>
+</tr>
+<tr>
+<td>衢州市</td>
+<td>G 08、G 16</td>
+</tr>
+<tr>
+<td>台州市</td>
+<td>G 10、G 12</td>
+</tr>
+<tr>
+<td>丽水市</td>
+<td>G 06、G 11</td>
+</tr>
+</tbody>
+</table>
+<p>这是一版<strong>可解释、区域覆盖较好、方便论文表达的可行方案</strong>。<br />
+正式优化时，建议把这套方案作为初始解，再用经纬度距离、交通时间、场馆容量、人口、文旅和经济数据代入选址—分配模型进行重新排序。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="xminstrel/xminstrel.github.io"
+        data-repo-id="R_kgDOQ7oY9A"
+        data-category="[在此输入分类名]"
+        data-category-id="[在此输入分类 ID]"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  <div class="md-copyright__highlight">
+    Copyright &copy; 2025 - 2026 赤奈良瞳
+  </div>
+  
+  Made with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a> 
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/xminstrel" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "navigation.expand", "navigation.path", "navigation.tracking", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+        <script src="../../../javascripts/recent-notes.js"></script>
+      
+        <script src="../../../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

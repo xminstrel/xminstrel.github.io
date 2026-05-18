@@ -1,0 +1,9 @@
+{
+  "vertex_count": 64,
+  "edge_count": 232,
+  "city_clique_size": 11,
+  "largest_parent_city_clique_size": 9,
+  "chromatic_lower_bound": 11,
+  "found_11_coloring": true,
+  "chromatic_number_conclusion": "χ(G)=11"
+}

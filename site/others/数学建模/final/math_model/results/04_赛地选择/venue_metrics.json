@@ -1,0 +1,11 @@
+{
+  "covered_regions": 6.0,
+  "county_venue_count": 2.0,
+  "avg_team_to_venue_distance_km": 135.16117440936705,
+  "max_team_to_venue_distance_km": 287.08848408353737,
+  "mean_group_distance_std_km": 56.27495272037144,
+  "home_penalty_total": 2.25,
+  "strong_home_group_count": 2.0,
+  "propagation_benefit": 6.888685333656193,
+  "regional_balance_penalty": 0.3333333333333333
+}

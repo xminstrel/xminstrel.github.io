@@ -1,0 +1,14 @@
+{
+  "same_city_repeat_index": 0.050000000000000086,
+  "pair_conflict_index": 0.040000000000000084,
+  "admin_diversity": 0.03500000000000009,
+  "sport_variance": 0.11302801630211542,
+  "sport_range": 0.10273426400899283,
+  "competition_suspense": 0.10170722886562239,
+  "hot_match_index": 0.11215514905513199,
+  "eco_cv": 0.09066895947154618,
+  "pop_cv": 0.07686332088484456,
+  "tour_cv": 0.05738681662905906,
+  "avg_inner_distance_km": 0.1479312409970503,
+  "geo_cover": 0.07252500378563696
+}

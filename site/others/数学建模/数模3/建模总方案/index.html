@@ -1,0 +1,3224 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="赤奈良瞳">
+      
+      
+        <link rel="canonical" href="https://xminstrel.github.io/others/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/%E6%95%B0%E6%A8%A13/%E5%BB%BA%E6%A8%A1%E6%80%BB%E6%96%B9%E6%A1%88/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>“浙超”赛题建模总方案 - 赤奈良瞳的博客 | xminstrel's blog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=LXGW+WenKai+Screen+GB+Screen:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"LXGW WenKai Screen GB Screen";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../../.." title="赤奈良瞳的博客 | xminstrel&#39;s blog" class="md-header__button md-logo" aria-label="赤奈良瞳的博客 | xminstrel's blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            赤奈良瞳的博客 | xminstrel's blog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              “浙超”赛题建模总方案
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/xminstrel/xminstrel.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    xminstrel
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🎆 首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../about_me/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  😘 关于赤奈
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../ai/tools/" class="md-tabs__link">
+          
+  
+  
+  💎 AI 相关
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../control/%E6%8E%A7%E5%88%B6%E8%AE%BA/%E6%8E%A7%E5%88%B6%E8%AE%BA/" class="md-tabs__link">
+          
+  
+  
+  🪡 控制相关
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../zju-courses/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-tabs__link">
+          
+  
+  
+  📚 ZJU-Courses
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../moments/moments/" class="md-tabs__link">
+          
+  
+  
+  🖼️ 其他笔记
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="赤奈良瞳的博客 | xminstrel&#39;s blog" class="md-nav__button md-logo" aria-label="赤奈良瞳的博客 | xminstrel's blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    赤奈良瞳的博客 | xminstrel's blog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/xminstrel/xminstrel.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    xminstrel
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎆 首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../about_me/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    😘 关于赤奈
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    💎 AI 相关
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    💎 AI 相关
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ai/tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI工具
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🪡 控制相关
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🪡 控制相关
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../control/%E6%8E%A7%E5%88%B6%E8%AE%BA/%E6%8E%A7%E5%88%B6%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    控制论
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自动控制理论
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    自动控制理论
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../control/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    笔记
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../control/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E5%B0%8F%E6%B5%8B%E5%A4%8D%E4%B9%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    小测复习
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../control/esp32/esp32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esp32 入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../control/stm32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    stm32 入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📚 ZJU-Courses
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📚 ZJU-Courses
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../zju-courses/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    材料力学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    流体力学&传热学
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    流体力学&传热学
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../zju-courses/%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B/%E5%B7%A5%E6%B5%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    工程流体力学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../zju-courses/%E5%86%9C%E4%B8%9A%E7%94%9F%E7%89%A9%E7%B3%BB%E7%BB%9F%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B/%E5%B7%A5%E4%BC%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    传热学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../zju-courses/%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/%E5%8F%91%E5%B1%95%E5%BF%83%E7%90%86%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    发展心理学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🖼️ 其他笔记
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🖼️ 其他笔记
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../moments/moments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    emm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、总体思路
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、数据来源与指标构造
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、数据来源与指标构造">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 数据来源
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 潜在实力与关注度指标
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、图染色法与分组规模
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、图染色法与分组规模">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 冲突图定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 色数分析
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、问题一：分组模型与综合评价
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、问题一：分组模型与综合评价">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 决策变量
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 硬约束
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 分组评价指标
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3 分组评价指标">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#431" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1 行政公平指标
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.2 竞技公平指标
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3 竞争悬念指标
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#434" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.4 热点指数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#435" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.5 经济人口文旅均衡指标
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#436" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.6 地理合理性指标
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-topsis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 指标正向化与 TOPSIS 综合评价
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 分组方案生成方法
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.5 分组方案生成方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#451-topsis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.1 候选池抽样生成 + TOPSIS 排序
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2 可行域内直接寻优
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#453" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.3 精确优化扩展思路
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 最终分组方案选择
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-d003" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 最终分组 D003
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、问题二：公开抽签模型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、问题二：公开抽签模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 抽签原则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 现场数字串生成环节
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 方案池哈希与抽取公式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 当前运行结果
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、问题三：比赛地点选择模型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、问题三：比赛地点选择模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 选址变量与约束
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 目标函数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 数据来源与准确性检查
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-d003" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 基于 D003 的赛地结果
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        七、问题四：赛制仿真与合理化建议
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="七、问题四：赛制仿真与合理化建议">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 推荐赛制
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 赛制仿真结果
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 合理化建议
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        八、最终结论
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="_1">“浙超”赛题建模总方案</h1>
+<h2 id="_2">一、总体思路</h2>
+<p>本文针对“浙超”64 支市县参赛队的分组、抽签、赛地选择和赛制建议，建立一套完整的可复现实验方案。总体路线为：</p>
+<ol>
+<li>以赛题队伍名单为基础，融合浙江统计年鉴数据和空间代理数据，形成统一队伍指标表；</li>
+<li>用图染色法分析行政冲突约束，说明理论最少组数与最终采用 16 组的原因；</li>
+<li>建立 0-1 分组约束模型，生成满足硬约束的可行方案；</li>
+<li>从行政公平、竞技公平、观赏性、经济人口文旅均衡、地理合理性等维度构建评价指标；</li>
+<li>使用模拟退火/局部搜索生成若干优质方案，再用 AHP-熵权-TOPSIS 综合评价选择最终方案；</li>
+<li>设计优质方案池公开随机抽签机制；</li>
+<li>在最终分组基础上建立带容量约束的赛地选择模型；</li>
+<li>使用蒙特卡洛仿真比较不同赛制，给出合理化建议。</li>
+</ol>
+<p>当前最终方案以 <code>数模3</code> 中重新运行的数据和结果为准，最终推荐分组为 D003。</p>
+<h2 id="_3">二、数据来源与指标构造</h2>
+<h3 id="21">2.1 数据来源</h3>
+<p>数模3 使用的数据文件为：</p>
+<div class="highlight"><pre><span></span><code>数模3/data/final_teams.csv
+</code></pre></div>
+<p>数据来源如下：</p>
+<table>
+<thead>
+<tr>
+<th>数据项</th>
+<th>来源</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>队伍名单、队伍级别、所属地级市</td>
+<td><code>数模1/math_model/data/raw/teams_from_problem.csv</code></td>
+<td>由赛题 PDF 结构化得到</td>
+</tr>
+<tr>
+<td>GDP</td>
+<td><code>数模1/math_model/data/processed/yearbook/17-25.csv</code></td>
+<td>浙江统计年鉴 2024 解析数据，能匹配 52 支队伍</td>
+</tr>
+<tr>
+<td>人口</td>
+<td><code>数模1/math_model/data/processed/yearbook/17-26.csv</code></td>
+<td>浙江统计年鉴 2024 解析数据，能匹配 52 支队伍</td>
+</tr>
+<tr>
+<td>经纬度、区域</td>
+<td><code>分组评价模型/data/teams.csv</code></td>
+<td>用于距离和区域覆盖计算</td>
+</tr>
+<tr>
+<td>文旅、体育基础代理指标</td>
+<td><code>分组评价模型/data/teams.csv</code></td>
+<td>用于构造相对实力和关注度指标</td>
+</tr>
+</tbody>
+</table>
+<p>数据覆盖情况：</p>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th style="text-align: right;">数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>参赛队总数</td>
+<td style="text-align: right;">64</td>
+</tr>
+<tr>
+<td>市级队</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr>
+<td>县级队</td>
+<td style="text-align: right;">53</td>
+</tr>
+<tr>
+<td>使用年鉴 GDP 的队伍</td>
+<td style="text-align: right;">52</td>
+</tr>
+<tr>
+<td>使用年鉴人口的队伍</td>
+<td style="text-align: right;">52</td>
+</tr>
+<tr>
+<td>使用代理 GDP/人口的队伍</td>
+<td style="text-align: right;">11 支市级队、景宁畲族自治县</td>
+</tr>
+</tbody>
+</table>
+<p>说明：由于县市年鉴表中缺少完整地级市汇总行，11 支市级队仍使用原模型代理值；经纬度、文旅和体育基础变量也为代理指标。论文中应表述为“潜在体育实力代理变量”和“赛事关注度代理变量”，不应表述为真实球队实力。</p>
+<h3 id="22">2.2 潜在实力与关注度指标</h3>
+<p>对每支队伍 <span class="arithmatex">\(t\)</span>，构造潜在体育实力指数 <span class="arithmatex">\(R_t\)</span>：</p>
+<div class="arithmatex">\[
+R_t=100\left(0.35F_t+0.25Y_t+0.20I_t+0.10P_t+0.10G_t\right)
+\]</div>
+<p>其中：</p>
+<ul>
+<li><span class="arithmatex">\(F_t\)</span>：足球基础设施代理指标归一化值；</li>
+<li><span class="arithmatex">\(Y_t\)</span>：青训基础代理指标归一化值；</li>
+<li><span class="arithmatex">\(I_t\)</span>：体育投入代理指标归一化值；</li>
+<li><span class="arithmatex">\(P_t\)</span>：人口指标归一化值；</li>
+<li><span class="arithmatex">\(G_t\)</span>：GDP 指标归一化值。</li>
+</ul>
+<p>构造赛事关注度指数 <span class="arithmatex">\(A_t\)</span>：</p>
+<div class="arithmatex">\[
+A_t=100\left(0.40P_t+0.30G_t+0.30L_t\right)
+\]</div>
+<p>其中 <span class="arithmatex">\(L_t\)</span> 为文旅指标归一化值。</p>
+<p>以上指标只用于横向比较，不代表真实竞技水平。</p>
+<h2 id="_4">三、图染色法与分组规模</h2>
+<h3 id="31">3.1 冲突图定义</h3>
+<p>建立冲突图：</p>
+<div class="arithmatex">\[
+G=(V,E)
+\]</div>
+<p>其中每支参赛队为一个顶点。若两支队伍不能分在同一小组，则在对应顶点之间连边。</p>
+<p>本文采用强化行政回避原则：</p>
+<ol>
+<li>市级队之间两两冲突；</li>
+<li>市级队与本市代管县级队冲突；</li>
+<li>同一地级市行政体系内的县级队也视为冲突。</li>
+</ol>
+<p>因此，合法分组可以看作对冲突图的着色问题，同色顶点表示处于同一小组。</p>
+<h3 id="32">3.2 色数分析</h3>
+<p>11 支市级队必须分在不同组，它们构成完全图：</p>
+<div class="arithmatex">\[
+K_{11}
+\]</div>
+<p>因此冲突图色数满足：</p>
+<div class="arithmatex">\[
+\chi(G)\geq 11
+\]</div>
+<p>数模3 中程序构造出一个合法 11 色着色。需要注意的是，图染色只用于分析行政冲突约束下的理论组数，不考虑每个颜色类的人数容量；最终比赛分组还必须额外满足“每组 4 队”的容量约束。图染色结果如下：</p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th style="text-align: right;">数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>顶点数</td>
+<td style="text-align: right;">64</td>
+</tr>
+<tr>
+<td>冲突边数</td>
+<td style="text-align: right;">232</td>
+</tr>
+<tr>
+<td>市级队完全图规模</td>
+<td style="text-align: right;"><span class="arithmatex">\(K_{11}\)</span></td>
+</tr>
+<tr>
+<td>最大同行政体系团规模</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr>
+<td>色数下界</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr>
+<td>是否构造出 11 色着色</td>
+<td style="text-align: right;">是</td>
+</tr>
+<tr>
+<td>色数结论</td>
+<td style="text-align: right;"><span class="arithmatex">\(\chi(G)=11\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>所以从行政冲突角度看，若只考虑“冲突队伍不能同组”，理论最少需要 11 个颜色。但该 11 色结论不等于可以直接形成 11 个规模均衡的小组，因为还要满足每组容量和赛程结构。题目第三问要求 8 个赛地、每个赛地承办 2 个小组；同时 64 支队伍若分为 16 组，正好每组 4 队：</p>
+<div class="arithmatex">\[
+64=16\times 4
+\]</div>
+<div class="arithmatex">\[
+16=8\times 2
+\]</div>
+<p>因此最终采用 16 组，并不是因为冲突图必须 16 色，而是为了同时满足赛地安排、小组规模均衡和 32 强淘汰赛衔接。</p>
+<h2 id="_5">四、问题一：分组模型与综合评价</h2>
+<h3 id="41">4.1 决策变量</h3>
+<p>设：</p>
+<ul>
+<li><span class="arithmatex">\(T\)</span>：全部参赛队集合，<span class="arithmatex">\(|T|=64\)</span>；</li>
+<li><span class="arithmatex">\(G=\{1,2,\ldots,16\}\)</span>：小组集合；</li>
+<li><span class="arithmatex">\(S\)</span>：11 支市级队集合；</li>
+<li><span class="arithmatex">\(C_m\)</span>：第 <span class="arithmatex">\(m\)</span> 个地级市行政体系内的队伍集合；</li>
+<li><span class="arithmatex">\(x_{ig}=1\)</span>：队伍 <span class="arithmatex">\(i\)</span> 被分到第 <span class="arithmatex">\(g\)</span> 组，否则为 0。</li>
+</ul>
+<p>即：</p>
+<div class="arithmatex">\[
+x_{ig}=
+\begin{cases}
+1, &amp; \text{队伍 }i\text{ 被分到小组 }g,\\
+0, &amp; \text{否则}.
+\end{cases}
+\]</div>
+<h3 id="42">4.2 硬约束</h3>
+<p>每队恰好进入一个小组：</p>
+<div class="arithmatex">\[
+\sum_{g=1}^{16}x_{ig}=1,\quad i\in T
+\]</div>
+<p>每组恰好 4 支队伍：</p>
+<div class="arithmatex">\[
+\sum_{i\in T}x_{ig}=4,\quad g=1,2,\ldots,16
+\]</div>
+<p>市级队分在不同小组：</p>
+<div class="arithmatex">\[
+\sum_{i\in S}x_{ig}\leq 1,\quad g=1,2,\ldots,16
+\]</div>
+<p>同一行政体系内队伍不在同一组：</p>
+<div class="arithmatex">\[
+\sum_{i\in C_m}x_{ig}\leq 1,\quad m=1,2,\ldots,11,\ g=1,2,\ldots,16
+\]</div>
+<p>该约束同时保证市级队不与本市代管县级队同组，也强化处理“同一市代管县级队尽量不同组”的要求。</p>
+<h3 id="43">4.3 分组评价指标</h3>
+<p>设第 <span class="arithmatex">\(g\)</span> 组的队伍集合为 <span class="arithmatex">\(Q_g\)</span>。</p>
+<h4 id="431">4.3.1 行政公平指标</h4>
+<p>硬约束违反数：</p>
+<div class="arithmatex">\[
+H=\text{违反硬约束的次数}
+\]</div>
+<p>同市重复指数：</p>
+<div class="arithmatex">\[
+E_1=\sum_m\sum_g \max(0,n_{mg}-1)
+\]</div>
+<p>其中：</p>
+<div class="arithmatex">\[
+n_{mg}=\sum_{i\in C_m}x_{ig}
+\]</div>
+<p>成对冲突指数：</p>
+<div class="arithmatex">\[
+E_2=\sum_m\sum_g \binom{n_{mg}}{2}
+\]</div>
+<p>最终保留方案要求：</p>
+<div class="arithmatex">\[
+H=0,\quad E_1=0,\quad E_2=0
+\]</div>
+<h4 id="432">4.3.2 竞技公平指标</h4>
+<p>第 <span class="arithmatex">\(g\)</span> 组总实力：</p>
+<div class="arithmatex">\[
+R_g=\sum_{i\in Q_g}R_i
+\]</div>
+<p>组均实力：</p>
+<div class="arithmatex">\[
+\bar R=\frac{1}{16}\sum_{g=1}^{16}R_g
+\]</div>
+<p>实力方差：</p>
+<div class="arithmatex">\[
+F_1=\frac{1}{16}\sum_{g=1}^{16}(R_g-\bar R)^2
+\]</div>
+<p>实力极差：</p>
+<div class="arithmatex">\[
+F_2=\max_g R_g-\min_g R_g
+\]</div>
+<p>二者越小，说明各组实力越均衡。</p>
+<h4 id="433">4.3.3 竞争悬念指标</h4>
+<p>组内实力越接近，比赛悬念越大。代码中按组内两两队伍实力差计算悬念。第 <span class="arithmatex">\(g\)</span> 组竞争悬念为：</p>
+<div class="arithmatex">\[
+S_g=\frac{1}{\binom{4}{2}}\sum_{\{i,j\}\subset Q_g}\frac{1}{1+|R_i-R_j|}
+\]</div>
+<p>总体竞争悬念为：</p>
+<div class="arithmatex">\[
+F_3=\frac{1}{16}\sum_{g=1}^{16}S_g
+\]</div>
+<p>该指标越大，说明组内实力越接近。</p>
+<h4 id="434">4.3.4 热点指数</h4>
+<p>设队伍关注度为 <span class="arithmatex">\(A_i\)</span>，热点对决指数为：</p>
+<div class="arithmatex">\[
+F_4=\sum_{g=1}^{16}\sum_{\{i,j\}\subset Q_g}\sqrt{A_iA_j}
+\]</div>
+<p>该指标越大，说明小组内潜在高关注比赛越多。</p>
+<h4 id="435">4.3.5 经济人口文旅均衡指标</h4>
+<p>对 GDP、人口、文旅指标分别计算各组总量的变异系数：</p>
+<div class="arithmatex">\[
+CV(X)=\frac{\sqrt{\frac{1}{16}\sum_{g=1}^{16}(X_g-\bar X)^2}}{\bar X}
+\]</div>
+<p>得到：</p>
+<div class="arithmatex">\[
+F_5=CV(\text{GDP}),\quad F_6=CV(\text{人口}),\quad F_7=CV(\text{文旅})
+\]</div>
+<p>三者越小，说明各组经济、人口和文旅影响力越均衡。</p>
+<h4 id="436">4.3.6 地理合理性指标</h4>
+<p>两地距离采用球面距离近似：</p>
+<div class="arithmatex">\[
+d_{ij}=2r\arcsin\sqrt{\sin^2\frac{\varphi_i-\varphi_j}{2}
++\cos\varphi_i\cos\varphi_j\sin^2\frac{\lambda_i-\lambda_j}{2}}
+\]</div>
+<p>组内平均距离：</p>
+<div class="arithmatex">\[
+F_8=\frac{1}{16}\sum_{g=1}^{16}\frac{1}{\binom{4}{2}}\sum_{\{i,j\}\subset Q_g}d_{ij}
+\]</div>
+<p>地域覆盖度：</p>
+<div class="arithmatex">\[
+F_9=\frac{1}{16}\sum_{g=1}^{16}\left|\{\text{队伍 }i\in Q_g\text{ 的区域}\}\right|
+\]</div>
+<p>平均距离越小越好，地域覆盖越大越好。</p>
+<h3 id="44-topsis">4.4 指标正向化与 TOPSIS 综合评价</h3>
+<p>对效益型指标：</p>
+<div class="arithmatex">\[
+z_{jk}=\frac{a_{jk}-\min_j a_{jk}}{\max_j a_{jk}-\min_j a_{jk}}
+\]</div>
+<p>对成本型指标：</p>
+<div class="arithmatex">\[
+z_{jk}=\frac{\max_j a_{jk}-a_{jk}}{\max_j a_{jk}-\min_j a_{jk}}
+\]</div>
+<p>其中 <span class="arithmatex">\(a_{jk}\)</span> 表示第 <span class="arithmatex">\(j\)</span> 个方案第 <span class="arithmatex">\(k\)</span> 个原始指标值。</p>
+<p>熵权法计算客观权重。为避免某一指标列全为 0 时出现除零，实际计算中加入极小常数 <span class="arithmatex">\(\varepsilon\)</span>。先有：</p>
+<div class="arithmatex">\[
+p_{jk}=\frac{z_{jk}+\varepsilon}{\sum_j (z_{jk}+\varepsilon)}
+\]</div>
+<p>熵值：</p>
+<div class="arithmatex">\[
+e_k=-\frac{1}{\ln n}\sum_{j=1}^{n}p_{jk}\ln p_{jk}
+\]</div>
+<p>差异系数：</p>
+<div class="arithmatex">\[
+d_k=1-e_k
+\]</div>
+<p>熵权：</p>
+<div class="arithmatex">\[
+w_k^E=\frac{d_k}{\sum_k d_k}
+\]</div>
+<p>再与 AHP 主观权重组合：</p>
+<div class="arithmatex">\[
+\tilde w_k=\alpha w_k^{AHP}+(1-\alpha)w_k^E
+\]</div>
+<p>并归一化得到最终权重：</p>
+<div class="arithmatex">\[
+w_k=\frac{\tilde w_k}{\sum_k \tilde w_k}
+\]</div>
+<p>本文取：</p>
+<div class="arithmatex">\[
+\alpha=0.5
+\]</div>
+<p>TOPSIS 中，正理想解和负理想解为：</p>
+<div class="arithmatex">\[
+v_k^+=\max_j w_k z_{jk},\quad v_k^-=\min_j w_k z_{jk}
+\]</div>
+<p>方案 <span class="arithmatex">\(j\)</span> 到正、负理想解距离：</p>
+<div class="arithmatex">\[
+D_j^+=\sqrt{\sum_k(w_kz_{jk}-v_k^+)^2}
+\]</div>
+<div class="arithmatex">\[
+D_j^-=\sqrt{\sum_k(w_kz_{jk}-v_k^-)^2}
+\]</div>
+<p>贴近度：</p>
+<div class="arithmatex">\[
+C_j=\frac{D_j^-}{D_j^+ + D_j^-}
+\]</div>
+<p>最终综合评价以 <span class="arithmatex">\(C_j\)</span> 为准，越大越好。</p>
+<h3 id="45">4.5 分组方案生成方法</h3>
+<p>由于满足硬约束的可行分组数量极大，本文不采用完全枚举，而是同时保留两类可运行求解路径：一类用于生成若干可比较方案，另一类用于直接搜索高质量近优解。两类方法均固定 11 支市级队分别进入 <code>G01-G11</code>，<code>G12-G16</code> 不预置市级队，从而消除小组标签置换造成的重复表达。此时 16 个小组剩余容量为：</p>
+<div class="highlight"><pre><span></span><code>(3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4)
+</code></pre></div>
+<h4 id="451-topsis">4.5.1 候选池抽样生成 + TOPSIS 排序</h4>
+<p>候选池法先用随机化约束搜索生成完整合法方案，再计算第 4.3 节中的全部评价指标。对每个县级队 <span class="arithmatex">\(i\)</span>，只允许放入仍有容量且满足行政回避条件的小组 <span class="arithmatex">\(g\)</span>。程序逐队尝试可行位置，若后续无合法位置则回溯重试，直到得到完整方案。保留方案必须满足：</p>
+<div class="arithmatex">\[
+\sum_{i\in T}x_{ig}=4,\quad \forall g
+\]</div>
+<div class="arithmatex">\[
+\sum_{g=1}^{16}x_{ig}=1,\quad \forall i
+\]</div>
+<div class="arithmatex">\[
+\sum_{i\in S}x_{ig}\leq 1,\quad \forall g
+\]</div>
+<div class="arithmatex">\[
+\sum_{i\in C_m}x_{ig}\leq 1,\quad \forall m,g
+\]</div>
+<p>本次在 <code>数模3/data/final_teams.csv</code> 上重新运行候选池法，生成 1500 个合法方案，稳定性检验为 100%。候选池内部 TOPSIS 最优方案为 S1432，其指标如下：</p>
+<table>
+<thead>
+<tr>
+<th>方案</th>
+<th style="text-align: right;">候选池TOPSIS</th>
+<th style="text-align: right;">实力方差</th>
+<th style="text-align: right;">实力极差</th>
+<th style="text-align: right;">竞争悬念</th>
+<th style="text-align: right;">热点指数</th>
+<th style="text-align: right;">经济CV</th>
+<th style="text-align: right;">人口CV</th>
+<th style="text-align: right;">文旅CV</th>
+<th style="text-align: right;">平均距离km</th>
+<th style="text-align: right;">地域覆盖</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S1432</td>
+<td style="text-align: right;">0.612091</td>
+<td style="text-align: right;">714.70</td>
+<td style="text-align: right;">104.56</td>
+<td style="text-align: right;">0.161469</td>
+<td style="text-align: right;">754.41</td>
+<td style="text-align: right;">0.7817</td>
+<td style="text-align: right;">0.6091</td>
+<td style="text-align: right;">0.3026</td>
+<td style="text-align: right;">175.19</td>
+<td style="text-align: right;">3.3125</td>
+</tr>
+<tr>
+<td>S1126</td>
+<td style="text-align: right;">0.593297</td>
+<td style="text-align: right;">962.24</td>
+<td style="text-align: right;">116.59</td>
+<td style="text-align: right;">0.145408</td>
+<td style="text-align: right;">777.24</td>
+<td style="text-align: right;">0.7699</td>
+<td style="text-align: right;">0.5734</td>
+<td style="text-align: right;">0.3976</td>
+<td style="text-align: right;">171.33</td>
+<td style="text-align: right;">3.3750</td>
+</tr>
+<tr>
+<td>S0870</td>
+<td style="text-align: right;">0.584151</td>
+<td style="text-align: right;">770.25</td>
+<td style="text-align: right;">104.48</td>
+<td style="text-align: right;">0.174694</td>
+<td style="text-align: right;">760.33</td>
+<td style="text-align: right;">0.7811</td>
+<td style="text-align: right;">0.6064</td>
+<td style="text-align: right;">0.3544</td>
+<td style="text-align: right;">186.16</td>
+<td style="text-align: right;">3.5625</td>
+</tr>
+</tbody>
+</table>
+<p>候选池法的优点是可以直接给出若干符合要求的备选分组，并支持横向比较；不足是结果依赖候选池规模和随机搜索覆盖程度，不能说明已找到全可行域最优。</p>
+<h4 id="452">4.5.2 可行域内直接寻优</h4>
+<p>为避免“先生成大量方案、再评价筛选”的低效过程，本文进一步采用可行域内直接寻优。算法从合法初始分组出发，只对县级队做位置交换或三循环置换；每次产生邻域解后立即检查硬约束，若违反约束则丢弃，因此搜索过程始终位于可行域内。</p>
+<p>直接寻优阶段不用 TOPSIS 作为即时目标，因为 TOPSIS 依赖候选方案集合的整体归一化。程序改用加权效用函数引导搜索。对成本型指标 <span class="arithmatex">\(x_j\)</span>，效用函数取：</p>
+<div class="arithmatex">\[
+u_j=\frac{1}{1+x_j/s_j}
+\]</div>
+<p>对效益型指标，按指标含义采用线性截断或指数饱和效用：</p>
+<div class="arithmatex">\[
+u_j=\min\left(\frac{x_j}{s_j},1\right)
+\]</div>
+<p>或：</p>
+<div class="arithmatex">\[
+u_j=1-\exp(-x_j/s_j)
+\]</div>
+<p>综合搜索目标为：</p>
+<div class="arithmatex">\[
+Score=\sum_j w_j u_j
+\]</div>
+<p>其中 <span class="arithmatex">\(s_j\)</span> 为尺度参数，<span class="arithmatex">\(w_j\)</span> 为评价指标权重。模拟退火接受准则为：若新方案得分提高则直接接受；若得分下降，设</p>
+<div class="arithmatex">\[
+\Delta=Score_{new}-Score_{old}
+\]</div>
+<p>则以概率：</p>
+<div class="arithmatex">\[
+P=\exp(\Delta/T)
+\]</div>
+<p>接受新方案，其中 <span class="arithmatex">\(T\)</span> 为逐步下降的温度。多起点重复搜索后，保留得分靠前且互不重复的若干精英方案。</p>
+<h4 id="453">4.5.3 精确优化扩展思路</h4>
+<p>若要进一步追求严格全局最优，可将硬约束写成 0-1 整数规划，并引入同组辅助变量：</p>
+<div class="arithmatex">\[
+y_{ijg}=
+\begin{cases}
+1, &amp; \text{队伍 }i,j\text{ 同时位于小组 }g,\\
+0, &amp; \text{否则}.
+\end{cases}
+\]</div>
+<p>线性化约束为：</p>
+<div class="arithmatex">\[
+y_{ijg}\leq x_{ig},\quad y_{ijg}\leq x_{jg},\quad y_{ijg}\geq x_{ig}+x_{jg}-1
+\]</div>
+<p>这样组内距离、热点对决、竞争悬念等两两关系可以写成关于 <span class="arithmatex">\(y_{ijg}\)</span> 的目标项。但实力方差、变异系数和 TOPSIS 归一化仍会带来非线性或集合依赖，精确模型规模较大。因此本文将其作为改进方向，当前主方案采用“候选池对比 + 可行域直接寻优”的启发式近优求解。</p>
+<h3 id="46">4.6 最终分组方案选择</h3>
+<p>直接寻优输出中包含两个分数：</p>
+<ul>
+<li><code>direct_score</code>：模拟退火搜索目标，用于快速引导搜索；</li>
+<li><code>elite_topsis</code>：对直接寻优保留的 5 个精英方案重新正向化后计算的 AHP-熵权-TOPSIS 综合评价，用于在 D001-D005 之间做最终选优。</li>
+</ul>
+<p>最终选优规则为：</p>
+<ol>
+<li>硬约束违反数为 0；</li>
+<li>同市重复指数为 0；</li>
+<li>成对冲突指数为 0；</li>
+<li>在满足以上条件的方案中，选择 TOPSIS 综合评价最高者。</li>
+</ol>
+<p>按此规则，直接寻优保留的 5 个精英方案比较如下：</p>
+<table>
+<thead>
+<tr>
+<th>方案</th>
+<th style="text-align: right;">direct_score</th>
+<th style="text-align: right;">精英集TOPSIS</th>
+<th style="text-align: right;">实力方差</th>
+<th style="text-align: right;">实力极差</th>
+<th style="text-align: right;">竞争悬念</th>
+<th style="text-align: right;">热点指数</th>
+<th style="text-align: right;">经济CV</th>
+<th style="text-align: right;">人口CV</th>
+<th style="text-align: right;">文旅CV</th>
+<th style="text-align: right;">平均距离km</th>
+<th style="text-align: right;">地域覆盖</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D001</td>
+<td style="text-align: right;">0.754971</td>
+<td style="text-align: right;">0.354608</td>
+<td style="text-align: right;">18.99</td>
+<td style="text-align: right;">13.81</td>
+<td style="text-align: right;">0.213280</td>
+<td style="text-align: right;">727.92</td>
+<td style="text-align: right;">0.7365</td>
+<td style="text-align: right;">0.5528</td>
+<td style="text-align: right;">0.2637</td>
+<td style="text-align: right;">190.47</td>
+<td style="text-align: right;">3.6250</td>
+</tr>
+<tr>
+<td>D002</td>
+<td style="text-align: right;">0.754638</td>
+<td style="text-align: right;">0.363126</td>
+<td style="text-align: right;">18.35</td>
+<td style="text-align: right;">13.81</td>
+<td style="text-align: right;">0.211060</td>
+<td style="text-align: right;">727.91</td>
+<td style="text-align: right;">0.7352</td>
+<td style="text-align: right;">0.5544</td>
+<td style="text-align: right;">0.2637</td>
+<td style="text-align: right;">190.73</td>
+<td style="text-align: right;">3.6250</td>
+</tr>
+<tr>
+<td>D003（最终）</td>
+<td style="text-align: right;">0.754332</td>
+<td style="text-align: right;">0.676844</td>
+<td style="text-align: right;">11.06</td>
+<td style="text-align: right;">9.55</td>
+<td style="text-align: right;">0.186719</td>
+<td style="text-align: right;">737.82</td>
+<td style="text-align: right;">0.7400</td>
+<td style="text-align: right;">0.5617</td>
+<td style="text-align: right;">0.3111</td>
+<td style="text-align: right;">187.19</td>
+<td style="text-align: right;">3.7500</td>
+</tr>
+<tr>
+<td>D004</td>
+<td style="text-align: right;">0.753937</td>
+<td style="text-align: right;">0.344720</td>
+<td style="text-align: right;">24.41</td>
+<td style="text-align: right;">14.46</td>
+<td style="text-align: right;">0.224067</td>
+<td style="text-align: right;">732.10</td>
+<td style="text-align: right;">0.7356</td>
+<td style="text-align: right;">0.5464</td>
+<td style="text-align: right;">0.2802</td>
+<td style="text-align: right;">190.29</td>
+<td style="text-align: right;">3.5625</td>
+</tr>
+<tr>
+<td>D005</td>
+<td style="text-align: right;">0.753891</td>
+<td style="text-align: right;">0.361248</td>
+<td style="text-align: right;">24.34</td>
+<td style="text-align: right;">14.46</td>
+<td style="text-align: right;">0.223130</td>
+<td style="text-align: right;">733.15</td>
+<td style="text-align: right;">0.7411</td>
+<td style="text-align: right;">0.5504</td>
+<td style="text-align: right;">0.2799</td>
+<td style="text-align: right;">188.39</td>
+<td style="text-align: right;">3.5625</td>
+</tr>
+</tbody>
+</table>
+<p>D003 的精英集 TOPSIS 综合评价最高，且相比 D001 具有更低的实力方差、更低的实力极差、更低的平均距离和更高的地域覆盖。因此直接寻优精英方案内选择 D003。</p>
+<p>为检验“候选池抽样法”和“直接寻优法”之间的可比性，本文又取候选池法前 5 个方案与直接寻优法前 5 个方案，共 10 个方案，重新放入同一指标矩阵中计算 AHP-熵权-TOPSIS。统一比较结果如下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">统一排名</th>
+<th>方案</th>
+<th>生成方法</th>
+<th style="text-align: right;">统一TOPSIS</th>
+<th style="text-align: right;">方法内分数</th>
+<th style="text-align: right;">实力方差</th>
+<th style="text-align: right;">实力极差</th>
+<th style="text-align: right;">竞争悬念</th>
+<th style="text-align: right;">热点指数</th>
+<th style="text-align: right;">经济CV</th>
+<th style="text-align: right;">人口CV</th>
+<th style="text-align: right;">文旅CV</th>
+<th style="text-align: right;">平均距离km</th>
+<th style="text-align: right;">地域覆盖</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>D003（最终）</td>
+<td>可行域直接寻优</td>
+<td style="text-align: right;">0.567326</td>
+<td style="text-align: right;">0.754332</td>
+<td style="text-align: right;">11.06</td>
+<td style="text-align: right;">9.55</td>
+<td style="text-align: right;">0.186719</td>
+<td style="text-align: right;">737.82</td>
+<td style="text-align: right;">0.7400</td>
+<td style="text-align: right;">0.5617</td>
+<td style="text-align: right;">0.3111</td>
+<td style="text-align: right;">187.19</td>
+<td style="text-align: right;">3.7500</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>D005</td>
+<td>可行域直接寻优</td>
+<td style="text-align: right;">0.567259</td>
+<td style="text-align: right;">0.753891</td>
+<td style="text-align: right;">24.34</td>
+<td style="text-align: right;">14.46</td>
+<td style="text-align: right;">0.223130</td>
+<td style="text-align: right;">733.15</td>
+<td style="text-align: right;">0.7411</td>
+<td style="text-align: right;">0.5504</td>
+<td style="text-align: right;">0.2799</td>
+<td style="text-align: right;">188.39</td>
+<td style="text-align: right;">3.5625</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>D004</td>
+<td>可行域直接寻优</td>
+<td style="text-align: right;">0.555423</td>
+<td style="text-align: right;">0.753937</td>
+<td style="text-align: right;">24.41</td>
+<td style="text-align: right;">14.46</td>
+<td style="text-align: right;">0.224067</td>
+<td style="text-align: right;">732.10</td>
+<td style="text-align: right;">0.7356</td>
+<td style="text-align: right;">0.5464</td>
+<td style="text-align: right;">0.2802</td>
+<td style="text-align: right;">190.29</td>
+<td style="text-align: right;">3.5625</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>D001</td>
+<td>可行域直接寻优</td>
+<td style="text-align: right;">0.542548</td>
+<td style="text-align: right;">0.754971</td>
+<td style="text-align: right;">18.99</td>
+<td style="text-align: right;">13.81</td>
+<td style="text-align: right;">0.213280</td>
+<td style="text-align: right;">727.92</td>
+<td style="text-align: right;">0.7365</td>
+<td style="text-align: right;">0.5528</td>
+<td style="text-align: right;">0.2637</td>
+<td style="text-align: right;">190.47</td>
+<td style="text-align: right;">3.6250</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>D002</td>
+<td>可行域直接寻优</td>
+<td style="text-align: right;">0.539318</td>
+<td style="text-align: right;">0.754638</td>
+<td style="text-align: right;">18.35</td>
+<td style="text-align: right;">13.81</td>
+<td style="text-align: right;">0.211060</td>
+<td style="text-align: right;">727.91</td>
+<td style="text-align: right;">0.7352</td>
+<td style="text-align: right;">0.5544</td>
+<td style="text-align: right;">0.2637</td>
+<td style="text-align: right;">190.73</td>
+<td style="text-align: right;">3.6250</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>S1126</td>
+<td>候选池抽样+TOPSIS</td>
+<td style="text-align: right;">0.473195</td>
+<td style="text-align: right;">0.593297</td>
+<td style="text-align: right;">962.24</td>
+<td style="text-align: right;">116.59</td>
+<td style="text-align: right;">0.145408</td>
+<td style="text-align: right;">777.24</td>
+<td style="text-align: right;">0.7699</td>
+<td style="text-align: right;">0.5734</td>
+<td style="text-align: right;">0.3976</td>
+<td style="text-align: right;">171.33</td>
+<td style="text-align: right;">3.3750</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>S1432</td>
+<td>候选池抽样+TOPSIS</td>
+<td style="text-align: right;">0.407837</td>
+<td style="text-align: right;">0.612091</td>
+<td style="text-align: right;">714.70</td>
+<td style="text-align: right;">104.56</td>
+<td style="text-align: right;">0.161469</td>
+<td style="text-align: right;">754.41</td>
+<td style="text-align: right;">0.7817</td>
+<td style="text-align: right;">0.6091</td>
+<td style="text-align: right;">0.3026</td>
+<td style="text-align: right;">175.19</td>
+<td style="text-align: right;">3.3125</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td>S0458</td>
+<td>候选池抽样+TOPSIS</td>
+<td style="text-align: right;">0.364557</td>
+<td style="text-align: right;">0.581805</td>
+<td style="text-align: right;">654.73</td>
+<td style="text-align: right;">92.35</td>
+<td style="text-align: right;">0.153291</td>
+<td style="text-align: right;">739.18</td>
+<td style="text-align: right;">0.7639</td>
+<td style="text-align: right;">0.5670</td>
+<td style="text-align: right;">0.2884</td>
+<td style="text-align: right;">182.23</td>
+<td style="text-align: right;">3.4375</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td>S1305</td>
+<td>候选池抽样+TOPSIS</td>
+<td style="text-align: right;">0.351057</td>
+<td style="text-align: right;">0.582729</td>
+<td style="text-align: right;">776.24</td>
+<td style="text-align: right;">99.86</td>
+<td style="text-align: right;">0.161282</td>
+<td style="text-align: right;">764.20</td>
+<td style="text-align: right;">0.7703</td>
+<td style="text-align: right;">0.6165</td>
+<td style="text-align: right;">0.3481</td>
+<td style="text-align: right;">182.08</td>
+<td style="text-align: right;">3.3750</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td>S0870</td>
+<td>候选池抽样+TOPSIS</td>
+<td style="text-align: right;">0.319487</td>
+<td style="text-align: right;">0.584151</td>
+<td style="text-align: right;">770.25</td>
+<td style="text-align: right;">104.48</td>
+<td style="text-align: right;">0.174694</td>
+<td style="text-align: right;">760.33</td>
+<td style="text-align: right;">0.7811</td>
+<td style="text-align: right;">0.6064</td>
+<td style="text-align: right;">0.3544</td>
+<td style="text-align: right;">186.16</td>
+<td style="text-align: right;">3.5625</td>
+</tr>
+</tbody>
+</table>
+<p>统一评价后 D003 仍排名第一。候选池抽样法在部分方案中能得到更小平均距离或更高热点指数，但本次运行中实力方差和实力极差明显偏大；直接寻优法能显著改善竞技公平性，整体更符合“公平性优先、兼顾传播和出行”的评价目标。因此最终分组采用 D003。该结论是在当前候选池前 5 与直接寻优前 5 的联合集合内得到，不构成全可行域全局最优证明。</p>
+<h3 id="47-d003">4.7 最终分组 D003</h3>
+<table>
+<thead>
+<tr>
+<th>小组</th>
+<th>队伍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G01</td>
+<td>杭州市、江山市、泰顺县、东阳市</td>
+</tr>
+<tr>
+<td>G02</td>
+<td>宁波市、三门县、遂昌县、淳安县</td>
+</tr>
+<tr>
+<td>G03</td>
+<td>温州市、青田县、开化县、建德市</td>
+</tr>
+<tr>
+<td>G04</td>
+<td>嘉兴市、永康市、景宁畲族自治县、平阳县</td>
+</tr>
+<tr>
+<td>G05</td>
+<td>湖州市、义乌市、云和县、温岭市</td>
+</tr>
+<tr>
+<td>G06</td>
+<td>绍兴市、桐乡市、桐庐县、磐安县</td>
+</tr>
+<tr>
+<td>G07</td>
+<td>金华市、庆元县、嘉善县、仙居县</td>
+</tr>
+<tr>
+<td>G08</td>
+<td>衢州市、天台县、象山县、龙泉市</td>
+</tr>
+<tr>
+<td>G09</td>
+<td>舟山市、临海市、德清县、永嘉县</td>
+</tr>
+<tr>
+<td>G10</td>
+<td>台州市、海盐县、宁海县、苍南县</td>
+</tr>
+<tr>
+<td>G11</td>
+<td>丽水市、文成县、海宁市、新昌县</td>
+</tr>
+<tr>
+<td>G12</td>
+<td>松阳县、乐清市、浦江县、嵊泗县</td>
+</tr>
+<tr>
+<td>G13</td>
+<td>龙游县、兰溪市、玉环市、嵊州市</td>
+</tr>
+<tr>
+<td>G14</td>
+<td>瑞安市、诸暨市、武义县、长兴县</td>
+</tr>
+<tr>
+<td>G15</td>
+<td>常山县、余姚市、安吉县、缙云县</td>
+</tr>
+<tr>
+<td>G16</td>
+<td>龙港市、平湖市、岱山县、慈溪市</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6">五、问题二：公开抽签模型</h2>
+<h3 id="51">5.1 抽签原则</h3>
+<p>为保证赛事公平性，分组一般应通过抽签完成。但逐队无约束抽签容易出现后期无合法位置或人为调整空间过大的问题。因此本文采用“优质方案池公开随机抽签法”。</p>
+<p>流程为：</p>
+<ol>
+<li>按问题一约束生成大量合法完整分组方案；</li>
+<li>对每个方案计算综合评价指标；</li>
+<li>取排名靠前方案构成优质方案池；</li>
+<li>抽签前公开方案池文件和 SHA-256 哈希；</li>
+<li>现场按公开流程生成随机数字串；</li>
+<li>用哈希函数确定最终方案编号。</li>
+</ol>
+<h3 id="52">5.2 现场数字串生成环节</h3>
+<p>为避免现场数字串 <span class="arithmatex">\(s\)</span> 被人为指定，本文设计如下公开生成流程。</p>
+<p>抽签前准备一个透明摇号箱和 10 个数字球，数字分别为 0 到 9。每次抽取前由公证人员和参赛队代表共同核验数字球完整性。数字串长度取 10 位，记为：</p>
+<div class="arithmatex">\[
+s=d_1d_2\cdots d_{10},\quad d_t\in\{0,1,\ldots,9\}
+\]</div>
+<p>现场流程如下：</p>
+<ol>
+<li>大屏展示并锁定方案池文件名、方案池规模 <span class="arithmatex">\(K\)</span>、方案池 SHA-256 哈希 <span class="arithmatex">\(H\)</span> 和抽签规则；</li>
+<li>主持人宣布数字串长度为 10，前导 0 保留，不删除、不补位；</li>
+<li>按“公证人员、参赛队代表、媒体代表、承办地代表、志愿者代表”的固定顺序，每人抽取 2 位数字；</li>
+<li>每抽出 1 位数字后，现场读数、摄像记录、登记到公示表，并将数字球放回摇号箱重新混合；</li>
+<li>10 位数字全部生成后，按抽取先后顺序拼接为字符串 <span class="arithmatex">\(s\)</span>；</li>
+<li>公证人员、参赛队代表和技术人员共同签字确认 <span class="arithmatex">\(s\)</span>，随后立即计算 <span class="arithmatex">\(R\)</span> 和 <span class="arithmatex">\(q\)</span>。</li>
+</ol>
+<p>抽后放回的原因是使每一位数字都来自同一集合 <span class="arithmatex">\(\{0,\ldots,9\}\)</span>，避免无放回抽取导致后续数字分布改变。若数字球和摇号过程近似公平，则任一 10 位数字串出现概率近似为：</p>
+<div class="arithmatex">\[
+P(s)=10^{-10}
+\]</div>
+<p>本次示例中，现场 10 次抽得数字依次为：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">次序</th>
+<th style="text-align: right;">1</th>
+<th style="text-align: right;">2</th>
+<th style="text-align: right;">3</th>
+<th style="text-align: right;">4</th>
+<th style="text-align: right;">5</th>
+<th style="text-align: right;">6</th>
+<th style="text-align: right;">7</th>
+<th style="text-align: right;">8</th>
+<th style="text-align: right;">9</th>
+<th style="text-align: right;">10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">数字</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5</td>
+</tr>
+</tbody>
+</table>
+<p>因此现场数字串为：</p>
+<div class="arithmatex">\[
+s=7392048615
+\]</div>
+<p>该流程兼顾现场仪式感和可复核性。即使个别数字位存在轻微随机偏差，后续仍会将 <span class="arithmatex">\(s\)</span> 与已冻结的方案池哈希 <span class="arithmatex">\(H\)</span> 一起输入 SHA-256，从而避免组织者在看到方案池后通过调整方案顺序或临时指定数字串控制结果。</p>
+<h3 id="53">5.3 方案池哈希与抽取公式</h3>
+<p>设方案池为 <span class="arithmatex">\(\Omega^*\)</span>，规模为 <span class="arithmatex">\(K\)</span>。抽签前公开方案池文件：</p>
+<div class="highlight"><pre><span></span><code>scheme_pool.csv
+</code></pre></div>
+<p>并计算哈希：</p>
+<div class="arithmatex">\[
+H=\operatorname{SHA256}(\text{scheme\_pool.csv})
+\]</div>
+<p>现场公开随机数字串为 <span class="arithmatex">\(s\)</span>，计算：</p>
+<div class="arithmatex">\[
+R=\operatorname{int}(\operatorname{SHA256}(s\Vert H),16)
+\]</div>
+<p>最终抽中编号为：</p>
+<div class="arithmatex">\[
+q=(R\bmod K)+1
+\]</div>
+<p>该规则将现场随机数与已冻结的方案池绑定，避免事后调整方案池或方案顺序。</p>
+<h3 id="54">5.4 当前运行结果</h3>
+<p>数模3 中重新生成 3000 个候选方案，取前 100 个形成优质方案池。运行结果为：</p>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>候选方案数</td>
+<td>3000</td>
+</tr>
+<tr>
+<td>优质方案池规模 <span class="arithmatex">\(K\)</span></td>
+<td>100</td>
+</tr>
+<tr>
+<td>方案池 SHA-256</td>
+<td>c8edf836d1c77bfe7d4ef1765819dc748463ad8f90aec415526d9586fc70b799</td>
+</tr>
+<tr>
+<td>现场数字串 <span class="arithmatex">\(s\)</span></td>
+<td>7392048615</td>
+</tr>
+<tr>
+<td>二次哈希</td>
+<td>cb4c399100fc219f7ff4c368579b242947b902dd76bf76c1fe037228375c29a6</td>
+</tr>
+<tr>
+<td>随机整数 <span class="arithmatex">\(R\)</span></td>
+<td>91954185948163988665075136196978624808181846815307495688921861128068341180838</td>
+</tr>
+<tr>
+<td>抽中编号 <span class="arithmatex">\(q\)</span></td>
+<td>39</td>
+</tr>
+<tr>
+<td>抽中方案</td>
+<td>P0039</td>
+</tr>
+<tr>
+<td>来源候选方案</td>
+<td>S1590</td>
+</tr>
+<tr>
+<td>TOPSIS 得分</td>
+<td>0.568026</td>
+</tr>
+</tbody>
+</table>
+<p>P0039 可作为公开抽签过程的一次可复核示例。需要注意，P0039 的 TOPSIS 得分是在抽签方案池内计算的，D003 的 TOPSIS 得分是在 D001-D005 精英方案内计算的，二者不应直接数值比较。若赛事必须通过抽签确定最终分组，则以现场实际抽中方案为执行方案；若题目第一问要求模型推荐方案，则以 D003 为推荐方案。</p>
+<h2 id="_7">六、问题三：比赛地点选择模型</h2>
+<h3 id="61">6.1 选址变量与约束</h3>
+<p>设：</p>
+<ul>
+<li><span class="arithmatex">\(V\)</span>：候选比赛地点集合；</li>
+<li><span class="arithmatex">\(y_v=1\)</span>：地点 <span class="arithmatex">\(v\)</span> 被选为比赛地点；</li>
+<li><span class="arithmatex">\(z_{gv}=1\)</span>：小组 <span class="arithmatex">\(g\)</span> 被安排在地点 <span class="arithmatex">\(v\)</span>；</li>
+<li><span class="arithmatex">\(d_{iv}\)</span>：队伍 <span class="arithmatex">\(i\)</span> 到地点 <span class="arithmatex">\(v\)</span> 的距离；</li>
+<li><span class="arithmatex">\(B_v\)</span>：地点 <span class="arithmatex">\(v\)</span> 的承办影响力得分；</li>
+<li><span class="arithmatex">\(p_{gv}\)</span>：小组 <span class="arithmatex">\(g\)</span> 安排在地点 <span class="arithmatex">\(v\)</span> 的主场关联惩罚；</li>
+<li><span class="arithmatex">\(b_{gv}\)</span>：小组 <span class="arithmatex">\(g\)</span> 安排在地点 <span class="arithmatex">\(v\)</span> 的主场传播收益。</li>
+</ul>
+<p>候选赛地不是 64 个地点全部直接参与组合搜索，而是先按承办影响力和区域覆盖筛选出 30 个候选点。承办影响力得分为：</p>
+<div class="arithmatex">\[
+B_v=0.30P_v+0.30G_v+0.25L_v+0.15I_v
+\]</div>
+<p>其中 <span class="arithmatex">\(P_v,G_v,L_v,I_v\)</span> 分别为人口、GDP、文旅和体育投入代理指标的归一化值。候选集构造规则为：</p>
+<ol>
+<li>保留预设重点城市；</li>
+<li>保留全部市级队所在地；</li>
+<li>每个区域保留影响力最高的若干县市；</li>
+<li>再按影响力补足到 30 个候选点。</li>
+</ol>
+<p>本次运行候选点数量为 30。</p>
+<p>选择 8 个承办地：</p>
+<div class="arithmatex">\[
+\sum_{v\in V}y_v=8
+\]</div>
+<p>每个小组只安排在一个地点：</p>
+<div class="arithmatex">\[
+\sum_{v\in V}z_{gv}=1,\quad g=1,2,\ldots,16
+\]</div>
+<p>每个承办地承办 2 个小组：</p>
+<div class="arithmatex">\[
+\sum_{g=1}^{16}z_{gv}=2y_v,\quad v\in V
+\]</div>
+<p>若 <span class="arithmatex">\(z_{gv}=1\)</span>，则隐含 <span class="arithmatex">\(y_v=1\)</span>。在平衡型方案中，还设置以下区域和普及面约束或强惩罚：</p>
+<div class="arithmatex">\[
+\sum_{v\in V_r}y_v\geq 1,\quad r\in R
+\]</div>
+<p>即浙东、浙中、浙北、浙南、浙西、浙西南 6 个区域至少各有 1 个承办点。</p>
+<p>县级承办点数量满足：</p>
+<div class="arithmatex">\[
+2\leq \sum_{v\in V_{\text{county}}}y_v\leq 3
+\]</div>
+<p>同时单一区域承办点数量不超过 2：</p>
+<div class="arithmatex">\[
+\sum_{v\in V_r}y_v\leq 2,\quad r\in R
+\]</div>
+<h3 id="62">6.2 目标函数</h3>
+<p>对小组 <span class="arithmatex">\(g\)</span> 和候选地点 <span class="arithmatex">\(v\)</span>，先计算平均距离、距离标准差、最大距离：</p>
+<div class="arithmatex">\[
+\bar d_{gv}=\frac{1}{4}\sum_{i\in Q_g}d_{iv}
+\]</div>
+<div class="arithmatex">\[
+s_{gv}=\sqrt{\frac{1}{4}\sum_{i\in Q_g}(d_{iv}-\bar d_{gv})^2}
+\]</div>
+<div class="arithmatex">\[
+m_{gv}=\max_{i\in Q_g}d_{iv}
+\]</div>
+<p>主场关联惩罚定义为：</p>
+<div class="arithmatex">\[
+p_{gv}=
+\begin{cases}
+1, &amp; \text{小组中存在队伍名称与赛地相同},\\
+0.5, &amp; \text{小组中存在队伍与赛地同属一个地级市行政体系},\\
+0, &amp; \text{否则}.
+\end{cases}
+\]</div>
+<p>主场传播收益定义为：</p>
+<div class="arithmatex">\[
+b_{gv}=\min\left(\sum_{i\in Q_g}r_{iv}B_i,1\right)
+\]</div>
+<p>其中：</p>
+<div class="arithmatex">\[
+r_{iv}=
+\begin{cases}
+1, &amp; \text{队伍 }i\text{ 与赛地 }v\text{ 名称相同},\\
+0.5, &amp; \text{队伍 }i\text{ 与赛地 }v\text{ 属于同一地级市行政体系},\\
+0, &amp; \text{否则}.
+\end{cases}
+\]</div>
+<p>对 <span class="arithmatex">\(\bar d_{gv}\)</span>、<span class="arithmatex">\(s_{gv}\)</span>、<span class="arithmatex">\(m_{gv}\)</span> 做成本型归一化：</p>
+<div class="arithmatex">\[
+C(x)=\frac{x-\min x}{\max x-\min x}
+\]</div>
+<p>对承办影响力 <span class="arithmatex">\(B_v\)</span> 做反向成本化：</p>
+<div class="arithmatex">\[
+C_B(v)=\frac{\max B-B_v}{\max B-\min B}
+\]</div>
+<p>本方案采用平衡型目标。小组 <span class="arithmatex">\(g\)</span> 分配到赛地 <span class="arithmatex">\(v\)</span> 的归一化成本为：</p>
+<div class="arithmatex">\[
+c_{gv}=0.32C(\bar d_{gv})+0.17C(s_{gv})+0.12C(m_{gv})
++0.08p_{gv}+0.15C_B(v)-0.16b_{gv}
+\]</div>
+<p>在给定 8 个赛地集合 <span class="arithmatex">\(Y\)</span> 后，使用动态规划求解小组到赛地的最优分配：</p>
+<div class="arithmatex">\[
+\min \sum_{g=1}^{16}\sum_{v\in Y}c_{gv}z_{gv}
+\]</div>
+<p>并满足每个赛地承办 2 个小组的容量约束。</p>
+<p>赛地集合本身的综合目标为：</p>
+<div class="arithmatex">\[
+\min J(Y)=C_{\text{assign}}(Y)-0.20\sum_{v\in Y}B_v-0.10|R(Y)|
++0.35P_{\text{region}}(Y)+P_{\text{county}}(Y)
+\]</div>
+<p>其中：</p>
+<ul>
+<li><span class="arithmatex">\(C_{\text{assign}}(Y)\)</span>：给定赛地集合后的最优小组分配成本；</li>
+<li><span class="arithmatex">\(\sum_{v\in Y}B_v\)</span>：赛地总体承办影响力；</li>
+<li><span class="arithmatex">\(|R(Y)|\)</span>：覆盖区域数量；</li>
+<li><span class="arithmatex">\(P_{\text{region}}(Y)\)</span>：区域均衡惩罚；</li>
+<li><span class="arithmatex">\(P_{\text{county}}(Y)\)</span>：县级承办点数量惩罚。</li>
+</ul>
+<p>区域均衡惩罚为：</p>
+<div class="arithmatex">\[
+P_{\text{region}}(Y)=\frac{1}{|R|}\sum_{r\in R}(n_r-\bar n)^2
+\]</div>
+<p>其中 <span class="arithmatex">\(n_r\)</span> 为区域 <span class="arithmatex">\(r\)</span> 的承办点数量，<span class="arithmatex">\(\bar n\)</span> 为各区域平均承办点数。</p>
+<p>县级承办点数量惩罚为：</p>
+<div class="arithmatex">\[
+P_{\text{county}}(Y)=
+\begin{cases}
+0, &amp; 2\leq n_{\text{county}}\leq 3,\\
+0.7, &amp; \text{否则}.
+\end{cases}
+\]</div>
+<p>实际搜索采用模拟退火在候选赛地集合中交换赛地，并对每个赛地集合用动态规划精确求小组分配。区域覆盖、县级承办点数量和单区域上限在程序中以强约束检查加惩罚方式处理，最终结果满足这些条件。</p>
+<h3 id="63">6.3 数据来源与准确性检查</h3>
+<p>问题三使用的数据来自 <code>数模3/data/final_teams.csv</code>。其中：</p>
+<ul>
+<li>经纬度和区域：来自 <code>分组评价模型/data/teams.csv</code> 的代理坐标和区域划分；</li>
+<li>GDP、人口：优先来自浙江统计年鉴解析数据；</li>
+<li>文旅、体育投入：来自原模型代理变量；</li>
+<li>赛地影响力 <span class="arithmatex">\(B_v\)</span>：由人口、GDP、文旅、体育投入归一化加权得到。</li>
+</ul>
+<p>因此，距离计算是基于行政点近似坐标的球面距离，不是真实体育场馆到队伍所在地的交通时间。若用于实际赛事落地，应替换为真实场馆坐标、铁路/公路时间、酒店床位和场馆容量数据。</p>
+<p>本次复核结果：</p>
+<table>
+<thead>
+<tr>
+<th>检查项</th>
+<th style="text-align: right;">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>候选赛地数量</td>
+<td style="text-align: right;">30</td>
+</tr>
+<tr>
+<td>最终赛地数量</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr>
+<td>小组覆盖数量</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr>
+<td>每个赛地承办小组数</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>县级承办点数量</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>覆盖区域数量</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>区域数量分布</td>
+<td style="text-align: right;">浙东2、浙南2、浙北1、浙中1、浙西1、浙西南1</td>
+</tr>
+<tr>
+<td>选址约束检查</td>
+<td style="text-align: right;">通过</td>
+</tr>
+<tr>
+<td>分配成本 <span class="arithmatex">\(C_{\text{assign}}\)</span></td>
+<td style="text-align: right;">4.847686</td>
+</tr>
+<tr>
+<td>赛地影响力和 <span class="arithmatex">\(\sum B_v\)</span></td>
+<td style="text-align: right;">3.901837</td>
+</tr>
+<tr>
+<td>区域均衡惩罚</td>
+<td style="text-align: right;">0.222222</td>
+</tr>
+<tr>
+<td>最终目标值 <span class="arithmatex">\(J(Y)\)</span></td>
+<td style="text-align: right;">3.545096</td>
+</tr>
+</tbody>
+</table>
+<h3 id="64-d003">6.4 基于 D003 的赛地结果</h3>
+<p>最终选择 8 个比赛地点：</p>
+<p>台州市、宁波市、杭州市、温州市、绍兴市、金华市、青田县、龙游县。</p>
+<table>
+<thead>
+<tr>
+<th>比赛地点</th>
+<th>区域</th>
+<th>承办小组</th>
+<th>小组队伍</th>
+<th style="text-align: right;">平均距离km</th>
+<th style="text-align: right;">最远距离km</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>台州市</td>
+<td>浙南</td>
+<td>G10</td>
+<td>台州市、海盐县、宁海县、苍南县</td>
+<td style="text-align: right;">124.68</td>
+<td style="text-align: right;">236.48</td>
+</tr>
+<tr>
+<td>台州市</td>
+<td>浙南</td>
+<td>G12</td>
+<td>松阳县、乐清市、浦江县、嵊泗县</td>
+<td style="text-align: right;">147.02</td>
+<td style="text-align: right;">178.75</td>
+</tr>
+<tr>
+<td>宁波市</td>
+<td>浙东</td>
+<td>G02</td>
+<td>宁波市、三门县、遂昌县、淳安县</td>
+<td style="text-align: right;">126.27</td>
+<td style="text-align: right;">235.07</td>
+</tr>
+<tr>
+<td>宁波市</td>
+<td>浙东</td>
+<td>G09</td>
+<td>舟山市、临海市、德清县、永嘉县</td>
+<td style="text-align: right;">153.00</td>
+<td style="text-align: right;">231.77</td>
+</tr>
+<tr>
+<td>杭州市</td>
+<td>浙北</td>
+<td>G06</td>
+<td>绍兴市、桐乡市、桐庐县、磐安县</td>
+<td style="text-align: right;">65.17</td>
+<td style="text-align: right;">133.43</td>
+</tr>
+<tr>
+<td>杭州市</td>
+<td>浙北</td>
+<td>G15</td>
+<td>常山县、余姚市、安吉县、缙云县</td>
+<td style="text-align: right;">150.15</td>
+<td style="text-align: right;">209.52</td>
+</tr>
+<tr>
+<td>温州市</td>
+<td>浙南</td>
+<td>G07</td>
+<td>金华市、庆元县、嘉善县、仙居县</td>
+<td style="text-align: right;">157.58</td>
+<td style="text-align: right;">287.09</td>
+</tr>
+<tr>
+<td>温州市</td>
+<td>浙南</td>
+<td>G08</td>
+<td>衢州市、天台县、象山县、龙泉市</td>
+<td style="text-align: right;">148.08</td>
+<td style="text-align: right;">207.29</td>
+</tr>
+<tr>
+<td>绍兴市</td>
+<td>浙东</td>
+<td>G05</td>
+<td>湖州市、义乌市、云和县、温岭市</td>
+<td style="text-align: right;">149.25</td>
+<td style="text-align: right;">208.02</td>
+</tr>
+<tr>
+<td>绍兴市</td>
+<td>浙东</td>
+<td>G16</td>
+<td>龙港市、平湖市、岱山县、慈溪市</td>
+<td style="text-align: right;">126.60</td>
+<td style="text-align: right;">200.39</td>
+</tr>
+<tr>
+<td>金华市</td>
+<td>浙中</td>
+<td>G03</td>
+<td>温州市、青田县、开化县、建德市</td>
+<td style="text-align: right;">113.81</td>
+<td style="text-align: right;">159.16</td>
+</tr>
+<tr>
+<td>金华市</td>
+<td>浙中</td>
+<td>G11</td>
+<td>丽水市、文成县、海宁市、新昌县</td>
+<td style="text-align: right;">163.51</td>
+<td style="text-align: right;">235.72</td>
+</tr>
+<tr>
+<td>青田县</td>
+<td>浙西南</td>
+<td>G01</td>
+<td>杭州市、江山市、泰顺县、东阳市</td>
+<td style="text-align: right;">121.68</td>
+<td style="text-align: right;">174.57</td>
+</tr>
+<tr>
+<td>青田县</td>
+<td>浙西南</td>
+<td>G13</td>
+<td>龙游县、兰溪市、玉环市、嵊州市</td>
+<td style="text-align: right;">99.40</td>
+<td style="text-align: right;">129.10</td>
+</tr>
+<tr>
+<td>龙游县</td>
+<td>浙西</td>
+<td>G04</td>
+<td>嘉兴市、永康市、景宁畲族自治县、平阳县</td>
+<td style="text-align: right;">152.01</td>
+<td style="text-align: right;">259.28</td>
+</tr>
+<tr>
+<td>龙游县</td>
+<td>浙西</td>
+<td>G14</td>
+<td>瑞安市、诸暨市、武义县、长兴县</td>
+<td style="text-align: right;">164.37</td>
+<td style="text-align: right;">212.05</td>
+</tr>
+</tbody>
+</table>
+<p>综合指标：</p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th style="text-align: right;">数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>覆盖区域数</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>覆盖区域</td>
+<td style="text-align: right;">浙东、浙中、浙北、浙南、浙西、浙西南</td>
+</tr>
+<tr>
+<td>县级承办点数量</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>参赛队平均到赛地距离</td>
+<td style="text-align: right;">135.16 km</td>
+</tr>
+<tr>
+<td>单队最远到赛地距离</td>
+<td style="text-align: right;">287.09 km</td>
+</tr>
+<tr>
+<td>小组出行距离标准差均值</td>
+<td style="text-align: right;">56.27 km</td>
+</tr>
+<tr>
+<td>主场关联惩罚合计</td>
+<td style="text-align: right;">2.50</td>
+</tr>
+<tr>
+<td>强主场小组数</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>主场传播收益</td>
+<td style="text-align: right;">1.2921</td>
+</tr>
+<tr>
+<td>区域均衡惩罚</td>
+<td style="text-align: right;">0.2222</td>
+</tr>
+</tbody>
+</table>
+<p>该方案覆盖 6 个区域，并安排青田县、龙游县两个县级承办点，兼顾公平性、传播面和赛事普及。</p>
+<h2 id="_8">七、问题四：赛制仿真与合理化建议</h2>
+<h3 id="71">7.1 推荐赛制</h3>
+<p>推荐赛制为：</p>
+<div class="highlight"><pre><span></span><code>16 组小组单循环 + 每组前二晋级 + 32 强单败淘汰
+</code></pre></div>
+<p>每组 4 队，小组单循环场次为：</p>
+<div class="arithmatex">\[
+C_4^2=6
+\]</div>
+<p>小组赛总场次为：</p>
+<div class="arithmatex">\[
+16\times 6=96
+\]</div>
+<p>每组前二晋级：</p>
+<div class="arithmatex">\[
+16\times 2=32
+\]</div>
+<p>32 强单败淘汰赛场次为：</p>
+<div class="arithmatex">\[
+32-1=31
+\]</div>
+<p>总场次为：</p>
+<div class="arithmatex">\[
+96+31=127
+\]</div>
+<p>若设置三、四名决赛，则总场次为 128 场。</p>
+<h3 id="72">7.2 赛制仿真结果</h3>
+<p>基于 D003 分组和对应赛地，进行 3000 次蒙特卡洛仿真：</p>
+<table>
+<thead>
+<tr>
+<th>赛制</th>
+<th style="text-align: right;">前16强队小组出线率</th>
+<th style="text-align: right;">前8强队进16强率</th>
+<th style="text-align: right;">最强队夺冠率</th>
+<th style="text-align: right;">前8强队过早淘汰事件率</th>
+<th style="text-align: right;">爆冷率</th>
+<th style="text-align: right;">平均悬念</th>
+<th style="text-align: right;">总场次</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>现行 16 组单循环 + 32 强</td>
+<td style="text-align: right;">0.7778</td>
+<td style="text-align: right;">0.6041</td>
+<td style="text-align: right;">0.4547</td>
+<td style="text-align: right;">0.7070</td>
+<td style="text-align: right;">0.1436</td>
+<td style="text-align: right;">0.165347</td>
+<td style="text-align: right;">127</td>
+</tr>
+<tr>
+<td>种子分档单循环 + 32 强</td>
+<td style="text-align: right;">0.7752</td>
+<td style="text-align: right;">0.6069</td>
+<td style="text-align: right;">0.4613</td>
+<td style="text-align: right;">0.7063</td>
+<td style="text-align: right;">0.1432</td>
+<td style="text-align: right;">0.165200</td>
+<td style="text-align: right;">127</td>
+</tr>
+<tr>
+<td>约束淘汰赛对阵</td>
+<td style="text-align: right;">0.7743</td>
+<td style="text-align: right;">0.6195</td>
+<td style="text-align: right;">0.4577</td>
+<td style="text-align: right;">0.6830</td>
+<td style="text-align: right;">0.1443</td>
+<td style="text-align: right;">0.164297</td>
+<td style="text-align: right;">127</td>
+</tr>
+<tr>
+<td>小组双循环 + 32 强</td>
+<td style="text-align: right;">0.8407</td>
+<td style="text-align: right;">0.6633</td>
+<td style="text-align: right;">0.4500</td>
+<td style="text-align: right;">0.5457</td>
+<td style="text-align: right;">0.1393</td>
+<td style="text-align: right;">0.173989</td>
+<td style="text-align: right;">223</td>
+</tr>
+</tbody>
+</table>
+<p>双循环可以提高强队稳定性，但场次从 127 场增加到 223 场，增幅为：</p>
+<div class="arithmatex">\[
+\frac{223-127}{127}\times 100\%\approx 75.6\%
+\]</div>
+<p>因此双循环不适合作为短周期赛事主方案。</p>
+<h3 id="73">7.3 合理化建议</h3>
+<p>最终建议为：</p>
+<ol>
+<li>保留 16 组单循环 + 每组前二晋级 + 32 强淘汰赛；</li>
+<li>小组赛最后一轮同组两场同时开赛；</li>
+<li>淘汰赛对阵尽量避免同组队伍过早再次相遇；</li>
+<li>裁判异地派遣，关键比赛提高裁判等级；</li>
+<li>赛前公开排名细则、抽签规则和方案池哈希；</li>
+<li>赛后公开比赛数据，逐步建立 Elo 或 Bradley-Terry 实力评价模型；</li>
+<li>后续若赛事周期允许，可考虑双循环或瑞士轮作为提高公平性的备选赛制。</li>
+</ol>
+<h2 id="_9">八、最终结论</h2>
+<p>本文形成了从数据、图染色、分组优化、公开抽签、赛地选择到赛制仿真的完整建模方案。主要结论如下：</p>
+<ol>
+<li>图染色分析表明，强化行政冲突图色数为 11；最终采用 16 组是为了匹配 64 队均分、8 个赛地每地 2 组和 32 强淘汰赛。</li>
+<li>问题一按 AHP-熵权-TOPSIS 综合评价选择 D003，而不是只看直接搜索目标最高的 D001。</li>
+<li>问题二采用优质方案池公开随机抽签法，当前方案池哈希为 <code>c8edf836d1c77bfe7d4ef1765819dc748463ad8f90aec415526d9586fc70b799</code>。</li>
+<li>问题三基于 D003 推荐 8 个赛地：台州市、宁波市、杭州市、温州市、绍兴市、金华市、青田县、龙游县。</li>
+<li>问题四推荐 16 组单循环 + 每组前二晋级 + 32 强单败淘汰，总场次为 127 场。</li>
+</ol>
+<p>该方案具有可解释、可运行、可复核的特点，适合作为最终论文的主体建模方案。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="xminstrel/xminstrel.github.io"
+        data-repo-id="R_kgDOQ7oY9A"
+        data-category="[在此输入分类名]"
+        data-category-id="[在此输入分类 ID]"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  <div class="md-copyright__highlight">
+    Copyright &copy; 2025 - 2026 赤奈良瞳
+  </div>
+  
+  Made with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a> 
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/xminstrel" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "navigation.expand", "navigation.path", "navigation.tracking", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../../javascripts/extra.js"></script>
+      
+        <script src="../../../../javascripts/recent-notes.js"></script>
+      
+        <script src="../../../../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
