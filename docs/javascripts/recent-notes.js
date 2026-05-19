@@ -3,10 +3,11 @@ document$.subscribe(() => {
   const statsContainer = document.querySelector("[data-site-stats]");
   const randomLink = document.querySelector("[data-random-note]");
   const knowledgeMap = document.querySelector("[data-knowledge-map]");
+  const publicArchive = document.querySelector("[data-public-archive]");
 
   setupReadingProgress();
 
-  if (statsContainer || randomLink || knowledgeMap) {
+  if (statsContainer || randomLink || knowledgeMap || publicArchive) {
     fetch(resolveDataPath("assets/data/site_stats.json"))
       .then((response) => {
         if (!response.ok) {
@@ -20,6 +21,9 @@ document$.subscribe(() => {
         }
         if (knowledgeMap) {
           renderKnowledgeMap(knowledgeMap, stats);
+        }
+        if (publicArchive) {
+          renderPublicArchive(publicArchive, stats);
         }
         const randomPages = Array.isArray(stats.random_pages) ? stats.random_pages : stats.pages;
         if (randomLink && Array.isArray(randomPages) && randomPages.length) {
@@ -36,6 +40,9 @@ document$.subscribe(() => {
         }
         if (knowledgeMap) {
           knowledgeMap.innerHTML = '<span class="home-update-card home-update-card--empty">知识地图暂时没有加载出来。</span>';
+        }
+        if (publicArchive) {
+          publicArchive.innerHTML = '<span class="home-update-card home-update-card--empty">公开文章归档暂时没有加载出来。</span>';
         }
       });
   }
@@ -179,6 +186,43 @@ function renderKnowledgeMap(container, stats) {
       section.append(heading, list);
       container.append(section);
     });
+}
+
+function renderPublicArchive(container, stats) {
+  const pages = Array.isArray(stats.random_pages) ? [...stats.random_pages] : [];
+  pages.sort((a, b) => (b.updated || "").localeCompare(a.updated || ""));
+
+  container.innerHTML = "";
+
+  pages.forEach((page) => {
+    const link = document.createElement("a");
+    link.className = "home-archive__item";
+    link.href = page.url;
+
+    const date = document.createElement("time");
+    date.className = "home-archive__date";
+    date.dateTime = page.date || "";
+    date.textContent = page.date || "未知";
+
+    const main = document.createElement("span");
+    main.className = "home-archive__main";
+
+    const title = document.createElement("span");
+    title.className = "home-archive__title";
+    title.textContent = page.title;
+
+    const section = document.createElement("span");
+    section.className = "home-archive__section";
+    section.textContent = page.section;
+
+    const meta = document.createElement("span");
+    meta.className = "home-archive__meta";
+    meta.textContent = `${page.word_count} · 约 ${page.minutes} 分钟`;
+
+    main.append(title, section);
+    link.append(date, main, meta);
+    container.append(link);
+  });
 }
 
 function formatDirectoryName(directory) {
