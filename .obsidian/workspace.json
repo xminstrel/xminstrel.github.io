@@ -9,38 +9,6 @@
         "dimension": 51.285347043701805,
         "children": [
           {
-            "id": "23137f9e713cb7ba",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
-                "page": 24,
-                "left": -8,
-                "top": 44,
-                "zoom": 0.94
-              },
-              "icon": "lucide-file-text",
-              "title": "发展心理学复习资料"
-            }
-          },
-          {
-            "id": "9d74e74065fb732f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 182,
-                "left": 599,
-                "top": 131,
-                "zoom": 1.03
-              },
-              "icon": "lucide-file-text",
-              "title": "发展心理学第2版 (苏彦捷)"
-            }
-          },
-          {
             "id": "da4753f44630e3c8",
             "type": "leaf",
             "state": {
@@ -48,16 +16,15 @@
               "state": {
                 "file": "docs/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
                 "page": 1,
-                "left": 116,
-                "top": 612,
-                "zoom": 1.11
+                "left": 190,
+                "top": 414,
+                "zoom": 1.6
               },
               "icon": "lucide-file-text",
               "title": "生物系统传输过程A3"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "1f789f6e5ad4ffc5",
@@ -71,8 +38,8 @@
               "type": "markdown",
               "state": {
                 "file": "docs/zju-courses/农业生物系统传输过程/工传.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "工传"
@@ -169,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -275,7 +243,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 291.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -296,6 +265,8 @@
   "lastOpenFiles": [
     "docs/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
     "docs/zju-courses/农业生物系统传输过程/工传.md",
+    "docs/zju-courses/农业生物系统传输过程/assets/动物散热.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/重点.png",
     "docs/zju-courses/农业生物系统传输过程/pdfs/农业生物系统传输过程-2026-03-24第1-2节.pdf",
     "docs/zju-courses/发展心理学/笔记3.md",
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
@@ -317,8 +288,6 @@
     "site/control/控制论/assets/信号流图.png",
     "site/control/自动控制理论/assets/频率特性.png",
     "site/control/自动控制理论/assets/频率2.png",
-    "site/control/自动控制理论/assets/阶跃.png",
-    "site/control/自动控制理论/assets/闭环.png",
     "docs/zju-courses/发展心理学/发展心理学.md",
     "docs/zju-courses/发展心理学/读书笔记.md",
     "docs/zju-courses/发展心理学/读书笔记Claude.md",
