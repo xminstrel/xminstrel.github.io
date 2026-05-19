@@ -324,6 +324,33 @@
   font-size: 0.88rem;
 }
 
+.md-typeset .article-dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  align-items: center;
+  margin-top: 2.5rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.md-typeset .article-dates__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  white-space: nowrap;
+}
+
+.md-typeset .article-dates__icon {
+  width: 0.92rem;
+  height: 0.92rem;
+  fill: currentcolor;
+  opacity: 0.78;
+}
+
 @media screen and (min-width: 60em) {
   .md-sidebar--primary .md-nav__item--nested:hover > .md-nav,
   .md-sidebar--primary .md-nav__item--nested:focus-within > .md-nav {

@@ -1,5 +1,33 @@
 [
   {
+    "title": "AI 工具和资源",
+    "url": "resources/tools/",
+    "section": "resources",
+    "updated": "2026-05-19T11:07:07.827735+00:00",
+    "date": "2026-05-19"
+  },
+  {
+    "title": "材料力学",
+    "url": "zju-courses/材料力学/材料力学/",
+    "section": "ZJU-Courses",
+    "updated": "2026-05-19T03:31:53+00:00",
+    "date": "2026-05-19"
+  },
+  {
+    "title": "传热学",
+    "url": "zju-courses/农业生物系统传输过程/工传/",
+    "section": "ZJU-Courses",
+    "updated": "2026-05-19T01:33:04+00:00",
+    "date": "2026-05-19"
+  },
+  {
+    "title": "笔记 3",
+    "url": "zju-courses/发展心理学/笔记3/",
+    "section": "ZJU-Courses",
+    "updated": "2026-05-19T00:25:50+00:00",
+    "date": "2026-05-19"
+  },
+  {
     "title": "笔记 1（1~4周）",
     "url": "zju-courses/发展心理学/笔记1/",
     "section": "ZJU-Courses",
@@ -12,33 +40,5 @@
     "section": "ZJU-Courses",
     "updated": "2026-05-18T14:02:44+00:00",
     "date": "2026-05-18"
-  },
-  {
-    "title": "笔记 3",
-    "url": "zju-courses/发展心理学/笔记3/",
-    "section": "ZJU-Courses",
-    "updated": "2026-05-18T14:02:44+00:00",
-    "date": "2026-05-18"
-  },
-  {
-    "title": "自动控制理论",
-    "url": "control/自动控制理论/自动控制理论/",
-    "section": "控制",
-    "updated": "2026-05-14T11:10:36+00:00",
-    "date": "2026-05-14"
-  },
-  {
-    "title": "材料力学",
-    "url": "zju-courses/材料力学/材料力学/",
-    "section": "ZJU-Courses",
-    "updated": "2026-05-14T11:10:36+00:00",
-    "date": "2026-05-14"
-  },
-  {
-    "title": "moments",
-    "url": "others/moments/moments/",
-    "section": "其他",
-    "updated": "2026-05-07T13:19:53+00:00",
-    "date": "2026-05-07"
   }
 ]

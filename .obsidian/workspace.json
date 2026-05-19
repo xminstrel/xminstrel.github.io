@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/材料力学/材料力学.md",
+                "file": "docs/ai/tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "材料力学"
+              "title": "tools"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zju-courses/材料力学/材料力学.md",
+                "file": "docs/ai/tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "材料力学 的反向链接列表"
+              "title": "tools 的反向链接列表"
             }
           },
           {
@@ -162,12 +161,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zju-courses/材料力学/材料力学.md",
+                "file": "docs/ai/tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "材料力学 的出链列表"
+              "title": "tools 的出链列表"
             }
           },
           {
@@ -219,51 +218,51 @@
   },
   "active": "64eb758d1fe03bf8",
   "lastOpenFiles": [
-    "docs/zju-courses/材料力学/assets/一般单元体.png",
-    "docs/zju-courses/材料力学/assets/主单元体.png",
-    "docs/zju-courses/材料力学/assets/纯剪应力.png",
-    "docs/zju-courses/材料力学/assets/单轴-1.png",
-    "docs/zju-courses/材料力学/assets/例题-4.png",
-    "docs/zju-courses/材料力学/assets/例题-3.png",
-    "docs/zju-courses/材料力学/assets/本构关系.png",
-    "docs/zju-courses/材料力学/assets/空间应力-1.png",
-    "docs/zju-courses/材料力学/assets/空间应力.png",
-    "docs/zju-courses/材料力学/assets/纯剪切.png",
-    "docs/zju-courses/材料力学/assets/单轴.png",
+    "site/search/search_index.json",
+    "site/search",
+    "site/zju-courses/发展心理学/笔记1/index.html",
+    "site/zju-courses/发展心理学/笔记1",
+    "site/zju-courses/发展心理学/文献报告/index.html",
+    "site/zju-courses/发展心理学/文献报告",
+    "site/zju-courses/农业生物系统传输过程/未命名/index.html",
+    "site/zju-courses/农业生物系统传输过程/未命名",
+    "site/zju-courses/农业生物系统传输过程/工流/index.html",
+    "site/zju-courses/农业生物系统传输过程/工流",
+    "site/robotic/强化学习/动手学强化学习/index.html",
+    "site/assets/images/favicon.png",
+    "site/assets/images/avatar.png",
+    "site/others/知识库/文化中国/assets/黄2.jpg",
+    "site/others/知识库/文化中国/assets/黄.jpg",
+    "site/others/知识库/文化中国/assets/郭8.jpg",
+    "site/others/知识库/文化中国/assets/郭9.jpg",
+    "site/others/知识库/文化中国/assets/郭7.jpg",
+    "site/others/知识库/文化中国/assets/郭6.jpg",
+    "site/others/知识库/文化中国/assets/郭4.jpg",
+    "site/others/知识库/文化中国/assets/郭3.jpg",
+    "docs/resource/tools.md",
+    "docs/resources/tools.md",
+    "docs/resources/ai.md",
+    "docs/ai/tools.md",
+    "docs/resource/ai.md",
+    "docs/zju-courses/cad/作业进度.md",
+    "docs/zju-courses/材料力学/材料力学.md",
     "docs/zju-courses/农业生物系统传输过程/工传.md",
-    "docs/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
-    "docs/zju-courses/农业生物系统传输过程/pdfs/农业生物系统传输过程-2026-03-24第1-2节.pdf",
     "docs/zju-courses/发展心理学/笔记3.md",
-    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-    "site/zju-courses/发展心理学/index.html",
     "docs/zju-courses/发展心理学/index.md",
     "docs/zju-courses/发展心理学/笔记2.md",
     "docs/zju-courses/发展心理学/笔记1.md",
-    "site/search/search_index.json",
-    "site/search",
-    "site/zju-courses/精细农业/实验/task3/index.html",
-    "site/zju-courses/精细农业/实验/task3",
-    "site/zju-courses/精细农业/实验/task2/index.html",
-    "site/zju-courses/精细农业/实验/task2",
     "docs/zju-courses/发展心理学/发展心理学.md",
     "docs/zju-courses/发展心理学/读书笔记.md",
     "docs/zju-courses/发展心理学/读书笔记Claude.md",
     "docs/index.md",
     "docs/zju-courses/精细农业/精细农业.md",
-    "docs/zju-courses/cad/作业进度.md",
     "docs/zju-courses/材料力学/实验四数据.md",
     "docs/zju-courses/发展心理学/文献报告.md",
     "docs/others/数学建模/final/math_model/results/结果汇总.md",
     "docs/zju-courses/电视节目策划与编导/电视节目策划与编导.md",
     "docs/others/数学建模/final/math_model/项目总结.md",
     "docs/others/数学建模/final/math_model/项目说明.md",
-    "docs/zju-courses/材料力学/材料力学.md",
     "docs/others/数学建模/数模1/math_model/docs/project_summary.md",
-    "docs/others/数学建模/数模1/math_model/iterations/2026-05-12_iter00_project_setup.md",
-    "docs/others/数学建模/数模2/mm/问题4.md",
-    "docs/others/数学建模/数模1/math_model/README.md",
-    "docs/zju-courses/农业物料学/农业物料学.md",
-    "docs/others/数学建模/初版结果说明/问题三解法.md",
-    "docs/others/数学建模/数模3/问题三选址模型与准确性检查.md"
+    "docs/others/数学建模/数模1/math_model/iterations/2026-05-12_iter00_project_setup.md"
   ]
 }

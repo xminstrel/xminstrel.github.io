@@ -1,5 +1,12 @@
 [
   {
+    "title": "AI 工具和资源",
+    "url": "resources/tools/",
+    "section": "resources",
+    "updated": "2026-05-19T11:07:07.827735+00:00",
+    "date": "2026-05-19"
+  },
+  {
     "title": "材料力学",
     "url": "zju-courses/材料力学/材料力学/",
     "section": "ZJU-Courses",
@@ -33,12 +40,5 @@
     "section": "ZJU-Courses",
     "updated": "2026-05-18T14:02:44+00:00",
     "date": "2026-05-18"
-  },
-  {
-    "title": "自动控制理论",
-    "url": "control/自动控制理论/自动控制理论/",
-    "section": "控制",
-    "updated": "2026-05-14T11:10:36+00:00",
-    "date": "2026-05-14"
   }
 ]
