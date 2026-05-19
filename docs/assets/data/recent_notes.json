@@ -1,44 +1,74 @@
 [
   {
-    "title": "AI 工具和资源",
-    "url": "resources/tools/",
-    "section": "resources",
-    "updated": "2026-05-19T11:39:13+00:00",
-    "date": "2026-05-19"
+    "title": "ros2",
+    "url": "robotic/ros2/ros2/",
+    "section": "Robotics",
+    "updated": "2026-05-19T13:26:09.113520+00:00",
+    "date": "2026-05-19",
+    "created": "2026-05-19T13:26:09.113520+00:00",
+    "words": 301,
+    "word_count": "301 字",
+    "minutes": 1,
+    "directory": "robotic/ros2"
   },
   {
     "title": "材料力学",
     "url": "zju-courses/材料力学/材料力学/",
     "section": "ZJU-Courses",
-    "updated": "2026-05-19T03:31:53+00:00",
-    "date": "2026-05-19"
+    "updated": "2026-05-19T13:01:13+00:00",
+    "date": "2026-05-19",
+    "created": "2026-01-23T14:58:34+00:00",
+    "words": 3007,
+    "word_count": "3,007 字",
+    "minutes": 8,
+    "directory": "zju-courses/材料力学"
+  },
+  {
+    "title": "AI 工具和资源",
+    "url": "resources/tools/",
+    "section": "resources",
+    "updated": "2026-05-19T11:39:13+00:00",
+    "date": "2026-05-19",
+    "created": "2026-05-19T11:39:13+00:00",
+    "words": 24,
+    "word_count": "24 字",
+    "minutes": 1,
+    "directory": "resources"
   },
   {
     "title": "传热学",
     "url": "zju-courses/农业生物系统传输过程/工传/",
     "section": "ZJU-Courses",
     "updated": "2026-05-19T01:33:04+00:00",
-    "date": "2026-05-19"
+    "date": "2026-05-19",
+    "created": "2026-04-28T01:48:21+00:00",
+    "words": 1993,
+    "word_count": "1,993 字",
+    "minutes": 5,
+    "directory": "zju-courses/农业生物系统传输过程"
   },
   {
     "title": "笔记 3",
     "url": "zju-courses/发展心理学/笔记3/",
     "section": "ZJU-Courses",
     "updated": "2026-05-19T00:25:50+00:00",
-    "date": "2026-05-19"
+    "date": "2026-05-19",
+    "created": "2026-05-18T14:02:44+00:00",
+    "words": 10229,
+    "word_count": "1.0 万字",
+    "minutes": 26,
+    "directory": "zju-courses/发展心理学"
   },
   {
     "title": "笔记 1（1~4周）",
     "url": "zju-courses/发展心理学/笔记1/",
     "section": "ZJU-Courses",
     "updated": "2026-05-18T14:02:44+00:00",
-    "date": "2026-05-18"
-  },
-  {
-    "title": "笔记 2（5~7 周内容）",
-    "url": "zju-courses/发展心理学/笔记2/",
-    "section": "ZJU-Courses",
-    "updated": "2026-05-18T14:02:44+00:00",
-    "date": "2026-05-18"
+    "date": "2026-05-18",
+    "created": "2026-05-18T14:02:44+00:00",
+    "words": 3106,
+    "word_count": "3,106 字",
+    "minutes": 8,
+    "directory": "zju-courses/发展心理学"
   }
 ]

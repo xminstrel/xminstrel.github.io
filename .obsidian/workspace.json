@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/材料力学/材料力学.md",
+                "file": "docs/resources/knowledge-map.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "材料力学"
+              "title": "knowledge-map"
             }
           },
           {
@@ -29,30 +29,15 @@
               "state": {
                 "file": "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
                 "page": 5,
-                "left": -18,
-                "top": 232,
-                "zoom": 0.8870669668357919
+                "left": -10,
+                "top": 236,
+                "zoom": 1.5284264641645104
               },
               "icon": "lucide-file-text",
               "title": "材料力学公式总结"
             }
-          },
-          {
-            "id": "7a7a204992d11b2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/发展心理学/笔记1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "笔记1"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -160,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zju-courses/发展心理学/笔记1.md",
+                "file": "docs/resources/knowledge-map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +154,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "笔记1 的反向链接列表"
+              "title": "knowledge-map 的反向链接列表"
             }
           },
           {
@@ -179,12 +163,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zju-courses/发展心理学/笔记1.md",
+                "file": "docs/resources/knowledge-map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "笔记1 的出链列表"
+              "title": "knowledge-map 的出链列表"
             }
           },
           {
@@ -212,8 +196,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -234,20 +217,37 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7a7a204992d11b2d",
+  "active": "64eb758d1fe03bf8",
   "lastOpenFiles": [
-    "docs/zju-courses/发展心理学/index.md",
+    "docs/resources/ai.md",
+    "site/robotic/强化学习/强化学习/index.html",
+    "site/robotic/强化学习/强化学习",
+    "site/resources/knowledge-map/index.html",
+    "site/resources/knowledge-map",
+    "docs/resources/knowledge-map.md",
+    "docs/resources/tools.md",
+    "docs/robotic/强化学习/强化学习.md",
+    "docs/robotic/ros2/ros2.md",
+    "site/robotic/ros2/ros2/index.html",
+    "site/robotic/ros2/指令/index.html",
+    "site/robotic/ros2/github/index.html",
+    "site/robotic/ros2/指令",
+    "site/robotic/ros2/ros2",
+    "site/robotic/ros2/github",
+    "docs/robotic/技术栈.md",
+    "docs/robotic/timeline.md",
+    "docs/robotic/Ubuntu.md",
+    "docs/robotic/study plan.md",
+    "docs/robotic/pytorch.md",
+    "docs/robotic/机器人工程师学习计划.md",
+    "docs/robotic/未命名 1.md",
+    "docs/robotic/未命名.md",
+    "docs/robotic/ros2/github.md",
+    "docs/robotic/ros2/Ubuntu安装教程.md",
+    "docs/robotic/ros2/指令.md",
     "docs/zju-courses/材料力学/材料力学.md",
-    "site/search/search_index.json",
-    "site/search",
-    "site/zju-courses/精细农业/实验/task3/index.html",
-    "site/zju-courses/精细农业/实验/task3",
-    "site/zju-courses/精细农业/实验/task2/index.html",
-    "site/zju-courses/精细农业/实验/task2",
-    "site/zju-courses/精细农业/实验/task1/index.html",
-    "site/zju-courses/精细农业/实验/task1",
-    "site/zju-courses/精细农业/精细农业/index.html",
-    "site/zju-courses/精细农业/精细农业",
+    "docs/zju-courses/发展心理学/笔记1.md",
+    "docs/zju-courses/发展心理学/index.md",
     "site/zju-courses/农业生物系统传输过程/assets/雷诺数.png",
     "site/zju-courses/农业生物系统传输过程/assets/雷诺数-1.png",
     "site/zju-courses/农业生物系统传输过程/assets/雷诺实验.png",
@@ -262,24 +262,7 @@
     "docs/zju-courses/发展心理学/笔记3.md",
     "docs/ai/tools.md",
     "docs/resource/tools.md",
-    "docs/resources/tools.md",
-    "docs/resources/ai.md",
     "docs/resource/ai.md",
-    "docs/zju-courses/cad/作业进度.md",
-    "docs/zju-courses/农业生物系统传输过程/工传.md",
-    "docs/zju-courses/发展心理学/笔记2.md",
-    "docs/zju-courses/发展心理学/笔记1.md",
-    "docs/zju-courses/发展心理学/发展心理学.md",
-    "docs/zju-courses/发展心理学/读书笔记.md",
-    "docs/zju-courses/发展心理学/读书笔记Claude.md",
-    "docs/index.md",
-    "docs/zju-courses/精细农业/精细农业.md",
-    "docs/zju-courses/材料力学/实验四数据.md",
-    "docs/zju-courses/发展心理学/文献报告.md",
-    "docs/others/数学建模/final/math_model/results/结果汇总.md",
-    "docs/zju-courses/电视节目策划与编导/电视节目策划与编导.md",
-    "docs/others/数学建模/final/math_model/项目总结.md",
-    "docs/others/数学建模/final/math_model/项目说明.md",
-    "docs/others/数学建模/数模1/math_model/docs/project_summary.md"
+    "docs/zju-courses/cad/作业进度.md"
   ]
 }

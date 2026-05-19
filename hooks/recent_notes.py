@@ -10,12 +10,15 @@ from pathlib import Path
 
 MAX_ITEMS = 6
 OUTPUT_PATH = Path("assets/data/recent_notes.json")
+SITE_STATS_PATH = Path("assets/data/site_stats.json")
 SKIP_FILES = {"index.md"}
+ARTICLE_MIN_WORDS = 20
 _PAGE_DATES: dict[str, dict[str, datetime]] = {}
+_PAGE_INFO: dict[str, dict] = {}
 
 
 def on_config(config):
-    global _PAGE_DATES
+    global _PAGE_DATES, _PAGE_INFO
 
     docs_dir = Path(config["docs_dir"]).resolve()
     config_file = getattr(config, "config_file_path", None)
@@ -25,10 +28,15 @@ def on_config(config):
     git_updates = _git_date_map(project_dir, docs_dir)
     git_created = _git_date_map(project_dir, docs_dir, reverse=True)
     _PAGE_DATES = {}
+    _PAGE_INFO = {}
     notes = []
+    pages = []
 
     for path in docs_dir.rglob("*.md"):
         rel_path = path.relative_to(docs_dir).as_posix()
+        if rel_path == "index.md":
+            continue
+
         resolved_path = path.resolve()
         updated = git_updates.get(resolved_path)
         created = git_created.get(resolved_path)
@@ -41,22 +49,33 @@ def on_config(config):
 
         _PAGE_DATES[rel_path] = {"created": created, "updated": updated}
 
-        if path.name in SKIP_FILES or rel_path not in nav_files:
-            continue
-
         title = _read_title(path)
         if not title:
             title = path.stem
 
-        notes.append(
-            {
-                "title": title,
-                "url": _page_url(rel_path),
-                "section": _section_name(rel_path),
-                "updated": updated.isoformat(),
-                "date": updated.strftime("%Y-%m-%d"),
-            }
+        word_count, reading_minutes = _reading_stats(
+            path.read_text(encoding="utf-8", errors="ignore")
         )
+        if word_count < ARTICLE_MIN_WORDS:
+            continue
+
+        page_info = {
+            "title": title,
+            "url": _page_url(rel_path),
+            "section": _section_name(rel_path),
+            "updated": updated.isoformat(),
+            "date": updated.strftime("%Y-%m-%d"),
+            "created": created.isoformat(),
+            "words": word_count,
+            "word_count": _format_word_count(word_count),
+            "minutes": reading_minutes,
+            "directory": str(Path(rel_path).parent).replace("\\", "/"),
+        }
+        _PAGE_INFO[rel_path] = page_info
+        pages.append(page_info)
+
+        if path.name not in SKIP_FILES and rel_path in nav_files:
+            notes.append(page_info)
 
     notes.sort(key=lambda item: item["updated"], reverse=True)
 
@@ -64,6 +83,24 @@ def on_config(config):
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(
         json.dumps(notes[:MAX_ITEMS], ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    pages.sort(key=lambda item: item["title"])
+    site_stats = {
+        "article_count": len(pages),
+        "section_count": len({item["section"] for item in pages}),
+        "total_words": sum(item["words"] for item in pages),
+        "total_word_count": _format_word_count(sum(item["words"] for item in pages)),
+        "updated": max((item["updated"] for item in pages), default=""),
+        "date": max((item["date"] for item in pages), default=""),
+        "random_pages": notes,
+        "pages": pages,
+    }
+    stats_output = docs_dir / SITE_STATS_PATH
+    stats_output.parent.mkdir(parents=True, exist_ok=True)
+    stats_output.write_text(
+        json.dumps(site_stats, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 

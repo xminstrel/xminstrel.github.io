@@ -16,7 +16,7 @@ comments: false
 写着玩玩啦~
 
 <div class="home-actions" markdown>
-[开始浏览](zju-courses/材料力学/材料力学.md){ .md-button .md-button--primary }
+<a class="md-button md-button--primary" href="zju-courses/材料力学/材料力学/" data-random-note>随机笔记</a>
 [关于赤奈](about_me.md){ .md-button }
 </div>
 </div>
@@ -25,6 +25,16 @@ comments: false
   <img src="assets/images/avatar.png" alt="赤奈良瞳头像" class="home-avatar">
   <p class="home-quote">“二泉映月，他才不管红与不红”</p>
   <p class="home-note">随便看看吧，本站内容随缘更新中。</p>
+</div>
+
+</section>
+
+<section class="home-section" markdown>
+
+## 站点概览
+
+<div class="home-stats" data-site-stats>
+  <span class="home-stat home-stat--empty">正在统计站点内容...</span>
 </div>
 
 </section>
