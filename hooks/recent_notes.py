@@ -17,6 +17,7 @@ def on_config(config):
     config_file = getattr(config, "config_file_path", None)
     project_dir = Path(config_file).resolve().parent if config_file else docs_dir.parent
     nav_files = _nav_file_set(config.get("nav", []))
+    tracked_files = _git_tracked_file_set(project_dir, docs_dir)
     git_updates = _git_update_map(project_dir, docs_dir)
     notes = []
 
@@ -29,7 +30,13 @@ def on_config(config):
         if not title:
             title = path.stem
 
-        updated = git_updates.get(path.resolve()) or _mtime_updated_at(path)
+        resolved_path = path.resolve()
+        updated = git_updates.get(resolved_path)
+        if updated is None:
+            if resolved_path in tracked_files:
+                continue
+            updated = _mtime_updated_at(path)
+
         notes.append(
             {
                 "title": title,
@@ -72,6 +79,42 @@ def _nav_file_set(nav_items) -> set[str]:
 
     visit(nav_items)
     return files
+
+
+def _git_tracked_file_set(project_dir: Path, docs_dir: Path) -> set[Path]:
+    try:
+        docs_arg = docs_dir.relative_to(project_dir).as_posix()
+    except ValueError:
+        docs_arg = str(docs_dir)
+
+    try:
+        result = subprocess.run(
+            [
+                "git",
+                "-c",
+                "core.quotepath=false",
+                "ls-files",
+                "--",
+                docs_arg,
+            ],
+            cwd=project_dir,
+            check=False,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            timeout=10,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return set()
+
+    if result.returncode != 0:
+        return set()
+
+    return {
+        (project_dir / line.strip()).resolve()
+        for line in result.stdout.splitlines()
+        if line.strip()
+    }
 
 
 def _read_title(path: Path) -> str:
