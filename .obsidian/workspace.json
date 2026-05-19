@@ -13,29 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ai/tools.md",
+                "file": "docs/zju-courses/材料力学/材料力学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tools"
+              "title": "材料力学"
             }
           },
           {
-            "id": "abcb79060ae67807",
+            "id": "eb5634c61c989f6a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
+                "page": 5,
+                "left": -18,
+                "top": 232,
+                "zoom": 0.8870669668357919
+              },
+              "icon": "lucide-file-text",
+              "title": "材料力学公式总结"
+            }
+          },
+          {
+            "id": "7a7a204992d11b2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/发展心理学/笔记3.md",
+                "file": "docs/zju-courses/发展心理学/笔记1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "笔记3"
+              "title": "笔记1"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -142,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/ai/tools.md",
+                "file": "docs/zju-courses/发展心理学/笔记1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "tools 的反向链接列表"
+              "title": "笔记1 的反向链接列表"
             }
           },
           {
@@ -161,12 +179,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ai/tools.md",
+                "file": "docs/zju-courses/发展心理学/笔记1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "tools 的出链列表"
+              "title": "笔记1 的出链列表"
             }
           },
           {
@@ -194,12 +212,12 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
-    "collapsed": true
+    "width": 291.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,39 +234,39 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "64eb758d1fe03bf8",
+  "active": "7a7a204992d11b2d",
   "lastOpenFiles": [
+    "docs/zju-courses/发展心理学/index.md",
+    "docs/zju-courses/材料力学/材料力学.md",
     "site/search/search_index.json",
     "site/search",
-    "site/zju-courses/发展心理学/笔记1/index.html",
-    "site/zju-courses/发展心理学/笔记1",
-    "site/zju-courses/发展心理学/文献报告/index.html",
-    "site/zju-courses/发展心理学/文献报告",
-    "site/zju-courses/农业生物系统传输过程/未命名/index.html",
-    "site/zju-courses/农业生物系统传输过程/未命名",
-    "site/zju-courses/农业生物系统传输过程/工流/index.html",
-    "site/zju-courses/农业生物系统传输过程/工流",
-    "site/robotic/强化学习/动手学强化学习/index.html",
-    "site/assets/images/favicon.png",
-    "site/assets/images/avatar.png",
-    "site/others/知识库/文化中国/assets/黄2.jpg",
-    "site/others/知识库/文化中国/assets/黄.jpg",
-    "site/others/知识库/文化中国/assets/郭8.jpg",
-    "site/others/知识库/文化中国/assets/郭9.jpg",
-    "site/others/知识库/文化中国/assets/郭7.jpg",
-    "site/others/知识库/文化中国/assets/郭6.jpg",
-    "site/others/知识库/文化中国/assets/郭4.jpg",
-    "site/others/知识库/文化中国/assets/郭3.jpg",
+    "site/zju-courses/精细农业/实验/task3/index.html",
+    "site/zju-courses/精细农业/实验/task3",
+    "site/zju-courses/精细农业/实验/task2/index.html",
+    "site/zju-courses/精细农业/实验/task2",
+    "site/zju-courses/精细农业/实验/task1/index.html",
+    "site/zju-courses/精细农业/实验/task1",
+    "site/zju-courses/精细农业/精细农业/index.html",
+    "site/zju-courses/精细农业/精细农业",
+    "site/zju-courses/农业生物系统传输过程/assets/雷诺数.png",
+    "site/zju-courses/农业生物系统传输过程/assets/雷诺数-1.png",
+    "site/zju-courses/农业生物系统传输过程/assets/雷诺实验.png",
+    "site/zju-courses/农业生物系统传输过程/assets/雷诺实验-2.png",
+    "site/zju-courses/农业生物系统传输过程/assets/雷诺实验-1.png",
+    "site/zju-courses/农业生物系统传输过程/assets/重点.png",
+    "site/zju-courses/农业生物系统传输过程/assets/速度分布.png",
+    "site/zju-courses/农业生物系统传输过程/assets/速度分布-1.png",
+    "site/zju-courses/农业生物系统传输过程/assets/运动微分方程.png",
+    "site/zju-courses/农业生物系统传输过程/assets/达西公式.png",
+    "docs/zju-courses/材料力学/材料力学公式整理.md",
+    "docs/zju-courses/发展心理学/笔记3.md",
+    "docs/ai/tools.md",
     "docs/resource/tools.md",
     "docs/resources/tools.md",
     "docs/resources/ai.md",
-    "docs/ai/tools.md",
     "docs/resource/ai.md",
     "docs/zju-courses/cad/作业进度.md",
-    "docs/zju-courses/材料力学/材料力学.md",
     "docs/zju-courses/农业生物系统传输过程/工传.md",
-    "docs/zju-courses/发展心理学/笔记3.md",
-    "docs/zju-courses/发展心理学/index.md",
     "docs/zju-courses/发展心理学/笔记2.md",
     "docs/zju-courses/发展心理学/笔记1.md",
     "docs/zju-courses/发展心理学/发展心理学.md",
@@ -262,7 +280,6 @@
     "docs/zju-courses/电视节目策划与编导/电视节目策划与编导.md",
     "docs/others/数学建模/final/math_model/项目总结.md",
     "docs/others/数学建模/final/math_model/项目说明.md",
-    "docs/others/数学建模/数模1/math_model/docs/project_summary.md",
-    "docs/others/数学建模/数模1/math_model/iterations/2026-05-12_iter00_project_setup.md"
+    "docs/others/数学建模/数模1/math_model/docs/project_summary.md"
   ]
 }

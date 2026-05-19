@@ -1455,6 +1455,67 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="强度理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第一强度理论（最大强度理论）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第二强度理论（最大伸长线应变理论）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第三强度理论（最大切应力理论）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第四强度理论（形状改变能密度理论）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        相当应力
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2392,6 +2453,67 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="强度理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第一强度理论（最大强度理论）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第二强度理论（最大伸长线应变理论）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第三强度理论（最大切应力理论）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第四强度理论（形状改变能密度理论）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        相当应力
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2468,6 +2590,17 @@
 
 
 <h1 id="_1">材料力学</h1>
+<div class="article-dates article-dates--top" aria-label="文章概览">
+  <span class="article-dates__item" title="全文字数" aria-label="全文字数">
+    <svg class="article-dates__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4v3h5.5v12h3V7H19V4H5m0 8h3v7h3v-7h3V9H5v3Z"/></svg>
+    <span>约 3,007 字</span>
+  </span>
+  <span class="article-dates__item" title="阅读时间" aria-label="阅读时间">
+    <svg class="article-dates__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-18a10 10 0 1 1 0 20 10 10 0 0 1 0-20m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
+    <span>约 8 分钟</span>
+  </span>
+</div>
+
 <p>记录课程学习笔记</p>
 <div class="admonition info">
 <p class="admonition-title"><strong>成绩构成</strong></p>
@@ -2959,7 +3092,7 @@ $$
 <li>单轴拉伸情况：</li>
 </ol>
 <div class="arithmatex">\[
-\nu_{\epsilon}
+\nu_{\epsilon}=\frac{1}{2}\sigma\epsilon=\frac{1}{2E}\sigma^2=\frac{1}{2}E\epsilon^2
 \]</div>
 <p><img alt="" src="../assets/%E5%8D%95%E8%BD%B4-1.png" /></p>
 <ol>
@@ -2985,7 +3118,108 @@ $$
 $$
 \theta=\frac{1-2\nu}{E}(\epsilon_1+\epsilon_2+\epsilon_3)
 $$</p>
+<p>应变能密度：
+$$
+\nu_{\epsilon}=\nu_{\nu}+\nu_{d}
+$$</p>
+<div class="arithmatex">\[
+v_\varepsilon = \frac{1}{2E} \Big[ \sigma_1^2 + \sigma_2^2 + \sigma_3^2 - 2\nu(\sigma_1\sigma_2 + \sigma_3\sigma_2 + \sigma_1\sigma_3) \Big]
+\]</div>
+<p>体积改变能密度：</p>
+<div class="arithmatex">\[
+v_v = \frac{1 - 2\nu}{6E} (\sigma_1 + \sigma_2 + \sigma_3)^2
+\]</div>
+<p>形状改变能密度：</p>
+<div class="arithmatex">\[
+v_d = \frac{1 + \nu}{6E} \Big[ (\sigma_1 - \sigma_2)^2 + (\sigma_2 - \sigma_3)^2 + (\sigma_3 - \sigma_1)^2 \Big]
+\]</div>
 <h3 id="_33">强度理论</h3>
+<p>失效形态；<br />
+- 脆性断裂<br />
+- 塑性屈服  </p>
+<div class="admonition abstract">
+<p class="admonition-title">abstrect</p>
+<p>四种强度理论<br />
+- 最大应力理论</p>
+</div>
+<h4 id="_34">第一强度理论（最大强度理论）</h4>
+<p>最大拉应力与拉伸极限关系  </p>
+<p>脆性断裂判据：
+$$
+\sigma_1=\sigma_u
+$$
+强度条件：
+$$
+\sigma_1 \le [\sigma]
+$$</p>
+<h4 id="_35">第二强度理论（最大伸长线应变理论）</h4>
+<p>无论材料处于什么应力状态，只要构件内有一点处的最大线应变达到了单向拉伸的应变极限，就发生断裂破坏。</p>
+<p>脆性断裂判据：
+$$
+\varepsilon_1 = \frac{\sigma_u}{E}
+$$
+强度条件：
+将最大主应变 <span class="arithmatex">\(\varepsilon_1\)</span> 用主应力表示
+$$
+\text{即 } \frac{\sigma_1 - \nu(\sigma_2 + \sigma_3)}{E} = \frac{\sigma_u}{E}
+$$
+$$
+\sigma_1 - \nu(\sigma_2 + \sigma_3) \le [\sigma]
+$$</p>
+<h4 id="_36">第三强度理论（最大切应力理论）</h4>
+<p>屈服判据：
+$$
+\tau_{max}=\tau_u=\frac{\sigma_s}{2}
+$$
+$$
+即 \sigma_1 -\sigma_3=\sigma_s
+$$
+强度条件：
+$$
+\sigma_1 -\sigma_3 \le [\sigma]
+$$</p>
+<h4 id="_37">第四强度理论（形状改变能密度理论）</h4>
+<p>形状改变能密度：</p>
+<div class="arithmatex">\[
+v_d = \frac{1 + \nu}{6E} \Big[ (\sigma_1 - \sigma_2)^2 + (\sigma_2 - \sigma_3)^2 + (\sigma_3 - \sigma_1)^2 \Big]
+\]</div>
+<p>单向拉伸：
+$$
+\sigma_1=\sigma_s  ;\sigma_2=\sigma_3=0
+$$
+$$
+\nu_{du}=\frac{1+\nu}{6E}\cdot2\sigma_s^2
+$$</p>
+<p>屈服判据：
+$$
+\nu_d = \nu_{du}
+$$
+$<span class="arithmatex">\(米塞斯应力\sigma_{eq} = \sqrt{\frac{1}{2} \Big[ (\sigma_1 - \sigma_2)^2 + (\sigma_2 - \sigma_3)^2 + (\sigma_3 - \sigma_1)^2 \Big]}=\sigma_s\)</span>$ 
+强度条件：
+$$
+\sigma_{eq} \le [\sigma]
+$$</p>
+<h4 id="_38">相当应力</h4>
+<p>相当应力：<br />
+$$
+\sigma_r \le [\sigma]
+$$
+$$
+[\sigma] = \frac{1}{n}{\sigma_b, \sigma_{0.2}, \sigma_s}
+$$</p>
+<p>需要记忆，分别对应四种强度理论  </p>
+<div class="arithmatex">\[
+\sigma_{r1}=\sigma_1
+$$
+$$
+\sigma_{r2}=\sigma_1-\nu(\sigma_2+\sigma_3)
+$$
+$$
+\sigma_{r3}=\sigma_1-\sigma_3
+$$
+$$
+\sigma_{r4}=\sqrt{\frac{1}{2}[(\sigma_1-\sigma_2)^2+(\sigma_2-\sigma_3)^2+(\sigma_3-\sigma_1)^2]}
+\]</div>
 <div class="article-dates" aria-label="文章日期">
   <span class="article-dates__item" title="发布时间" aria-label="发布时间">
     <svg class="article-dates__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m0 16H5V8h14v11M7 10h5v5H7v-5Z"/></svg>

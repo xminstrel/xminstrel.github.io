@@ -337,6 +337,13 @@
   line-height: 1.5;
 }
 
+.md-typeset .article-dates--top {
+  margin-top: -0.35rem;
+  margin-bottom: 1.4rem;
+  padding-top: 0;
+  border-top: 0;
+}
+
 .md-typeset .article-dates__item {
   display: inline-flex;
   align-items: center;

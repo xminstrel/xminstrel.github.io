@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import re
 import subprocess
+import math
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -80,9 +81,20 @@ def on_page_markdown(markdown, page, config, files):
 
     created = dates["created"].strftime("%Y-%m-%d")
     updated = dates["updated"].strftime("%Y-%m-%d")
-    return (
-        markdown.rstrip()
-        + f"""
+    word_count, reading_minutes = _reading_stats(markdown)
+    stats_block = f"""
+<div class="article-dates article-dates--top" aria-label="文章概览">
+  <span class="article-dates__item" title="全文字数" aria-label="全文字数">
+    <svg class="article-dates__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4v3h5.5v12h3V7H19V4H5m0 8h3v7h3v-7h3V9H5v3Z"/></svg>
+    <span>约 {_format_word_count(word_count)}</span>
+  </span>
+  <span class="article-dates__item" title="阅读时间" aria-label="阅读时间">
+    <svg class="article-dates__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-18a10 10 0 1 1 0 20 10 10 0 0 1 0-20m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
+    <span>约 {reading_minutes} 分钟</span>
+  </span>
+</div>
+"""
+    dates_block = f"""
 
 <div class="article-dates" aria-label="文章日期">
   <span class="article-dates__item" title="发布时间" aria-label="发布时间">
@@ -95,7 +107,64 @@ def on_page_markdown(markdown, page, config, files):
   </span>
 </div>
 """
-    )
+    return _insert_after_title(markdown.rstrip(), stats_block).rstrip() + dates_block
+
+
+def _reading_stats(markdown: str) -> tuple[int, int]:
+    text = _strip_front_matter(markdown)
+    text = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)
+    text = re.sub(r"`[^`]*`", " ", text)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"!\[[^\]]*]\([^)]*\)", " ", text)
+    text = re.sub(r"\[([^\]]+)]\([^)]*\)", r"\1", text)
+    text = re.sub(r"^[#>\-\*\+\s]+", " ", text, flags=re.MULTILINE)
+    text = re.sub(r"[*_~=`|\\{}\[\]()<>\-]+", " ", text)
+
+    chinese_chars = re.findall(r"[\u4e00-\u9fff]", text)
+    latin_words = re.findall(r"[A-Za-z0-9]+(?:[-'][A-Za-z0-9]+)?", text)
+    word_count = len(chinese_chars) + len(latin_words)
+    reading_minutes = max(1, math.ceil(word_count / 400))
+    return word_count, reading_minutes
+
+
+def _insert_after_title(markdown: str, block: str) -> str:
+    lines = markdown.splitlines()
+    insert_after = None
+    search_start = 0
+
+    if lines and lines[0].strip() == "---":
+        for index, line in enumerate(lines[1:], start=1):
+            if line.strip() == "---":
+                search_start = index + 1
+                break
+
+    for index in range(search_start, len(lines)):
+        if re.match(r"^#\s+", lines[index]):
+            insert_after = index + 1
+            break
+
+    if insert_after is None:
+        insert_after = search_start
+
+    before = "\n".join(lines[:insert_after]).rstrip()
+    after = "\n".join(lines[insert_after:]).lstrip("\n")
+    return f"{before}\n\n{block.strip()}\n\n{after}".rstrip()
+
+
+def _format_word_count(word_count: int) -> str:
+    if word_count >= 10000:
+        return f"{word_count / 10000:.1f} 万字"
+    return f"{word_count:,} 字"
+
+
+def _strip_front_matter(markdown: str) -> str:
+    if not markdown.startswith("---"):
+        return markdown
+
+    parts = markdown.split("---", 2)
+    if len(parts) == 3:
+        return parts[2]
+    return markdown
 
 
 def _nav_file_set(nav_items) -> set[str]:
