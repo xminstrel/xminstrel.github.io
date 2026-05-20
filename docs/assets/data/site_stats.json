@@ -1,9 +1,9 @@
 {
   "article_count": 109,
   "section_count": 7,
-  "total_words": 209096,
-  "total_word_count": "20.9 万字",
-  "updated": "2026-05-20T03:34:39+00:00",
+  "total_words": 209686,
+  "total_word_count": "21.0 万字",
+  "updated": "2026-05-20T09:38:45+00:00",
   "date": "2026-05-20",
   "random_pages": [
     {
@@ -15,13 +15,30 @@
         "ZJU-Courses",
         "发展心理学"
       ],
-      "updated": "2026-05-20T03:34:39+00:00",
+      "updated": "2026-05-20T09:38:45+00:00",
       "date": "2026-05-20",
       "created": "2026-05-18T14:02:44+00:00",
-      "words": 9146,
-      "word_count": "9,146 字",
-      "minutes": 23,
+      "words": 9736,
+      "word_count": "9,736 字",
+      "minutes": 25,
       "directory": "zju-courses/发展心理学"
+    },
+    {
+      "src": "zju-courses/材料力学/材料力学.md",
+      "title": "材料力学",
+      "url": "zju-courses/材料力学/材料力学/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "材料力学"
+      ],
+      "updated": "2026-05-20T09:38:45+00:00",
+      "date": "2026-05-20",
+      "created": "2026-01-23T14:58:34+00:00",
+      "words": 3007,
+      "word_count": "3,007 字",
+      "minutes": 8,
+      "directory": "zju-courses/材料力学"
     },
     {
       "src": "robotic/ros2/ros2.md",
@@ -39,23 +56,6 @@
       "word_count": "301 字",
       "minutes": 1,
       "directory": "robotic/ros2"
-    },
-    {
-      "src": "zju-courses/材料力学/材料力学.md",
-      "title": "材料力学",
-      "url": "zju-courses/材料力学/材料力学/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "材料力学"
-      ],
-      "updated": "2026-05-19T13:01:13+00:00",
-      "date": "2026-05-19",
-      "created": "2026-01-23T14:58:34+00:00",
-      "words": 3007,
-      "word_count": "3,007 字",
-      "minutes": 8,
-      "directory": "zju-courses/材料力学"
     },
     {
       "src": "resources/tools.md",
@@ -1271,8 +1271,8 @@
         "ZJU-Courses",
         "材料力学"
       ],
-      "updated": "2026-05-19T13:01:13+00:00",
-      "date": "2026-05-19",
+      "updated": "2026-05-20T09:38:45+00:00",
+      "date": "2026-05-20",
       "created": "2026-01-23T14:58:34+00:00",
       "words": 3007,
       "word_count": "3,007 字",
@@ -1526,12 +1526,12 @@
         "ZJU-Courses",
         "发展心理学"
       ],
-      "updated": "2026-05-20T03:34:39+00:00",
+      "updated": "2026-05-20T09:38:45+00:00",
       "date": "2026-05-20",
       "created": "2026-05-18T14:02:44+00:00",
-      "words": 9146,
-      "word_count": "9,146 字",
-      "minutes": 23,
+      "words": 9736,
+      "word_count": "9,736 字",
+      "minutes": 25,
       "directory": "zju-courses/发展心理学"
     },
     {
