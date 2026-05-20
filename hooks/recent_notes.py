@@ -4,6 +4,7 @@ import json
 import re
 import subprocess
 import math
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -11,14 +12,16 @@ from pathlib import Path
 MAX_ITEMS = 6
 OUTPUT_PATH = Path("assets/data/recent_notes.json")
 SITE_STATS_PATH = Path("assets/data/site_stats.json")
+GARDEN_PATH = Path("assets/data/garden.json")
 SKIP_FILES = {"index.md"}
 ARTICLE_MIN_WORDS = 20
 _PAGE_DATES: dict[str, dict[str, datetime]] = {}
 _PAGE_INFO: dict[str, dict] = {}
+_PUBLIC_PAGE_SET: set[str] = set()
 
 
 def on_config(config):
-    global _PAGE_DATES, _PAGE_INFO
+    global _PAGE_DATES, _PAGE_INFO, _PUBLIC_PAGE_SET
 
     docs_dir = Path(config["docs_dir"]).resolve()
     config_file = getattr(config, "config_file_path", None)
@@ -29,6 +32,8 @@ def on_config(config):
     git_created = _git_date_map(project_dir, docs_dir, reverse=True)
     _PAGE_DATES = {}
     _PAGE_INFO = {}
+    _PUBLIC_PAGE_SET = set()
+    raw_pages = {}
     notes = []
     pages = []
 
@@ -48,21 +53,24 @@ def on_config(config):
             created = updated
 
         _PAGE_DATES[rel_path] = {"created": created, "updated": updated}
+        raw_text = path.read_text(encoding="utf-8", errors="ignore")
+        raw_pages[rel_path] = raw_text
 
         title = _read_title(path)
         if not title:
             title = path.stem
 
-        word_count, reading_minutes = _reading_stats(
-            path.read_text(encoding="utf-8", errors="ignore")
-        )
+        word_count, reading_minutes = _reading_stats(raw_text)
         if word_count < ARTICLE_MIN_WORDS:
             continue
 
+        tags = _page_tags(rel_path, raw_text)
         page_info = {
+            "src": rel_path,
             "title": title,
             "url": _page_url(rel_path),
             "section": _section_name(rel_path),
+            "tags": tags,
             "updated": updated.isoformat(),
             "date": updated.strftime("%Y-%m-%d"),
             "created": created.isoformat(),
@@ -75,14 +83,16 @@ def on_config(config):
         pages.append(page_info)
 
         if path.name not in SKIP_FILES and rel_path in nav_files:
+            _PUBLIC_PAGE_SET.add(rel_path)
             notes.append(page_info)
 
     notes.sort(key=lambda item: item["updated"], reverse=True)
+    garden = _build_garden_data(notes, raw_pages)
 
     output = docs_dir / OUTPUT_PATH
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(
-        json.dumps(notes[:MAX_ITEMS], ensure_ascii=False, indent=2),
+        json.dumps(notes, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
@@ -101,6 +111,13 @@ def on_config(config):
     stats_output.parent.mkdir(parents=True, exist_ok=True)
     stats_output.write_text(
         json.dumps(site_stats, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    garden_output = docs_dir / GARDEN_PATH
+    garden_output.parent.mkdir(parents=True, exist_ok=True)
+    garden_output.write_text(
+        json.dumps(garden, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
@@ -144,7 +161,23 @@ def on_page_markdown(markdown, page, config, files):
   </span>
 </div>
 """
-    return _insert_after_title(markdown.rstrip(), stats_block).rstrip() + dates_block
+    relation_block = ""
+    if src_path in _PUBLIC_PAGE_SET and page.meta.get("garden") is not False:
+        relation_block = f"""
+
+<section class="garden-relations" data-page-relations data-page-src="{src_path}">
+  <h2>关联笔记</h2>
+  <div class="garden-relations__body">
+    <span class="home-update-card home-update-card--empty">正在整理关联笔记...</span>
+  </div>
+</section>
+"""
+
+    return (
+        _insert_after_title(markdown.rstrip(), stats_block).rstrip()
+        + dates_block
+        + relation_block
+    )
 
 
 def _reading_stats(markdown: str) -> tuple[int, int]:
@@ -186,6 +219,249 @@ def _insert_after_title(markdown: str, block: str) -> str:
     before = "\n".join(lines[:insert_after]).rstrip()
     after = "\n".join(lines[insert_after:]).lstrip("\n")
     return f"{before}\n\n{block.strip()}\n\n{after}".rstrip()
+
+
+def _build_garden_data(public_pages: list[dict], raw_pages: dict[str, str]) -> dict:
+    public_src = {page["src"] for page in public_pages}
+    title_index = _title_index(public_pages)
+    outgoing: dict[str, list[str]] = {}
+    backlinks: dict[str, set[str]] = {page["src"]: set() for page in public_pages}
+
+    for page in public_pages:
+        src = page["src"]
+        targets = _resolve_page_links(src, raw_pages.get(src, ""), public_src, title_index)
+        outgoing[src] = targets
+        for target in targets:
+            backlinks.setdefault(target, set()).add(src)
+
+    pages_by_src = {page["src"]: page for page in public_pages}
+    tags: dict[str, list[str]] = defaultdict(list)
+
+    for page in public_pages:
+        for tag in page.get("tags", []):
+            tags[tag].append(page["src"])
+
+    enriched_pages = []
+    for page in public_pages:
+        src = page["src"]
+        copy = dict(page)
+        copy["outgoing"] = [_page_ref(pages_by_src[target]) for target in outgoing.get(src, [])]
+        copy["backlinks"] = [
+            _page_ref(pages_by_src[source])
+            for source in sorted(backlinks.get(src, set()), key=lambda item: pages_by_src[item]["title"])
+        ]
+        copy["related"] = [
+            _page_ref(pages_by_src[target])
+            for target in _related_pages(src, public_pages, outgoing, backlinks)
+        ]
+        enriched_pages.append(copy)
+
+    tag_items = []
+    for tag, srcs in tags.items():
+        tag_pages = [pages_by_src[src] for src in srcs if src in pages_by_src]
+        tag_pages.sort(key=lambda item: item["updated"], reverse=True)
+        tag_items.append(
+            {
+                "name": tag,
+                "count": len(tag_pages),
+                "pages": [_page_ref(page) for page in tag_pages],
+            }
+        )
+
+    tag_items.sort(key=lambda item: (-item["count"], item["name"]))
+    sections = []
+    for section, items in _group_by(enriched_pages, "section").items():
+        sections.append({"name": section, "count": len(items)})
+    sections.sort(key=lambda item: (-item["count"], item["name"]))
+
+    enriched_pages.sort(key=lambda item: item["updated"], reverse=True)
+    return {
+        "pages": enriched_pages,
+        "tags": tag_items,
+        "sections": sections,
+    }
+
+
+def _page_ref(page: dict) -> dict:
+    return {
+        "src": page["src"],
+        "title": page["title"],
+        "url": page["url"],
+        "section": page["section"],
+        "date": page["date"],
+        "updated": page["updated"],
+        "tags": page.get("tags", []),
+        "word_count": page.get("word_count", ""),
+        "minutes": page.get("minutes", 1),
+    }
+
+
+def _related_pages(
+    src: str,
+    public_pages: list[dict],
+    outgoing: dict[str, list[str]],
+    backlinks: dict[str, set[str]],
+) -> list[str]:
+    page_by_src = {page["src"]: page for page in public_pages}
+    current = page_by_src[src]
+    current_tags = set(current.get("tags", []))
+    explicit = set(outgoing.get(src, [])) | backlinks.get(src, set())
+    candidates = []
+
+    for page in public_pages:
+        target = page["src"]
+        if target == src or target in explicit:
+            continue
+
+        shared = current_tags & set(page.get("tags", []))
+        if not shared:
+            continue
+
+        candidates.append((len(shared), page["updated"], target))
+
+    candidates.sort(reverse=True)
+    return [target for _, __, target in candidates[:4]]
+
+
+def _resolve_page_links(
+    src: str, markdown: str, public_src: set[str], title_index: dict[str, list[str]]
+) -> list[str]:
+    candidates = []
+
+    for match in re.findall(r"\[\[([^\]]+?)]]", markdown):
+        candidates.append(match.split("|", 1)[0].split("#", 1)[0].strip())
+
+    for match in re.findall(r"(?<!!)\[[^\]]+]\(([^)]+)\)", markdown):
+        href = match.split("#", 1)[0].split("?", 1)[0].strip()
+        if not href or re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", href):
+            continue
+        if href.startswith("#") or href.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".svg", ".pdf", ".zip")):
+            continue
+        candidates.append(href)
+
+    resolved = []
+    for candidate in candidates:
+        target = _resolve_link_target(src, candidate, public_src, title_index)
+        if target and target != src and target not in resolved:
+            resolved.append(target)
+    return resolved
+
+
+def _resolve_link_target(
+    src: str, candidate: str, public_src: set[str], title_index: dict[str, list[str]]
+) -> str | None:
+    normalized = candidate.replace("\\", "/").strip()
+    if not normalized:
+        return None
+
+    if normalized in public_src:
+        return normalized
+
+    if normalized.endswith("/"):
+        index_target = normalized + "index.md"
+        if index_target in public_src:
+            return index_target
+
+    if not normalized.endswith(".md"):
+        md_target = normalized + ".md"
+        if md_target in public_src:
+            return md_target
+    elif normalized in public_src:
+        return normalized
+
+    relative = (Path(src).parent / normalized).as_posix()
+    if relative in public_src:
+        return relative
+    if not relative.endswith(".md") and f"{relative}.md" in public_src:
+        return f"{relative}.md"
+
+    key = Path(normalized).stem if normalized.endswith(".md") else normalized
+    matches = title_index.get(key) or title_index.get(Path(key).name)
+    if matches:
+        return matches[0]
+
+    return None
+
+
+def _title_index(public_pages: list[dict]) -> dict[str, list[str]]:
+    index: dict[str, list[str]] = defaultdict(list)
+    for page in public_pages:
+        src = page["src"]
+        index[page["title"]].append(src)
+        index[Path(src).stem].append(src)
+        index[src.removesuffix(".md")].append(src)
+
+    return index
+
+
+def _page_tags(rel_path: str, markdown: str) -> list[str]:
+    tags = []
+    explicit = _front_matter_tags(markdown)
+    for tag in explicit:
+        _append_unique(tags, tag)
+
+    _append_unique(tags, _section_name(rel_path))
+    parent = Path(rel_path).parent
+    parts = [part for part in parent.parts if part not in (".", "")]
+    if len(parts) >= 2:
+        _append_unique(tags, parts[1])
+
+    return tags
+
+
+def _front_matter_tags(markdown: str) -> list[str]:
+    if not markdown.startswith("---"):
+        return []
+
+    lines = markdown.splitlines()
+    end = None
+    for index, line in enumerate(lines[1:], start=1):
+        if line.strip() == "---":
+            end = index
+            break
+
+    if end is None:
+        return []
+
+    tags = []
+    in_tags = False
+    for line in lines[1:end]:
+        stripped = line.strip()
+        if not stripped:
+            continue
+
+        if re.match(r"^[A-Za-z_-]+:", stripped) and not stripped.startswith("tags:"):
+            in_tags = False
+
+        if stripped.startswith("tags:"):
+            in_tags = True
+            value = stripped.split(":", 1)[1].strip()
+            if value.startswith("[") and value.endswith("]"):
+                for item in value[1:-1].split(","):
+                    _append_unique(tags, item.strip().strip("\"'"))
+            elif value:
+                _append_unique(tags, value.strip("\"'"))
+            continue
+
+        if in_tags and stripped.startswith("-"):
+            _append_unique(tags, stripped[1:].strip().strip("\"'"))
+
+    return tags
+
+
+def _append_unique(items: list[str], value: str | None):
+    if not value:
+        return
+    value = str(value).strip()
+    if value and value not in items:
+        items.append(value)
+
+
+def _group_by(items: list[dict], key: str) -> dict[str, list[dict]]:
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    for item in items:
+        grouped[item.get(key, "未分类")].append(item)
+    return grouped
 
 
 def _format_word_count(word_count: int) -> str:
@@ -361,6 +637,7 @@ def _section_name(rel_path: str) -> str:
         "ai": "AI",
         "control": "控制",
         "others": "其他",
+        "resources": "Resources",
         "robotic": "Robotics",
         "scholar": "Scholar",
         "zju-courses": "ZJU-Courses",

@@ -1,15 +1,37 @@
 {
   "article_count": 109,
   "section_count": 7,
-  "total_words": 210179,
+  "total_words": 209998,
   "total_word_count": "21.0 万字",
-  "updated": "2026-05-19T14:32:08+00:00",
-  "date": "2026-05-19",
+  "updated": "2026-05-20T03:34:39+00:00",
+  "date": "2026-05-20",
   "random_pages": [
     {
+      "src": "zju-courses/发展心理学/笔记3.md",
+      "title": "笔记 3",
+      "url": "zju-courses/发展心理学/笔记3/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
+      "updated": "2026-05-20T03:34:39+00:00",
+      "date": "2026-05-20",
+      "created": "2026-05-18T14:02:44+00:00",
+      "words": 10048,
+      "word_count": "1.0 万字",
+      "minutes": 26,
+      "directory": "zju-courses/发展心理学"
+    },
+    {
+      "src": "robotic/ros2/ros2.md",
       "title": "ros2",
       "url": "robotic/ros2/ros2/",
       "section": "Robotics",
+      "tags": [
+        "Robotics",
+        "ros2"
+      ],
       "updated": "2026-05-19T13:56:51+00:00",
       "date": "2026-05-19",
       "created": "2026-05-19T13:56:51+00:00",
@@ -19,9 +41,14 @@
       "directory": "robotic/ros2"
     },
     {
+      "src": "zju-courses/材料力学/材料力学.md",
       "title": "材料力学",
       "url": "zju-courses/材料力学/材料力学/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "材料力学"
+      ],
       "updated": "2026-05-19T13:01:13+00:00",
       "date": "2026-05-19",
       "created": "2026-01-23T14:58:34+00:00",
@@ -31,9 +58,13 @@
       "directory": "zju-courses/材料力学"
     },
     {
+      "src": "resources/tools.md",
       "title": "AI 工具和资源",
       "url": "resources/tools/",
-      "section": "resources",
+      "section": "Resources",
+      "tags": [
+        "Resources"
+      ],
       "updated": "2026-05-19T11:39:13+00:00",
       "date": "2026-05-19",
       "created": "2026-05-19T11:39:13+00:00",
@@ -43,9 +74,14 @@
       "directory": "resources"
     },
     {
+      "src": "zju-courses/农业生物系统传输过程/工传.md",
       "title": "传热学",
       "url": "zju-courses/农业生物系统传输过程/工传/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
       "updated": "2026-05-19T01:33:04+00:00",
       "date": "2026-05-19",
       "created": "2026-04-28T01:48:21+00:00",
@@ -55,21 +91,14 @@
       "directory": "zju-courses/农业生物系统传输过程"
     },
     {
-      "title": "笔记 3",
-      "url": "zju-courses/发展心理学/笔记3/",
-      "section": "ZJU-Courses",
-      "updated": "2026-05-19T00:25:50+00:00",
-      "date": "2026-05-19",
-      "created": "2026-05-18T14:02:44+00:00",
-      "words": 10229,
-      "word_count": "1.0 万字",
-      "minutes": 26,
-      "directory": "zju-courses/发展心理学"
-    },
-    {
+      "src": "zju-courses/发展心理学/笔记1.md",
       "title": "笔记 1（1~4周）",
       "url": "zju-courses/发展心理学/笔记1/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
       "updated": "2026-05-18T14:02:44+00:00",
       "date": "2026-05-18",
       "created": "2026-05-18T14:02:44+00:00",
@@ -79,9 +108,14 @@
       "directory": "zju-courses/发展心理学"
     },
     {
+      "src": "zju-courses/发展心理学/笔记2.md",
       "title": "笔记 2（5~7 周内容）",
       "url": "zju-courses/发展心理学/笔记2/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
       "updated": "2026-05-18T14:02:44+00:00",
       "date": "2026-05-18",
       "created": "2026-05-18T14:02:44+00:00",
@@ -91,9 +125,14 @@
       "directory": "zju-courses/发展心理学"
     },
     {
+      "src": "control/自动控制理论/自动控制理论.md",
       "title": "自动控制理论",
       "url": "control/自动控制理论/自动控制理论/",
       "section": "控制",
+      "tags": [
+        "控制",
+        "自动控制理论"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-03-09T06:12:31+00:00",
@@ -103,9 +142,14 @@
       "directory": "control/自动控制理论"
     },
     {
+      "src": "others/moments/moments.md",
       "title": "moments",
       "url": "others/moments/moments/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "moments"
+      ],
       "updated": "2026-05-07T13:19:53+00:00",
       "date": "2026-05-07",
       "created": "2026-04-21T13:26:44+00:00",
@@ -115,9 +159,14 @@
       "directory": "others/moments"
     },
     {
+      "src": "zju-courses/农业生物系统传输过程/工流.md",
       "title": "流体力学",
       "url": "zju-courses/农业生物系统传输过程/工流/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
       "updated": "2026-04-30T01:21:46+00:00",
       "date": "2026-04-30",
       "created": "2026-04-28T01:48:21+00:00",
@@ -127,9 +176,14 @@
       "directory": "zju-courses/农业生物系统传输过程"
     },
     {
+      "src": "control/控制论/控制论.md",
       "title": "控制论",
       "url": "control/控制论/控制论/",
       "section": "控制",
+      "tags": [
+        "控制",
+        "控制论"
+      ],
       "updated": "2026-04-28T01:48:21+00:00",
       "date": "2026-04-28",
       "created": "2026-03-26T10:57:50+00:00",
@@ -139,9 +193,14 @@
       "directory": "control/控制论"
     },
     {
+      "src": "control/自动控制理论/小测复习.md",
       "title": "小测复习",
       "url": "control/自动控制理论/小测复习/",
       "section": "控制",
+      "tags": [
+        "控制",
+        "自动控制理论"
+      ],
       "updated": "2026-04-13T02:02:08+00:00",
       "date": "2026-04-13",
       "created": "2026-03-29T11:25:38+00:00",
@@ -151,9 +210,15 @@
       "directory": "control/自动控制理论"
     },
     {
+      "src": "control/esp32/esp32.md",
       "title": "esp32",
       "url": "control/esp32/esp32/",
       "section": "控制",
+      "tags": [
+        "硬件",
+        "控制",
+        "esp32"
+      ],
       "updated": "2026-03-09T06:12:31+00:00",
       "date": "2026-03-09",
       "created": "2026-03-09T06:12:31+00:00",
@@ -165,9 +230,14 @@
   ],
   "pages": [
     {
+      "src": "others/数学建模/数模2/mm/问题1.md",
       "title": "01 分组方案与优劣比较",
       "url": "others/数学建模/数模2/mm/问题1/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -177,9 +247,14 @@
       "directory": "others/数学建模/数模2/mm"
     },
     {
+      "src": "others/数学建模/数模2/mm/问题2.md",
       "title": "02 公平透明抽签方案设计",
       "url": "others/数学建模/数模2/mm/问题2/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -189,9 +264,14 @@
       "directory": "others/数学建模/数模2/mm"
     },
     {
+      "src": "others/数学建模/数模2/mm/问题3.md",
       "title": "03 比赛地点选择方案",
       "url": "others/数学建模/数模2/mm/问题3/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -201,9 +281,14 @@
       "directory": "others/数学建模/数模2/mm"
     },
     {
+      "src": "others/数学建模/数模2/mm/问题4.md",
       "title": "04 赛制合理化建议",
       "url": "others/数学建模/数模2/mm/问题4/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -213,9 +298,14 @@
       "directory": "others/数学建模/数模2/mm"
     },
     {
+      "src": "robotic/ros2/指令.md",
       "title": "1. Linux 路径与符号速查表",
       "url": "robotic/ros2/指令/",
       "section": "Robotics",
+      "tags": [
+        "Robotics",
+        "ros2"
+      ],
       "updated": "2026-05-19T13:56:51+00:00",
       "date": "2026-05-19",
       "created": "2026-05-19T13:56:51+00:00",
@@ -225,9 +315,14 @@
       "directory": "robotic/ros2"
     },
     {
+      "src": "others/数学建模/数模1/math_model/docs/prompts/ai_usage_log.md",
       "title": "AI 工具使用记录",
       "url": "others/数学建模/数模1/math_model/docs/prompts/ai_usage_log/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -237,9 +332,13 @@
       "directory": "others/数学建模/数模1/math_model/docs/prompts"
     },
     {
+      "src": "resources/tools.md",
       "title": "AI 工具和资源",
       "url": "resources/tools/",
-      "section": "resources",
+      "section": "Resources",
+      "tags": [
+        "Resources"
+      ],
       "updated": "2026-05-19T11:39:13+00:00",
       "date": "2026-05-19",
       "created": "2026-05-19T11:39:13+00:00",
@@ -249,9 +348,13 @@
       "directory": "resources"
     },
     {
+      "src": "ai/tools.md",
       "title": "AI工具和资源",
       "url": "ai/tools/",
       "section": "AI",
+      "tags": [
+        "AI"
+      ],
       "updated": "2026-03-19T01:34:09+00:00",
       "date": "2026-03-19",
       "created": "2026-01-23T13:19:26+00:00",
@@ -261,9 +364,14 @@
       "directory": "ai"
     },
     {
+      "src": "others/数学建模/数模1/math_model/docs/modeling/problem_formalization.md",
       "title": "B 题数学建模框架",
       "url": "others/数学建模/数模1/math_model/docs/modeling/problem_formalization/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -273,9 +381,14 @@
       "directory": "others/数学建模/数模1/math_model/docs/modeling"
     },
     {
+      "src": "others/数学建模/数模1/math_model/docs/research/research_brief.md",
       "title": "B 题资料与研究路线简报",
       "url": "others/数学建模/数模1/math_model/docs/research/research_brief/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -285,9 +398,14 @@
       "directory": "others/数学建模/数模1/math_model/docs/research"
     },
     {
+      "src": "others/数学建模/数模1/math_model/docs/research/source_register.md",
       "title": "B 题资料登记表",
       "url": "others/数学建模/数模1/math_model/docs/research/source_register/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -297,9 +415,14 @@
       "directory": "others/数学建模/数模1/math_model/docs/research"
     },
     {
+      "src": "others/数学建模/数模1/math_model/docs/project_summary.md",
       "title": "Codex 项目总结与交接文档",
       "url": "others/数学建模/数模1/math_model/docs/project_summary/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -309,9 +432,14 @@
       "directory": "others/数学建模/数模1/math_model/docs"
     },
     {
+      "src": "others/数学建模/数模1/math_model/iterations/2026-05-12_iter00_project_setup.md",
       "title": "Iteration 00 - Project Setup And Research Scaffold",
       "url": "others/数学建模/数模1/math_model/iterations/2026-05-12_iter00_project_setup/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -321,9 +449,14 @@
       "directory": "others/数学建模/数模1/math_model/iterations"
     },
     {
+      "src": "others/数学建模/数模1/math_model/agent.md",
       "title": "Math Modeling Agent Instructions",
       "url": "others/数学建模/数模1/math_model/agent/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -333,9 +466,14 @@
       "directory": "others/数学建模/数模1/math_model"
     },
     {
+      "src": "zju-courses/cad/cad.md",
       "title": "cad",
       "url": "zju-courses/cad/cad/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "cad"
+      ],
       "updated": "2026-04-25T12:11:27+00:00",
       "date": "2026-04-25",
       "created": "2026-04-02T08:15:13+00:00",
@@ -345,9 +483,15 @@
       "directory": "zju-courses/cad"
     },
     {
+      "src": "control/esp32/esp32.md",
       "title": "esp32",
       "url": "control/esp32/esp32/",
       "section": "控制",
+      "tags": [
+        "硬件",
+        "控制",
+        "esp32"
+      ],
       "updated": "2026-03-09T06:12:31+00:00",
       "date": "2026-03-09",
       "created": "2026-03-09T06:12:31+00:00",
@@ -357,9 +501,14 @@
       "directory": "control/esp32"
     },
     {
+      "src": "others/moments/moments.md",
       "title": "moments",
       "url": "others/moments/moments/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "moments"
+      ],
       "updated": "2026-05-07T13:19:53+00:00",
       "date": "2026-05-07",
       "created": "2026-04-21T13:26:44+00:00",
@@ -369,9 +518,14 @@
       "directory": "others/moments"
     },
     {
+      "src": "robotic/ros2/ros2.md",
       "title": "ros2",
       "url": "robotic/ros2/ros2/",
       "section": "Robotics",
+      "tags": [
+        "Robotics",
+        "ros2"
+      ],
       "updated": "2026-05-19T13:56:51+00:00",
       "date": "2026-05-19",
       "created": "2026-05-19T13:56:51+00:00",
@@ -381,9 +535,14 @@
       "directory": "robotic/ros2"
     },
     {
+      "src": "zju-courses/cad/solidworks.md",
       "title": "solidworks",
       "url": "zju-courses/cad/solidworks/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "cad"
+      ],
       "updated": "2026-05-07T13:19:53+00:00",
       "date": "2026-05-07",
       "created": "2026-04-25T12:11:27+00:00",
@@ -393,9 +552,13 @@
       "directory": "zju-courses/cad"
     },
     {
+      "src": "robotic/timeline.md",
       "title": "timeline",
       "url": "robotic/timeline/",
       "section": "Robotics",
+      "tags": [
+        "Robotics"
+      ],
       "updated": "2026-04-15T13:44:16+00:00",
       "date": "2026-04-15",
       "created": "2026-04-15T13:44:16+00:00",
@@ -405,9 +568,14 @@
       "directory": "robotic"
     },
     {
+      "src": "others/数学建模/数模1/math_model/docs/prompts/master_prompt.md",
       "title": "“浙超”B 题最优迭代主 Prompt",
       "url": "others/数学建模/数模1/math_model/docs/prompts/master_prompt/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -417,9 +585,14 @@
       "directory": "others/数学建模/数模1/math_model/docs/prompts"
     },
     {
+      "src": "others/数学建模/分组评价模型/建模思路与公式汇总.md",
       "title": "“浙超”分组方案建模思路与公式汇总",
       "url": "others/数学建模/分组评价模型/建模思路与公式汇总/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -429,9 +602,14 @@
       "directory": "others/数学建模/分组评价模型"
     },
     {
+      "src": "others/数学建模/初版结果说明/建模思路与公式汇总.md",
       "title": "“浙超”分组方案建模思路与公式汇总",
       "url": "others/数学建模/初版结果说明/建模思路与公式汇总/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -441,9 +619,14 @@
       "directory": "others/数学建模/初版结果说明"
     },
     {
+      "src": "others/数学建模/数模1/math_model/浙超B题解题总报告.md",
       "title": "“浙超”分组方案数学建模总报告",
       "url": "others/数学建模/数模1/math_model/浙超B题解题总报告/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -453,9 +636,14 @@
       "directory": "others/数学建模/数模1/math_model"
     },
     {
+      "src": "others/数学建模/分组评价模型/README.md",
       "title": "“浙超”分组评价模型与代码说明",
       "url": "others/数学建模/分组评价模型/README/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -465,9 +653,14 @@
       "directory": "others/数学建模/分组评价模型"
     },
     {
+      "src": "others/数学建模/数模3/建模总方案.md",
       "title": "“浙超”赛题建模总方案",
       "url": "others/数学建模/数模3/建模总方案/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -477,9 +670,14 @@
       "directory": "others/数学建模/数模3"
     },
     {
+      "src": "others/知识库/文化中国/复盘.md",
       "title": "《文化中国讲座》A 4 一页版超浓缩复盘提纲",
       "url": "others/知识库/文化中国/复盘/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "知识库"
+      ],
       "updated": "2026-04-20T02:55:32+00:00",
       "date": "2026-04-20",
       "created": "2026-04-20T02:55:32+00:00",
@@ -489,9 +687,14 @@
       "directory": "others/知识库/文化中国"
     },
     {
+      "src": "others/知识库/文化中国/讲座总结.md",
       "title": "《文化中国讲座》复盘笔记",
       "url": "others/知识库/文化中国/讲座总结/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "知识库"
+      ],
       "updated": "2026-04-20T02:55:32+00:00",
       "date": "2026-04-20",
       "created": "2026-04-20T02:55:32+00:00",
@@ -501,9 +704,14 @@
       "directory": "others/知识库/文化中国"
     },
     {
+      "src": "robotic/ros2/github.md",
       "title": "一、你这个仓库拿来放什么",
       "url": "robotic/ros2/github/",
       "section": "Robotics",
+      "tags": [
+        "Robotics",
+        "ros2"
+      ],
       "updated": "2026-05-19T13:56:51+00:00",
       "date": "2026-05-19",
       "created": "2026-05-19T13:56:51+00:00",
@@ -513,9 +721,14 @@
       "directory": "robotic/ros2"
     },
     {
+      "src": "others/数学建模/评价指标.md",
       "title": "一、总体评价框架",
       "url": "others/数学建模/评价指标/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -525,9 +738,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/问题三改进.md",
       "title": "一、改进方向总览",
       "url": "others/数学建模/问题三改进/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -537,9 +755,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/问题四思路.md",
       "title": "一、第四问的核心任务",
       "url": "others/数学建模/问题四思路/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -549,9 +772,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/未命名 1.md",
       "title": "一、问题一的建模本质",
       "url": "others/数学建模/未命名 1/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -561,9 +789,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/问题三思路.md",
       "title": "一、问题三的本质",
       "url": "others/数学建模/问题三思路/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -573,9 +806,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/问题二思路.md",
       "title": "一、问题二的建模目标",
       "url": "others/数学建模/问题二思路/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -585,9 +823,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/未命名.md",
       "title": "一、题目类型判断",
       "url": "others/数学建模/未命名/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -597,9 +840,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/数模3/三种方案对比分析.md",
       "title": "三种建模方案对比分析",
       "url": "others/数学建模/数模3/三种方案对比分析/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -609,9 +857,14 @@
       "directory": "others/数学建模/数模3"
     },
     {
+      "src": "zju-courses/精细农业/实验/task2.md",
       "title": "不同定位系统信息精度对比分析",
       "url": "zju-courses/精细农业/实验/task2/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "精细农业"
+      ],
       "updated": "2026-04-28T01:48:21+00:00",
       "date": "2026-04-28",
       "created": "2026-04-28T01:48:21+00:00",
@@ -621,9 +874,14 @@
       "directory": "zju-courses/精细农业/实验"
     },
     {
+      "src": "zju-courses/农业生物系统传输过程/工传.md",
       "title": "传热学",
       "url": "zju-courses/农业生物系统传输过程/工传/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
       "updated": "2026-05-19T01:33:04+00:00",
       "date": "2026-05-19",
       "created": "2026-04-28T01:48:21+00:00",
@@ -633,9 +891,14 @@
       "directory": "zju-courses/农业生物系统传输过程"
     },
     {
+      "src": "zju-courses/cad/作业进度.md",
       "title": "作业进度",
       "url": "zju-courses/cad/作业进度/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "cad"
+      ],
       "updated": "2026-05-19T11:39:13+00:00",
       "date": "2026-05-19",
       "created": "2026-05-14T11:10:36+00:00",
@@ -645,9 +908,14 @@
       "directory": "zju-courses/cad"
     },
     {
+      "src": "control/控制论/pre讲稿.md",
       "title": "全程讲稿：机器人的控制论应用",
       "url": "control/控制论/pre讲稿/",
       "section": "控制",
+      "tags": [
+        "控制",
+        "控制论"
+      ],
       "updated": "2026-05-07T13:19:53+00:00",
       "date": "2026-05-07",
       "created": "2026-05-07T13:19:53+00:00",
@@ -657,9 +925,14 @@
       "directory": "control/控制论"
     },
     {
+      "src": "zju-courses/农业物料学/农业物料学.md",
       "title": "农业物料学",
       "url": "zju-courses/农业物料学/农业物料学/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业物料学"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-03-04T12:53:31+00:00",
@@ -669,9 +942,14 @@
       "directory": "zju-courses/农业物料学"
     },
     {
+      "src": "zju-courses/发展心理学/index.md",
       "title": "发展心理学",
       "url": "zju-courses/发展心理学/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
       "updated": "2026-05-18T15:18:57+00:00",
       "date": "2026-05-18",
       "created": "2026-05-18T15:18:57+00:00",
@@ -681,9 +959,14 @@
       "directory": "zju-courses/发展心理学"
     },
     {
+      "src": "others/数学建模/数模3/outputs_graph/graph_coloring_analysis.md",
       "title": "图染色法合法性分析",
       "url": "others/数学建模/数模3/outputs_graph/graph_coloring_analysis/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -693,9 +976,14 @@
       "directory": "others/数学建模/数模3/outputs_graph"
     },
     {
+      "src": "zju-courses/农业生物系统传输过程/农生传实验/实验四数据.md",
       "title": "实验四数据",
       "url": "zju-courses/农业生物系统传输过程/农生传实验/实验四数据/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
       "updated": "2026-05-19T14:32:08+00:00",
       "date": "2026-05-19",
       "created": "2026-05-19T14:32:08+00:00",
@@ -705,9 +993,14 @@
       "directory": "zju-courses/农业生物系统传输过程/农生传实验"
     },
     {
+      "src": "control/自动控制理论/小测复习.md",
       "title": "小测复习",
       "url": "control/自动控制理论/小测复习/",
       "section": "控制",
+      "tags": [
+        "控制",
+        "自动控制理论"
+      ],
       "updated": "2026-04-13T02:02:08+00:00",
       "date": "2026-04-13",
       "created": "2026-03-29T11:25:38+00:00",
@@ -717,9 +1010,13 @@
       "directory": "control/自动控制理论"
     },
     {
+      "src": "robotic/技术栈.md",
       "title": "技术栈",
       "url": "robotic/技术栈/",
       "section": "Robotics",
+      "tags": [
+        "Robotics"
+      ],
       "updated": "2026-04-20T02:55:32+00:00",
       "date": "2026-04-20",
       "created": "2026-04-20T02:55:32+00:00",
@@ -729,9 +1026,14 @@
       "directory": "robotic"
     },
     {
+      "src": "others/知识库/护照/护照签证.md",
       "title": "护照",
       "url": "others/知识库/护照/护照签证/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "知识库"
+      ],
       "updated": "2026-04-21T00:15:42+00:00",
       "date": "2026-04-21",
       "created": "2026-04-20T02:55:32+00:00",
@@ -741,9 +1043,14 @@
       "directory": "others/知识库/护照"
     },
     {
+      "src": "control/控制论/控制论.md",
       "title": "控制论",
       "url": "control/控制论/控制论/",
       "section": "控制",
+      "tags": [
+        "控制",
+        "控制论"
+      ],
       "updated": "2026-04-28T01:48:21+00:00",
       "date": "2026-04-28",
       "created": "2026-03-26T10:57:50+00:00",
@@ -753,9 +1060,14 @@
       "directory": "control/控制论"
     },
     {
+      "src": "others/数学建模/数模3/data/数据来源与融合说明.md",
       "title": "数据来源与融合说明",
       "url": "others/数学建模/数模3/data/数据来源与融合说明/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -765,9 +1077,14 @@
       "directory": "others/数学建模/数模3/data"
     },
     {
+      "src": "others/数学建模/分组评价模型/资料来源.md",
       "title": "数据资料查找与使用口径",
       "url": "others/数学建模/分组评价模型/资料来源/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -777,9 +1094,14 @@
       "directory": "others/数学建模/分组评价模型"
     },
     {
+      "src": "others/数学建模/数模3/交接文档.md",
       "title": "数模3最终成果交接文档",
       "url": "others/数学建模/数模3/交接文档/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -789,9 +1111,14 @@
       "directory": "others/数学建模/数模3"
     },
     {
+      "src": "others/数学建模/数模3/最终方案摘要.md",
       "title": "数模3最终方案摘要",
       "url": "others/数学建模/数模3/最终方案摘要/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -801,9 +1128,14 @@
       "directory": "others/数学建模/数模3"
     },
     {
+      "src": "others/数学建模/数模3/最终方案.md",
       "title": "数模3最终方案：基于融合数据、图染色与可运行优化的完整结果",
       "url": "others/数学建模/数模3/最终方案/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -813,9 +1145,14 @@
       "directory": "others/数学建模/数模3"
     },
     {
+      "src": "others/数学建模/数模3/运行说明.md",
       "title": "数模3运行说明",
       "url": "others/数学建模/数模3/运行说明/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -825,9 +1162,14 @@
       "directory": "others/数学建模/数模3"
     },
     {
+      "src": "others/知识库/文化中国/文化中国讲座.md",
       "title": "文化中国讲座",
       "url": "others/知识库/文化中国/文化中国讲座/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "知识库"
+      ],
       "updated": "2026-04-20T02:55:32+00:00",
       "date": "2026-04-20",
       "created": "2026-04-20T02:55:32+00:00",
@@ -837,9 +1179,14 @@
       "directory": "others/知识库/文化中国"
     },
     {
+      "src": "others/数学建模/分组评价模型/outputs/best_scheme.md",
       "title": "最优分组方案",
       "url": "others/数学建模/分组评价模型/outputs/best_scheme/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -849,9 +1196,14 @@
       "directory": "others/数学建模/分组评价模型/outputs"
     },
     {
+      "src": "others/数学建模/数模3/outputs_candidate_eval/best_scheme.md",
       "title": "最优分组方案",
       "url": "others/数学建模/数模3/outputs_candidate_eval/best_scheme/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -861,9 +1213,14 @@
       "directory": "others/数学建模/数模3/outputs_candidate_eval"
     },
     {
+      "src": "others/数学建模/数模3/最终方案检查评估.md",
       "title": "最终方案检查评估与修正记录",
       "url": "others/数学建模/数模3/最终方案检查评估/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -873,9 +1230,14 @@
       "directory": "others/数学建模/数模3"
     },
     {
+      "src": "control/控制论/未命名.md",
       "title": "未命名",
       "url": "control/控制论/未命名/",
       "section": "控制",
+      "tags": [
+        "控制",
+        "控制论"
+      ],
       "updated": "2026-05-07T13:19:53+00:00",
       "date": "2026-05-07",
       "created": "2026-05-07T13:19:53+00:00",
@@ -885,9 +1247,13 @@
       "directory": "control/控制论"
     },
     {
+      "src": "robotic/机器人工程师学习计划.md",
       "title": "机器人工程师学习计划",
       "url": "robotic/机器人工程师学习计划/",
       "section": "Robotics",
+      "tags": [
+        "Robotics"
+      ],
       "updated": "2026-04-15T13:44:16+00:00",
       "date": "2026-04-15",
       "created": "2026-04-15T13:44:16+00:00",
@@ -897,9 +1263,14 @@
       "directory": "robotic"
     },
     {
+      "src": "zju-courses/材料力学/材料力学.md",
       "title": "材料力学",
       "url": "zju-courses/材料力学/材料力学/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "材料力学"
+      ],
       "updated": "2026-05-19T13:01:13+00:00",
       "date": "2026-05-19",
       "created": "2026-01-23T14:58:34+00:00",
@@ -909,9 +1280,14 @@
       "directory": "zju-courses/材料力学"
     },
     {
+      "src": "zju-courses/材料力学实验/材料力学实验.md",
       "title": "材料力学实验",
       "url": "zju-courses/材料力学实验/材料力学实验/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "材料力学实验"
+      ],
       "updated": "2026-04-30T01:17:37+00:00",
       "date": "2026-04-30",
       "created": "2026-04-30T01:17:37+00:00",
@@ -921,9 +1297,14 @@
       "directory": "zju-courses/材料力学实验"
     },
     {
+      "src": "zju-courses/农业生物系统传输过程/工流.md",
       "title": "流体力学",
       "url": "zju-courses/农业生物系统传输过程/工流/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
       "updated": "2026-04-30T01:21:46+00:00",
       "date": "2026-04-30",
       "created": "2026-04-28T01:48:21+00:00",
@@ -933,9 +1314,14 @@
       "directory": "zju-courses/农业生物系统传输过程"
     },
     {
+      "src": "others/数学建模/数模1/math_model/README.md",
       "title": "浙江大学数学建模竞赛 B 题：“浙超”分组方案",
       "url": "others/数学建模/数模1/math_model/README/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -945,9 +1331,14 @@
       "directory": "others/数学建模/数模1/math_model"
     },
     {
+      "src": "others/数学建模/数模2/mm/总报告.md",
       "title": "浙江省体育赛事分组、抽签、赛地与赛制设计总报告",
       "url": "others/数学建模/数模2/mm/总报告/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -957,9 +1348,14 @@
       "directory": "others/数学建模/数模2/mm"
     },
     {
+      "src": "others/数学建模/final/math_model/项目说明.md",
       "title": "浙江省市县足球联赛分组建模",
       "url": "others/数学建模/final/math_model/项目说明/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -969,9 +1365,14 @@
       "directory": "others/数学建模/final/math_model"
     },
     {
+      "src": "others/数学建模/final/math_model/项目总结.md",
       "title": "浙江省市县足球联赛分组建模项目总结",
       "url": "others/数学建模/final/math_model/项目总结/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -981,9 +1382,14 @@
       "directory": "others/数学建模/final/math_model"
     },
     {
+      "src": "others/知识库/灵感/灵感.md",
       "title": "灵感",
       "url": "others/知识库/灵感/灵感/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "知识库"
+      ],
       "updated": "2026-04-25T12:11:27+00:00",
       "date": "2026-04-25",
       "created": "2026-04-25T12:11:27+00:00",
@@ -993,9 +1399,14 @@
       "directory": "others/知识库/灵感"
     },
     {
+      "src": "others/ASABE 2026/我的签证/材料准备.md",
       "title": "申请材料",
       "url": "others/ASABE 2026/我的签证/材料准备/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "ASABE 2026"
+      ],
       "updated": "2026-04-28T01:48:21+00:00",
       "date": "2026-04-28",
       "created": "2026-04-25T12:11:27+00:00",
@@ -1005,9 +1416,14 @@
       "directory": "others/ASABE 2026/我的签证"
     },
     {
+      "src": "zju-courses/电视节目策划与编导/电视节目策划与编导.md",
       "title": "电视节目策划与编导",
       "url": "zju-courses/电视节目策划与编导/电视节目策划与编导/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "电视节目策划与编导"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-04-30T01:17:37+00:00",
@@ -1017,9 +1433,14 @@
       "directory": "zju-courses/电视节目策划与编导"
     },
     {
+      "src": "others/数学建模/分组评价模型/outputs_direct/direct_top_schemes.md",
       "title": "直接寻优得到的若干可行方案",
       "url": "others/数学建模/分组评价模型/outputs_direct/direct_top_schemes/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1029,9 +1450,14 @@
       "directory": "others/数学建模/分组评价模型/outputs_direct"
     },
     {
+      "src": "others/数学建模/数模3/outputs_direct/direct_top_schemes.md",
       "title": "直接寻优得到的若干可行方案",
       "url": "others/数学建模/数模3/outputs_direct/direct_top_schemes/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1041,9 +1467,14 @@
       "directory": "others/数学建模/数模3/outputs_direct"
     },
     {
+      "src": "others/数学建模/分组评价模型/直接寻优说明.md",
       "title": "直接寻优方法说明",
       "url": "others/数学建模/分组评价模型/直接寻优说明/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1053,9 +1484,14 @@
       "directory": "others/数学建模/分组评价模型"
     },
     {
+      "src": "zju-courses/发展心理学/笔记1.md",
       "title": "笔记 1（1~4周）",
       "url": "zju-courses/发展心理学/笔记1/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
       "updated": "2026-05-18T14:02:44+00:00",
       "date": "2026-05-18",
       "created": "2026-05-18T14:02:44+00:00",
@@ -1065,9 +1501,14 @@
       "directory": "zju-courses/发展心理学"
     },
     {
+      "src": "zju-courses/发展心理学/笔记2.md",
       "title": "笔记 2（5~7 周内容）",
       "url": "zju-courses/发展心理学/笔记2/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
       "updated": "2026-05-18T14:02:44+00:00",
       "date": "2026-05-18",
       "created": "2026-05-18T14:02:44+00:00",
@@ -1077,21 +1518,31 @@
       "directory": "zju-courses/发展心理学"
     },
     {
+      "src": "zju-courses/发展心理学/笔记3.md",
       "title": "笔记 3",
       "url": "zju-courses/发展心理学/笔记3/",
       "section": "ZJU-Courses",
-      "updated": "2026-05-19T00:25:50+00:00",
-      "date": "2026-05-19",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
+      "updated": "2026-05-20T03:34:39+00:00",
+      "date": "2026-05-20",
       "created": "2026-05-18T14:02:44+00:00",
-      "words": 10229,
+      "words": 10048,
       "word_count": "1.0 万字",
       "minutes": 26,
       "directory": "zju-courses/发展心理学"
     },
     {
+      "src": "zju-courses/精细农业/精细农业.md",
       "title": "精细农业",
       "url": "zju-courses/精细农业/精细农业/",
       "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "精细农业"
+      ],
       "updated": "2026-05-18T08:30:06+00:00",
       "date": "2026-05-18",
       "created": "2026-03-02T06:27:31+00:00",
@@ -1101,9 +1552,14 @@
       "directory": "zju-courses/精细农业"
     },
     {
+      "src": "others/数学建模/final/math_model/results/结果汇总.md",
       "title": "结果汇总",
       "url": "others/数学建模/final/math_model/results/结果汇总/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1113,9 +1569,13 @@
       "directory": "others/数学建模/final/math_model/results"
     },
     {
+      "src": "others/群调.md",
       "title": "群调",
       "url": "others/群调/",
       "section": "其他",
+      "tags": [
+        "其他"
+      ],
       "updated": "2026-04-21T13:26:44+00:00",
       "date": "2026-04-21",
       "created": "2026-04-21T13:26:44+00:00",
@@ -1125,9 +1585,14 @@
       "directory": "others"
     },
     {
+      "src": "control/自动控制理论/自动控制理论.md",
       "title": "自动控制理论",
       "url": "control/自动控制理论/自动控制理论/",
       "section": "控制",
+      "tags": [
+        "控制",
+        "自动控制理论"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-03-09T06:12:31+00:00",
@@ -1137,9 +1602,14 @@
       "directory": "control/自动控制理论"
     },
     {
+      "src": "others/数学建模/分组评价模型/outputs/top_schemes_comparison.md",
       "title": "若干可行分组方案对比",
       "url": "others/数学建模/分组评价模型/outputs/top_schemes_comparison/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1149,9 +1619,14 @@
       "directory": "others/数学建模/分组评价模型/outputs"
     },
     {
+      "src": "others/数学建模/数模3/outputs_candidate_eval/top_schemes_comparison.md",
       "title": "若干可行分组方案对比",
       "url": "others/数学建模/数模3/outputs_candidate_eval/top_schemes_comparison/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1161,9 +1636,14 @@
       "directory": "others/数学建模/数模3/outputs_candidate_eval"
     },
     {
+      "src": "others/数学建模/数模3/融合采用建议.md",
       "title": "融合采用建议",
       "url": "others/数学建模/数模3/融合采用建议/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1173,9 +1653,13 @@
       "directory": "others/数学建模/数模3"
     },
     {
+      "src": "about_me.md",
       "title": "赤奈良瞳的自我介绍",
       "url": "about_me/",
       "section": "about_me.md",
+      "tags": [
+        "about_me.md"
+      ],
       "updated": "2026-01-23T14:58:34+00:00",
       "date": "2026-01-23",
       "created": "2026-01-21T13:23:05+00:00",
@@ -1185,9 +1669,14 @@
       "directory": "."
     },
     {
+      "src": "others/数学建模/数模3/输出文件口径说明.md",
       "title": "输出文件口径说明",
       "url": "others/数学建模/数模3/输出文件口径说明/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1197,9 +1686,14 @@
       "directory": "others/数学建模/数模3"
     },
     {
+      "src": "others/数学建模/建模方案.md",
       "title": "问题 1  分组方案",
       "url": "others/数学建模/建模方案/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1209,9 +1703,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/数模3/outputs_method_compare/问题一分组生成方法对比.md",
       "title": "问题一分组生成方法对比",
       "url": "others/数学建模/数模3/outputs_method_compare/问题一分组生成方法对比/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1221,9 +1720,14 @@
       "directory": "others/数学建模/数模3/outputs_method_compare"
     },
     {
+      "src": "others/数学建模/数模3/outputs_selection/问题一方案选择说明.md",
       "title": "问题一最终分组方案选择说明",
       "url": "others/数学建模/数模3/outputs_selection/问题一方案选择说明/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1233,9 +1737,14 @@
       "directory": "others/数学建模/数模3/outputs_selection"
     },
     {
+      "src": "others/数学建模/分组评价模型/outputs_venues/venue_solution.md",
       "title": "问题三比赛地点选择结果",
       "url": "others/数学建模/分组评价模型/outputs_venues/venue_solution/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1245,9 +1754,14 @@
       "directory": "others/数学建模/分组评价模型/outputs_venues"
     },
     {
+      "src": "others/数学建模/分组评价模型/outputs_venues_balanced/venue_solution.md",
       "title": "问题三比赛地点选择结果",
       "url": "others/数学建模/分组评价模型/outputs_venues_balanced/venue_solution/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1257,9 +1771,14 @@
       "directory": "others/数学建模/分组评价模型/outputs_venues_balanced"
     },
     {
+      "src": "others/数学建模/分组评价模型/outputs_venues_balanced_check/venue_solution.md",
       "title": "问题三比赛地点选择结果",
       "url": "others/数学建模/分组评价模型/outputs_venues_balanced_check/venue_solution/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1269,9 +1788,14 @@
       "directory": "others/数学建模/分组评价模型/outputs_venues_balanced_check"
     },
     {
+      "src": "others/数学建模/分组评价模型/outputs_venues_balanced_search/venue_solution.md",
       "title": "问题三比赛地点选择结果",
       "url": "others/数学建模/分组评价模型/outputs_venues_balanced_search/venue_solution/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1281,9 +1805,14 @@
       "directory": "others/数学建模/分组评价模型/outputs_venues_balanced_search"
     },
     {
+      "src": "others/数学建模/数模3/outputs_venues/venue_solution.md",
       "title": "问题三比赛地点选择结果",
       "url": "others/数学建模/数模3/outputs_venues/venue_solution/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1293,9 +1822,14 @@
       "directory": "others/数学建模/数模3/outputs_venues"
     },
     {
+      "src": "others/数学建模/数模3/outputs_venues_selected/venue_solution.md",
       "title": "问题三比赛地点选择结果",
       "url": "others/数学建模/数模3/outputs_venues_selected/venue_solution/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1305,9 +1839,14 @@
       "directory": "others/数学建模/数模3/outputs_venues_selected"
     },
     {
+      "src": "others/数学建模/数模3/问题三选址模型与准确性检查.md",
       "title": "问题三选址模型与准确性检查",
       "url": "others/数学建模/数模3/问题三选址模型与准确性检查/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1317,9 +1856,14 @@
       "directory": "others/数学建模/数模3"
     },
     {
+      "src": "others/数学建模/问题三解法.md",
       "title": "问题三：小组赛比赛地点选择模型与改进结果",
       "url": "others/数学建模/问题三解法/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1329,9 +1873,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/初版结果说明/问题三解法.md",
       "title": "问题三：小组赛比赛地点选择模型与改进结果",
       "url": "others/数学建模/初版结果说明/问题三解法/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1341,9 +1890,14 @@
       "directory": "others/数学建模/初版结果说明"
     },
     {
+      "src": "others/数学建模/分组评价模型/outputs_lottery/final_draw_scheme.md",
       "title": "问题二公开抽签结果",
       "url": "others/数学建模/分组评价模型/outputs_lottery/final_draw_scheme/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1353,9 +1907,14 @@
       "directory": "others/数学建模/分组评价模型/outputs_lottery"
     },
     {
+      "src": "others/数学建模/数模3/outputs_lottery/final_draw_scheme.md",
       "title": "问题二公开抽签结果",
       "url": "others/数学建模/数模3/outputs_lottery/final_draw_scheme/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1365,9 +1924,14 @@
       "directory": "others/数学建模/数模3/outputs_lottery"
     },
     {
+      "src": "others/数学建模/分组评价模型/outputs_lottery/lottery_process.md",
       "title": "问题二抽签过程设计",
       "url": "others/数学建模/分组评价模型/outputs_lottery/lottery_process/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1377,9 +1941,14 @@
       "directory": "others/数学建模/分组评价模型/outputs_lottery"
     },
     {
+      "src": "others/数学建模/数模3/outputs_lottery/lottery_process.md",
       "title": "问题二抽签过程设计",
       "url": "others/数学建模/数模3/outputs_lottery/lottery_process/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1389,9 +1958,14 @@
       "directory": "others/数学建模/数模3/outputs_lottery"
     },
     {
+      "src": "others/数学建模/问题二抽签方案.md",
       "title": "问题二：公平透明的分组抽签方案",
       "url": "others/数学建模/问题二抽签方案/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1401,9 +1975,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/初版结果说明/问题二抽签方案.md",
       "title": "问题二：公平透明的分组抽签方案",
       "url": "others/数学建模/初版结果说明/问题二抽签方案/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1413,9 +1992,14 @@
       "directory": "others/数学建模/初版结果说明"
     },
     {
+      "src": "others/数学建模/分组评价模型/outputs_tournament/simulation_summary.md",
       "title": "问题四赛制仿真结果",
       "url": "others/数学建模/分组评价模型/outputs_tournament/simulation_summary/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1425,9 +2009,14 @@
       "directory": "others/数学建模/分组评价模型/outputs_tournament"
     },
     {
+      "src": "others/数学建模/数模3/outputs_tournament/simulation_summary.md",
       "title": "问题四赛制仿真结果",
       "url": "others/数学建模/数模3/outputs_tournament/simulation_summary/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1437,9 +2026,14 @@
       "directory": "others/数学建模/数模3/outputs_tournament"
     },
     {
+      "src": "others/数学建模/数模3/outputs_tournament_selected/simulation_summary.md",
       "title": "问题四赛制仿真结果",
       "url": "others/数学建模/数模3/outputs_tournament_selected/simulation_summary/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1449,9 +2043,14 @@
       "directory": "others/数学建模/数模3/outputs_tournament_selected"
     },
     {
+      "src": "others/数学建模/问题四解法.md",
       "title": "问题四：赛制评价模型与合理化建议",
       "url": "others/数学建模/问题四解法/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",
@@ -1461,9 +2060,14 @@
       "directory": "others/数学建模"
     },
     {
+      "src": "others/数学建模/初版结果说明/问题四解法.md",
       "title": "问题四：赛制评价模型与合理化建议",
       "url": "others/数学建模/初版结果说明/问题四解法/",
       "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
       "updated": "2026-05-14T11:10:36+00:00",
       "date": "2026-05-14",
       "created": "2026-05-14T11:10:36+00:00",

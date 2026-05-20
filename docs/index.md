@@ -45,32 +45,32 @@ comments: false
 
 <div class="home-grid">
   <a class="home-tile home-tile--about" href="about_me/">
-    <span class="home-tile__icon">👤</span>
+    <span class="home-tile__icon" aria-hidden="true"></span>
     <span class="home-tile__title">关于赤奈</span>
     <span class="home-tile__text">背景、联系方式和建站缘起。</span>
   </a>
   <a class="home-tile home-tile--ai" href="ai/tools/">
-    <span class="home-tile__icon">🧠</span>
+    <span class="home-tile__icon" aria-hidden="true"></span>
     <span class="home-tile__title">AI 相关</span>
     <span class="home-tile__text">工具记录、资料整理和实践备忘。</span>
   </a>
   <a class="home-tile home-tile--control" href="control/控制论/控制论/">
-    <span class="home-tile__icon">🧭</span>
+    <span class="home-tile__icon" aria-hidden="true"></span>
     <span class="home-tile__title">控制相关</span>
     <span class="home-tile__text">控制论、自控、ESP32 与 STM32。</span>
   </a>
   <a class="home-tile home-tile--course" href="zju-courses/材料力学/材料力学/">
-    <span class="home-tile__icon">📚</span>
+    <span class="home-tile__icon" aria-hidden="true"></span>
     <span class="home-tile__title">ZJU-Courses</span>
     <span class="home-tile__text">课程笔记、复习整理和实验记录。</span>
   </a>
   <a class="home-tile home-tile--robot" href="robotic/技术栈/">
-    <span class="home-tile__icon">⚙️</span>
+    <span class="home-tile__icon" aria-hidden="true"></span>
     <span class="home-tile__title">Robotics</span>
     <span class="home-tile__text">ROS、强化学习和机器人工程栈。</span>
   </a>
   <a class="home-tile home-tile--others" href="others/moments/moments/">
-    <span class="home-tile__icon">📝</span>
+    <span class="home-tile__icon" aria-hidden="true"></span>
     <span class="home-tile__title">其他笔记</span>
     <span class="home-tile__text">生活随笔、知识库和杂项记录。</span>
   </a>
@@ -81,6 +81,8 @@ comments: false
 <section class="home-section home-section--compact" markdown>
 
 ## 最近更新笔记
+
+<div class="home-filter" data-recent-filter></div>
 
 <div class="home-list home-updates" data-recent-notes>
   <span class="home-update-card home-update-card--empty">正在读取最近更新...</span>
