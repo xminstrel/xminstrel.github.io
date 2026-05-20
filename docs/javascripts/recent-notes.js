@@ -3,14 +3,13 @@ document$.subscribe(() => {
   const recentFilter = document.querySelector("[data-recent-filter]");
   const statsContainer = document.querySelector("[data-site-stats]");
   const randomLink = document.querySelector("[data-random-note]");
-  const knowledgeMap = document.querySelector("[data-knowledge-map]");
   const publicArchive = document.querySelector("[data-public-archive]");
   const tagsBrowser = document.querySelector("[data-tags-browser]");
   const relationPanel = document.querySelector("[data-page-relations]");
 
   setupReadingProgress();
 
-  if (statsContainer || randomLink || knowledgeMap || publicArchive) {
+  if (statsContainer || randomLink || publicArchive) {
     fetch(resolveDataPath("assets/data/site_stats.json"))
       .then((response) => {
         if (!response.ok) {
@@ -21,9 +20,6 @@ document$.subscribe(() => {
       .then((stats) => {
         if (statsContainer) {
           renderSiteStats(statsContainer, stats);
-        }
-        if (knowledgeMap) {
-          renderKnowledgeMap(knowledgeMap, stats);
         }
         if (publicArchive) {
           renderPublicArchive(publicArchive, stats);
@@ -40,9 +36,6 @@ document$.subscribe(() => {
       .catch(() => {
         if (statsContainer) {
           statsContainer.innerHTML = '<span class="home-stat home-stat--empty">站点概览暂时没有加载出来。</span>';
-        }
-        if (knowledgeMap) {
-          knowledgeMap.innerHTML = '<span class="home-update-card home-update-card--empty">知识地图暂时没有加载出来。</span>';
         }
         if (publicArchive) {
           publicArchive.innerHTML = '<span class="home-update-card home-update-card--empty">公开文章归档暂时没有加载出来。</span>';
@@ -403,56 +396,6 @@ function renderSiteStats(container, stats) {
   });
 }
 
-function renderKnowledgeMap(container, stats) {
-  const pages = Array.isArray(stats.random_pages) ? stats.random_pages : [];
-  const grouped = new Map();
-
-  pages.forEach((page) => {
-    const directory = page.directory || "未分类";
-    if (!grouped.has(directory)) {
-      grouped.set(directory, []);
-    }
-    grouped.get(directory).push(page);
-  });
-
-  container.innerHTML = "";
-
-  Array.from(grouped.entries())
-    .sort(([a], [b]) => a.localeCompare(b, "zh-Hans-CN"))
-    .forEach(([directory, items]) => {
-      items.sort((a, b) => (b.updated || "").localeCompare(a.updated || ""));
-
-      const section = document.createElement("section");
-      section.className = "knowledge-map__section";
-
-      const heading = document.createElement("h2");
-      heading.textContent = formatDirectoryName(directory);
-
-      const list = document.createElement("div");
-      list.className = "knowledge-map__list";
-
-      items.forEach((page) => {
-        const link = document.createElement("a");
-        link.className = "knowledge-map__item";
-        link.href = resolveSiteUrl(page.url);
-
-        const title = document.createElement("span");
-        title.className = "knowledge-map__title";
-        title.textContent = page.title;
-
-        const meta = document.createElement("span");
-        meta.className = "knowledge-map__meta";
-        meta.textContent = `${page.date} · ${page.word_count} · 约 ${page.minutes} 分钟`;
-
-        link.append(title, meta);
-        list.append(link);
-      });
-
-      section.append(heading, list);
-      container.append(section);
-    });
-}
-
 function renderPublicArchive(container, stats) {
   const pages = Array.isArray(stats.random_pages) ? [...stats.random_pages] : [];
   pages.sort((a, b) => (b.updated || "").localeCompare(a.updated || ""));
@@ -488,12 +431,4 @@ function renderPublicArchive(container, stats) {
     link.append(date, main, meta);
     container.append(link);
   });
-}
-
-function formatDirectoryName(directory) {
-  return directory
-    .split("/")
-    .filter(Boolean)
-    .map((part) => part.replace(/-/g, " "))
-    .join(" / ");
 }

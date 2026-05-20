@@ -16,7 +16,6 @@ nav:
       - 笔记 3: zju-courses/发展心理学/笔记3.md
   - 💎 Resources: 
     - AI工具: resources/tools.md
-    - 知识地图: resources/knowledge-map.md
     - 标签索引: resources/tags.md
   - 🪡 控制相关:
     - 控制论: control/控制论/控制论.md
@@ -32,7 +31,7 @@ nav:
     -  moments: others/moments/moments.md
 # 自定义样式和脚本
 extra_css:
-  - stylesheets/extra.css?v=20260520-garden
+  - stylesheets/extra.css?v=20260520-garden-clean
   - https://unpkg.com/katex@0/dist/katex.min.css
 #主题配置
 theme:
@@ -97,7 +96,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_javascript: # latex
   - javascripts/extra.js?v=20260520-github-stars
-  - javascripts/recent-notes.js?v=20260520-garden
+  - javascripts/recent-notes.js?v=20260520-garden-clean
   - javascripts/katex.js?v=20260518-green
   - https://unpkg.com/katex@0/dist/katex.min.js   
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
