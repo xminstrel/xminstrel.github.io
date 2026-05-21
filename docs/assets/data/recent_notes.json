@@ -1,5 +1,22 @@
 [
   {
+    "src": "zju-courses/材料力学/材料力学.md",
+    "title": "材料力学",
+    "url": "zju-courses/材料力学/材料力学/",
+    "section": "ZJU-Courses",
+    "tags": [
+      "ZJU-Courses",
+      "材料力学"
+    ],
+    "updated": "2026-05-21T01:11:52+00:00",
+    "date": "2026-05-21",
+    "created": "2026-01-23T14:58:34+00:00",
+    "words": 3180,
+    "word_count": "3,180 字",
+    "minutes": 8,
+    "directory": "zju-courses/材料力学"
+  },
+  {
     "src": "zju-courses/发展心理学/笔记3.md",
     "title": "笔记 3",
     "url": "zju-courses/发展心理学/笔记3/",
@@ -15,23 +32,6 @@
     "word_count": "9,722 字",
     "minutes": 25,
     "directory": "zju-courses/发展心理学"
-  },
-  {
-    "src": "zju-courses/材料力学/材料力学.md",
-    "title": "材料力学",
-    "url": "zju-courses/材料力学/材料力学/",
-    "section": "ZJU-Courses",
-    "tags": [
-      "ZJU-Courses",
-      "材料力学"
-    ],
-    "updated": "2026-05-20T09:38:45+00:00",
-    "date": "2026-05-20",
-    "created": "2026-01-23T14:58:34+00:00",
-    "words": 3016,
-    "word_count": "3,016 字",
-    "minutes": 8,
-    "directory": "zju-courses/材料力学"
   },
   {
     "src": "robotic/ros2/ros2.md",

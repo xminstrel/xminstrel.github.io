@@ -16,6 +16,8 @@
   --home-border: rgba(75, 85, 99, 0.18);
   --home-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
   --reading-shadow: 0 12px 30px rgba(47, 79, 79, 0.12);
+  --content-image-width: 760px;
+  --content-image-wide: 980px;
   --md-admonition-icon--home-card: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M14 17h3l2-4V7h-6v6h3M6 17h3l2-4V7H5v6h3l-2 4Z"/></svg>');
 }
 
@@ -46,18 +48,55 @@
   font-family: "JetBrains Mono", "Courier New", monospace !important;
 }
 
-.md-typeset img:not(.home-avatar) {
+.md-typeset img:not(.home-avatar):not(.twemoji):not(.emoji) {
   display: block;
   width: auto;
-  max-width: min(100%, 860px);
+  max-width: min(100%, var(--content-image-width));
   height: auto;
-  max-height: 400px;
-  margin: 1.5em auto;
+  max-height: min(72vh, 720px);
+  margin: 1.6em auto;
   padding: 0.18rem;
   border: 1px solid var(--home-border);
   border-radius: 8px;
   background: var(--md-default-bg-color);
+  object-fit: contain;
   box-shadow: var(--reading-shadow);
+}
+
+.md-typeset img.img-small {
+  max-width: min(100%, 360px);
+}
+
+.md-typeset img.img-medium {
+  max-width: min(100%, 560px);
+}
+
+.md-typeset img.img-wide {
+  max-width: min(100%, var(--content-image-wide));
+}
+
+.md-typeset img.img-full {
+  width: 100%;
+  max-width: 100%;
+  max-height: none;
+}
+
+.md-typeset img.img-natural {
+  max-width: 100%;
+  max-height: none;
+}
+
+.md-typeset img.img-tall {
+  max-height: none;
+}
+
+.md-typeset p:has(> img:only-child) {
+  margin: 1.65em 0;
+}
+
+.md-typeset p:has(> img:only-child) > img {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .md-typeset > h1 {

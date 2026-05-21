@@ -31,7 +31,7 @@ nav:
     -  moments: others/moments/moments.md
 # 自定义样式和脚本
 extra_css:
-  - stylesheets/extra.css?v=20260520-garden-clean
+  - stylesheets/extra.css?v=20260521-image-size
   - https://unpkg.com/katex@0/dist/katex.min.css
 #主题配置
 theme:
