@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "docs/zju-courses/材料力学/组合变形知识与公式整理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "组合变形知识与公式整理"
+            }
+          },
+          {
+            "id": "05abc0c73f7d5ae8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "docs/zju-courses/材料力学/材料力学.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "材料力学"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +145,7 @@
               "type": "backlink",
               "state": {
                 "file": "docs/zju-courses/材料力学/材料力学.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -203,8 +218,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "baa9713e49232665",
+  "active": "05abc0c73f7d5ae8",
   "lastOpenFiles": [
+    "docs/zju-courses/材料力学/assets/圆形截面-1.png",
+    "docs/zju-courses/材料力学/assets/圆形截面.png",
+    "docs/zju-courses/材料力学/assets/截面核心-2.png",
+    "docs/zju-courses/材料力学/assets/截面核心-1.png",
+    "docs/zju-courses/材料力学/assets/截面核心.png",
+    "docs/zju-courses/材料力学/assets/中性轴-1.png",
+    "docs/zju-courses/材料力学/材料力学.md",
+    "docs/zju-courses/材料力学/assets/中性轴.png",
+    "docs/zju-courses/材料力学/assets/应力.png",
+    "docs/zju-courses/材料力学/组合变形知识与公式整理.md",
+    "docs/zju-courses/发展心理学/index.md",
+    "docs/zju-courses/发展心理学/笔记3.md",
+    "docs/zju-courses/材料力学/组合变形知识与公式整理。md.md",
+    "docs/zju-courses/材料力学/材料力学公式整理.md",
     "site/search/search_index.json",
     "site/search",
     "site/zju-courses/材料力学实验/材料力学实验/index.html",
@@ -215,19 +244,9 @@
     "site/zju-courses/材料力学/材料力学",
     "site/zju-courses/发展心理学/笔记3/index.html",
     "site/zju-courses/发展心理学/笔记3",
-    "site/zju-courses/发展心理学/笔记2/index.html",
     "site/zju-courses/农业生物系统传输过程/assets/速度分布-1.png",
     "site/zju-courses/农业生物系统传输过程/assets/运动微分方程.png",
     "site/zju-courses/农业生物系统传输过程/assets/达西公式.png",
-    "site/zju-courses/农业生物系统传输过程/assets/紊流核心.png",
-    "site/zju-courses/农业生物系统传输过程/assets/紊流摩擦.png",
-    "site/zju-courses/农业生物系统传输过程/assets/热阻.png",
-    "site/zju-courses/农业生物系统传输过程/assets/流管.png",
-    "site/zju-courses/农业生物系统传输过程/assets/流动阻力.png",
-    "site/zju-courses/农业生物系统传输过程/assets/流动阻力-1.png",
-    "site/others/知识库/文化中国/assets/黄2.jpg",
-    "docs/zju-courses/材料力学/材料力学.md",
-    "docs/zju-courses/发展心理学/笔记3.md",
     "docs/resources/knowledge-map.md",
     "docs/resources/tags.md",
     "docs/ai/tools.md",
@@ -236,7 +255,6 @@
     "docs/others/cs50x/set0/set0.md",
     "docs/others/自学计划/Study Plan.md",
     "docs/others/cs50x/cs50x.md",
-    "docs/zju-courses/发展心理学/index.md",
     "docs/zju-courses/发展心理学/笔记2.md",
     "docs/zju-courses/发展心理学/笔记1.md",
     "docs/zju-courses/精细农业/实验/task3.md",
@@ -247,9 +265,6 @@
     "docs/zju-courses/cad/cad.md",
     "docs/zju-courses/农业物料学/农业物料学.md",
     "docs/zju-courses/农业生物系统传输过程/未命名.md",
-    "docs/zju-courses/农业生物系统传输过程/农生传实验/实验四数据.md",
-    "docs/zju-courses/材料力学/材料力学公式整理.md",
-    "docs/resources/ai.md",
-    "docs/resources/tools.md"
+    "docs/zju-courses/农业生物系统传输过程/农生传实验/实验四数据.md"
   ]
 }
