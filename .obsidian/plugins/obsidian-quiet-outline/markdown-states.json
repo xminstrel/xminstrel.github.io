@@ -56,37 +56,37 @@
     ]
   },
   "docs/zju-courses/农业物料学/农业物料学.md": {
-    "scroll": 28.301868795016546,
+    "scroll": 28.986981465136804,
     "cursor": {
       "from": {
-        "line": 51,
-        "ch": 10
+        "line": 35,
+        "ch": 0
       },
       "to": {
-        "line": 51,
-        "ch": 10
+        "line": 35,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 850.4222640571164,
+    "scroll": 955.8141276041666,
     "cursor": {
       "from": {
-        "line": 861,
-        "ch": 0
+        "line": 970,
+        "ch": 15
       },
       "to": {
-        "line": 861,
-        "ch": 0
+        "line": 970,
+        "ch": 15
       }
     },
     "expandedKeys": [
       "item-1-0",
+      "item-2-55",
+      "item-3-49",
       "item-2-47",
-      "item-3-41",
-      "item-2-28",
-      "item-3-49"
+      "item-3-57"
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
@@ -162,7 +162,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/精细农业/精细农业.md": {
-    "scroll": 14.993440034841308,
+    "scroll": 15.009765625,
     "cursor": {
       "from": {
         "line": 38,
@@ -437,12 +437,12 @@
     "scroll": 0.20242914979757085,
     "cursor": {
       "from": {
-        "line": 1377,
-        "ch": 110
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 1377,
-        "ch": 110
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1181,12 +1181,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 10
+        "line": 12,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 10
+        "line": 12,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1409,33 +1409,30 @@
     ]
   },
   "docs/zju-courses/农业生物系统传输过程/工传.md": {
-    "scroll": 376.42857142857144,
+    "scroll": 99.32389322916667,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 62
+        "line": 497,
+        "ch": 0
       },
       "to": {
-        "line": 10,
-        "ch": 62
+        "line": 497,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-3-15",
-      "item-2-14",
-      "item-1-0",
-      "item-4-11",
       "item-3-2",
-      "item-4-8",
-      "item-4-3",
+      "item-1-0",
       "item-2-1",
-      "item-3-23",
+      "item-3-8",
+      "item-2-14",
+      "item-2-45",
+      "item-3-47",
       "item-2-29",
-      "item-3-30",
-      "item-3-32",
+      "item-3-23",
+      "item-4-39",
       "item-3-37",
-      "item-4-39"
+      "item-3-15"
     ]
   },
   "docs/zju-courses/材料力学实验/未命名.md": {
@@ -1470,15 +1467,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 260,
+        "ch": 3
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 260,
+        "ch": 9
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-16",
+      "item-2-2"
+    ]
   },
   "docs/zju-courses/农业生物系统传输过程/工流.md": {
     "scroll": 0.7020408163265306,
@@ -1614,15 +1614,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/cad/作业进度.md": {
-    "scroll": 0.8838383838383839,
+    "scroll": 6.376027324154125,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 9
+        "line": 27,
+        "ch": 10
       },
       "to": {
-        "line": 12,
-        "ch": 9
+        "line": 27,
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -2600,7 +2600,7 @@
     ]
   },
   "docs/zju-courses/发展心理学/笔记2.md": {
-    "scroll": 540.56103515625,
+    "scroll": 530.5655813953489,
     "cursor": {
       "from": {
         "line": 0,
@@ -2612,58 +2612,25 @@
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-1",
-      "item-3-2",
-      "item-3-7",
-      "item-3-10",
-      "item-3-16",
-      "item-3-20",
-      "item-2-24",
-      "item-3-25",
-      "item-4-27",
-      "item-3-31",
-      "item-3-35",
-      "item-2-40",
-      "item-3-41",
-      "item-3-46",
-      "item-3-49",
-      "item-4-51"
+      "item-1-0"
     ]
   },
   "docs/zju-courses/发展心理学/笔记3.md": {
-    "scroll": 663.7396108949416,
+    "scroll": 13.94263775971093,
     "cursor": {
       "from": {
-        "line": 681,
-        "ch": 0
+        "line": 0,
+        "ch": 6
       },
       "to": {
-        "line": 681,
-        "ch": 0
+        "line": 0,
+        "ch": 6
       }
     },
     "expandedKeys": [
-      "item-4-4",
-      "item-3-2",
-      "item-2-1",
       "item-1-0",
-      "item-4-30",
-      "item-3-23",
-      "item-2-22",
-      "item-4-24",
-      "item-4-27",
-      "item-3-35",
-      "item-4-37",
-      "item-4-41",
-      "item-3-49",
-      "item-2-48",
-      "item-3-55",
-      "item-4-56",
-      "item-4-60",
-      "item-4-64",
-      "item-3-67",
-      "item-4-69"
+      "item-3-2",
+      "item-2-1"
     ]
   },
   "docs/resource/未命名.md": {
@@ -2695,15 +2662,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/发展心理学/index.md": {
-    "scroll": 22.04124031007752,
+    "scroll": 13.740335051546392,
     "cursor": {
       "from": {
         "line": 32,
-        "ch": 22
+        "ch": 17
       },
       "to": {
         "line": 32,
-        "ch": 22
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -2828,12 +2795,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 0
+        "line": 9,
+        "ch": 10
       },
       "to": {
-        "line": 3,
-        "ch": 0
+        "line": 9,
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -2842,44 +2809,45 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 0,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "docs/zju-courses/农业生物系统传输过程/农生传实验/实验四数据.md": {
-    "scroll": 0,
+    "scroll": 27.805809024660164,
     "cursor": {
       "from": {
-        "line": 55,
-        "ch": 11
+        "line": 49,
+        "ch": 0
       },
       "to": {
-        "line": 55,
-        "ch": 11
+        "line": 49,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/组合变形知识与公式整理.md": {
-    "scroll": 790.6456938866578,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 40
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 36,
-        "ch": 40
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-28"
     ]
   },
   "docs/zju-courses/材料力学/组合变形知识与公式整理。md.md": {
@@ -2892,6 +2860,320 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/群调.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/发展心理学/笔记4.md": {
+    "scroll": 11.18359375,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 0
+      },
+      "to": {
+        "line": 27,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/zju-courses/农业物料学/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 25
+      },
+      "to": {
+        "line": 38,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-7",
+      "item-2-4"
+    ]
+  },
+  "docs/zju-courses/农业物料学/物料学实验.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 8
+      },
+      "to": {
+        "line": 14,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/精细农业/精细农业2026-04-27第6-8节_AI学习总结.md": {
+    "scroll": 26.1201171875,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 23
+      },
+      "to": {
+        "line": 8,
+        "ch": 23
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4"
+    ]
+  },
+  "docs/zju-courses/精细农业/精细农业2026-05-11第6-8节_AI学习总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/精细农业/精细农业2026-05-18第6-8节_AI学习总结.md": {
+    "scroll": 50.800222328092744,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-10"
+    ]
+  },
+  "docs/zju-courses/材料力学/ai总结/未命名.md": {
+    "scroll": 17.578610310598783,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 11
+      },
+      "to": {
+        "line": 8,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/zju-courses/农业物料学/ai总结/农业生物系统传输过程2026-05-19第1-2节_AI学习总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 34
+      },
+      "to": {
+        "line": 41,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/zju-courses/材料力学/复习.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 7
+      },
+      "to": {
+        "line": 4,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/参考资料.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/gpt初版.md": {
+    "scroll": 507.9969075520833,
+    "cursor": {
+      "from": {
+        "line": 545,
+        "ch": 175
+      },
+      "to": {
+        "line": 545,
+        "ch": 175
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-8",
+      "item-2-18",
+      "item-2-20",
+      "item-2-30",
+      "item-2-43",
+      "item-2-46",
+      "item-2-60",
+      "item-2-36"
+    ]
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/deep-research-report (3).md": {
+    "scroll": 125.46004398826979,
+    "cursor": {
+      "from": {
+        "line": 117,
+        "ch": 0
+      },
+      "to": {
+        "line": 117,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/初版想法.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/策划案框架.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 12
+      },
+      "to": {
+        "line": 12,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/参考格式.md": {
+    "scroll": 7.375,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 184
+      },
+      "to": {
+        "line": 5,
+        "ch": 189
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/《浙里有艺：青年非遗实验室》电视节目策划案.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 593,
+        "ch": 17
+      },
+      "to": {
+        "line": 593,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-3-2",
+      "item-1-0",
+      "item-2-1",
+      "item-3-8",
+      "item-2-14",
+      "item-2-20",
+      "item-2-28",
+      "item-2-36",
+      "item-2-40",
+      "item-2-45",
+      "item-2-48",
+      "item-2-56",
+      "item-2-65",
+      "item-2-68",
+      "item-2-73",
+      "item-2-76",
+      "item-2-61"
+    ]
+  },
+  "docs/zju-courses/精细农业/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 7
+      },
+      "to": {
+        "line": 0,
+        "ch": 7
       }
     },
     "expandedKeys": []

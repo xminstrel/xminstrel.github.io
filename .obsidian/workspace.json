@@ -4,25 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "a8a336767c1e562e",
+        "id": "384f0f6339495141",
         "type": "tabs",
         "children": [
           {
-            "id": "baa9713e49232665",
+            "id": "cde36047b30b0285",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
+                "page": 1,
+                "left": 529,
+                "top": 846,
+                "zoom": 1.54
+              },
+              "icon": "lucide-file-text",
+              "title": "生物系统传输过程A3"
+            }
+          },
+          {
+            "id": "0e5d07cedd98b663",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/材料力学/复习资料/材料力学笔记2.pdf",
+                "page": 20,
+                "left": -11,
+                "top": 775,
+                "zoom": 1.4754901960784315
+              },
+              "icon": "lucide-file-text",
+              "title": "材料力学笔记2"
+            }
+          },
+          {
+            "id": "f7fea5d020fbc810",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/材料力学/组合变形知识与公式整理.md",
+                "file": "docs/zju-courses/农业物料学/ai总结/农业生物系统传输过程2026-05-19第1-2节_AI学习总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "组合变形知识与公式整理"
+              "title": "农业生物系统传输过程2026-05-19第1-2节_AI学习总结"
             }
           },
           {
-            "id": "05abc0c73f7d5ae8",
+            "id": "6f5fd928f72ccc1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,9 +66,37 @@
               "icon": "lucide-file",
               "title": "材料力学"
             }
+          },
+          {
+            "id": "3d5722250ec26295",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/精细农业/精细农业.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "精细农业"
+            }
+          },
+          {
+            "id": "89b7cbb561d26f01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/农业生物系统传输过程/农生传实验/实验四数据.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "实验四数据"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -218,53 +278,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "05abc0c73f7d5ae8",
+  "active": "6f5fd928f72ccc1c",
   "lastOpenFiles": [
-    "site/search/search_index.json",
-    "site/search",
-    "site/zju-courses/材料力学/组合变形知识与公式整理/index.html",
-    "site/zju-courses/材料力学/组合变形知识与公式整理",
-    "site/zju-courses/农业物料学/农业物料学/index.html",
-    "site/zju-courses/农业物料学/农业物料学",
-    "site/zju-courses/cad/作业进度/index.html",
-    "site/zju-courses/cad/作业进度",
-    "site/zju-courses/cad/solidworks/index.html",
-    "site/zju-courses/cad/solidworks",
-    "site/zju-courses/cad/cad/index.html",
-    "site/zju-courses/材料力学/assets/矩形截面.png",
-    "site/zju-courses/材料力学/assets/截面核心.png",
-    "site/zju-courses/材料力学/assets/截面核心-3.png",
-    "site/zju-courses/材料力学/assets/截面核心-2.png",
-    "site/zju-courses/材料力学/assets/截面核心-1.png",
-    "site/zju-courses/材料力学/assets/中性轴.png",
-    "site/zju-courses/材料力学/assets/中性轴-1.png",
-    "site/control/esp32/assets/b0cd7a8da78ef1a0a0532572b0247669.jpg",
-    "site/control/自动控制理论/assets/频率2.png",
-    "site/control/自动控制理论/assets/频率特性.png",
+    "docs/zju-courses/材料力学/assets/直线公式.png",
+    "docs/zju-courses/农业生物系统传输过程/农生传实验/实验四数据.md",
+    "docs/zju-courses/精细农业/未命名.md",
+    "docs/zju-courses/精细农业/精细农业.md",
+    "docs/zju-courses/农业物料学/物料学实验.md",
+    "docs/zju-courses/材料力学/复习.md",
+    "docs/zju-courses/发展心理学/笔记2.md",
     "docs/zju-courses/材料力学/材料力学.md",
+    "docs/zju-courses/材料力学/材料力学公式整理.md",
+    "docs/zju-courses/农业生物系统传输过程/工传.md",
+    "docs/zju-courses/材料力学/复习资料/材料力学笔记2.pdf",
+    "docs/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
+    "docs/zju-courses/电视节目策划与编导/节目策划案/《浙里有艺：青年非遗实验室》电视节目策划案.md",
+    "docs/zju-courses/电视节目策划与编导/节目策划案/《浙里有艺：青年非遗实验室》课程策划调研报告.pdf",
+    "docs/zju-courses/电视节目策划与编导/节目策划案/策划案框架.md",
+    "docs/zju-courses/电视节目策划与编导/节目策划案/deep-research-report (3).md",
+    "docs/zju-courses/电视节目策划与编导/节目策划案/参考资料.md",
+    "docs/zju-courses/电视节目策划与编导/节目策划案/初版想法.md",
+    "docs/zju-courses/电视节目策划与编导/节目策划案/参考格式.md",
+    "docs/zju-courses/电视节目策划与编导/电视节目策划与编导.md",
+    "docs/zju-courses/电视节目策划与编导/节目策划案/gpt初版.md",
+    "docs/zju-courses/电视节目策划与编导/节目策划案",
+    "docs/zju-courses/农业物料学/ai总结/农业生物系统传输过程2026-05-19第1-2节_AI学习总结.md",
     "docs/zju-courses/材料力学/组合变形知识与公式整理.md",
     "docs/zju-courses/发展心理学/index.md",
     "docs/zju-courses/发展心理学/笔记3.md",
-    "docs/zju-courses/材料力学/组合变形知识与公式整理。md.md",
-    "docs/zju-courses/材料力学/材料力学公式整理.md",
-    "docs/resources/knowledge-map.md",
-    "docs/resources/tags.md",
-    "docs/ai/tools.md",
-    "docs/zju-courses/材料力学/question.md",
-    "docs/about_me.md",
-    "docs/others/cs50x/set0/set0.md",
-    "docs/others/自学计划/Study Plan.md",
-    "docs/others/cs50x/cs50x.md",
-    "docs/zju-courses/发展心理学/笔记2.md",
-    "docs/zju-courses/发展心理学/笔记1.md",
-    "docs/zju-courses/精细农业/实验/task3.md",
-    "docs/zju-courses/精细农业/实验/task2.md",
-    "docs/zju-courses/精细农业/实验/task1.md",
-    "docs/zju-courses/cad/solidworks.md",
-    "docs/zju-courses/cad/作业进度.md",
-    "docs/zju-courses/cad/cad.md",
+    "docs/zju-courses/农业生物系统传输过程/assets/例题-13.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/例题-12.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/例题-11.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/外掠平板-1.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/外掠平板.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/aceedc635054a8c2b6484ab11d524bfd.jpg",
+    "docs/zju-courses/农业生物系统传输过程/assets/97d1dcc555053c9caf6dfec54a15feac.jpg",
+    "docs/zju-courses/农业生物系统传输过程/assets/例题.jpg",
+    "docs/zju-courses/农业生物系统传输过程/assets/例题-10.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/例题-9.png",
+    "docs/zju-courses/农业物料学/ai总结",
+    "docs/resources/tools.md",
+    "docs/resources/ai.md",
+    "docs/zju-courses/材料力学/复习资料/材料力学复习.pdf",
+    "docs/zju-courses/农业生物系统传输过程/pdfs/农业生物系统传输过程-2026-03-24第1-2节.pdf",
+    "docs/zju-courses/农业物料学/未命名.md",
     "docs/zju-courses/农业物料学/农业物料学.md",
-    "docs/zju-courses/农业生物系统传输过程/未命名.md",
-    "docs/zju-courses/农业生物系统传输过程/农生传实验/实验四数据.md"
+    "docs/zju-courses/材料力学/ai总结",
+    "docs/zju-courses/材料力学/复习资料/材料力学笔记.pdf",
+    "docs/zju-courses/cad/homework/必做-齿轮轴-Model.pdf"
   ]
 }
