@@ -70,15 +70,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 955.8141276041666,
+    "scroll": 961.8251425253378,
     "cursor": {
       "from": {
-        "line": 970,
-        "ch": 15
+        "line": 975,
+        "ch": 0
       },
       "to": {
-        "line": 970,
-        "ch": 15
+        "line": 975,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -86,7 +86,12 @@
       "item-2-55",
       "item-3-49",
       "item-2-47",
-      "item-3-57"
+      "item-3-57",
+      "item-2-28",
+      "item-3-25",
+      "item-2-22",
+      "item-3-29",
+      "item-4-31"
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
@@ -1021,12 +1026,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 3
+        "line": 4,
+        "ch": 0
       },
       "to": {
-        "line": 1,
-        "ch": 3
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1614,15 +1619,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/cad/作业进度.md": {
-    "scroll": 6.376027324154125,
+    "scroll": 16.56186046511628,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 10
+        "line": 32,
+        "ch": 13
       },
       "to": {
-        "line": 27,
-        "ch": 10
+        "line": 32,
+        "ch": 13
       }
     },
     "expandedKeys": []
@@ -3174,6 +3179,92 @@
       "to": {
         "line": 0,
         "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/材料力学/复习资料/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/材料力学/复习资料/98.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 48
+      },
+      "to": {
+        "line": 23,
+        "ch": 48
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/农业生物系统传输过程/农生传实验/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 14
+      },
+      "to": {
+        "line": 10,
+        "ch": 14
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/农业生物系统传输过程/农生传实验/实验五数据.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 16
+      },
+      "to": {
+        "line": 1,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/作业要求.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 60,
+        "ch": 30
+      },
+      "to": {
+        "line": 60,
+        "ch": 30
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "docs/others/知识库/food/杭州美食.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": []

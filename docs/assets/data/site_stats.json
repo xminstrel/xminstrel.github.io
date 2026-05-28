@@ -1,11 +1,44 @@
 {
-  "article_count": 110,
+  "article_count": 127,
   "section_count": 7,
-  "total_words": 213106,
-  "total_word_count": "21.3 万字",
-  "updated": "2026-05-21T01:11:52+00:00",
-  "date": "2026-05-21",
+  "total_words": 266412,
+  "total_word_count": "26.6 万字",
+  "updated": "2026-05-28T11:27:37.910346+00:00",
+  "date": "2026-05-28",
   "random_pages": [
+    {
+      "src": "resources/tools.md",
+      "title": "AI 工具和资源",
+      "url": "resources/tools/",
+      "section": "Resources",
+      "tags": [
+        "Resources"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-19T11:39:13+00:00",
+      "words": 66,
+      "word_count": "66 字",
+      "minutes": 1,
+      "directory": "resources"
+    },
+    {
+      "src": "zju-courses/农业生物系统传输过程/工传.md",
+      "title": "传热学",
+      "url": "zju-courses/农业生物系统传输过程/工传/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-04-28T01:48:21+00:00",
+      "words": 2281,
+      "word_count": "2,281 字",
+      "minutes": 6,
+      "directory": "zju-courses/农业生物系统传输过程"
+    },
     {
       "src": "zju-courses/材料力学/材料力学.md",
       "title": "材料力学",
@@ -15,12 +48,12 @@
         "ZJU-Courses",
         "材料力学"
       ],
-      "updated": "2026-05-21T01:11:52+00:00",
-      "date": "2026-05-21",
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
       "created": "2026-01-23T14:58:34+00:00",
-      "words": 3180,
-      "word_count": "3,180 字",
-      "minutes": 8,
+      "words": 3565,
+      "word_count": "3,565 字",
+      "minutes": 9,
       "directory": "zju-courses/材料力学"
     },
     {
@@ -56,39 +89,6 @@
       "word_count": "301 字",
       "minutes": 1,
       "directory": "robotic/ros2"
-    },
-    {
-      "src": "resources/tools.md",
-      "title": "AI 工具和资源",
-      "url": "resources/tools/",
-      "section": "Resources",
-      "tags": [
-        "Resources"
-      ],
-      "updated": "2026-05-19T11:39:13+00:00",
-      "date": "2026-05-19",
-      "created": "2026-05-19T11:39:13+00:00",
-      "words": 24,
-      "word_count": "24 字",
-      "minutes": 1,
-      "directory": "resources"
-    },
-    {
-      "src": "zju-courses/农业生物系统传输过程/工传.md",
-      "title": "传热学",
-      "url": "zju-courses/农业生物系统传输过程/工传/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业生物系统传输过程"
-      ],
-      "updated": "2026-05-19T01:33:04+00:00",
-      "date": "2026-05-19",
-      "created": "2026-04-28T01:48:21+00:00",
-      "words": 1993,
-      "word_count": "1,993 字",
-      "minutes": 5,
-      "directory": "zju-courses/农业生物系统传输过程"
     },
     {
       "src": "zju-courses/发展心理学/笔记1.md",
@@ -315,6 +315,23 @@
       "directory": "robotic/ros2"
     },
     {
+      "src": "zju-courses/材料力学/复习资料/98.md",
+      "title": "98",
+      "url": "zju-courses/材料力学/复习资料/98/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "材料力学"
+      ],
+      "updated": "2026-05-27T14:20:52.844476+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T14:20:52.844476+00:00",
+      "words": 382,
+      "word_count": "382 字",
+      "minutes": 1,
+      "directory": "zju-courses/材料力学/复习资料"
+    },
+    {
       "src": "others/数学建模/数模1/math_model/docs/prompts/ai_usage_log.md",
       "title": "AI 工具使用记录",
       "url": "others/数学建模/数模1/math_model/docs/prompts/ai_usage_log/",
@@ -339,11 +356,11 @@
       "tags": [
         "Resources"
       ],
-      "updated": "2026-05-19T11:39:13+00:00",
-      "date": "2026-05-19",
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
       "created": "2026-05-19T11:39:13+00:00",
-      "words": 24,
-      "word_count": "24 字",
+      "words": 66,
+      "word_count": "66 字",
       "minutes": 1,
       "directory": "resources"
     },
@@ -543,11 +560,11 @@
         "ZJU-Courses",
         "cad"
       ],
-      "updated": "2026-05-07T13:19:53+00:00",
-      "date": "2026-05-07",
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
       "created": "2026-04-25T12:11:27+00:00",
-      "words": 23,
-      "word_count": "23 字",
+      "words": 67,
+      "word_count": "67 字",
       "minutes": 1,
       "directory": "zju-courses/cad"
     },
@@ -702,6 +719,57 @@
       "word_count": "2,045 字",
       "minutes": 6,
       "directory": "others/知识库/文化中国"
+    },
+    {
+      "src": "zju-courses/电视节目策划与编导/节目策划案/《浙里有艺：青年非遗实验室》电视节目策划案.md",
+      "title": "《浙里有艺：青年非遗实验室》电视节目策划案",
+      "url": "zju-courses/电视节目策划与编导/节目策划案/《浙里有艺：青年非遗实验室》电视节目策划案/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "电视节目策划与编导"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 13850,
+      "word_count": "1.4 万字",
+      "minutes": 35,
+      "directory": "zju-courses/电视节目策划与编导/节目策划案"
+    },
+    {
+      "src": "zju-courses/电视节目策划与编导/节目策划案/deep-research-report (3).md",
+      "title": "《浙里有艺：青年非遗实验室》课程策划调研报告",
+      "url": "zju-courses/电视节目策划与编导/节目策划案/deep-research-report (3)/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "电视节目策划与编导"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 10318,
+      "word_count": "1.0 万字",
+      "minutes": 26,
+      "directory": "zju-courses/电视节目策划与编导/节目策划案"
+    },
+    {
+      "src": "zju-courses/电视节目策划与编导/节目策划案/gpt初版.md",
+      "title": "《浙里有艺：青年非遗实验室》调研报告",
+      "url": "zju-courses/电视节目策划与编导/节目策划案/gpt初版/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "电视节目策划与编导"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 9614,
+      "word_count": "9,614 字",
+      "minutes": 25,
+      "directory": "zju-courses/电视节目策划与编导/节目策划案"
     },
     {
       "src": "robotic/ros2/github.md",
@@ -882,13 +950,30 @@
         "ZJU-Courses",
         "农业生物系统传输过程"
       ],
-      "updated": "2026-05-19T01:33:04+00:00",
-      "date": "2026-05-19",
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
       "created": "2026-04-28T01:48:21+00:00",
-      "words": 1993,
-      "word_count": "1,993 字",
-      "minutes": 5,
+      "words": 2281,
+      "word_count": "2,281 字",
+      "minutes": 6,
       "directory": "zju-courses/农业生物系统传输过程"
+    },
+    {
+      "src": "zju-courses/电视节目策划与编导/节目策划案/作业要求.md",
+      "title": "作业要求",
+      "url": "zju-courses/电视节目策划与编导/节目策划案/作业要求/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "电视节目策划与编导"
+      ],
+      "updated": "2026-05-28T08:25:13.475503+00:00",
+      "date": "2026-05-28",
+      "created": "2026-05-28T08:25:13.475503+00:00",
+      "words": 232,
+      "word_count": "232 字",
+      "minutes": 1,
+      "directory": "zju-courses/电视节目策划与编导/节目策划案"
     },
     {
       "src": "zju-courses/cad/作业进度.md",
@@ -899,11 +984,11 @@
         "ZJU-Courses",
         "cad"
       ],
-      "updated": "2026-05-19T11:39:13+00:00",
-      "date": "2026-05-19",
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
       "created": "2026-05-14T11:10:36+00:00",
-      "words": 147,
-      "word_count": "147 字",
+      "words": 209,
+      "word_count": "209 字",
       "minutes": 1,
       "directory": "zju-courses/cad"
     },
@@ -942,6 +1027,91 @@
       "directory": "zju-courses/农业物料学"
     },
     {
+      "src": "zju-courses/农业物料学/未命名.md",
+      "title": "农业物料学 2026-05-06 第 3-4 节",
+      "url": "zju-courses/农业物料学/未命名/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业物料学"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 2535,
+      "word_count": "2,535 字",
+      "minutes": 7,
+      "directory": "zju-courses/农业物料学"
+    },
+    {
+      "src": "zju-courses/农业物料学/ai总结/农业生物系统传输过程2026-05-19第1-2节_AI学习总结.md",
+      "title": "农业生物系统传输过程2026-05-19第1-2节",
+      "url": "zju-courses/农业物料学/ai总结/农业生物系统传输过程2026-05-19第1-2节_AI学习总结/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业物料学"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 2001,
+      "word_count": "2,001 字",
+      "minutes": 6,
+      "directory": "zju-courses/农业物料学/ai总结"
+    },
+    {
+      "src": "zju-courses/电视节目策划与编导/节目策划案/初版想法.md",
+      "title": "初版想法",
+      "url": "zju-courses/电视节目策划与编导/节目策划案/初版想法/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "电视节目策划与编导"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 3409,
+      "word_count": "3,409 字",
+      "minutes": 9,
+      "directory": "zju-courses/电视节目策划与编导/节目策划案"
+    },
+    {
+      "src": "zju-courses/电视节目策划与编导/节目策划案/参考格式.md",
+      "title": "参考格式",
+      "url": "zju-courses/电视节目策划与编导/节目策划案/参考格式/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "电视节目策划与编导"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 590,
+      "word_count": "590 字",
+      "minutes": 2,
+      "directory": "zju-courses/电视节目策划与编导/节目策划案"
+    },
+    {
+      "src": "zju-courses/电视节目策划与编导/节目策划案/参考资料.md",
+      "title": "参考资料",
+      "url": "zju-courses/电视节目策划与编导/节目策划案/参考资料/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "电视节目策划与编导"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 63,
+      "word_count": "63 字",
+      "minutes": 1,
+      "directory": "zju-courses/电视节目策划与编导/节目策划案"
+    },
+    {
       "src": "zju-courses/发展心理学/index.md",
       "title": "发展心理学",
       "url": "zju-courses/发展心理学/",
@@ -976,6 +1146,40 @@
       "directory": "others/数学建模/数模3/outputs_graph"
     },
     {
+      "src": "zju-courses/材料力学/复习.md",
+      "title": "复习",
+      "url": "zju-courses/材料力学/复习/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "材料力学"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 27,
+      "word_count": "27 字",
+      "minutes": 1,
+      "directory": "zju-courses/材料力学"
+    },
+    {
+      "src": "zju-courses/农业生物系统传输过程/农生传实验/实验五数据.md",
+      "title": "实验五数据",
+      "url": "zju-courses/农业生物系统传输过程/农生传实验/实验五数据/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
+      "updated": "2026-05-28T11:27:37.910346+00:00",
+      "date": "2026-05-28",
+      "created": "2026-05-28T11:27:37.910346+00:00",
+      "words": 114,
+      "word_count": "114 字",
+      "minutes": 1,
+      "directory": "zju-courses/农业生物系统传输过程/农生传实验"
+    },
+    {
       "src": "zju-courses/农业生物系统传输过程/农生传实验/实验四数据.md",
       "title": "实验四数据",
       "url": "zju-courses/农业生物系统传输过程/农生传实验/实验四数据/",
@@ -984,11 +1188,11 @@
         "ZJU-Courses",
         "农业生物系统传输过程"
       ],
-      "updated": "2026-05-19T14:32:08+00:00",
-      "date": "2026-05-19",
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
       "created": "2026-05-19T14:32:08+00:00",
-      "words": 145,
-      "word_count": "145 字",
+      "words": 176,
+      "word_count": "176 字",
       "minutes": 1,
       "directory": "zju-courses/农业生物系统传输过程/农生传实验"
     },
@@ -1271,12 +1475,12 @@
         "ZJU-Courses",
         "材料力学"
       ],
-      "updated": "2026-05-21T01:11:52+00:00",
-      "date": "2026-05-21",
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
       "created": "2026-01-23T14:58:34+00:00",
-      "words": 3180,
-      "word_count": "3,180 字",
-      "minutes": 8,
+      "words": 3565,
+      "word_count": "3,565 字",
+      "minutes": 9,
       "directory": "zju-courses/材料力学"
     },
     {
@@ -1397,6 +1601,23 @@
       "word_count": "54 字",
       "minutes": 1,
       "directory": "others/知识库/灵感"
+    },
+    {
+      "src": "zju-courses/农业物料学/物料学实验.md",
+      "title": "物料学实验",
+      "url": "zju-courses/农业物料学/物料学实验/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业物料学"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 35,
+      "word_count": "35 字",
+      "minutes": 1,
+      "directory": "zju-courses/农业物料学"
     },
     {
       "src": "others/ASABE 2026/我的签证/材料准备.md",
@@ -1535,6 +1756,40 @@
       "directory": "zju-courses/发展心理学"
     },
     {
+      "src": "zju-courses/发展心理学/笔记4.md",
+      "title": "笔记 4",
+      "url": "zju-courses/发展心理学/笔记4/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 91,
+      "word_count": "91 字",
+      "minutes": 1,
+      "directory": "zju-courses/发展心理学"
+    },
+    {
+      "src": "zju-courses/电视节目策划与编导/节目策划案/策划案框架.md",
+      "title": "策划案框架",
+      "url": "zju-courses/电视节目策划与编导/节目策划案/策划案框架/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "电视节目策划与编导"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 75,
+      "word_count": "75 字",
+      "minutes": 1,
+      "directory": "zju-courses/电视节目策划与编导/节目策划案"
+    },
+    {
       "src": "zju-courses/精细农业/精细农业.md",
       "title": "精细农业",
       "url": "zju-courses/精细农业/精细农业/",
@@ -1549,6 +1804,57 @@
       "words": 97,
       "word_count": "97 字",
       "minutes": 1,
+      "directory": "zju-courses/精细农业"
+    },
+    {
+      "src": "zju-courses/精细农业/精细农业2026-04-27第6-8节_AI学习总结.md",
+      "title": "精细农业2026-04-27第6-8节",
+      "url": "zju-courses/精细农业/精细农业2026-04-27第6-8节_AI学习总结/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "精细农业"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 2953,
+      "word_count": "2,953 字",
+      "minutes": 8,
+      "directory": "zju-courses/精细农业"
+    },
+    {
+      "src": "zju-courses/精细农业/精细农业2026-05-11第6-8节_AI学习总结.md",
+      "title": "精细农业2026-05-11第6-8节",
+      "url": "zju-courses/精细农业/精细农业2026-05-11第6-8节_AI学习总结/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "精细农业"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 3315,
+      "word_count": "3,315 字",
+      "minutes": 9,
+      "directory": "zju-courses/精细农业"
+    },
+    {
+      "src": "zju-courses/精细农业/精细农业2026-05-18第6-8节_AI学习总结.md",
+      "title": "精细农业2026-05-18第6-8节",
+      "url": "zju-courses/精细农业/精细农业2026-05-18第6-8节_AI学习总结/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "精细农业"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 3043,
+      "word_count": "3,043 字",
+      "minutes": 8,
       "directory": "zju-courses/精细农业"
     },
     {
@@ -1584,22 +1890,6 @@
       "word_count": "650 字",
       "minutes": 2,
       "directory": "others/数学建模/final/math_model/results"
-    },
-    {
-      "src": "others/群调.md",
-      "title": "群调",
-      "url": "others/群调/",
-      "section": "其他",
-      "tags": [
-        "其他"
-      ],
-      "updated": "2026-04-21T13:26:44+00:00",
-      "date": "2026-04-21",
-      "created": "2026-04-21T13:26:44+00:00",
-      "words": 193,
-      "word_count": "193 字",
-      "minutes": 1,
-      "directory": "others"
     },
     {
       "src": "control/自动控制理论/自动控制理论.md",
