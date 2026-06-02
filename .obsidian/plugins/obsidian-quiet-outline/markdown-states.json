@@ -70,28 +70,28 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 961.8251425253378,
+    "scroll": 1126.9723949623747,
     "cursor": {
       "from": {
-        "line": 975,
+        "line": 1132,
         "ch": 0
       },
       "to": {
-        "line": 975,
+        "line": 1132,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-55",
-      "item-3-49",
-      "item-2-47",
-      "item-3-57",
-      "item-2-28",
-      "item-3-25",
+      "item-2-1",
+      "item-2-10",
+      "item-2-19",
       "item-2-22",
-      "item-3-29",
-      "item-4-31"
+      "item-2-28",
+      "item-2-47",
+      "item-2-55",
+      "item-2-61",
+      "item-3-62"
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
@@ -167,7 +167,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/精细农业/精细农业.md": {
-    "scroll": 15.009765625,
+    "scroll": 14.881947846915999,
     "cursor": {
       "from": {
         "line": 38,
@@ -1414,15 +1414,15 @@
     ]
   },
   "docs/zju-courses/农业生物系统传输过程/工传.md": {
-    "scroll": 99.32389322916667,
+    "scroll": 543.488908340301,
     "cursor": {
       "from": {
-        "line": 497,
-        "ch": 0
+        "line": 560,
+        "ch": 11
       },
       "to": {
-        "line": 497,
-        "ch": 0
+        "line": 560,
+        "ch": 11
       }
     },
     "expandedKeys": [
@@ -1437,7 +1437,10 @@
       "item-3-23",
       "item-4-39",
       "item-3-37",
-      "item-3-15"
+      "item-3-15",
+      "item-3-32",
+      "item-3-30",
+      "item-2-52"
     ]
   },
   "docs/zju-courses/材料力学实验/未命名.md": {
@@ -1622,11 +1625,11 @@
     "scroll": 16.56186046511628,
     "cursor": {
       "from": {
-        "line": 32,
+        "line": 37,
         "ch": 13
       },
       "to": {
-        "line": 32,
+        "line": 37,
         "ch": 13
       }
     },
@@ -2887,12 +2890,12 @@
     "scroll": 11.18359375,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 0
+        "line": 34,
+        "ch": 8
       },
       "to": {
-        "line": 27,
-        "ch": 0
+        "line": 34,
+        "ch": 8
       }
     },
     "expandedKeys": [
@@ -3080,7 +3083,7 @@
     ]
   },
   "docs/zju-courses/电视节目策划与编导/节目策划案/deep-research-report (3).md": {
-    "scroll": 125.46004398826979,
+    "scroll": 117.38149688149689,
     "cursor": {
       "from": {
         "line": 117,
@@ -3264,6 +3267,76 @@
       },
       "to": {
         "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/《48小时出逃计划》电视节目策划案.md": {
+    "scroll": 10.25021701388889,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-2",
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "docs/zju-courses/电视节目策划与编导/节目策划案/《浙里有艺：青年非遗实验室》电视节目策划案（作业版）.md": {
+    "scroll": 169.66644965277777,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-5",
+      "item-2-9",
+      "item-2-17",
+      "item-2-22",
+      "item-2-30",
+      "item-2-33",
+      "item-2-41"
+    ]
+  },
+  "docs/others/妙妙小工具/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/others/妙妙小工具/vibetool.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
