@@ -70,28 +70,26 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 1126.9723949623747,
+    "scroll": 348.21772601658114,
     "cursor": {
       "from": {
-        "line": 1132,
-        "ch": 0
+        "line": 370,
+        "ch": 4
       },
       "to": {
-        "line": 1132,
-        "ch": 0
+        "line": 370,
+        "ch": 4
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-1",
-      "item-2-10",
-      "item-2-19",
-      "item-2-22",
-      "item-2-28",
-      "item-2-47",
-      "item-2-55",
-      "item-2-61",
-      "item-3-62"
+      "item-2-62",
+      "item-2-2",
+      "item-3-4",
+      "item-3-8",
+      "item-2-11",
+      "item-4-14",
+      "item-2-20"
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
@@ -381,15 +379,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/发展心理学/未命名.md": {
-    "scroll": 0,
+    "scroll": 20.186279180562174,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 22,
+        "ch": 141
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 22,
+        "ch": 141
       }
     },
     "expandedKeys": []
@@ -527,16 +525,14 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 64
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 64
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-0"
-    ]
+    "expandedKeys": []
   },
   "docs/robotic/study plan.md": {
     "scroll": 0,
@@ -583,7 +579,7 @@
     ]
   },
   "docs/robotic/机器人工程师学习计划.md": {
-    "scroll": 80.94314236111111,
+    "scroll": 80.95735677083333,
     "cursor": {
       "from": {
         "line": 81,
@@ -681,7 +677,7 @@
     "expandedKeys": []
   },
   "docs/robotic/技术栈.md": {
-    "scroll": 112.135546875,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 178,
@@ -1414,7 +1410,7 @@
     ]
   },
   "docs/zju-courses/农业生物系统传输过程/工传.md": {
-    "scroll": 543.488908340301,
+    "scroll": 541.3146106890343,
     "cursor": {
       "from": {
         "line": 560,
@@ -1475,18 +1471,15 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 260,
-        "ch": 3
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 260,
-        "ch": 9
+        "line": 0,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-16",
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "docs/zju-courses/农业生物系统传输过程/工流.md": {
     "scroll": 0.7020408163265306,
@@ -1522,12 +1515,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 1
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 9,
-        "ch": 1
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -2887,19 +2880,24 @@
     "expandedKeys": []
   },
   "docs/zju-courses/发展心理学/笔记4.md": {
-    "scroll": 11.18359375,
+    "scroll": 109.84342447916667,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 8
+        "line": 132,
+        "ch": 0
       },
       "to": {
-        "line": 34,
-        "ch": 8
+        "line": 132,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-2-1",
+      "item-1-0",
+      "item-3-2",
+      "item-3-6",
+      "item-3-10",
+      "item-2-12"
     ]
   },
   "docs/zju-courses/农业物料学/未命名.md": {
@@ -3016,15 +3014,15 @@
     ]
   },
   "docs/zju-courses/材料力学/复习.md": {
-    "scroll": 0,
+    "scroll": 36.153139049454076,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 7
+        "line": 42,
+        "ch": 18
       },
       "to": {
-        "line": 4,
-        "ch": 7
+        "line": 42,
+        "ch": 18
       }
     },
     "expandedKeys": []
@@ -3341,5 +3339,408 @@
       }
     },
     "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/电视节目评论.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 23
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版.md": {
+    "scroll": 0.34285714285714286,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 65
+      },
+      "to": {
+        "line": 8,
+        "ch": 65
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-8"
+    ]
+  },
+  "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版_v2.md": {
+    "scroll": 0.5959183673469388,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 53
+      },
+      "to": {
+        "line": 6,
+        "ch": 70
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-8"
+    ]
+  },
+  "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿.md": {
+    "scroll": 4.121968121968122,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 213
+      },
+      "to": {
+        "line": 22,
+        "ch": 213
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "docs/zju-courses/电视节目策划与编导/电视节目评论/降AI味_迭代3_终稿.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 127
+      },
+      "to": {
+        "line": 20,
+        "ch": 127
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿_正式版.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 240
+      },
+      "to": {
+        "line": 2,
+        "ch": 240
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "docs/zju-courses/材料力学/公式整理.md": {
+    "scroll": 4.229166666666667,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 10
+      },
+      "to": {
+        "line": 7,
+        "ch": 10
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "docs/zju-courses/材料力学/材料力学常用公式总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/发展心理学/分工.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/robotic/机器人学长.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/memory/Recent Conversations.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Fix grammar and spelling.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Clip Web Page.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Clip YouTube Transcript.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Emojify.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Explain like I am 5.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Generate glossary.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Make longer.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Remove URLs.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Translate to Chinese.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-conversations/卡氏定理请求失败@20260603_140723.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-conversations/卡氏定理API错误@20260603_140723.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-conversations/评论修改请求@20260603_163137.md": {
+    "scroll": 49.58600983796296,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
+    ]
+  },
+  "copilot/copilot-conversations/扭转角公式的角单位@20260603_211845.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版_v3_去AI味.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 22
+      },
+      "to": {
+        "line": 6,
+        "ch": 22
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "docs/zju-courses/电视节目策划与编导/电视节目评论_自然修改版.md": {
+    "scroll": 13.388020833333334,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 92
+      },
+      "to": {
+        "line": 18,
+        "ch": 92
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
