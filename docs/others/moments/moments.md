@@ -21,3 +21,6 @@
 
 5.6   嗡嗡嗡
 ![](assets/37cabb92c5ae9f7b809ef04ced14cf97.jpg)
+
+6.6 再次爱上陈绮贞
+![](assets/4e84bc9945dd8711f6f6992ba3f772ac.png)
