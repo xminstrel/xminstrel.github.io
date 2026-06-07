@@ -16,15 +16,32 @@
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
                 "page": 34,
-                "left": -108,
-                "top": 544,
-                "zoom": 0.71
+                "left": -30,
+                "top": 302,
+                "zoom": 0.88
               },
               "icon": "lucide-file-text",
               "title": "发展心理学复习资料"
             }
+          },
+          {
+            "id": "6a5add49ea4900c6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+                "page": 256,
+                "left": 615,
+                "top": 39,
+                "zoom": 0.7838445287924057
+              },
+              "icon": "lucide-file-text",
+              "title": "发展心理学第2版 (苏彦捷)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "63e24adf47956204",
@@ -189,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -250,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zju-courses/发展心理学/笔记4.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +276,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "笔记4 的反向链接列表"
+              "title": "发展心理学第2版 (苏彦捷) 的反向链接列表"
             }
           },
           {
@@ -269,12 +285,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zju-courses/发展心理学/笔记4.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "笔记4 的出链列表"
+              "title": "发展心理学第2版 (苏彦捷) 的出链列表"
             }
           },
           {
@@ -325,10 +341,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fa3386175eba4ff4",
+  "active": "6a5add49ea4900c6",
   "lastOpenFiles": [
-    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
     "docs/zju-courses/发展心理学/笔记4.md",
+    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
     "docs/zju-courses/电视节目策划与编导/电视节目评论_三篇范文参照修订版.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论_范文风格修改版.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论_具体实例版.md",
