@@ -4,9 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "63e24adf47956204",
+        "id": "1d63d82c9b23fa63",
         "type": "tabs",
-        "dimension": 49.850746268656714,
+        "dimension": 50,
         "children": [
           {
             "id": "38dc9332fd640ba5",
@@ -16,14 +16,21 @@
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
                 "page": 34,
-                "left": -20,
-                "top": 741,
-                "zoom": 0.7369985889941545
+                "left": -108,
+                "top": 544,
+                "zoom": 0.71
               },
               "icon": "lucide-file-text",
               "title": "发展心理学复习资料"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "63e24adf47956204",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
           {
             "id": "e6bc268da3a5f6fd",
             "type": "leaf",
@@ -33,7 +40,7 @@
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
                 "page": 261,
                 "left": 539,
-                "top": 218,
+                "top": 471,
                 "zoom": 0.89
               },
               "icon": "lucide-file-text",
@@ -67,90 +74,51 @@
               "icon": "lucide-file",
               "title": "电视节目评论_自然修改版"
             }
-          }
-        ]
-      },
-      {
-        "id": "0e665919fdadb180",
-        "type": "tabs",
-        "dimension": 50.14925373134328,
-        "children": [
+          },
           {
-            "id": "aaa64699964662ce",
+            "id": "991deb852557cf28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿_正式版.md",
+                "file": "docs/zju-courses/电视节目策划与编导/电视节目评论_具体实例版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "电视节目评论_诗酒中国心_终稿_正式版"
+              "title": "电视节目评论_具体实例版"
             }
           },
           {
-            "id": "050ecbf94927c6af",
+            "id": "f4c741a46e8c807a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/材料力学/复习.md",
+                "file": "docs/zju-courses/电视节目策划与编导/电视节目评论_范文风格修改版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "复习"
+              "title": "电视节目评论_范文风格修改版"
             }
           },
           {
-            "id": "60fa1b82180a3a8a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/zju-courses/材料力学/pdfs/12 弯曲4.pdf",
-                "page": 14,
-                "left": -23,
-                "top": 507,
-                "zoom": 0.6390625
-              },
-              "icon": "lucide-file-text",
-              "title": "12 弯曲4"
-            }
-          },
-          {
-            "id": "681d1e73b382d5e3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/zju-courses/材料力学/复习资料/材料力学笔记.pdf",
-                "page": 25,
-                "left": -21,
-                "top": 690,
-                "zoom": 0.7218137254901961
-              },
-              "icon": "lucide-file-text",
-              "title": "材料力学笔记"
-            }
-          },
-          {
-            "id": "931d3b977dfe0a1f",
+            "id": "9f394cc7d5705555",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版.md",
+                "file": "docs/zju-courses/电视节目策划与编导/电视节目评论_三篇范文参照修订版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "电视节目评论_诗酒中国心_修改版"
+              "title": "电视节目评论_三篇范文参照修订版"
             }
           },
           {
-            "id": "0d286e1659f4a46f",
+            "id": "fa3386175eba4ff4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -338,7 +306,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 314.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -356,52 +325,52 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "0d286e1659f4a46f",
+  "active": "fa3386175eba4ff4",
   "lastOpenFiles": [
     "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
     "docs/zju-courses/发展心理学/笔记4.md",
+    "docs/zju-courses/电视节目策划与编导/电视节目评论_三篇范文参照修订版.md",
+    "docs/zju-courses/电视节目策划与编导/电视节目评论_范文风格修改版.md",
+    "docs/zju-courses/电视节目策划与编导/电视节目评论_具体实例版.md",
+    "docs/zju-courses/电视节目策划与编导/电视节目评论_自然修改版.md",
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+    "docs/zju-courses/材料力学/材料力学.md",
+    "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
+    "docs/zju-courses/材料力学/公式整理.md",
+    "copilot/copilot-conversations/Mohr's_Integral_Terms_Explanation@20260607_151446.md",
+    "docs/zju-courses/农业物料学/农业物料学.md",
+    "docs/zju-courses/精细农业/精细农业.md",
+    "docs/zju-courses/发展心理学/分工.md",
+    "docs/zju-courses/发展心理学/文献报告.md",
+    "选课.md",
+    "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版.md",
+    "docs/zju-courses/材料力学/复习资料/材料力学笔记.pdf",
+    "docs/zju-courses/材料力学/pdfs/12 弯曲4.pdf",
     "docs/zju-courses/材料力学/复习.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿_正式版.md",
-    "docs/zju-courses/电视节目策划与编导/电视节目评论_自然修改版.md",
-    "docs/zju-courses/材料力学/复习资料/材料力学笔记.pdf",
-    "docs/zju-courses/电视节目策划与编导/电视节目评论_具体实例版.md",
+    "docs/zju-courses/材料力学/assets/例题-6.png",
+    "docs/zju-courses/材料力学/assets/虚位移-3.png",
+    "docs/zju-courses/材料力学/assets/虚位移-2.png",
+    "docs/zju-courses/材料力学/assets/虚位移-1.png",
+    "docs/zju-courses/材料力学/assets/虚位移.png",
+    "docs/zju-courses/发展心理学/未命名 1.md",
     "copilot/copilot-conversations/简化游戏心理表格@20260604_165429.md",
-    "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版_v3_去AI味.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版_v2.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论/降AI味_迭代3_终稿.md",
-    "docs/zju-courses/材料力学/pdfs/12 弯曲4.pdf",
     "docs/zju-courses/材料力学实验/材料力学实验.md",
     "docs/zju-courses/cad/homework/必做-齿轮轴-Model.pdf",
-    "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
     "docs/zju-courses/材料力学/复习资料/材料力学复习2.pdf",
     "docs/zju-courses/材料力学/复习资料/材料力学复习.pdf",
     "docs/zju-courses/材料力学/复习资料/材料力学笔记2.pdf",
     "docs/zju-courses/材料力学/复习资料/98.md",
-    "docs/zju-courses/材料力学/材料力学.md",
-    "docs/others/妙妙小工具/vibetool.md",
     "docs/zju-courses/cad/homework/必做-齿轮与窥视孔盖.pdf",
-    "docs/zju-courses/cad/作业进度.md",
     "docs/zju-courses/材料力学/assets/弯矩.png",
     "docs/zju-courses/材料力学/assets/弯曲-2.png",
     "docs/zju-courses/材料力学/assets/弯曲-2.png",
-    "copilot/copilot-conversations/扭转角公式的角单位@20260603_211845.md",
-    "copilot/copilot-conversations/评论修改请求@20260603_163137.md",
-    "copilot/copilot-conversations/卡氏定理API错误@20260603_140723.md",
-    "copilot/copilot-conversations/卡氏定理请求失败@20260603_140723.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
     "docs/zju-courses/材料力学/assets/弯曲梁.png",
-    "docs/zju-courses/材料力学/assets/公式-1.png",
-    "docs/zju-courses/材料力学/assets/公式.png",
-    "docs/zju-courses/发展心理学/assets/陌生情境实验.png",
-    "docs/zju-courses/材料力学/assets/例题-5.png",
-    "docs/zju-courses/材料力学/assets/kashi-1.png",
-    "docs/zju-courses/材料力学/assets/kashi.png"
+    "docs/zju-courses/材料力学/assets/公式-1.png"
   ]
 }
