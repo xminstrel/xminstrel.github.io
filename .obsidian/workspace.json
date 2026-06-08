@@ -31,31 +31,17 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 255,
-                "left": 563,
-                "top": 469,
+                "page": 254,
+                "left": 615,
+                "top": 767,
                 "zoom": 0.7838445287924057
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
             }
-          },
-          {
-            "id": "3d4b7115e53142fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/others/moments/moments.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "moments"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "63e24adf47956204",
@@ -357,10 +343,13 @@
   },
   "active": "fa3386175eba4ff4",
   "lastOpenFiles": [
-    "docs/others/moments/moments.md",
-    "docs/others/moments/assets/4e84bc9945dd8711f6f6992ba3f772ac.png",
+    "docs/zju-courses/发展心理学/assets/游戏.png",
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+    "docs/zju-courses/发展心理学/分工.md",
+    "docs/zju-courses/农业生物系统传输过程/农生传实验/实验五数据.md",
+    "docs/others/moments/moments.md",
     "docs/zju-courses/发展心理学/笔记4.md",
+    "docs/others/moments/assets/4e84bc9945dd8711f6f6992ba3f772ac.png",
     "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
     "docs/zju-courses/电视节目策划与编导/电视节目评论_三篇范文参照修订版.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论_范文风格修改版.md",
@@ -372,7 +361,6 @@
     "copilot/copilot-conversations/Mohr's_Integral_Terms_Explanation@20260607_151446.md",
     "docs/zju-courses/农业物料学/农业物料学.md",
     "docs/zju-courses/精细农业/精细农业.md",
-    "docs/zju-courses/发展心理学/分工.md",
     "docs/zju-courses/发展心理学/文献报告.md",
     "选课.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版.md",
@@ -392,12 +380,10 @@
     "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论/降AI味_迭代3_终稿.md",
-    "docs/zju-courses/材料力学实验/材料力学实验.md",
     "docs/zju-courses/cad/homework/必做-齿轮轴-Model.pdf",
     "docs/zju-courses/材料力学/复习资料/材料力学复习2.pdf",
     "docs/zju-courses/材料力学/复习资料/材料力学复习.pdf",
     "docs/zju-courses/材料力学/复习资料/材料力学笔记2.pdf",
-    "docs/zju-courses/材料力学/复习资料/98.md",
     "docs/zju-courses/cad/homework/必做-齿轮与窥视孔盖.pdf",
     "docs/zju-courses/材料力学/assets/弯矩.png",
     "docs/zju-courses/材料力学/assets/弯曲-2.png",
