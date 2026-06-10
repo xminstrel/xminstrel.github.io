@@ -70,7 +70,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 563.2018976618095,
+    "scroll": 441.7658084914182,
     "cursor": {
       "from": {
         "line": 424,
@@ -83,25 +83,12 @@
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-62",
-      "item-2-2",
-      "item-3-4",
-      "item-3-8",
-      "item-2-11",
-      "item-4-14",
-      "item-2-20",
-      "item-3-21",
       "item-3-63",
+      "item-2-62",
       "item-2-23",
-      "item-3-26",
-      "item-2-29",
-      "item-3-30",
-      "item-4-32",
-      "item-3-42",
-      "item-2-48",
-      "item-3-50",
-      "item-2-56",
-      "item-3-58"
+      "item-3-21",
+      "item-2-20",
+      "item-3-26"
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
@@ -2893,14 +2880,14 @@
     "expandedKeys": []
   },
   "docs/zju-courses/发展心理学/笔记4.md": {
-    "scroll": 312.0787760416667,
+    "scroll": 578.2098726615312,
     "cursor": {
       "from": {
-        "line": 332,
+        "line": 592,
         "ch": 0
       },
       "to": {
-        "line": 332,
+        "line": 592,
         "ch": 0
       }
     },
@@ -2908,12 +2895,17 @@
       "item-2-1",
       "item-1-0",
       "item-3-2",
-      "item-3-6",
-      "item-3-10",
-      "item-2-12",
-      "item-3-13",
-      "item-3-17",
-      "item-3-20"
+      "item-3-7",
+      "item-3-11",
+      "item-2-15",
+      "item-3-16",
+      "item-3-20",
+      "item-3-23",
+      "item-3-27",
+      "item-3-31",
+      "item-2-30",
+      "item-3-39",
+      "item-3-35"
     ]
   },
   "docs/zju-courses/农业物料学/未命名.md": {
@@ -3837,6 +3829,22 @@
       "to": {
         "line": 56,
         "ch": 114
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "docs/zju-courses/电视节目策划与编导/节目评论终稿.md": {
+    "scroll": 53.938802083333336,
+    "cursor": {
+      "from": {
+        "line": 56,
+        "ch": 114
+      },
+      "to": {
+        "line": 50,
+        "ch": 0
       }
     },
     "expandedKeys": [
