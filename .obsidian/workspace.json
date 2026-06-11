@@ -6,6 +6,7 @@
       {
         "id": "f890bd88752c5f98",
         "type": "tabs",
+        "dimension": 42.86632390745501,
         "children": [
           {
             "id": "38dc9332fd640ba5",
@@ -14,9 +15,9 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
-                "page": 36,
-                "left": 44,
-                "top": 32,
+                "page": 32,
+                "left": 28,
+                "top": 632,
                 "zoom": 0.88
               },
               "icon": "lucide-file-text",
@@ -30,48 +31,61 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 300,
-                "left": 599,
-                "top": 424,
-                "zoom": 0.89
+                "page": 1,
+                "left": 562,
+                "top": 9,
+                "zoom": 0.7743186404216648
               },
               "icon": "lucide-file-text",
               "title": "发展心理学第2版 (苏彦捷)"
             }
+          },
+          {
+            "id": "da297a21f852ce4b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "678a70278f6ed76e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/cad/homework/必做-小盖与通气塞.pdf",
+                "page": 1,
+                "left": 79,
+                "top": 726,
+                "zoom": 0.84
+              },
+              "icon": "lucide-file-text",
+              "title": "必做-小盖与通气塞"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "1d63d82c9b23fa63",
         "type": "tabs",
+        "dimension": 57.13367609254498,
         "children": [
-          {
-            "id": "448cc11023fff601",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/电视节目策划与编导/节目评论终稿.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "节目评论终稿"
-            }
-          },
           {
             "id": "95f45f697d27443f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/材料力学/材料力学.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学期末重点整理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "材料力学"
+              "title": "发展心理学期末重点整理"
             }
           },
           {
@@ -81,41 +95,16 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
-                "page": 3,
-                "left": -13,
-                "top": 403,
-                "zoom": 1.1214340915963845
+                "page": 4,
+                "left": -15,
+                "top": 520,
+                "zoom": 1.054652061422667
               },
               "icon": "lucide-file-text",
               "title": "材料力学公式总结"
             }
-          },
-          {
-            "id": "ecf861b3b5764830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/发展心理学/笔记4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "笔记4"
-            }
-          },
-          {
-            "id": "2ed5614c741d781c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -233,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zju-courses/发展心理学/笔记4.md",
+                "file": "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +231,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "笔记4 的反向链接列表"
+              "title": "材料力学公式总结 的反向链接列表"
             }
           },
           {
@@ -252,12 +240,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zju-courses/发展心理学/笔记4.md",
+                "file": "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "笔记4 的出链列表"
+              "title": "材料力学公式总结 的出链列表"
             }
           },
           {
@@ -284,6 +272,21 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "b9a77651062dd85d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/zju-courses/发展心理学/发展心理学期末重点整理.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "发展心理学期末重点整理 的大纲"
+            }
           }
         ]
       }
@@ -307,19 +310,29 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "ecf861b3b5764830",
+  "active": "95f45f697d27443f",
   "lastOpenFiles": [
-    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-    "docs/zju-courses/发展心理学/笔记4.md",
-    "docs/zju-courses/发展心理学/发展心理学复习资料.txt",
-    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
     "docs/zju-courses/材料力学/材料力学.md",
+    "docs/zju-courses/发展心理学/发展心理学期末重点整理.md",
+    "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
+    "docs/zju-courses/cad/homework/必做-小盖与通气塞.pdf",
+    "site/zju-courses/cad/homework/必做-齿轮与窥视孔盖.pdf",
+    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+    "docs/zju-courses/发展心理学/pre讲稿.md",
+    "docs/zju-courses/精细农业/探究性实验报告.md",
+    "docs/zju-courses/发展心理学/index.md",
+    "docs/zju-courses/发展心理学/文献报告.md",
+    "docs/zju-courses/发展心理学/期末重点.md",
+    "docs/zju-courses/发展心理学/未命名.md",
+    "docs/zju-courses/农业生物系统传输过程/pdfs/农业生物系统传输过程-2026-03-24第1-2节.pdf",
+    "docs/zju-courses/发展心理学/笔记4.md",
+    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+    "docs/zju-courses/发展心理学/发展心理学复习资料.txt",
     "docs/zju-courses/材料力学/assets/例题-8.png",
     "docs/zju-courses/材料力学/assets/求解步骤.png",
     "docs/zju-courses/材料力学/assets/例题-7.png",
     "docs/zju-courses/材料力学/assets/图乘法.png",
     "docs/zju-courses/电视节目策划与编导/节目评论终稿.md",
-    "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
     "docs/zju-courses/电视节目策划与编导/电视节目评论_三篇范文参照修订版.md",
     "docs/zju-courses/农业生物系统传输过程/工传.md",
     "docs/zju-courses/农业生物系统传输过程/assets/例题-24.png",
@@ -331,9 +344,6 @@
     "site/search/search_index.json",
     "site/search",
     "site/zju-courses/精细农业/实验/task3/index.html",
-    "site/zju-courses/精细农业/实验/task3",
-    "site/zju-courses/精细农业/实验/task2/index.html",
-    "site/zju-courses/精细农业/实验/task2",
     "docs/zju-courses/发展心理学/分工.md",
     "docs/zju-courses/农业生物系统传输过程/农生传实验/实验五数据.md",
     "docs/others/moments/moments.md",
@@ -344,15 +354,9 @@
     "copilot/copilot-conversations/Mohr's_Integral_Terms_Explanation@20260607_151446.md",
     "docs/zju-courses/农业物料学/农业物料学.md",
     "docs/zju-courses/精细农业/精细农业.md",
-    "docs/zju-courses/发展心理学/文献报告.md",
     "选课.md",
     "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版.md",
     "docs/zju-courses/材料力学/复习.md",
-    "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿_正式版.md",
-    "docs/zju-courses/发展心理学/未命名 1.md",
-    "copilot/copilot-conversations/简化游戏心理表格@20260604_165429.md",
-    "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版_v3_去AI味.md",
-    "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版_v2.md",
-    "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论.md"
+    "docs/zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿_正式版.md"
   ]
 }
