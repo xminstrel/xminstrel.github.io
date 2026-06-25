@@ -22,94 +22,6 @@
             }
           },
           {
-            "id": "451cf763274f1866",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "site/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
-                "page": 1,
-                "left": 532,
-                "top": 579,
-                "zoom": 1.41
-              },
-              "icon": "lucide-file-text",
-              "title": "生物系统传输过程A3"
-            }
-          },
-          {
-            "id": "39d8d213e69b3c2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/control/控制论/控制论.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "控制论"
-            }
-          },
-          {
-            "id": "e614fe905c96bc2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/材料力学/复习.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "复习"
-            }
-          },
-          {
-            "id": "7aa06a4fb7e3d82c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/zju-courses/材料力学/复习资料/材料力学笔记.pdf",
-                "page": 24,
-                "left": -11,
-                "top": 456,
-                "zoom": 1.4754901960784315
-              },
-              "icon": "lucide-file-text",
-              "title": "材料力学笔记"
-            }
-          },
-          {
-            "id": "641068cbd11169f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/农业物料学/农业物料学.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "农业物料学"
-            }
-          },
-          {
-            "id": "47df55e4a4e54801",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/工流.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "工流"
-            }
-          },
-          {
             "id": "50ce784559f006dd",
             "type": "leaf",
             "state": {
@@ -124,21 +36,212 @@
             }
           },
           {
-            "id": "ad2c34a500ea931a",
+            "id": "d71870fd6776c274",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/control/控制论/讨论课复习.md",
+                "file": "docs/others/moments/写在20岁.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "讨论课复习"
+              "title": "写在20岁"
+            }
+          },
+          {
+            "id": "cd15579253d66a5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/材料力学/复习.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "复习"
+            }
+          },
+          {
+            "id": "f21d43422db3f47c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "def51865fbe21c9e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+                "page": 6,
+                "left": -22,
+                "top": 357,
+                "zoom": 0.7256601491634751
+              },
+              "icon": "lucide-file-text",
+              "title": "发展心理学复习资料"
+            }
+          },
+          {
+            "id": "bf1e00517b848567",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+                "page": 57,
+                "left": 554,
+                "top": 112,
+                "zoom": 0.8075038038662984
+              },
+              "icon": "lucide-file-text",
+              "title": "发展心理学第2版 (苏彦捷)"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
+      },
+      {
+        "id": "1fd45e81915ae7ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "639e9d49ff5cc152",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/农业生物系统传输过程/工传.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "工传"
+            }
+          },
+          {
+            "id": "28598eafbb768410",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/农业生物系统传输过程/工流.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "工流"
+            }
+          },
+          {
+            "id": "a866decb40b3ccd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/农业生物系统传输过程/工热例题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "工热例题"
+            }
+          },
+          {
+            "id": "18dcff5b370473b8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "f3d29065d93a71b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工流重点.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "工流重点"
+            }
+          },
+          {
+            "id": "d4b17c8e88645c84",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
+                "page": 2,
+                "left": 0,
+                "top": 798,
+                "zoom": 0.85
+              },
+              "icon": "lucide-file-text",
+              "title": "材料力学公式总结"
+            }
+          },
+          {
+            "id": "154cc4e1e0c2e7c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/发展心理学/24-25历年.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "24-25历年"
+            }
+          },
+          {
+            "id": "4657198a66cfc934",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/发展心理学/期末复习笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "期末复习笔记"
+            }
+          },
+          {
+            "id": "aeaccca5732f8d14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/发展心理学/笔记4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "笔记4"
+            }
+          }
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -313,13 +416,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/control/控制论/讨论课复习.md",
+                "file": "docs/zju-courses/发展心理学/期末复习笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "讨论课复习 的大纲"
+              "title": "期末复习笔记 的大纲"
             }
           }
         ]
@@ -345,53 +448,53 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "ad2c34a500ea931a",
+  "active": "4657198a66cfc934",
   "lastOpenFiles": [
-    "docs/control/控制论/assets/讨论复习课-13.png",
-    "docs/control/控制论/assets/讨论复习课-12.png",
-    "docs/control/控制论/assets/讨论复习课-11.png",
-    "docs/control/控制论/assets/Pasted image 20260617163234.png",
-    "docs/control/控制论/assets/讨论复习课-11.png",
-    "docs/control/控制论/assets/讨论复习课-10.png",
-    "docs/control/控制论/assets/讨论复习课-9.png",
-    "docs/control/控制论/assets/讨论复习课-8.png",
-    "docs/control/控制论/assets/讨论复习课-7.png",
-    "docs/control/控制论/assets/Pasted image 20260617162905.png",
-    "docs/control/控制论/assets/讨论复习课-6.png",
-    "docs/control/控制论/pre讲稿.md",
-    "docs/control/控制论/讨论课复习.md",
-    "docs/control/控制论/控制论.md",
-    "docs/zju-courses/农业生物系统传输过程/工流.md",
-    "docs/zju-courses/农业生物系统传输过程/工传.md",
-    "docs/zju-courses/农业物料学/农业物料学.md",
-    "docs/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
-    "docs/zju-courses/材料力学/复习资料/材料力学笔记.pdf",
-    "site/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
-    "docs/zju-courses/材料力学/复习资料/材料力学笔记2.pdf",
-    "docs/zju-courses/材料力学/复习资料/材料力学复习2.pdf",
-    "docs/zju-courses/材料力学/复习资料/材料力学复习.pdf",
-    "docs/zju-courses/材料力学/复习.md",
-    "docs/zju-courses/材料力学/材料力学.md",
-    "docs/zju-courses/cad/homework/必做-齿轮与窥视孔盖.pdf",
-    "docs/zju-courses/材料力学/组合变形知识与公式整理.md",
-    "docs/zju-courses/材料力学/公式整理.md",
-    "docs/zju-courses/材料力学/材料力学公式整理.md",
-    "copilot/copilot-conversations/回答复习要点@20260616_102352.md",
-    "copilot/copilot-conversations/线性条件卡氏第二定理@20260615_145021.md",
-    "docs/zju-courses/材料力学/复习资料/98.md",
-    "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
-    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
-    "docs/zju-courses/cad/homework/必做-小盖与通气塞.pdf",
-    "docs/zju-courses/发展心理学/发展心理学期末重点整理.md",
     "docs/zju-courses/发展心理学/笔记4.md",
+    "docs/zju-courses/发展心理学/笔记3.md",
+    "docs/zju-courses/发展心理学/期末复习笔记.md",
+    "docs/zju-courses/发展心理学/assets/Pasted image 20260625125056.png",
+    "docs/zju-courses/发展心理学/笔记2.md",
+    "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
+    "docs/zju-courses/发展心理学/assets/马原帽子题 1.pdf",
+    "docs/zju-courses/发展心理学/assets/马原帽子题.pdf",
+    "docs/zju-courses/发展心理学/24-25历年.md",
+    "docs/zju-courses/发展心理学/发展心理学期末重点整理.md",
+    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+    "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+    "docs/control/控制论/未命名.md",
+    "docs/zju-courses/发展心理学/assets/期末复习笔记.png",
     "docs/zju-courses/发展心理学/期末重点.md",
-    "docs/zju-courses/发展心理学/index.md",
-    "docs/zju-courses/发展心理学/笔记1.md",
+    "docs/zju-courses/发展心理学/分工.md",
     "docs/zju-courses/发展心理学/pre讲稿.md",
-    "docs/zju-courses/精细农业/探究性实验报告.md",
     "docs/zju-courses/发展心理学/文献报告.md",
     "docs/zju-courses/发展心理学/未命名.md",
-    "docs/zju-courses/电视节目策划与编导/节目评论终稿.md",
-    "docs/zju-courses/电视节目策划与编导/电视节目评论_三篇范文参照修订版.md"
+    "docs/zju-courses/发展心理学/index.md",
+    "未命名.md",
+    "docs/zju-courses/材料力学/复习.md",
+    "docs/control/控制论/控制论.md",
+    "docs/zju-courses/材料力学/材料力学.md",
+    "docs/others/moments/写在20岁.md",
+    "工流重点.md",
+    "docs/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
+    "docs/zju-courses/农业生物系统传输过程/工热例题.md",
+    "docs/zju-courses/农业生物系统传输过程/工传.md",
+    "docs/zju-courses/农业生物系统传输过程/工流.md",
+    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-42.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-41.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-40.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-39.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-38.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-37.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-36.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-35.png",
+    "docs/zju-courses/材料力学/材料力学公式整理.md",
+    "docs/zju-courses/材料力学/复习资料/材料力学复习2.pdf",
+    "docs/zju-courses/材料力学/复习资料/材料力学复习.pdf",
+    "docs/zju-courses/材料力学/复习资料/材料力学笔记2.pdf",
+    "docs/zju-courses/材料力学/复习资料/材料力学笔记.pdf",
+    "docs/zju-courses/材料力学/复习资料/98.md",
+    "docs/zju-courses/农业物料学/农业物料学.md",
+    "docs/control/控制论/讨论课复习.md"
   ]
 }
