@@ -5,7 +5,9 @@ site_url: 'https://xminstrel.github.io/'
 nav:
   - "🎆 首页": index.md
   - 📚 ZJU-Courses:
-    - 材料力学: zju-courses/材料力学/材料力学.md
+    - 材料力学: 
+      - 笔记: zju-courses/材料力学/材料力学.md
+      - 期末复习: zju-courses/材料力学/考点.md
     - 流体力学&传热学: 
       - 工程流体力学: zju-courses/农业生物系统传输过程/工流.md
       - 传热学: zju-courses/农业生物系统传输过程/工传.md

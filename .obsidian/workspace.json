@@ -92,25 +92,9 @@
               "icon": "lucide-file-text",
               "title": "发展心理学复习资料"
             }
-          },
-          {
-            "id": "bf1e00517b848567",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-                "page": 57,
-                "left": 554,
-                "top": 112,
-                "zoom": 0.8075038038662984
-              },
-              "icon": "lucide-file-text",
-              "title": "发展心理学第2版 (苏彦捷)"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "1fd45e81915ae7ee",
@@ -189,10 +173,10 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
-                "page": 2,
-                "left": 0,
-                "top": 798,
-                "zoom": 0.85
+                "page": 7,
+                "left": 2,
+                "top": 642,
+                "zoom": 0.95
               },
               "icon": "lucide-file-text",
               "title": "材料力学公式总结"
@@ -241,7 +225,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -416,13 +400,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/zju-courses/发展心理学/期末复习笔记.md",
+                "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "期末复习笔记 的大纲"
+              "title": "发展心理学复习资料 的大纲"
             }
           }
         ]
@@ -448,19 +432,22 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "4657198a66cfc934",
+  "active": "def51865fbe21c9e",
   "lastOpenFiles": [
+    "docs/zju-courses/材料力学/考点.md",
+    "docs/zju-courses/材料力学/assets/考点.pdf",
+    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
+    "docs/zju-courses/材料力学/考点.pdf",
+    "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
+    "docs/zju-courses/发展心理学/期末复习笔记.md",
     "docs/zju-courses/发展心理学/笔记4.md",
     "docs/zju-courses/发展心理学/笔记3.md",
-    "docs/zju-courses/发展心理学/期末复习笔记.md",
     "docs/zju-courses/发展心理学/assets/Pasted image 20260625125056.png",
     "docs/zju-courses/发展心理学/笔记2.md",
-    "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
     "docs/zju-courses/发展心理学/assets/马原帽子题 1.pdf",
     "docs/zju-courses/发展心理学/assets/马原帽子题.pdf",
     "docs/zju-courses/发展心理学/24-25历年.md",
     "docs/zju-courses/发展心理学/发展心理学期末重点整理.md",
-    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
     "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
     "docs/control/控制论/未命名.md",
     "docs/zju-courses/发展心理学/assets/期末复习笔记.png",
@@ -491,10 +478,6 @@
     "docs/zju-courses/材料力学/材料力学公式整理.md",
     "docs/zju-courses/材料力学/复习资料/材料力学复习2.pdf",
     "docs/zju-courses/材料力学/复习资料/材料力学复习.pdf",
-    "docs/zju-courses/材料力学/复习资料/材料力学笔记2.pdf",
-    "docs/zju-courses/材料力学/复习资料/材料力学笔记.pdf",
-    "docs/zju-courses/材料力学/复习资料/98.md",
-    "docs/zju-courses/农业物料学/农业物料学.md",
-    "docs/control/控制论/讨论课复习.md"
+    "docs/zju-courses/材料力学/复习资料/98.md"
   ]
 }
