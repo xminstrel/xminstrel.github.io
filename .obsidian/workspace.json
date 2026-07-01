@@ -4,145 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "14c6203121a79c66",
+        "id": "9e170abe71baf727",
         "type": "tabs",
         "children": [
           {
-            "id": "4d6470e9650b2856",
+            "id": "2e98538507986926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/精细农业/precision_ag_quiz_cn_answers.md",
+                "file": "docs/zju-courses/农业物料学/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "precision_ag_quiz_cn_answers"
+              "title": "未命名"
             }
           },
           {
-            "id": "d18be02eacbbdece",
+            "id": "2aac897221eb1ee3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/精细农业/小测题目.md",
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "小测题目"
+              "title": "未命名"
             }
           },
           {
-            "id": "6e915b87c002dd89",
+            "id": "4c0cc6b3ca0588a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工流重点.md",
+                "file": "docs/control/自动控制理论/自动控制理论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "工流重点"
-            }
-          },
-          {
-            "id": "f68d174399529b57",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
-                "page": 2,
-                "left": 732,
-                "top": 432,
-                "zoom": 1.09
-              },
-              "icon": "lucide-file-text",
-              "title": "生物系统传输过程A3"
+              "title": "自动控制理论"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "c222f96888206799",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d5332a55c127dfbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/工流例题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "工流例题"
-            }
-          },
-          {
-            "id": "535f2df31a626959",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/工流.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "工流"
-            }
-          },
-          {
-            "id": "ace8e399f3484ba8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/工传.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "工传"
-            }
-          },
-          {
-            "id": "f939eb09f96991f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/工热例题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "工热例题"
-            }
-          },
-          {
-            "id": "3268c93f6aadbf88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/农业生物系统传输过程/工传.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "工传"
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -348,32 +256,36 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "d5332a55c127dfbc",
+  "active": "4c0cc6b3ca0588a1",
   "lastOpenFiles": [
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-42.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-41.png",
-    "docs/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
-    "docs/zju-courses/农业生物系统传输过程/工流例题.md",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-40.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-39.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-38.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-37.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-36.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-35.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-34.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-33.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-32.png",
-    "docs/zju-courses/农业生物系统传输过程/工流.md",
-    "docs/zju-courses/精细农业/小测题目.md",
-    "docs/zju-courses/农业生物系统传输过程/工传.md",
+    "docs/zju-courses/农业物料学/未命名.md",
+    "未命名.md",
+    "docs/zju-courses/农业物料学/物料学实验.md",
+    "docs/zju-courses/农业物料学/农业物料学.md",
+    "docs/zju-courses/农业物料学/ai总结/农业生物系统传输过程2026-05-19第1-2节_AI学习总结.md",
     "docs/zju-courses/农业生物系统传输过程/工热例题.md",
+    "docs/zju-courses/农业生物系统传输过程/工传.md",
+    "docs/zju-courses/精细农业/precision_ag_quiz_cn_answers.md",
+    "docs/zju-courses/精细农业/小测题目.md",
     "工流重点.md",
+    "docs/zju-courses/农业生物系统传输过程/工流例题.md",
+    "docs/zju-courses/农业生物系统传输过程/生物系统传输过程A3.pdf",
+    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-75.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-54.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-55.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-53.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/4d394be00f99cd31e6bb9946c8eb7a07.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-52.png",
+    "docs/zju-courses/农业生物系统传输过程/工流.md",
+    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-51.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-50.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-49.png",
+    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-48.png",
     "docs/zju-courses/材料力学/组合变形知识与公式整理.md",
     "docs/zju-courses/材料力学/考点.md",
     "docs/zju-courses/材料力学/公式整理.md",
     "docs/zju-courses/材料力学/复习.md",
     "docs/zju-courses/材料力学/材料力学.md",
-    "docs/zju-courses/精细农业/precision_ag_quiz_cn_answers.md",
     "docs/others/moments/写在20岁.md",
     "docs/others/ASABE 2026/美签攻略/美签攻略小总结 初版 Teo.pdf",
     "docs/others/ASABE 2026/美签攻略/面签材料 ASABE版.pdf",
@@ -389,12 +301,8 @@
     "docs/zju-courses/发展心理学/考前名词解释.md",
     "docs/zju-courses/发展心理学/25-26 发展心理学 回忆卷.md",
     "copilot/copilot-conversations/习性学与行为学@20260627_140405.md",
-    "docs/zju-courses/发展心理学/期末重点.md",
     "docs/zju-courses/材料力学/复习资料/材料力学公式总结.pdf",
-    "docs/control/控制论/控制论.md",
-    "未命名.md",
     "docs/zju-courses/材料力学/assets/考点.pdf",
-    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
-    "docs/zju-courses/发展心理学/笔记4.md"
+    "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf"
   ]
 }
