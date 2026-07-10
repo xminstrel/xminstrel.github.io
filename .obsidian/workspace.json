@@ -4,67 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e9f4dd66b0d2bca8",
+        "id": "4b85d7becb707ab6",
         "type": "tabs",
         "children": [
           {
-            "id": "4d7b607ac2a09fc5",
+            "id": "9122203429885f00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/农业物料学/农业物料学.md",
+                "file": "课程回忆.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "农业物料学"
+              "title": "课程回忆"
             }
           },
           {
-            "id": "95eb51a5ee7f296c",
+            "id": "d63d37a1fc36e47c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/control/自动控制理论/自动控制理论.md",
+                "file": "try.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "自动控制理论"
-            }
-          },
-          {
-            "id": "286121578b9de581",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/材料力学/材料力学.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "材料力学"
-            }
-          },
-          {
-            "id": "3e0c944eed9541d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
+              "title": "try"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,8 +119,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           },
           {
@@ -157,8 +129,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -229,8 +201,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -270,18 +242,21 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3e0c944eed9541d8",
+  "active": "d63d37a1fc36e47c",
   "lastOpenFiles": [
-    "docs/about_me.md",
-    "docs/index.md",
     "课程回忆.md",
+    "try.md",
+    "docs/zju-courses/材料力学/考点.md",
+    "docs/zju-courses/材料力学/组合变形知识与公式整理.md",
+    "docs/zju-courses/材料力学/材料力学.md",
+    "docs/control/自动控制理论/自动控制理论.md",
+    "docs/zju-courses/农业物料学/农业物料学.md",
+    "docs/index.md",
+    "docs/about_me.md",
     "docs/zju-courses/农业生物系统传输过程/实验数据.md",
     "docs/zju-courses/农业生物系统传输过程/农生传实验/实验五数据.md",
     "docs/zju-courses/农业生物系统传输过程/农生传实验/实验四数据.md",
     "docs/control/控制论/控制论.md",
-    "docs/zju-courses/材料力学/材料力学.md",
-    "docs/control/自动控制理论/自动控制理论.md",
-    "docs/zju-courses/农业物料学/农业物料学.md",
     "docs/zju-courses/发展心理学/index.md",
     "docs/scholar/文献阅读",
     "docs/zju-courses/cad/cad.md",
@@ -297,9 +272,6 @@
     "docs/zju-courses/农业物料学/物料学实验.md",
     "docs/zju-courses/农业物料学/未命名.md",
     "docs/zju-courses/农业物料学/笔记.md",
-    "docs/zju-courses/发展心理学/25-26 发展心理学 回忆卷.md",
-    "docs/zju-courses/发展心理学/24-25历年.md",
-    "docs/zju-courses/发展心理学/笔记4.md",
     "docs/zju-courses/发展心理学/发展心理学第2版 (苏彦捷).pdf",
     "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
     "docs/zju-courses/材料力学实验/assets/修约.jpg",

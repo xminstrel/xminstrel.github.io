@@ -88,7 +88,8 @@
       "item-2-23",
       "item-3-26",
       "item-2-29",
-      "item-3-30"
+      "item-3-30",
+      "item-2-2"
     ]
   },
   "docs/zju-courses/发展心理学/发展心理学.md": {
@@ -136,14 +137,14 @@
     "expandedKeys": []
   },
   "docs/index.md": {
-    "scroll": 0.8149606299212598,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 29,
-        "ch": 10
+        "line": 6,
+        "ch": 0
       },
       "to": {
-        "line": 7,
+        "line": 6,
         "ch": 0
       }
     },
@@ -2867,7 +2868,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/组合变形知识与公式整理.md": {
-    "scroll": 789.5390450691656,
+    "scroll": 790.6871932173137,
     "cursor": {
       "from": {
         "line": 2,
@@ -4363,7 +4364,7 @@
     "expandedKeys": []
   },
   "课程回忆.md": {
-    "scroll": 166.70997920997922,
+    "scroll": 166.80138199858257,
     "cursor": {
       "from": {
         "line": 186,
@@ -4405,6 +4406,20 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "try.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 10
+      },
+      "to": {
+        "line": 0,
+        "ch": 10
       }
     },
     "expandedKeys": []
