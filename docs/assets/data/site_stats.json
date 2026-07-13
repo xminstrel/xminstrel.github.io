@@ -1,11 +1,147 @@
 {
-  "article_count": 144,
+  "article_count": 44,
   "section_count": 7,
-  "total_words": 320923,
-  "total_word_count": "32.1 万字",
-  "updated": "2026-06-08T08:27:47+00:00",
-  "date": "2026-06-08",
+  "total_words": 97351,
+  "total_word_count": "9.7 万字",
+  "updated": "2026-07-09T02:17:38+00:00",
+  "date": "2026-07-09",
   "random_pages": [
+    {
+      "src": "control/控制论/控制论.md",
+      "title": "控制论",
+      "url": "control/控制论/控制论/",
+      "section": "控制",
+      "tags": [
+        "控制",
+        "控制论"
+      ],
+      "updated": "2026-07-09T02:17:38+00:00",
+      "date": "2026-07-09",
+      "created": "2026-03-26T10:57:50+00:00",
+      "words": 920,
+      "word_count": "920 字",
+      "minutes": 3,
+      "directory": "control/控制论"
+    },
+    {
+      "src": "control/控制论/复习课.md",
+      "title": "复习课",
+      "url": "control/控制论/复习课/",
+      "section": "控制",
+      "tags": [
+        "控制",
+        "控制论"
+      ],
+      "updated": "2026-07-04T12:41:24+00:00",
+      "date": "2026-07-04",
+      "created": "2026-07-04T12:41:24+00:00",
+      "words": 630,
+      "word_count": "630 字",
+      "minutes": 2,
+      "directory": "control/控制论"
+    },
+    {
+      "src": "zju-courses/材料力学/材料力学.md",
+      "title": "材料力学",
+      "url": "zju-courses/材料力学/材料力学/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "材料力学"
+      ],
+      "updated": "2026-07-04T12:41:24+00:00",
+      "date": "2026-07-04",
+      "created": "2026-01-23T14:58:34+00:00",
+      "words": 4151,
+      "word_count": "4,151 字",
+      "minutes": 11,
+      "directory": "zju-courses/材料力学"
+    },
+    {
+      "src": "control/自动控制理论/自动控制理论.md",
+      "title": "自动控制理论",
+      "url": "control/自动控制理论/自动控制理论/",
+      "section": "控制",
+      "tags": [
+        "控制",
+        "自动控制理论"
+      ],
+      "updated": "2026-07-01T09:03:30+00:00",
+      "date": "2026-07-01",
+      "created": "2026-03-09T06:12:31+00:00",
+      "words": 3493,
+      "word_count": "3,493 字",
+      "minutes": 9,
+      "directory": "control/自动控制理论"
+    },
+    {
+      "src": "zju-courses/农业生物系统传输过程/工热例题.md",
+      "title": "工热例题",
+      "url": "zju-courses/农业生物系统传输过程/工热例题/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
+      "updated": "2026-07-01T09:03:30+00:00",
+      "date": "2026-07-01",
+      "created": "2026-06-25T05:28:17+00:00",
+      "words": 140,
+      "word_count": "140 字",
+      "minutes": 1,
+      "directory": "zju-courses/农业生物系统传输过程"
+    },
+    {
+      "src": "zju-courses/农业生物系统传输过程/工流例题.md",
+      "title": "旧版 ppt",
+      "url": "zju-courses/农业生物系统传输过程/工流例题/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
+      "updated": "2026-07-01T09:03:30+00:00",
+      "date": "2026-07-01",
+      "created": "2026-06-28T08:00:12+00:00",
+      "words": 143,
+      "word_count": "143 字",
+      "minutes": 1,
+      "directory": "zju-courses/农业生物系统传输过程"
+    },
+    {
+      "src": "zju-courses/发展心理学/期末复习笔记.md",
+      "title": "期末复习笔记",
+      "url": "zju-courses/发展心理学/期末复习笔记/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
+      "updated": "2026-06-25T08:17:38+00:00",
+      "date": "2026-06-25",
+      "created": "2026-06-25T05:28:17+00:00",
+      "words": 1174,
+      "word_count": "1,174 字",
+      "minutes": 3,
+      "directory": "zju-courses/发展心理学"
+    },
+    {
+      "src": "control/控制论/讨论课复习.md",
+      "title": "讨论课复习",
+      "url": "control/控制论/讨论课复习/",
+      "section": "控制",
+      "tags": [
+        "控制",
+        "控制论"
+      ],
+      "updated": "2026-06-17T08:37:59+00:00",
+      "date": "2026-06-17",
+      "created": "2026-06-17T08:37:59+00:00",
+      "words": 89,
+      "word_count": "89 字",
+      "minutes": 1,
+      "directory": "control/控制论"
+    },
     {
       "src": "zju-courses/发展心理学/笔记4.md",
       "title": "笔记 4",
@@ -15,13 +151,30 @@
         "ZJU-Courses",
         "发展心理学"
       ],
-      "updated": "2026-06-08T08:27:47+00:00",
-      "date": "2026-06-08",
+      "updated": "2026-06-10T02:23:58+00:00",
+      "date": "2026-06-10",
       "created": "2026-05-27T13:18:51+00:00",
-      "words": 2284,
-      "word_count": "2,284 字",
-      "minutes": 6,
+      "words": 6829,
+      "word_count": "6,829 字",
+      "minutes": 18,
       "directory": "zju-courses/发展心理学"
+    },
+    {
+      "src": "zju-courses/农业生物系统传输过程/工传.md",
+      "title": "传热学",
+      "url": "zju-courses/农业生物系统传输过程/工传/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
+      "updated": "2026-06-09T01:25:42+00:00",
+      "date": "2026-06-09",
+      "created": "2026-04-28T01:48:21+00:00",
+      "words": 2622,
+      "word_count": "2,622 字",
+      "minutes": 7,
+      "directory": "zju-courses/农业生物系统传输过程"
     },
     {
       "src": "others/moments/moments.md",
@@ -39,40 +192,6 @@
       "word_count": "61 字",
       "minutes": 1,
       "directory": "others/moments"
-    },
-    {
-      "src": "zju-courses/材料力学/材料力学.md",
-      "title": "材料力学",
-      "url": "zju-courses/材料力学/材料力学/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "材料力学"
-      ],
-      "updated": "2026-06-07T13:47:03+00:00",
-      "date": "2026-06-07",
-      "created": "2026-01-23T14:58:34+00:00",
-      "words": 4077,
-      "word_count": "4,077 字",
-      "minutes": 11,
-      "directory": "zju-courses/材料力学"
-    },
-    {
-      "src": "zju-courses/农业生物系统传输过程/工传.md",
-      "title": "传热学",
-      "url": "zju-courses/农业生物系统传输过程/工传/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业生物系统传输过程"
-      ],
-      "updated": "2026-06-02T03:27:01+00:00",
-      "date": "2026-06-02",
-      "created": "2026-04-28T01:48:21+00:00",
-      "words": 2439,
-      "word_count": "2,439 字",
-      "minutes": 7,
-      "directory": "zju-courses/农业生物系统传输过程"
     },
     {
       "src": "resources/tools.md",
@@ -159,23 +278,6 @@
       "directory": "zju-courses/发展心理学"
     },
     {
-      "src": "control/自动控制理论/自动控制理论.md",
-      "title": "自动控制理论",
-      "url": "control/自动控制理论/自动控制理论/",
-      "section": "控制",
-      "tags": [
-        "控制",
-        "自动控制理论"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-03-09T06:12:31+00:00",
-      "words": 3493,
-      "word_count": "3,493 字",
-      "minutes": 9,
-      "directory": "control/自动控制理论"
-    },
-    {
       "src": "zju-courses/农业生物系统传输过程/工流.md",
       "title": "流体力学",
       "url": "zju-courses/农业生物系统传输过程/工流/",
@@ -191,23 +293,6 @@
       "word_count": "1,608 字",
       "minutes": 5,
       "directory": "zju-courses/农业生物系统传输过程"
-    },
-    {
-      "src": "control/控制论/控制论.md",
-      "title": "控制论",
-      "url": "control/控制论/控制论/",
-      "section": "控制",
-      "tags": [
-        "控制",
-        "控制论"
-      ],
-      "updated": "2026-04-28T01:48:21+00:00",
-      "date": "2026-04-28",
-      "created": "2026-03-26T10:57:50+00:00",
-      "words": 325,
-      "word_count": "325 字",
-      "minutes": 1,
-      "directory": "control/控制论"
     },
     {
       "src": "control/自动控制理论/小测复习.md",
@@ -247,74 +332,6 @@
   ],
   "pages": [
     {
-      "src": "others/数学建模/数模2/mm/问题1.md",
-      "title": "01 分组方案与优劣比较",
-      "url": "others/数学建模/数模2/mm/问题1/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 2119,
-      "word_count": "2,119 字",
-      "minutes": 6,
-      "directory": "others/数学建模/数模2/mm"
-    },
-    {
-      "src": "others/数学建模/数模2/mm/问题2.md",
-      "title": "02 公平透明抽签方案设计",
-      "url": "others/数学建模/数模2/mm/问题2/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1940,
-      "word_count": "1,940 字",
-      "minutes": 5,
-      "directory": "others/数学建模/数模2/mm"
-    },
-    {
-      "src": "others/数学建模/数模2/mm/问题3.md",
-      "title": "03 比赛地点选择方案",
-      "url": "others/数学建模/数模2/mm/问题3/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 2193,
-      "word_count": "2,193 字",
-      "minutes": 6,
-      "directory": "others/数学建模/数模2/mm"
-    },
-    {
-      "src": "others/数学建模/数模2/mm/问题4.md",
-      "title": "04 赛制合理化建议",
-      "url": "others/数学建模/数模2/mm/问题4/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 2156,
-      "word_count": "2,156 字",
-      "minutes": 6,
-      "directory": "others/数学建模/数模2/mm"
-    },
-    {
       "src": "robotic/ros2/指令.md",
       "title": "1. Linux 路径与符号速查表",
       "url": "robotic/ros2/指令/",
@@ -332,38 +349,38 @@
       "directory": "robotic/ros2"
     },
     {
-      "src": "zju-courses/材料力学/复习资料/98.md",
-      "title": "98",
-      "url": "zju-courses/材料力学/复习资料/98/",
+      "src": "zju-courses/农业物料学/25-26期末回忆卷.md",
+      "title": "25-26 农业无聊学 期末回忆卷",
+      "url": "zju-courses/农业物料学/25-26期末回忆卷/",
       "section": "ZJU-Courses",
       "tags": [
         "ZJU-Courses",
-        "材料力学"
+        "农业物料学"
       ],
-      "updated": "2026-05-28T12:27:20+00:00",
-      "date": "2026-05-28",
-      "created": "2026-05-28T12:27:20+00:00",
-      "words": 382,
-      "word_count": "382 字",
+      "updated": "2026-07-04T12:41:24+00:00",
+      "date": "2026-07-04",
+      "created": "2026-07-04T12:41:24+00:00",
+      "words": 248,
+      "word_count": "248 字",
       "minutes": 1,
-      "directory": "zju-courses/材料力学/复习资料"
+      "directory": "zju-courses/农业物料学"
     },
     {
-      "src": "others/数学建模/数模1/math_model/docs/prompts/ai_usage_log.md",
-      "title": "AI 工具使用记录",
-      "url": "others/数学建模/数模1/math_model/docs/prompts/ai_usage_log/",
-      "section": "其他",
+      "src": "zju-courses/发展心理学/25-26 发展心理学 回忆卷.md",
+      "title": "25-26 发展心理学 回忆卷",
+      "url": "zju-courses/发展心理学/25-26 发展心理学 回忆卷/",
+      "section": "ZJU-Courses",
       "tags": [
-        "其他",
-        "数学建模"
+        "ZJU-Courses",
+        "发展心理学"
       ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 297,
-      "word_count": "297 字",
-      "minutes": 1,
-      "directory": "others/数学建模/数模1/math_model/docs/prompts"
+      "updated": "2026-06-28T08:00:12+00:00",
+      "date": "2026-06-28",
+      "created": "2026-06-28T08:00:12+00:00",
+      "words": 875,
+      "word_count": "875 字",
+      "minutes": 3,
+      "directory": "zju-courses/发展心理学"
     },
     {
       "src": "resources/tools.md",
@@ -396,125 +413,6 @@
       "word_count": "24 字",
       "minutes": 1,
       "directory": "ai"
-    },
-    {
-      "src": "others/数学建模/数模1/math_model/docs/modeling/problem_formalization.md",
-      "title": "B 题数学建模框架",
-      "url": "others/数学建模/数模1/math_model/docs/modeling/problem_formalization/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1083,
-      "word_count": "1,083 字",
-      "minutes": 3,
-      "directory": "others/数学建模/数模1/math_model/docs/modeling"
-    },
-    {
-      "src": "others/数学建模/数模1/math_model/docs/research/research_brief.md",
-      "title": "B 题资料与研究路线简报",
-      "url": "others/数学建模/数模1/math_model/docs/research/research_brief/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 921,
-      "word_count": "921 字",
-      "minutes": 3,
-      "directory": "others/数学建模/数模1/math_model/docs/research"
-    },
-    {
-      "src": "others/数学建模/数模1/math_model/docs/research/source_register.md",
-      "title": "B 题资料登记表",
-      "url": "others/数学建模/数模1/math_model/docs/research/source_register/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1040,
-      "word_count": "1,040 字",
-      "minutes": 3,
-      "directory": "others/数学建模/数模1/math_model/docs/research"
-    },
-    {
-      "src": "others/数学建模/数模1/math_model/docs/project_summary.md",
-      "title": "Codex 项目总结与交接文档",
-      "url": "others/数学建模/数模1/math_model/docs/project_summary/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1373,
-      "word_count": "1,373 字",
-      "minutes": 4,
-      "directory": "others/数学建模/数模1/math_model/docs"
-    },
-    {
-      "src": "others/数学建模/数模1/math_model/iterations/2026-05-12_iter00_project_setup.md",
-      "title": "Iteration 00 - Project Setup And Research Scaffold",
-      "url": "others/数学建模/数模1/math_model/iterations/2026-05-12_iter00_project_setup/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 484,
-      "word_count": "484 字",
-      "minutes": 2,
-      "directory": "others/数学建模/数模1/math_model/iterations"
-    },
-    {
-      "src": "others/数学建模/数模1/math_model/agent.md",
-      "title": "Math Modeling Agent Instructions",
-      "url": "others/数学建模/数模1/math_model/agent/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1326,
-      "word_count": "1,326 字",
-      "minutes": 4,
-      "directory": "others/数学建模/数模1/math_model"
-    },
-    {
-      "src": "zju-courses/cad/cad.md",
-      "title": "cad",
-      "url": "zju-courses/cad/cad/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "cad"
-      ],
-      "updated": "2026-04-25T12:11:27+00:00",
-      "date": "2026-04-25",
-      "created": "2026-04-02T08:15:13+00:00",
-      "words": 247,
-      "word_count": "247 字",
-      "minutes": 1,
-      "directory": "zju-courses/cad"
     },
     {
       "src": "control/esp32/esp32.md",
@@ -569,23 +467,6 @@
       "directory": "robotic/ros2"
     },
     {
-      "src": "zju-courses/cad/solidworks.md",
-      "title": "solidworks",
-      "url": "zju-courses/cad/solidworks/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "cad"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-04-25T12:11:27+00:00",
-      "words": 67,
-      "word_count": "67 字",
-      "minutes": 1,
-      "directory": "zju-courses/cad"
-    },
-    {
       "src": "robotic/timeline.md",
       "title": "timeline",
       "url": "robotic/timeline/",
@@ -600,40 +481,6 @@
       "word_count": "1,267 字",
       "minutes": 4,
       "directory": "robotic"
-    },
-    {
-      "src": "others/数学建模/数模1/math_model/docs/prompts/master_prompt.md",
-      "title": "“浙超”B 题最优迭代主 Prompt",
-      "url": "others/数学建模/数模1/math_model/docs/prompts/master_prompt/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 149,
-      "word_count": "149 字",
-      "minutes": 1,
-      "directory": "others/数学建模/数模1/math_model/docs/prompts"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/建模思路与公式汇总.md",
-      "title": "“浙超”分组方案建模思路与公式汇总",
-      "url": "others/数学建模/分组评价模型/建模思路与公式汇总/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 3620,
-      "word_count": "3,620 字",
-      "minutes": 10,
-      "directory": "others/数学建模/分组评价模型"
     },
     {
       "src": "others/数学建模/初版结果说明/建模思路与公式汇总.md",
@@ -651,74 +498,6 @@
       "word_count": "3,620 字",
       "minutes": 10,
       "directory": "others/数学建模/初版结果说明"
-    },
-    {
-      "src": "others/数学建模/数模1/math_model/浙超B题解题总报告.md",
-      "title": "“浙超”分组方案数学建模总报告",
-      "url": "others/数学建模/数模1/math_model/浙超B题解题总报告/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 5940,
-      "word_count": "5,940 字",
-      "minutes": 15,
-      "directory": "others/数学建模/数模1/math_model"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/README.md",
-      "title": "“浙超”分组评价模型与代码说明",
-      "url": "others/数学建模/分组评价模型/README/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1063,
-      "word_count": "1,063 字",
-      "minutes": 3,
-      "directory": "others/数学建模/分组评价模型"
-    },
-    {
-      "src": "others/数学建模/数模3/建模总方案.md",
-      "title": "“浙超”赛题建模总方案",
-      "url": "others/数学建模/数模3/建模总方案/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 8334,
-      "word_count": "8,334 字",
-      "minutes": 21,
-      "directory": "others/数学建模/数模3"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/节目策划案/《48小时出逃计划》电视节目策划案.md",
-      "title": "《48小时出逃计划》电视节目策划案",
-      "url": "zju-courses/电视节目策划与编导/节目策划案/《48小时出逃计划》电视节目策划案/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-02T03:27:01+00:00",
-      "date": "2026-06-02",
-      "created": "2026-06-02T03:27:01+00:00",
-      "words": 11031,
-      "word_count": "1.1 万字",
-      "minutes": 28,
-      "directory": "zju-courses/电视节目策划与编导/节目策划案"
     },
     {
       "src": "others/知识库/文化中国/复盘.md",
@@ -755,74 +534,6 @@
       "directory": "others/知识库/文化中国"
     },
     {
-      "src": "zju-courses/电视节目策划与编导/节目策划案/《浙里有艺：青年非遗实验室》电视节目策划案.md",
-      "title": "《浙里有艺：青年非遗实验室》电视节目策划案",
-      "url": "zju-courses/电视节目策划与编导/节目策划案/《浙里有艺：青年非遗实验室》电视节目策划案/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 13850,
-      "word_count": "1.4 万字",
-      "minutes": 35,
-      "directory": "zju-courses/电视节目策划与编导/节目策划案"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/节目策划案/《浙里有艺：青年非遗实验室》电视节目策划案（作业版）.md",
-      "title": "《浙里有艺：青年非遗实验室》电视节目策划案",
-      "url": "zju-courses/电视节目策划与编导/节目策划案/《浙里有艺：青年非遗实验室》电视节目策划案（作业版）/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-02T03:27:01+00:00",
-      "date": "2026-06-02",
-      "created": "2026-06-02T03:27:01+00:00",
-      "words": 5710,
-      "word_count": "5,710 字",
-      "minutes": 15,
-      "directory": "zju-courses/电视节目策划与编导/节目策划案"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/节目策划案/deep-research-report (3).md",
-      "title": "《浙里有艺：青年非遗实验室》课程策划调研报告",
-      "url": "zju-courses/电视节目策划与编导/节目策划案/deep-research-report (3)/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 10318,
-      "word_count": "1.0 万字",
-      "minutes": 26,
-      "directory": "zju-courses/电视节目策划与编导/节目策划案"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/节目策划案/gpt初版.md",
-      "title": "《浙里有艺：青年非遗实验室》调研报告",
-      "url": "zju-courses/电视节目策划与编导/节目策划案/gpt初版/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 9614,
-      "word_count": "9,614 字",
-      "minutes": 25,
-      "directory": "zju-courses/电视节目策划与编导/节目策划案"
-    },
-    {
       "src": "robotic/ros2/github.md",
       "title": "一、你这个仓库拿来放什么",
       "url": "robotic/ros2/github/",
@@ -840,193 +551,6 @@
       "directory": "robotic/ros2"
     },
     {
-      "src": "others/数学建模/评价指标.md",
-      "title": "一、总体评价框架",
-      "url": "others/数学建模/评价指标/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 3880,
-      "word_count": "3,880 字",
-      "minutes": 10,
-      "directory": "others/数学建模"
-    },
-    {
-      "src": "others/数学建模/问题三改进.md",
-      "title": "一、改进方向总览",
-      "url": "others/数学建模/问题三改进/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 3617,
-      "word_count": "3,617 字",
-      "minutes": 10,
-      "directory": "others/数学建模"
-    },
-    {
-      "src": "others/数学建模/问题四思路.md",
-      "title": "一、第四问的核心任务",
-      "url": "others/数学建模/问题四思路/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 5098,
-      "word_count": "5,098 字",
-      "minutes": 13,
-      "directory": "others/数学建模"
-    },
-    {
-      "src": "others/数学建模/未命名 1.md",
-      "title": "一、问题一的建模本质",
-      "url": "others/数学建模/未命名 1/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 4744,
-      "word_count": "4,744 字",
-      "minutes": 12,
-      "directory": "others/数学建模"
-    },
-    {
-      "src": "others/数学建模/问题三思路.md",
-      "title": "一、问题三的本质",
-      "url": "others/数学建模/问题三思路/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 4983,
-      "word_count": "4,983 字",
-      "minutes": 13,
-      "directory": "others/数学建模"
-    },
-    {
-      "src": "others/数学建模/问题二思路.md",
-      "title": "一、问题二的建模目标",
-      "url": "others/数学建模/问题二思路/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 4014,
-      "word_count": "4,014 字",
-      "minutes": 11,
-      "directory": "others/数学建模"
-    },
-    {
-      "src": "others/数学建模/未命名.md",
-      "title": "一、题目类型判断",
-      "url": "others/数学建模/未命名/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 8479,
-      "word_count": "8,479 字",
-      "minutes": 22,
-      "directory": "others/数学建模"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论_具体实例版.md",
-      "title": "一杯绍兴酒，能否盛下“中国心”？",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论_具体实例版/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-07T13:47:03+00:00",
-      "date": "2026-06-07",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 3018,
-      "word_count": "3,018 字",
-      "minutes": 8,
-      "directory": "zju-courses/电视节目策划与编导"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论_自然修改版.md",
-      "title": "一杯绍兴酒，能否盛下“中国心”？",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论_自然修改版/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 2512,
-      "word_count": "2,512 字",
-      "minutes": 7,
-      "directory": "zju-courses/电视节目策划与编导"
-    },
-    {
-      "src": "others/数学建模/数模3/三种方案对比分析.md",
-      "title": "三种建模方案对比分析",
-      "url": "others/数学建模/数模3/三种方案对比分析/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 3173,
-      "word_count": "3,173 字",
-      "minutes": 8,
-      "directory": "others/数学建模/数模3"
-    },
-    {
-      "src": "zju-courses/精细农业/实验/task2.md",
-      "title": "不同定位系统信息精度对比分析",
-      "url": "zju-courses/精细农业/实验/task2/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "精细农业"
-      ],
-      "updated": "2026-04-28T01:48:21+00:00",
-      "date": "2026-04-28",
-      "created": "2026-04-28T01:48:21+00:00",
-      "words": 56,
-      "word_count": "56 字",
-      "minutes": 1,
-      "directory": "zju-courses/精细农业/实验"
-    },
-    {
       "src": "zju-courses/农业生物系统传输过程/工传.md",
       "title": "传热学",
       "url": "zju-courses/农业生物系统传输过程/工传/",
@@ -1035,64 +559,30 @@
         "ZJU-Courses",
         "农业生物系统传输过程"
       ],
-      "updated": "2026-06-02T03:27:01+00:00",
-      "date": "2026-06-02",
+      "updated": "2026-06-09T01:25:42+00:00",
+      "date": "2026-06-09",
       "created": "2026-04-28T01:48:21+00:00",
-      "words": 2439,
-      "word_count": "2,439 字",
+      "words": 2622,
+      "word_count": "2,622 字",
       "minutes": 7,
       "directory": "zju-courses/农业生物系统传输过程"
     },
     {
-      "src": "zju-courses/电视节目策划与编导/节目策划案/作业要求.md",
-      "title": "作业要求",
-      "url": "zju-courses/电视节目策划与编导/节目策划案/作业要求/",
-      "section": "ZJU-Courses",
+      "src": "others/moments/写在20岁.md",
+      "title": "写在20岁",
+      "url": "others/moments/写在20岁/",
+      "section": "其他",
       "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
+        "其他",
+        "moments"
       ],
-      "updated": "2026-05-28T12:27:20+00:00",
-      "date": "2026-05-28",
-      "created": "2026-05-28T12:27:20+00:00",
-      "words": 232,
-      "word_count": "232 字",
-      "minutes": 1,
-      "directory": "zju-courses/电视节目策划与编导/节目策划案"
-    },
-    {
-      "src": "zju-courses/cad/作业进度.md",
-      "title": "作业进度",
-      "url": "zju-courses/cad/作业进度/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "cad"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 212,
-      "word_count": "212 字",
-      "minutes": 1,
-      "directory": "zju-courses/cad"
-    },
-    {
-      "src": "control/控制论/pre讲稿.md",
-      "title": "全程讲稿：机器人的控制论应用",
-      "url": "control/控制论/pre讲稿/",
-      "section": "控制",
-      "tags": [
-        "控制",
-        "控制论"
-      ],
-      "updated": "2026-05-07T13:19:53+00:00",
-      "date": "2026-05-07",
-      "created": "2026-05-07T13:19:53+00:00",
-      "words": 5163,
-      "word_count": "5,163 字",
-      "minutes": 13,
-      "directory": "control/控制论"
+      "updated": "2026-06-25T05:28:17+00:00",
+      "date": "2026-06-25",
+      "created": "2026-06-25T05:28:17+00:00",
+      "words": 734,
+      "word_count": "734 字",
+      "minutes": 2,
+      "directory": "others/moments"
     },
     {
       "src": "zju-courses/农业物料学/农业物料学.md",
@@ -1112,40 +602,6 @@
       "directory": "zju-courses/农业物料学"
     },
     {
-      "src": "zju-courses/农业物料学/未命名.md",
-      "title": "农业物料学 2026-05-06 第 3-4 节",
-      "url": "zju-courses/农业物料学/未命名/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业物料学"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 2535,
-      "word_count": "2,535 字",
-      "minutes": 7,
-      "directory": "zju-courses/农业物料学"
-    },
-    {
-      "src": "zju-courses/农业物料学/ai总结/农业生物系统传输过程2026-05-19第1-2节_AI学习总结.md",
-      "title": "农业生物系统传输过程2026-05-19第1-2节",
-      "url": "zju-courses/农业物料学/ai总结/农业生物系统传输过程2026-05-19第1-2节_AI学习总结/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业物料学"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 2001,
-      "word_count": "2,001 字",
-      "minutes": 6,
-      "directory": "zju-courses/农业物料学/ai总结"
-    },
-    {
       "src": "zju-courses/发展心理学/分工.md",
       "title": "分工",
       "url": "zju-courses/发展心理学/分工/",
@@ -1154,64 +610,13 @@
         "ZJU-Courses",
         "发展心理学"
       ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
+      "updated": "2026-07-04T12:41:24+00:00",
+      "date": "2026-07-04",
       "created": "2026-06-04T11:00:29+00:00",
       "words": 114,
       "word_count": "114 字",
       "minutes": 1,
       "directory": "zju-courses/发展心理学"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/节目策划案/初版想法.md",
-      "title": "初版想法",
-      "url": "zju-courses/电视节目策划与编导/节目策划案/初版想法/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 3409,
-      "word_count": "3,409 字",
-      "minutes": 9,
-      "directory": "zju-courses/电视节目策划与编导/节目策划案"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/节目策划案/参考格式.md",
-      "title": "参考格式",
-      "url": "zju-courses/电视节目策划与编导/节目策划案/参考格式/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 590,
-      "word_count": "590 字",
-      "minutes": 2,
-      "directory": "zju-courses/电视节目策划与编导/节目策划案"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/节目策划案/参考资料.md",
-      "title": "参考资料",
-      "url": "zju-courses/电视节目策划与编导/节目策划案/参考资料/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 63,
-      "word_count": "63 字",
-      "minutes": 1,
-      "directory": "zju-courses/电视节目策划与编导/节目策划案"
     },
     {
       "src": "zju-courses/发展心理学/index.md",
@@ -1231,72 +636,21 @@
       "directory": "zju-courses/发展心理学"
     },
     {
-      "src": "others/数学建模/数模3/outputs_graph/graph_coloring_analysis.md",
-      "title": "图染色法合法性分析",
-      "url": "others/数学建模/数模3/outputs_graph/graph_coloring_analysis/",
-      "section": "其他",
+      "src": "control/控制论/复习课.md",
+      "title": "复习课",
+      "url": "control/控制论/复习课/",
+      "section": "控制",
       "tags": [
-        "其他",
-        "数学建模"
+        "控制",
+        "控制论"
       ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 368,
-      "word_count": "368 字",
-      "minutes": 1,
-      "directory": "others/数学建模/数模3/outputs_graph"
-    },
-    {
-      "src": "zju-courses/材料力学/复习.md",
-      "title": "复习",
-      "url": "zju-courses/材料力学/复习/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "材料力学"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 130,
-      "word_count": "130 字",
-      "minutes": 1,
-      "directory": "zju-courses/材料力学"
-    },
-    {
-      "src": "zju-courses/农业生物系统传输过程/农生传实验/实验五数据.md",
-      "title": "实验五数据",
-      "url": "zju-courses/农业生物系统传输过程/农生传实验/实验五数据/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业生物系统传输过程"
-      ],
-      "updated": "2026-05-28T12:27:20+00:00",
-      "date": "2026-05-28",
-      "created": "2026-05-28T12:27:20+00:00",
-      "words": 114,
-      "word_count": "114 字",
-      "minutes": 1,
-      "directory": "zju-courses/农业生物系统传输过程/农生传实验"
-    },
-    {
-      "src": "zju-courses/农业生物系统传输过程/农生传实验/实验四数据.md",
-      "title": "实验四数据",
-      "url": "zju-courses/农业生物系统传输过程/农生传实验/实验四数据/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业生物系统传输过程"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-19T14:32:08+00:00",
-      "words": 176,
-      "word_count": "176 字",
-      "minutes": 1,
-      "directory": "zju-courses/农业生物系统传输过程/农生传实验"
+      "updated": "2026-07-04T12:41:24+00:00",
+      "date": "2026-07-04",
+      "created": "2026-07-04T12:41:24+00:00",
+      "words": 630,
+      "word_count": "630 字",
+      "minutes": 2,
+      "directory": "control/控制论"
     },
     {
       "src": "control/自动控制理论/小测复习.md",
@@ -1314,6 +668,40 @@
       "word_count": "39 字",
       "minutes": 1,
       "directory": "control/自动控制理论"
+    },
+    {
+      "src": "zju-courses/农业生物系统传输过程/期末重点.md",
+      "title": "工流",
+      "url": "zju-courses/农业生物系统传输过程/期末重点/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
+      "updated": "2026-07-04T12:41:24+00:00",
+      "date": "2026-07-04",
+      "created": "2026-07-04T12:41:24+00:00",
+      "words": 255,
+      "word_count": "255 字",
+      "minutes": 1,
+      "directory": "zju-courses/农业生物系统传输过程"
+    },
+    {
+      "src": "zju-courses/农业生物系统传输过程/工热例题.md",
+      "title": "工热例题",
+      "url": "zju-courses/农业生物系统传输过程/工热例题/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
+      "updated": "2026-07-01T09:03:30+00:00",
+      "date": "2026-07-01",
+      "created": "2026-06-25T05:28:17+00:00",
+      "words": 140,
+      "word_count": "140 字",
+      "minutes": 1,
+      "directory": "zju-courses/农业生物系统传输过程"
     },
     {
       "src": "robotic/技术栈.md",
@@ -1357,115 +745,13 @@
         "控制",
         "控制论"
       ],
-      "updated": "2026-04-28T01:48:21+00:00",
-      "date": "2026-04-28",
+      "updated": "2026-07-09T02:17:38+00:00",
+      "date": "2026-07-09",
       "created": "2026-03-26T10:57:50+00:00",
-      "words": 325,
-      "word_count": "325 字",
-      "minutes": 1,
+      "words": 920,
+      "word_count": "920 字",
+      "minutes": 3,
       "directory": "control/控制论"
-    },
-    {
-      "src": "others/数学建模/数模3/data/数据来源与融合说明.md",
-      "title": "数据来源与融合说明",
-      "url": "others/数学建模/数模3/data/数据来源与融合说明/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 339,
-      "word_count": "339 字",
-      "minutes": 1,
-      "directory": "others/数学建模/数模3/data"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/资料来源.md",
-      "title": "数据资料查找与使用口径",
-      "url": "others/数学建模/分组评价模型/资料来源/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 765,
-      "word_count": "765 字",
-      "minutes": 2,
-      "directory": "others/数学建模/分组评价模型"
-    },
-    {
-      "src": "others/数学建模/数模3/交接文档.md",
-      "title": "数模3最终成果交接文档",
-      "url": "others/数学建模/数模3/交接文档/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 2019,
-      "word_count": "2,019 字",
-      "minutes": 6,
-      "directory": "others/数学建模/数模3"
-    },
-    {
-      "src": "others/数学建模/数模3/最终方案摘要.md",
-      "title": "数模3最终方案摘要",
-      "url": "others/数学建模/数模3/最终方案摘要/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 459,
-      "word_count": "459 字",
-      "minutes": 2,
-      "directory": "others/数学建模/数模3"
-    },
-    {
-      "src": "others/数学建模/数模3/最终方案.md",
-      "title": "数模3最终方案：基于融合数据、图染色与可运行优化的完整结果",
-      "url": "others/数学建模/数模3/最终方案/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 3319,
-      "word_count": "3,319 字",
-      "minutes": 9,
-      "directory": "others/数学建模/数模3"
-    },
-    {
-      "src": "others/数学建模/数模3/运行说明.md",
-      "title": "数模3运行说明",
-      "url": "others/数学建模/数模3/运行说明/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 101,
-      "word_count": "101 字",
-      "minutes": 1,
-      "directory": "others/数学建模/数模3"
     },
     {
       "src": "others/知识库/文化中国/文化中国讲座.md",
@@ -1485,105 +771,37 @@
       "directory": "others/知识库/文化中国"
     },
     {
-      "src": "zju-courses/发展心理学/文献报告.md",
-      "title": "文献报告",
-      "url": "zju-courses/发展心理学/文献报告/",
+      "src": "zju-courses/农业生物系统传输过程/工流例题.md",
+      "title": "旧版 ppt",
+      "url": "zju-courses/农业生物系统传输过程/工流例题/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
+      "updated": "2026-07-01T09:03:30+00:00",
+      "date": "2026-07-01",
+      "created": "2026-06-28T08:00:12+00:00",
+      "words": 143,
+      "word_count": "143 字",
+      "minutes": 1,
+      "directory": "zju-courses/农业生物系统传输过程"
+    },
+    {
+      "src": "zju-courses/发展心理学/期末复习笔记.md",
+      "title": "期末复习笔记",
+      "url": "zju-courses/发展心理学/期末复习笔记/",
       "section": "ZJU-Courses",
       "tags": [
         "ZJU-Courses",
         "发展心理学"
       ],
-      "updated": "2026-06-07T13:47:03+00:00",
-      "date": "2026-06-07",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 55,
-      "word_count": "55 字",
-      "minutes": 1,
-      "directory": "zju-courses/发展心理学"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/outputs/best_scheme.md",
-      "title": "最优分组方案",
-      "url": "others/数学建模/分组评价模型/outputs/best_scheme/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 379,
-      "word_count": "379 字",
-      "minutes": 1,
-      "directory": "others/数学建模/分组评价模型/outputs"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_candidate_eval/best_scheme.md",
-      "title": "最优分组方案",
-      "url": "others/数学建模/数模3/outputs_candidate_eval/best_scheme/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 379,
-      "word_count": "379 字",
-      "minutes": 1,
-      "directory": "others/数学建模/数模3/outputs_candidate_eval"
-    },
-    {
-      "src": "others/数学建模/数模3/最终方案检查评估.md",
-      "title": "最终方案检查评估与修正记录",
-      "url": "others/数学建模/数模3/最终方案检查评估/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1521,
-      "word_count": "1,521 字",
-      "minutes": 4,
-      "directory": "others/数学建模/数模3"
-    },
-    {
-      "src": "control/控制论/未命名.md",
-      "title": "未命名",
-      "url": "control/控制论/未命名/",
-      "section": "控制",
-      "tags": [
-        "控制",
-        "控制论"
-      ],
-      "updated": "2026-05-07T13:19:53+00:00",
-      "date": "2026-05-07",
-      "created": "2026-05-07T13:19:53+00:00",
-      "words": 268,
-      "word_count": "268 字",
-      "minutes": 1,
-      "directory": "control/控制论"
-    },
-    {
-      "src": "zju-courses/发展心理学/未命名.md",
-      "title": "未命名",
-      "url": "zju-courses/发展心理学/未命名/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "发展心理学"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 1233,
-      "word_count": "1,233 字",
-      "minutes": 4,
+      "updated": "2026-06-25T08:17:38+00:00",
+      "date": "2026-06-25",
+      "created": "2026-06-25T05:28:17+00:00",
+      "words": 1174,
+      "word_count": "1,174 字",
+      "minutes": 3,
       "directory": "zju-courses/发展心理学"
     },
     {
@@ -1611,30 +829,13 @@
         "ZJU-Courses",
         "材料力学"
       ],
-      "updated": "2026-06-07T13:47:03+00:00",
-      "date": "2026-06-07",
+      "updated": "2026-07-04T12:41:24+00:00",
+      "date": "2026-07-04",
       "created": "2026-01-23T14:58:34+00:00",
-      "words": 4077,
-      "word_count": "4,077 字",
+      "words": 4151,
+      "word_count": "4,151 字",
       "minutes": 11,
       "directory": "zju-courses/材料力学"
-    },
-    {
-      "src": "zju-courses/材料力学实验/材料力学实验.md",
-      "title": "材料力学实验",
-      "url": "zju-courses/材料力学实验/材料力学实验/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "材料力学实验"
-      ],
-      "updated": "2026-04-30T01:17:37+00:00",
-      "date": "2026-04-30",
-      "created": "2026-04-30T01:17:37+00:00",
-      "words": 40,
-      "word_count": "40 字",
-      "minutes": 1,
-      "directory": "zju-courses/材料力学实验"
     },
     {
       "src": "zju-courses/材料力学/公式整理.md",
@@ -1671,74 +872,6 @@
       "directory": "zju-courses/农业生物系统传输过程"
     },
     {
-      "src": "others/数学建模/数模1/math_model/README.md",
-      "title": "浙江大学数学建模竞赛 B 题：“浙超”分组方案",
-      "url": "others/数学建模/数模1/math_model/README/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1151,
-      "word_count": "1,151 字",
-      "minutes": 3,
-      "directory": "others/数学建模/数模1/math_model"
-    },
-    {
-      "src": "others/数学建模/数模2/mm/总报告.md",
-      "title": "浙江省体育赛事分组、抽签、赛地与赛制设计总报告",
-      "url": "others/数学建模/数模2/mm/总报告/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 8515,
-      "word_count": "8,515 字",
-      "minutes": 22,
-      "directory": "others/数学建模/数模2/mm"
-    },
-    {
-      "src": "others/数学建模/final/math_model/项目说明.md",
-      "title": "浙江省市县足球联赛分组建模",
-      "url": "others/数学建模/final/math_model/项目说明/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 516,
-      "word_count": "516 字",
-      "minutes": 2,
-      "directory": "others/数学建模/final/math_model"
-    },
-    {
-      "src": "others/数学建模/final/math_model/项目总结.md",
-      "title": "浙江省市县足球联赛分组建模项目总结",
-      "url": "others/数学建模/final/math_model/项目总结/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 3964,
-      "word_count": "3,964 字",
-      "minutes": 10,
-      "directory": "others/数学建模/final/math_model"
-    },
-    {
       "src": "others/知识库/灵感/灵感.md",
       "title": "灵感",
       "url": "others/知识库/灵感/灵感/",
@@ -1754,244 +887,6 @@
       "word_count": "54 字",
       "minutes": 1,
       "directory": "others/知识库/灵感"
-    },
-    {
-      "src": "zju-courses/农业物料学/物料学实验.md",
-      "title": "物料学实验",
-      "url": "zju-courses/农业物料学/物料学实验/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业物料学"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 35,
-      "word_count": "35 字",
-      "minutes": 1,
-      "directory": "zju-courses/农业物料学"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论_三篇范文参照修订版.md",
-      "title": "琥珀一盏，何以照见“中国心”？",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论_三篇范文参照修订版/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-07T13:47:03+00:00",
-      "date": "2026-06-07",
-      "created": "2026-06-07T13:47:03+00:00",
-      "words": 3173,
-      "word_count": "3,173 字",
-      "minutes": 8,
-      "directory": "zju-courses/电视节目策划与编导"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论_范文风格修改版.md",
-      "title": "琥珀一盏，何以照见“中国心”？",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论_范文风格修改版/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-07T13:47:03+00:00",
-      "date": "2026-06-07",
-      "created": "2026-06-07T13:47:03+00:00",
-      "words": 2902,
-      "word_count": "2,902 字",
-      "minutes": 8,
-      "directory": "zju-courses/电视节目策划与编导"
-    },
-    {
-      "src": "others/ASABE 2026/我的签证/材料准备.md",
-      "title": "申请材料",
-      "url": "others/ASABE 2026/我的签证/材料准备/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "ASABE 2026"
-      ],
-      "updated": "2026-04-28T01:48:21+00:00",
-      "date": "2026-04-28",
-      "created": "2026-04-25T12:11:27+00:00",
-      "words": 199,
-      "word_count": "199 字",
-      "minutes": 1,
-      "directory": "others/ASABE 2026/我的签证"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目策划与编导.md",
-      "title": "电视节目策划与编导",
-      "url": "zju-courses/电视节目策划与编导/电视节目策划与编导/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-04-30T01:17:37+00:00",
-      "words": 32,
-      "word_count": "32 字",
-      "minutes": 1,
-      "directory": "zju-courses/电视节目策划与编导"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论.md",
-      "title": "电视节目评论",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 38,
-      "word_count": "38 字",
-      "minutes": 1,
-      "directory": "zju-courses/电视节目策划与编导/电视节目评论"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿_正式版.md",
-      "title": "电视节目评论_诗酒中国心_终稿_正式版",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿_正式版/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 3878,
-      "word_count": "3,878 字",
-      "minutes": 10,
-      "directory": "zju-courses/电视节目策划与编导/电视节目评论"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版_v3_去AI味.md",
-      "title": "电视节目评论（去AI味版 v2）",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版_v3_去AI味/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 3142,
-      "word_count": "3,142 字",
-      "minutes": 8,
-      "directory": "zju-courses/电视节目策划与编导/电视节目评论"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版.md",
-      "title": "电视节目评论（最终修改版）",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 3300,
-      "word_count": "3,300 字",
-      "minutes": 9,
-      "directory": "zju-courses/电视节目策划与编导/电视节目评论"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版_v2.md",
-      "title": "电视节目评论（深度修改版·含节目内容调研）",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_修改版_v2/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 4369,
-      "word_count": "4,369 字",
-      "minutes": 11,
-      "directory": "zju-courses/电视节目策划与编导/电视节目评论"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿.md",
-      "title": "电视节目评论（终稿）",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论/电视节目评论_诗酒中国心_终稿/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 3291,
-      "word_count": "3,291 字",
-      "minutes": 9,
-      "directory": "zju-courses/电视节目策划与编导/电视节目评论"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/outputs_direct/direct_top_schemes.md",
-      "title": "直接寻优得到的若干可行方案",
-      "url": "others/数学建模/分组评价模型/outputs_direct/direct_top_schemes/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1364,
-      "word_count": "1,364 字",
-      "minutes": 4,
-      "directory": "others/数学建模/分组评价模型/outputs_direct"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_direct/direct_top_schemes.md",
-      "title": "直接寻优得到的若干可行方案",
-      "url": "others/数学建模/数模3/outputs_direct/direct_top_schemes/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1364,
-      "word_count": "1,364 字",
-      "minutes": 4,
-      "directory": "others/数学建模/数模3/outputs_direct"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/直接寻优说明.md",
-      "title": "直接寻优方法说明",
-      "url": "others/数学建模/分组评价模型/直接寻优说明/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 994,
-      "word_count": "994 字",
-      "minutes": 3,
-      "directory": "others/数学建模/分组评价模型"
     },
     {
       "src": "zju-courses/发展心理学/笔记1.md",
@@ -2053,98 +948,13 @@
         "ZJU-Courses",
         "发展心理学"
       ],
-      "updated": "2026-06-08T08:27:47+00:00",
-      "date": "2026-06-08",
+      "updated": "2026-06-10T02:23:58+00:00",
+      "date": "2026-06-10",
       "created": "2026-05-27T13:18:51+00:00",
-      "words": 2284,
-      "word_count": "2,284 字",
-      "minutes": 6,
+      "words": 6829,
+      "word_count": "6,829 字",
+      "minutes": 18,
       "directory": "zju-courses/发展心理学"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/节目策划案/策划案框架.md",
-      "title": "策划案框架",
-      "url": "zju-courses/电视节目策划与编导/节目策划案/策划案框架/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 75,
-      "word_count": "75 字",
-      "minutes": 1,
-      "directory": "zju-courses/电视节目策划与编导/节目策划案"
-    },
-    {
-      "src": "zju-courses/精细农业/精细农业.md",
-      "title": "精细农业",
-      "url": "zju-courses/精细农业/精细农业/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "精细农业"
-      ],
-      "updated": "2026-05-18T08:30:06+00:00",
-      "date": "2026-05-18",
-      "created": "2026-03-02T06:27:31+00:00",
-      "words": 97,
-      "word_count": "97 字",
-      "minutes": 1,
-      "directory": "zju-courses/精细农业"
-    },
-    {
-      "src": "zju-courses/精细农业/精细农业2026-04-27第6-8节_AI学习总结.md",
-      "title": "精细农业2026-04-27第6-8节",
-      "url": "zju-courses/精细农业/精细农业2026-04-27第6-8节_AI学习总结/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "精细农业"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 2953,
-      "word_count": "2,953 字",
-      "minutes": 8,
-      "directory": "zju-courses/精细农业"
-    },
-    {
-      "src": "zju-courses/精细农业/精细农业2026-05-11第6-8节_AI学习总结.md",
-      "title": "精细农业2026-05-11第6-8节",
-      "url": "zju-courses/精细农业/精细农业2026-05-11第6-8节_AI学习总结/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "精细农业"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 3315,
-      "word_count": "3,315 字",
-      "minutes": 9,
-      "directory": "zju-courses/精细农业"
-    },
-    {
-      "src": "zju-courses/精细农业/精细农业2026-05-18第6-8节_AI学习总结.md",
-      "title": "精细农业2026-05-18第6-8节",
-      "url": "zju-courses/精细农业/精细农业2026-05-18第6-8节_AI学习总结/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "精细农业"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 3043,
-      "word_count": "3,043 字",
-      "minutes": 8,
-      "directory": "zju-courses/精细农业"
     },
     {
       "src": "zju-courses/材料力学/组合变形知识与公式整理.md",
@@ -2164,23 +974,6 @@
       "directory": "zju-courses/材料力学"
     },
     {
-      "src": "others/数学建模/final/math_model/results/结果汇总.md",
-      "title": "结果汇总",
-      "url": "others/数学建模/final/math_model/results/结果汇总/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 650,
-      "word_count": "650 字",
-      "minutes": 2,
-      "directory": "others/数学建模/final/math_model/results"
-    },
-    {
       "src": "control/自动控制理论/自动控制理论.md",
       "title": "自动控制理论",
       "url": "control/自动控制理论/自动控制理论/",
@@ -2189,8 +982,8 @@
         "控制",
         "自动控制理论"
       ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
+      "updated": "2026-07-01T09:03:30+00:00",
+      "date": "2026-07-01",
       "created": "2026-03-09T06:12:31+00:00",
       "words": 3493,
       "word_count": "3,493 字",
@@ -2198,55 +991,21 @@
       "directory": "control/自动控制理论"
     },
     {
-      "src": "others/数学建模/分组评价模型/outputs/top_schemes_comparison.md",
-      "title": "若干可行分组方案对比",
-      "url": "others/数学建模/分组评价模型/outputs/top_schemes_comparison/",
-      "section": "其他",
+      "src": "control/控制论/讨论课复习.md",
+      "title": "讨论课复习",
+      "url": "control/控制论/讨论课复习/",
+      "section": "控制",
       "tags": [
-        "其他",
-        "数学建模"
+        "控制",
+        "控制论"
       ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1790,
-      "word_count": "1,790 字",
-      "minutes": 5,
-      "directory": "others/数学建模/分组评价模型/outputs"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_candidate_eval/top_schemes_comparison.md",
-      "title": "若干可行分组方案对比",
-      "url": "others/数学建模/数模3/outputs_candidate_eval/top_schemes_comparison/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1790,
-      "word_count": "1,790 字",
-      "minutes": 5,
-      "directory": "others/数学建模/数模3/outputs_candidate_eval"
-    },
-    {
-      "src": "others/数学建模/数模3/融合采用建议.md",
-      "title": "融合采用建议",
-      "url": "others/数学建模/数模3/融合采用建议/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 665,
-      "word_count": "665 字",
-      "minutes": 2,
-      "directory": "others/数学建模/数模3"
+      "updated": "2026-06-17T08:37:59+00:00",
+      "date": "2026-06-17",
+      "created": "2026-06-17T08:37:59+00:00",
+      "words": 89,
+      "word_count": "89 字",
+      "minutes": 1,
+      "directory": "control/控制论"
     },
     {
       "src": "about_me.md",
@@ -2263,210 +1022,6 @@
       "word_count": "135 字",
       "minutes": 1,
       "directory": "."
-    },
-    {
-      "src": "others/数学建模/数模3/输出文件口径说明.md",
-      "title": "输出文件口径说明",
-      "url": "others/数学建模/数模3/输出文件口径说明/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 221,
-      "word_count": "221 字",
-      "minutes": 1,
-      "directory": "others/数学建模/数模3"
-    },
-    {
-      "src": "others/数学建模/建模方案.md",
-      "title": "问题 1  分组方案",
-      "url": "others/数学建模/建模方案/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 2175,
-      "word_count": "2,175 字",
-      "minutes": 6,
-      "directory": "others/数学建模"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_method_compare/问题一分组生成方法对比.md",
-      "title": "问题一分组生成方法对比",
-      "url": "others/数学建模/数模3/outputs_method_compare/问题一分组生成方法对比/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 637,
-      "word_count": "637 字",
-      "minutes": 2,
-      "directory": "others/数学建模/数模3/outputs_method_compare"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_selection/问题一方案选择说明.md",
-      "title": "问题一最终分组方案选择说明",
-      "url": "others/数学建模/数模3/outputs_selection/问题一方案选择说明/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 781,
-      "word_count": "781 字",
-      "minutes": 2,
-      "directory": "others/数学建模/数模3/outputs_selection"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/outputs_venues/venue_solution.md",
-      "title": "问题三比赛地点选择结果",
-      "url": "others/数学建模/分组评价模型/outputs_venues/venue_solution/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 492,
-      "word_count": "492 字",
-      "minutes": 2,
-      "directory": "others/数学建模/分组评价模型/outputs_venues"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/outputs_venues_balanced/venue_solution.md",
-      "title": "问题三比赛地点选择结果",
-      "url": "others/数学建模/分组评价模型/outputs_venues_balanced/venue_solution/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 515,
-      "word_count": "515 字",
-      "minutes": 2,
-      "directory": "others/数学建模/分组评价模型/outputs_venues_balanced"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/outputs_venues_balanced_check/venue_solution.md",
-      "title": "问题三比赛地点选择结果",
-      "url": "others/数学建模/分组评价模型/outputs_venues_balanced_check/venue_solution/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 515,
-      "word_count": "515 字",
-      "minutes": 2,
-      "directory": "others/数学建模/分组评价模型/outputs_venues_balanced_check"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/outputs_venues_balanced_search/venue_solution.md",
-      "title": "问题三比赛地点选择结果",
-      "url": "others/数学建模/分组评价模型/outputs_venues_balanced_search/venue_solution/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 515,
-      "word_count": "515 字",
-      "minutes": 2,
-      "directory": "others/数学建模/分组评价模型/outputs_venues_balanced_search"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_venues/venue_solution.md",
-      "title": "问题三比赛地点选择结果",
-      "url": "others/数学建模/数模3/outputs_venues/venue_solution/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 515,
-      "word_count": "515 字",
-      "minutes": 2,
-      "directory": "others/数学建模/数模3/outputs_venues"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_venues_selected/venue_solution.md",
-      "title": "问题三比赛地点选择结果",
-      "url": "others/数学建模/数模3/outputs_venues_selected/venue_solution/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 515,
-      "word_count": "515 字",
-      "minutes": 2,
-      "directory": "others/数学建模/数模3/outputs_venues_selected"
-    },
-    {
-      "src": "others/数学建模/数模3/问题三选址模型与准确性检查.md",
-      "title": "问题三选址模型与准确性检查",
-      "url": "others/数学建模/数模3/问题三选址模型与准确性检查/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 1121,
-      "word_count": "1,121 字",
-      "minutes": 3,
-      "directory": "others/数学建模/数模3"
-    },
-    {
-      "src": "others/数学建模/问题三解法.md",
-      "title": "问题三：小组赛比赛地点选择模型与改进结果",
-      "url": "others/数学建模/问题三解法/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 3421,
-      "word_count": "3,421 字",
-      "minutes": 9,
-      "directory": "others/数学建模"
     },
     {
       "src": "others/数学建模/初版结果说明/问题三解法.md",
@@ -2486,91 +1041,6 @@
       "directory": "others/数学建模/初版结果说明"
     },
     {
-      "src": "others/数学建模/分组评价模型/outputs_lottery/final_draw_scheme.md",
-      "title": "问题二公开抽签结果",
-      "url": "others/数学建模/分组评价模型/outputs_lottery/final_draw_scheme/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 377,
-      "word_count": "377 字",
-      "minutes": 1,
-      "directory": "others/数学建模/分组评价模型/outputs_lottery"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_lottery/final_draw_scheme.md",
-      "title": "问题二公开抽签结果",
-      "url": "others/数学建模/数模3/outputs_lottery/final_draw_scheme/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 377,
-      "word_count": "377 字",
-      "minutes": 1,
-      "directory": "others/数学建模/数模3/outputs_lottery"
-    },
-    {
-      "src": "others/数学建模/分组评价模型/outputs_lottery/lottery_process.md",
-      "title": "问题二抽签过程设计",
-      "url": "others/数学建模/分组评价模型/outputs_lottery/lottery_process/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 538,
-      "word_count": "538 字",
-      "minutes": 2,
-      "directory": "others/数学建模/分组评价模型/outputs_lottery"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_lottery/lottery_process.md",
-      "title": "问题二抽签过程设计",
-      "url": "others/数学建模/数模3/outputs_lottery/lottery_process/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 538,
-      "word_count": "538 字",
-      "minutes": 2,
-      "directory": "others/数学建模/数模3/outputs_lottery"
-    },
-    {
-      "src": "others/数学建模/问题二抽签方案.md",
-      "title": "问题二：公平透明的分组抽签方案",
-      "url": "others/数学建模/问题二抽签方案/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 2223,
-      "word_count": "2,223 字",
-      "minutes": 6,
-      "directory": "others/数学建模"
-    },
-    {
       "src": "others/数学建模/初版结果说明/问题二抽签方案.md",
       "title": "问题二：公平透明的分组抽签方案",
       "url": "others/数学建模/初版结果说明/问题二抽签方案/",
@@ -2588,74 +1058,6 @@
       "directory": "others/数学建模/初版结果说明"
     },
     {
-      "src": "others/数学建模/分组评价模型/outputs_tournament/simulation_summary.md",
-      "title": "问题四赛制仿真结果",
-      "url": "others/数学建模/分组评价模型/outputs_tournament/simulation_summary/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 305,
-      "word_count": "305 字",
-      "minutes": 1,
-      "directory": "others/数学建模/分组评价模型/outputs_tournament"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_tournament/simulation_summary.md",
-      "title": "问题四赛制仿真结果",
-      "url": "others/数学建模/数模3/outputs_tournament/simulation_summary/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 305,
-      "word_count": "305 字",
-      "minutes": 1,
-      "directory": "others/数学建模/数模3/outputs_tournament"
-    },
-    {
-      "src": "others/数学建模/数模3/outputs_tournament_selected/simulation_summary.md",
-      "title": "问题四赛制仿真结果",
-      "url": "others/数学建模/数模3/outputs_tournament_selected/simulation_summary/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 305,
-      "word_count": "305 字",
-      "minutes": 1,
-      "directory": "others/数学建模/数模3/outputs_tournament_selected"
-    },
-    {
-      "src": "others/数学建模/问题四解法.md",
-      "title": "问题四：赛制评价模型与合理化建议",
-      "url": "others/数学建模/问题四解法/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 2848,
-      "word_count": "2,848 字",
-      "minutes": 8,
-      "directory": "others/数学建模"
-    },
-    {
       "src": "others/数学建模/初版结果说明/问题四解法.md",
       "title": "问题四：赛制评价模型与合理化建议",
       "url": "others/数学建模/初版结果说明/问题四解法/",
@@ -2671,23 +1073,6 @@
       "word_count": "2,848 字",
       "minutes": 8,
       "directory": "others/数学建模/初版结果说明"
-    },
-    {
-      "src": "zju-courses/电视节目策划与编导/电视节目评论/降AI味_迭代3_终稿.md",
-      "title": "降AI味_迭代3_终稿",
-      "url": "zju-courses/电视节目策划与编导/电视节目评论/降AI味_迭代3_终稿/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "电视节目策划与编导"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 2712,
-      "word_count": "2,712 字",
-      "minutes": 7,
-      "directory": "zju-courses/电视节目策划与编导/电视节目评论"
     }
   ]
 }

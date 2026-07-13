@@ -24,3 +24,6 @@
 
 6.6 再次爱上陈绮贞
 ![](assets/4e84bc9945dd8711f6f6992ba3f772ac.png)
+
+7.11 被讨厌的勇气
+![](assets/9ababb5553fcf88f4486acfdc3424d1a.jpg)
