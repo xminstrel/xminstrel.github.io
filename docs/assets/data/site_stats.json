@@ -1,11 +1,62 @@
 {
-  "article_count": 44,
+  "article_count": 46,
   "section_count": 7,
-  "total_words": 97351,
-  "total_word_count": "9.7 万字",
-  "updated": "2026-07-09T02:17:38+00:00",
-  "date": "2026-07-09",
+  "total_words": 104234,
+  "total_word_count": "10.4 万字",
+  "updated": "2026-07-13T17:50:49+00:00",
+  "date": "2026-07-13",
   "random_pages": [
+    {
+      "src": "zju-courses/材料力学/材料力学.md",
+      "title": "材料力学",
+      "url": "zju-courses/材料力学/材料力学/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "材料力学"
+      ],
+      "updated": "2026-07-13T17:50:49+00:00",
+      "date": "2026-07-13",
+      "created": "2026-01-23T14:58:34+00:00",
+      "words": 4147,
+      "word_count": "4,147 字",
+      "minutes": 11,
+      "directory": "zju-courses/材料力学"
+    },
+    {
+      "src": "zju-courses/发展心理学/期末复习笔记.md",
+      "title": "期末复习笔记",
+      "url": "zju-courses/发展心理学/期末复习笔记/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
+      "updated": "2026-07-13T17:50:49+00:00",
+      "date": "2026-07-13",
+      "created": "2026-06-25T05:28:17+00:00",
+      "words": 1174,
+      "word_count": "1,174 字",
+      "minutes": 3,
+      "directory": "zju-courses/发展心理学"
+    },
+    {
+      "src": "others/moments/moments.md",
+      "title": "moments",
+      "url": "others/moments/moments/",
+      "section": "其他",
+      "tags": [
+        "其他",
+        "moments"
+      ],
+      "updated": "2026-07-13T17:50:49+00:00",
+      "date": "2026-07-13",
+      "created": "2026-04-21T13:26:44+00:00",
+      "words": 69,
+      "word_count": "69 字",
+      "minutes": 1,
+      "directory": "others/moments"
+    },
     {
       "src": "control/控制论/控制论.md",
       "title": "控制论",
@@ -39,23 +90,6 @@
       "word_count": "630 字",
       "minutes": 2,
       "directory": "control/控制论"
-    },
-    {
-      "src": "zju-courses/材料力学/材料力学.md",
-      "title": "材料力学",
-      "url": "zju-courses/材料力学/材料力学/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "材料力学"
-      ],
-      "updated": "2026-07-04T12:41:24+00:00",
-      "date": "2026-07-04",
-      "created": "2026-01-23T14:58:34+00:00",
-      "words": 4151,
-      "word_count": "4,151 字",
-      "minutes": 11,
-      "directory": "zju-courses/材料力学"
     },
     {
       "src": "control/自动控制理论/自动控制理论.md",
@@ -109,23 +143,6 @@
       "directory": "zju-courses/农业生物系统传输过程"
     },
     {
-      "src": "zju-courses/发展心理学/期末复习笔记.md",
-      "title": "期末复习笔记",
-      "url": "zju-courses/发展心理学/期末复习笔记/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "发展心理学"
-      ],
-      "updated": "2026-06-25T08:17:38+00:00",
-      "date": "2026-06-25",
-      "created": "2026-06-25T05:28:17+00:00",
-      "words": 1174,
-      "word_count": "1,174 字",
-      "minutes": 3,
-      "directory": "zju-courses/发展心理学"
-    },
-    {
       "src": "control/控制论/讨论课复习.md",
       "title": "讨论课复习",
       "url": "control/控制论/讨论课复习/",
@@ -175,23 +192,6 @@
       "word_count": "2,622 字",
       "minutes": 7,
       "directory": "zju-courses/农业生物系统传输过程"
-    },
-    {
-      "src": "others/moments/moments.md",
-      "title": "moments",
-      "url": "others/moments/moments/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "moments"
-      ],
-      "updated": "2026-06-07T13:56:57+00:00",
-      "date": "2026-06-07",
-      "created": "2026-04-21T13:26:44+00:00",
-      "words": 61,
-      "word_count": "61 字",
-      "minutes": 1,
-      "directory": "others/moments"
     },
     {
       "src": "resources/tools.md",
@@ -415,6 +415,23 @@
       "directory": "ai"
     },
     {
+      "src": "robotic/2026暑假/study plan.md",
+      "title": "ROS 2 + PyTorch 暑假项目式学习计划",
+      "url": "robotic/2026暑假/study plan/",
+      "section": "Robotics",
+      "tags": [
+        "Robotics",
+        "2026暑假"
+      ],
+      "updated": "2026-07-13T17:50:49+00:00",
+      "date": "2026-07-13",
+      "created": "2026-07-13T17:50:49+00:00",
+      "words": 4634,
+      "word_count": "4,634 字",
+      "minutes": 12,
+      "directory": "robotic/2026暑假"
+    },
+    {
       "src": "control/esp32/esp32.md",
       "title": "esp32",
       "url": "control/esp32/esp32/",
@@ -441,11 +458,11 @@
         "其他",
         "moments"
       ],
-      "updated": "2026-06-07T13:56:57+00:00",
-      "date": "2026-06-07",
+      "updated": "2026-07-13T17:50:49+00:00",
+      "date": "2026-07-13",
       "created": "2026-04-21T13:26:44+00:00",
-      "words": 61,
-      "word_count": "61 字",
+      "words": 69,
+      "word_count": "69 字",
       "minutes": 1,
       "directory": "others/moments"
     },
@@ -465,22 +482,6 @@
       "word_count": "301 字",
       "minutes": 1,
       "directory": "robotic/ros2"
-    },
-    {
-      "src": "robotic/timeline.md",
-      "title": "timeline",
-      "url": "robotic/timeline/",
-      "section": "Robotics",
-      "tags": [
-        "Robotics"
-      ],
-      "updated": "2026-04-15T13:44:16+00:00",
-      "date": "2026-04-15",
-      "created": "2026-04-15T13:44:16+00:00",
-      "words": 1267,
-      "word_count": "1,267 字",
-      "minutes": 4,
-      "directory": "robotic"
     },
     {
       "src": "others/数学建模/初版结果说明/建模思路与公式汇总.md",
@@ -627,11 +628,11 @@
         "ZJU-Courses",
         "发展心理学"
       ],
-      "updated": "2026-05-18T15:18:57+00:00",
-      "date": "2026-05-18",
+      "updated": "2026-07-13T17:50:49+00:00",
+      "date": "2026-07-13",
       "created": "2026-05-18T15:18:57+00:00",
-      "words": 222,
-      "word_count": "222 字",
+      "words": 228,
+      "word_count": "228 字",
       "minutes": 1,
       "directory": "zju-courses/发展心理学"
     },
@@ -796,8 +797,8 @@
         "ZJU-Courses",
         "发展心理学"
       ],
-      "updated": "2026-06-25T08:17:38+00:00",
-      "date": "2026-06-25",
+      "updated": "2026-07-13T17:50:49+00:00",
+      "date": "2026-07-13",
       "created": "2026-06-25T05:28:17+00:00",
       "words": 1174,
       "word_count": "1,174 字",
@@ -829,11 +830,11 @@
         "ZJU-Courses",
         "材料力学"
       ],
-      "updated": "2026-07-04T12:41:24+00:00",
-      "date": "2026-07-04",
+      "updated": "2026-07-13T17:50:49+00:00",
+      "date": "2026-07-13",
       "created": "2026-01-23T14:58:34+00:00",
-      "words": 4151,
-      "word_count": "4,151 字",
+      "words": 4147,
+      "word_count": "4,147 字",
       "minutes": 11,
       "directory": "zju-courses/材料力学"
     },
@@ -991,6 +992,23 @@
       "directory": "control/自动控制理论"
     },
     {
+      "src": "others/read/被讨厌的勇气.md",
+      "title": "被讨厌的勇气",
+      "url": "others/read/被讨厌的勇气/",
+      "section": "其他",
+      "tags": [
+        "其他",
+        "read"
+      ],
+      "updated": "2026-07-13T17:50:49+00:00",
+      "date": "2026-07-13",
+      "created": "2026-07-13T17:50:49+00:00",
+      "words": 1331,
+      "word_count": "1,331 字",
+      "minutes": 4,
+      "directory": "others/read"
+    },
+    {
       "src": "control/控制论/讨论课复习.md",
       "title": "讨论课复习",
       "url": "control/控制论/讨论课复习/",
@@ -1022,6 +1040,23 @@
       "word_count": "135 字",
       "minutes": 1,
       "directory": "."
+    },
+    {
+      "src": "others/数学建模/建模方案.md",
+      "title": "问题 1  分组方案",
+      "url": "others/数学建模/建模方案/",
+      "section": "其他",
+      "tags": [
+        "其他",
+        "数学建模"
+      ],
+      "updated": "2026-07-13T17:50:49+00:00",
+      "date": "2026-07-13",
+      "created": "2026-05-14T11:10:36+00:00",
+      "words": 2175,
+      "word_count": "2,175 字",
+      "minutes": 6,
+      "directory": "others/数学建模"
     },
     {
       "src": "others/数学建模/初版结果说明/问题三解法.md",

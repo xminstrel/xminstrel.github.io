@@ -89,13 +89,3 @@ comments: false
 </div>
 
 </section>
-
-<section class="home-section" markdown>
-
-## 公开文章归档
-
-<div class="home-archive" data-public-archive>
-  <span class="home-update-card home-update-card--empty">正在整理公开文章...</span>
-</div>
-
-</section>

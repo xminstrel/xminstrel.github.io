@@ -3,13 +3,10 @@ document$.subscribe(() => {
   const recentFilter = document.querySelector("[data-recent-filter]");
   const statsContainer = document.querySelector("[data-site-stats]");
   const randomLink = document.querySelector("[data-random-note]");
-  const publicArchive = document.querySelector("[data-public-archive]");
   const tagsBrowser = document.querySelector("[data-tags-browser]");
   const relationPanel = document.querySelector("[data-page-relations]");
 
-  setupReadingProgress();
-
-  if (statsContainer || randomLink || publicArchive) {
+  if (statsContainer || randomLink) {
     fetch(resolveDataPath("assets/data/site_stats.json"))
       .then((response) => {
         if (!response.ok) {
@@ -20,9 +17,6 @@ document$.subscribe(() => {
       .then((stats) => {
         if (statsContainer) {
           renderSiteStats(statsContainer, stats);
-        }
-        if (publicArchive) {
-          renderPublicArchive(publicArchive, stats);
         }
         const randomPages = Array.isArray(stats.random_pages) ? stats.random_pages : stats.pages;
         if (randomLink && Array.isArray(randomPages) && randomPages.length) {
@@ -36,9 +30,6 @@ document$.subscribe(() => {
       .catch(() => {
         if (statsContainer) {
           statsContainer.innerHTML = '<span class="home-stat home-stat--empty">站点概览暂时没有加载出来。</span>';
-        }
-        if (publicArchive) {
-          publicArchive.innerHTML = '<span class="home-update-card home-update-card--empty">公开文章归档暂时没有加载出来。</span>';
         }
       });
   }
@@ -97,29 +88,6 @@ function resolveSiteUrl(path) {
     return new URL(normalized, base.href).toString();
   }
   return new URL(normalized, document.location.origin + "/").toString();
-}
-
-function setupReadingProgress() {
-  if (document.querySelector(".reading-progress")) {
-    return;
-  }
-
-  const bar = document.createElement("div");
-  bar.className = "reading-progress";
-  bar.setAttribute("aria-hidden", "true");
-  document.body.append(bar);
-
-  const update = () => {
-    const root = document.documentElement;
-    const scrollTop = root.scrollTop || document.body.scrollTop;
-    const maxScroll = root.scrollHeight - root.clientHeight;
-    const progress = maxScroll > 0 ? Math.min(1, Math.max(0, scrollTop / maxScroll)) : 0;
-    bar.style.transform = `scaleX(${progress})`;
-  };
-
-  update();
-  document.addEventListener("scroll", update, { passive: true });
-  window.addEventListener("resize", update);
 }
 
 function renderRecentNotes(container, filterContainer, garden) {
@@ -393,42 +361,5 @@ function renderSiteStats(container, stats) {
 
     item.append(valueEl, labelEl);
     container.append(item);
-  });
-}
-
-function renderPublicArchive(container, stats) {
-  const pages = Array.isArray(stats.random_pages) ? [...stats.random_pages] : [];
-  pages.sort((a, b) => (b.updated || "").localeCompare(a.updated || ""));
-
-  container.innerHTML = "";
-
-  pages.forEach((page) => {
-    const link = document.createElement("a");
-    link.className = "home-archive__item";
-    link.href = resolveSiteUrl(page.url);
-
-    const date = document.createElement("time");
-    date.className = "home-archive__date";
-    date.dateTime = page.date || "";
-    date.textContent = page.date || "未知";
-
-    const main = document.createElement("span");
-    main.className = "home-archive__main";
-
-    const title = document.createElement("span");
-    title.className = "home-archive__title";
-    title.textContent = page.title;
-
-    const section = document.createElement("span");
-    section.className = "home-archive__section";
-    section.textContent = page.section;
-
-    const meta = document.createElement("span");
-    meta.className = "home-archive__meta";
-    meta.textContent = `${page.word_count} · 约 ${page.minutes} 分钟`;
-
-    main.append(title, section);
-    link.append(date, main, meta);
-    container.append(link);
   });
 }
