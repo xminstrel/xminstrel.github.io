@@ -1,11 +1,28 @@
 {
-  "article_count": 46,
-  "section_count": 7,
-  "total_words": 106385,
-  "total_word_count": "10.6 万字",
-  "updated": "2026-07-21T15:10:20+00:00",
-  "date": "2026-07-21",
+  "article_count": 20,
+  "section_count": 5,
+  "total_words": 45583,
+  "total_word_count": "4.6 万字",
+  "updated": "2026-07-24T13:52:04+00:00",
+  "date": "2026-07-24",
   "random_pages": [
+    {
+      "src": "others/read/被讨厌的勇气.md",
+      "title": "被讨厌的勇气",
+      "url": "others/read/被讨厌的勇气/",
+      "section": "其他",
+      "tags": [
+        "其他",
+        "read"
+      ],
+      "updated": "2026-07-24T13:52:04+00:00",
+      "date": "2026-07-24",
+      "created": "2026-07-13T17:50:49+00:00",
+      "words": 3475,
+      "word_count": "3,475 字",
+      "minutes": 9,
+      "directory": "others/read"
+    },
     {
       "src": "others/moments/moments.md",
       "title": "moments",
@@ -332,122 +349,21 @@
   ],
   "pages": [
     {
-      "src": "robotic/ros2/指令.md",
-      "title": "1. Linux 路径与符号速查表",
-      "url": "robotic/ros2/指令/",
-      "section": "Robotics",
+      "src": "others/read/被讨厌的勇气.md",
+      "title": "被讨厌的勇气",
+      "url": "others/read/被讨厌的勇气/",
+      "section": "其他",
       "tags": [
-        "Robotics",
-        "ros2"
+        "其他",
+        "read"
       ],
-      "updated": "2026-05-19T13:56:51+00:00",
-      "date": "2026-05-19",
-      "created": "2026-05-19T13:56:51+00:00",
-      "words": 782,
-      "word_count": "782 字",
-      "minutes": 2,
-      "directory": "robotic/ros2"
-    },
-    {
-      "src": "zju-courses/农业物料学/25-26期末回忆卷.md",
-      "title": "25-26 农业无聊学 期末回忆卷",
-      "url": "zju-courses/农业物料学/25-26期末回忆卷/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业物料学"
-      ],
-      "updated": "2026-07-04T12:41:24+00:00",
-      "date": "2026-07-04",
-      "created": "2026-07-04T12:41:24+00:00",
-      "words": 248,
-      "word_count": "248 字",
-      "minutes": 1,
-      "directory": "zju-courses/农业物料学"
-    },
-    {
-      "src": "zju-courses/发展心理学/25-26 发展心理学 回忆卷.md",
-      "title": "25-26 发展心理学 回忆卷",
-      "url": "zju-courses/发展心理学/25-26 发展心理学 回忆卷/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "发展心理学"
-      ],
-      "updated": "2026-06-28T08:00:12+00:00",
-      "date": "2026-06-28",
-      "created": "2026-06-28T08:00:12+00:00",
-      "words": 875,
-      "word_count": "875 字",
-      "minutes": 3,
-      "directory": "zju-courses/发展心理学"
-    },
-    {
-      "src": "resources/tools.md",
-      "title": "AI 工具和资源",
-      "url": "resources/tools/",
-      "section": "Resources",
-      "tags": [
-        "Resources"
-      ],
-      "updated": "2026-05-27T13:18:51+00:00",
-      "date": "2026-05-27",
-      "created": "2026-05-19T11:39:13+00:00",
-      "words": 66,
-      "word_count": "66 字",
-      "minutes": 1,
-      "directory": "resources"
-    },
-    {
-      "src": "ai/tools.md",
-      "title": "AI工具和资源",
-      "url": "ai/tools/",
-      "section": "AI",
-      "tags": [
-        "AI"
-      ],
-      "updated": "2026-03-19T01:34:09+00:00",
-      "date": "2026-03-19",
-      "created": "2026-01-23T13:19:26+00:00",
-      "words": 24,
-      "word_count": "24 字",
-      "minutes": 1,
-      "directory": "ai"
-    },
-    {
-      "src": "robotic/2026暑假/study plan.md",
-      "title": "ROS 2 + PyTorch 暑假项目式学习计划",
-      "url": "robotic/2026暑假/study plan/",
-      "section": "Robotics",
-      "tags": [
-        "Robotics",
-        "2026暑假"
-      ],
-      "updated": "2026-07-13T17:50:49+00:00",
-      "date": "2026-07-13",
+      "updated": "2026-07-24T13:52:04+00:00",
+      "date": "2026-07-24",
       "created": "2026-07-13T17:50:49+00:00",
-      "words": 4634,
-      "word_count": "4,634 字",
-      "minutes": 12,
-      "directory": "robotic/2026暑假"
-    },
-    {
-      "src": "control/esp32/esp32.md",
-      "title": "esp32",
-      "url": "control/esp32/esp32/",
-      "section": "控制",
-      "tags": [
-        "硬件",
-        "控制",
-        "esp32"
-      ],
-      "updated": "2026-03-09T06:12:31+00:00",
-      "date": "2026-03-09",
-      "created": "2026-03-09T06:12:31+00:00",
-      "words": 127,
-      "word_count": "127 字",
-      "minutes": 1,
-      "directory": "control/esp32"
+      "words": 3475,
+      "word_count": "3,475 字",
+      "minutes": 9,
+      "directory": "others/read"
     },
     {
       "src": "others/moments/moments.md",
@@ -467,326 +383,21 @@
       "directory": "others/moments"
     },
     {
-      "src": "robotic/ros2/ros2.md",
-      "title": "ros2",
-      "url": "robotic/ros2/ros2/",
-      "section": "Robotics",
-      "tags": [
-        "Robotics",
-        "ros2"
-      ],
-      "updated": "2026-05-19T13:56:51+00:00",
-      "date": "2026-05-19",
-      "created": "2026-05-19T13:56:51+00:00",
-      "words": 301,
-      "word_count": "301 字",
-      "minutes": 1,
-      "directory": "robotic/ros2"
-    },
-    {
-      "src": "others/数学建模/初版结果说明/建模思路与公式汇总.md",
-      "title": "“浙超”分组方案建模思路与公式汇总",
-      "url": "others/数学建模/初版结果说明/建模思路与公式汇总/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 3620,
-      "word_count": "3,620 字",
-      "minutes": 10,
-      "directory": "others/数学建模/初版结果说明"
-    },
-    {
-      "src": "others/知识库/文化中国/复盘.md",
-      "title": "《文化中国讲座》A 4 一页版超浓缩复盘提纲",
-      "url": "others/知识库/文化中国/复盘/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "知识库"
-      ],
-      "updated": "2026-04-20T02:55:32+00:00",
-      "date": "2026-04-20",
-      "created": "2026-04-20T02:55:32+00:00",
-      "words": 995,
-      "word_count": "995 字",
-      "minutes": 3,
-      "directory": "others/知识库/文化中国"
-    },
-    {
-      "src": "others/知识库/文化中国/讲座总结.md",
-      "title": "《文化中国讲座》复盘笔记",
-      "url": "others/知识库/文化中国/讲座总结/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "知识库"
-      ],
-      "updated": "2026-04-20T02:55:32+00:00",
-      "date": "2026-04-20",
-      "created": "2026-04-20T02:55:32+00:00",
-      "words": 2045,
-      "word_count": "2,045 字",
-      "minutes": 6,
-      "directory": "others/知识库/文化中国"
-    },
-    {
-      "src": "robotic/ros2/github.md",
-      "title": "一、你这个仓库拿来放什么",
-      "url": "robotic/ros2/github/",
-      "section": "Robotics",
-      "tags": [
-        "Robotics",
-        "ros2"
-      ],
-      "updated": "2026-05-19T13:56:51+00:00",
-      "date": "2026-05-19",
-      "created": "2026-05-19T13:56:51+00:00",
-      "words": 954,
-      "word_count": "954 字",
-      "minutes": 3,
-      "directory": "robotic/ros2"
-    },
-    {
-      "src": "zju-courses/农业生物系统传输过程/工传.md",
-      "title": "传热学",
-      "url": "zju-courses/农业生物系统传输过程/工传/",
+      "src": "zju-courses/材料力学/材料力学.md",
+      "title": "材料力学",
+      "url": "zju-courses/材料力学/材料力学/",
       "section": "ZJU-Courses",
       "tags": [
         "ZJU-Courses",
-        "农业生物系统传输过程"
-      ],
-      "updated": "2026-06-09T01:25:42+00:00",
-      "date": "2026-06-09",
-      "created": "2026-04-28T01:48:21+00:00",
-      "words": 2622,
-      "word_count": "2,622 字",
-      "minutes": 7,
-      "directory": "zju-courses/农业生物系统传输过程"
-    },
-    {
-      "src": "others/moments/写在20岁.md",
-      "title": "写在20岁",
-      "url": "others/moments/写在20岁/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "moments"
-      ],
-      "updated": "2026-06-25T05:28:17+00:00",
-      "date": "2026-06-25",
-      "created": "2026-06-25T05:28:17+00:00",
-      "words": 734,
-      "word_count": "734 字",
-      "minutes": 2,
-      "directory": "others/moments"
-    },
-    {
-      "src": "zju-courses/农业物料学/农业物料学.md",
-      "title": "农业物料学",
-      "url": "zju-courses/农业物料学/农业物料学/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业物料学"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-03-04T12:53:31+00:00",
-      "words": 253,
-      "word_count": "253 字",
-      "minutes": 1,
-      "directory": "zju-courses/农业物料学"
-    },
-    {
-      "src": "zju-courses/发展心理学/分工.md",
-      "title": "分工",
-      "url": "zju-courses/发展心理学/分工/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "发展心理学"
-      ],
-      "updated": "2026-07-04T12:41:24+00:00",
-      "date": "2026-07-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 114,
-      "word_count": "114 字",
-      "minutes": 1,
-      "directory": "zju-courses/发展心理学"
-    },
-    {
-      "src": "zju-courses/发展心理学/index.md",
-      "title": "发展心理学",
-      "url": "zju-courses/发展心理学/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "发展心理学"
+        "材料力学"
       ],
       "updated": "2026-07-13T17:50:49+00:00",
       "date": "2026-07-13",
-      "created": "2026-05-18T15:18:57+00:00",
-      "words": 228,
-      "word_count": "228 字",
-      "minutes": 1,
-      "directory": "zju-courses/发展心理学"
-    },
-    {
-      "src": "control/控制论/复习课.md",
-      "title": "复习课",
-      "url": "control/控制论/复习课/",
-      "section": "控制",
-      "tags": [
-        "控制",
-        "控制论"
-      ],
-      "updated": "2026-07-04T12:41:24+00:00",
-      "date": "2026-07-04",
-      "created": "2026-07-04T12:41:24+00:00",
-      "words": 630,
-      "word_count": "630 字",
-      "minutes": 2,
-      "directory": "control/控制论"
-    },
-    {
-      "src": "control/自动控制理论/小测复习.md",
-      "title": "小测复习",
-      "url": "control/自动控制理论/小测复习/",
-      "section": "控制",
-      "tags": [
-        "控制",
-        "自动控制理论"
-      ],
-      "updated": "2026-04-13T02:02:08+00:00",
-      "date": "2026-04-13",
-      "created": "2026-03-29T11:25:38+00:00",
-      "words": 39,
-      "word_count": "39 字",
-      "minutes": 1,
-      "directory": "control/自动控制理论"
-    },
-    {
-      "src": "zju-courses/农业生物系统传输过程/期末重点.md",
-      "title": "工流",
-      "url": "zju-courses/农业生物系统传输过程/期末重点/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业生物系统传输过程"
-      ],
-      "updated": "2026-07-04T12:41:24+00:00",
-      "date": "2026-07-04",
-      "created": "2026-07-04T12:41:24+00:00",
-      "words": 255,
-      "word_count": "255 字",
-      "minutes": 1,
-      "directory": "zju-courses/农业生物系统传输过程"
-    },
-    {
-      "src": "zju-courses/农业生物系统传输过程/工热例题.md",
-      "title": "工热例题",
-      "url": "zju-courses/农业生物系统传输过程/工热例题/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业生物系统传输过程"
-      ],
-      "updated": "2026-07-01T09:03:30+00:00",
-      "date": "2026-07-01",
-      "created": "2026-06-25T05:28:17+00:00",
-      "words": 140,
-      "word_count": "140 字",
-      "minutes": 1,
-      "directory": "zju-courses/农业生物系统传输过程"
-    },
-    {
-      "src": "robotic/技术栈.md",
-      "title": "技术栈",
-      "url": "robotic/技术栈/",
-      "section": "Robotics",
-      "tags": [
-        "Robotics"
-      ],
-      "updated": "2026-04-20T02:55:32+00:00",
-      "date": "2026-04-20",
-      "created": "2026-04-20T02:55:32+00:00",
-      "words": 10351,
-      "word_count": "1.0 万字",
-      "minutes": 26,
-      "directory": "robotic"
-    },
-    {
-      "src": "others/知识库/护照/护照签证.md",
-      "title": "护照",
-      "url": "others/知识库/护照/护照签证/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "知识库"
-      ],
-      "updated": "2026-04-21T00:15:42+00:00",
-      "date": "2026-04-21",
-      "created": "2026-04-20T02:55:32+00:00",
-      "words": 186,
-      "word_count": "186 字",
-      "minutes": 1,
-      "directory": "others/知识库/护照"
-    },
-    {
-      "src": "control/控制论/控制论.md",
-      "title": "控制论",
-      "url": "control/控制论/控制论/",
-      "section": "控制",
-      "tags": [
-        "控制",
-        "控制论"
-      ],
-      "updated": "2026-07-09T02:17:38+00:00",
-      "date": "2026-07-09",
-      "created": "2026-03-26T10:57:50+00:00",
-      "words": 920,
-      "word_count": "920 字",
-      "minutes": 3,
-      "directory": "control/控制论"
-    },
-    {
-      "src": "others/知识库/文化中国/文化中国讲座.md",
-      "title": "文化中国讲座",
-      "url": "others/知识库/文化中国/文化中国讲座/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "知识库"
-      ],
-      "updated": "2026-04-20T02:55:32+00:00",
-      "date": "2026-04-20",
-      "created": "2026-04-20T02:55:32+00:00",
-      "words": 3229,
-      "word_count": "3,229 字",
-      "minutes": 9,
-      "directory": "others/知识库/文化中国"
-    },
-    {
-      "src": "zju-courses/农业生物系统传输过程/工流例题.md",
-      "title": "旧版 ppt",
-      "url": "zju-courses/农业生物系统传输过程/工流例题/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "农业生物系统传输过程"
-      ],
-      "updated": "2026-07-01T09:03:30+00:00",
-      "date": "2026-07-01",
-      "created": "2026-06-28T08:00:12+00:00",
-      "words": 143,
-      "word_count": "143 字",
-      "minutes": 1,
-      "directory": "zju-courses/农业生物系统传输过程"
+      "created": "2026-01-23T14:58:34+00:00",
+      "words": 4147,
+      "word_count": "4,147 字",
+      "minutes": 11,
+      "directory": "zju-courses/材料力学"
     },
     {
       "src": "zju-courses/发展心理学/期末复习笔记.md",
@@ -806,88 +417,190 @@
       "directory": "zju-courses/发展心理学"
     },
     {
-      "src": "robotic/机器人工程师学习计划.md",
-      "title": "机器人工程师学习计划",
-      "url": "robotic/机器人工程师学习计划/",
-      "section": "Robotics",
+      "src": "control/控制论/控制论.md",
+      "title": "控制论",
+      "url": "control/控制论/控制论/",
+      "section": "控制",
       "tags": [
-        "Robotics"
+        "控制",
+        "控制论"
       ],
-      "updated": "2026-04-15T13:44:16+00:00",
-      "date": "2026-04-15",
-      "created": "2026-04-15T13:44:16+00:00",
-      "words": 16103,
-      "word_count": "1.6 万字",
-      "minutes": 41,
-      "directory": "robotic"
-    },
-    {
-      "src": "zju-courses/材料力学/材料力学.md",
-      "title": "材料力学",
-      "url": "zju-courses/材料力学/材料力学/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "材料力学"
-      ],
-      "updated": "2026-07-13T17:50:49+00:00",
-      "date": "2026-07-13",
-      "created": "2026-01-23T14:58:34+00:00",
-      "words": 4147,
-      "word_count": "4,147 字",
-      "minutes": 11,
-      "directory": "zju-courses/材料力学"
-    },
-    {
-      "src": "zju-courses/材料力学/公式整理.md",
-      "title": "材料力学常用公式总结",
-      "url": "zju-courses/材料力学/公式整理/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "材料力学"
-      ],
-      "updated": "2026-06-04T11:00:29+00:00",
-      "date": "2026-06-04",
-      "created": "2026-06-04T11:00:29+00:00",
-      "words": 1055,
-      "word_count": "1,055 字",
+      "updated": "2026-07-09T02:17:38+00:00",
+      "date": "2026-07-09",
+      "created": "2026-03-26T10:57:50+00:00",
+      "words": 920,
+      "word_count": "920 字",
       "minutes": 3,
-      "directory": "zju-courses/材料力学"
+      "directory": "control/控制论"
     },
     {
-      "src": "zju-courses/农业生物系统传输过程/工流.md",
-      "title": "流体力学",
-      "url": "zju-courses/农业生物系统传输过程/工流/",
+      "src": "control/控制论/复习课.md",
+      "title": "复习课",
+      "url": "control/控制论/复习课/",
+      "section": "控制",
+      "tags": [
+        "控制",
+        "控制论"
+      ],
+      "updated": "2026-07-04T12:41:24+00:00",
+      "date": "2026-07-04",
+      "created": "2026-07-04T12:41:24+00:00",
+      "words": 630,
+      "word_count": "630 字",
+      "minutes": 2,
+      "directory": "control/控制论"
+    },
+    {
+      "src": "control/自动控制理论/自动控制理论.md",
+      "title": "自动控制理论",
+      "url": "control/自动控制理论/自动控制理论/",
+      "section": "控制",
+      "tags": [
+        "控制",
+        "自动控制理论"
+      ],
+      "updated": "2026-07-01T09:03:30+00:00",
+      "date": "2026-07-01",
+      "created": "2026-03-09T06:12:31+00:00",
+      "words": 3493,
+      "word_count": "3,493 字",
+      "minutes": 9,
+      "directory": "control/自动控制理论"
+    },
+    {
+      "src": "zju-courses/农业生物系统传输过程/工热例题.md",
+      "title": "工热例题",
+      "url": "zju-courses/农业生物系统传输过程/工热例题/",
       "section": "ZJU-Courses",
       "tags": [
         "ZJU-Courses",
         "农业生物系统传输过程"
       ],
-      "updated": "2026-04-30T01:21:46+00:00",
-      "date": "2026-04-30",
-      "created": "2026-04-28T01:48:21+00:00",
-      "words": 1608,
-      "word_count": "1,608 字",
-      "minutes": 5,
+      "updated": "2026-07-01T09:03:30+00:00",
+      "date": "2026-07-01",
+      "created": "2026-06-25T05:28:17+00:00",
+      "words": 140,
+      "word_count": "140 字",
+      "minutes": 1,
       "directory": "zju-courses/农业生物系统传输过程"
     },
     {
-      "src": "others/知识库/灵感/灵感.md",
-      "title": "灵感",
-      "url": "others/知识库/灵感/灵感/",
-      "section": "其他",
+      "src": "zju-courses/农业生物系统传输过程/工流例题.md",
+      "title": "旧版 ppt",
+      "url": "zju-courses/农业生物系统传输过程/工流例题/",
+      "section": "ZJU-Courses",
       "tags": [
-        "其他",
-        "知识库"
+        "ZJU-Courses",
+        "农业生物系统传输过程"
       ],
-      "updated": "2026-04-25T12:11:27+00:00",
-      "date": "2026-04-25",
-      "created": "2026-04-25T12:11:27+00:00",
-      "words": 54,
-      "word_count": "54 字",
+      "updated": "2026-07-01T09:03:30+00:00",
+      "date": "2026-07-01",
+      "created": "2026-06-28T08:00:12+00:00",
+      "words": 143,
+      "word_count": "143 字",
       "minutes": 1,
-      "directory": "others/知识库/灵感"
+      "directory": "zju-courses/农业生物系统传输过程"
+    },
+    {
+      "src": "control/控制论/讨论课复习.md",
+      "title": "讨论课复习",
+      "url": "control/控制论/讨论课复习/",
+      "section": "控制",
+      "tags": [
+        "控制",
+        "控制论"
+      ],
+      "updated": "2026-06-17T08:37:59+00:00",
+      "date": "2026-06-17",
+      "created": "2026-06-17T08:37:59+00:00",
+      "words": 89,
+      "word_count": "89 字",
+      "minutes": 1,
+      "directory": "control/控制论"
+    },
+    {
+      "src": "zju-courses/发展心理学/笔记4.md",
+      "title": "笔记 4",
+      "url": "zju-courses/发展心理学/笔记4/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
+      "updated": "2026-06-10T02:23:58+00:00",
+      "date": "2026-06-10",
+      "created": "2026-05-27T13:18:51+00:00",
+      "words": 6829,
+      "word_count": "6,829 字",
+      "minutes": 18,
+      "directory": "zju-courses/发展心理学"
+    },
+    {
+      "src": "zju-courses/农业生物系统传输过程/工传.md",
+      "title": "传热学",
+      "url": "zju-courses/农业生物系统传输过程/工传/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "农业生物系统传输过程"
+      ],
+      "updated": "2026-06-09T01:25:42+00:00",
+      "date": "2026-06-09",
+      "created": "2026-04-28T01:48:21+00:00",
+      "words": 2622,
+      "word_count": "2,622 字",
+      "minutes": 7,
+      "directory": "zju-courses/农业生物系统传输过程"
+    },
+    {
+      "src": "resources/tools.md",
+      "title": "AI 工具和资源",
+      "url": "resources/tools/",
+      "section": "Resources",
+      "tags": [
+        "Resources"
+      ],
+      "updated": "2026-05-27T13:18:51+00:00",
+      "date": "2026-05-27",
+      "created": "2026-05-19T11:39:13+00:00",
+      "words": 66,
+      "word_count": "66 字",
+      "minutes": 1,
+      "directory": "resources"
+    },
+    {
+      "src": "zju-courses/发展心理学/笔记3.md",
+      "title": "笔记 3",
+      "url": "zju-courses/发展心理学/笔记3/",
+      "section": "ZJU-Courses",
+      "tags": [
+        "ZJU-Courses",
+        "发展心理学"
+      ],
+      "updated": "2026-05-20T10:31:43+00:00",
+      "date": "2026-05-20",
+      "created": "2026-05-18T14:02:44+00:00",
+      "words": 9722,
+      "word_count": "9,722 字",
+      "minutes": 25,
+      "directory": "zju-courses/发展心理学"
+    },
+    {
+      "src": "robotic/ros2/ros2.md",
+      "title": "ros2",
+      "url": "robotic/ros2/ros2/",
+      "section": "Robotics",
+      "tags": [
+        "Robotics",
+        "ros2"
+      ],
+      "updated": "2026-05-19T13:56:51+00:00",
+      "date": "2026-05-19",
+      "created": "2026-05-19T13:56:51+00:00",
+      "words": 301,
+      "word_count": "301 字",
+      "minutes": 1,
+      "directory": "robotic/ros2"
     },
     {
       "src": "zju-courses/发展心理学/笔记1.md",
@@ -924,190 +637,56 @@
       "directory": "zju-courses/发展心理学"
     },
     {
-      "src": "zju-courses/发展心理学/笔记3.md",
-      "title": "笔记 3",
-      "url": "zju-courses/发展心理学/笔记3/",
+      "src": "zju-courses/农业生物系统传输过程/工流.md",
+      "title": "流体力学",
+      "url": "zju-courses/农业生物系统传输过程/工流/",
       "section": "ZJU-Courses",
       "tags": [
         "ZJU-Courses",
-        "发展心理学"
+        "农业生物系统传输过程"
       ],
-      "updated": "2026-05-20T10:31:43+00:00",
-      "date": "2026-05-20",
-      "created": "2026-05-18T14:02:44+00:00",
-      "words": 9722,
-      "word_count": "9,722 字",
-      "minutes": 25,
-      "directory": "zju-courses/发展心理学"
+      "updated": "2026-04-30T01:21:46+00:00",
+      "date": "2026-04-30",
+      "created": "2026-04-28T01:48:21+00:00",
+      "words": 1608,
+      "word_count": "1,608 字",
+      "minutes": 5,
+      "directory": "zju-courses/农业生物系统传输过程"
     },
     {
-      "src": "zju-courses/发展心理学/笔记4.md",
-      "title": "笔记 4",
-      "url": "zju-courses/发展心理学/笔记4/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "发展心理学"
-      ],
-      "updated": "2026-06-10T02:23:58+00:00",
-      "date": "2026-06-10",
-      "created": "2026-05-27T13:18:51+00:00",
-      "words": 6829,
-      "word_count": "6,829 字",
-      "minutes": 18,
-      "directory": "zju-courses/发展心理学"
-    },
-    {
-      "src": "zju-courses/材料力学/组合变形知识与公式整理.md",
-      "title": "组合变形知识与公式整理",
-      "url": "zju-courses/材料力学/组合变形知识与公式整理/",
-      "section": "ZJU-Courses",
-      "tags": [
-        "ZJU-Courses",
-        "材料力学"
-      ],
-      "updated": "2026-05-21T01:11:52+00:00",
-      "date": "2026-05-21",
-      "created": "2026-05-21T01:11:52+00:00",
-      "words": 3261,
-      "word_count": "3,261 字",
-      "minutes": 9,
-      "directory": "zju-courses/材料力学"
-    },
-    {
-      "src": "control/自动控制理论/自动控制理论.md",
-      "title": "自动控制理论",
-      "url": "control/自动控制理论/自动控制理论/",
+      "src": "control/自动控制理论/小测复习.md",
+      "title": "小测复习",
+      "url": "control/自动控制理论/小测复习/",
       "section": "控制",
       "tags": [
         "控制",
         "自动控制理论"
       ],
-      "updated": "2026-07-01T09:03:30+00:00",
-      "date": "2026-07-01",
-      "created": "2026-03-09T06:12:31+00:00",
-      "words": 3493,
-      "word_count": "3,493 字",
-      "minutes": 9,
+      "updated": "2026-04-13T02:02:08+00:00",
+      "date": "2026-04-13",
+      "created": "2026-03-29T11:25:38+00:00",
+      "words": 39,
+      "word_count": "39 字",
+      "minutes": 1,
       "directory": "control/自动控制理论"
     },
     {
-      "src": "others/read/被讨厌的勇气.md",
-      "title": "被讨厌的勇气",
-      "url": "others/read/被讨厌的勇气/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "read"
-      ],
-      "updated": "2026-07-13T17:50:49+00:00",
-      "date": "2026-07-13",
-      "created": "2026-07-13T17:50:49+00:00",
-      "words": 3475,
-      "word_count": "3,475 字",
-      "minutes": 9,
-      "directory": "others/read"
-    },
-    {
-      "src": "control/控制论/讨论课复习.md",
-      "title": "讨论课复习",
-      "url": "control/控制论/讨论课复习/",
+      "src": "control/esp32/esp32.md",
+      "title": "esp32",
+      "url": "control/esp32/esp32/",
       "section": "控制",
       "tags": [
+        "硬件",
         "控制",
-        "控制论"
+        "esp32"
       ],
-      "updated": "2026-06-17T08:37:59+00:00",
-      "date": "2026-06-17",
-      "created": "2026-06-17T08:37:59+00:00",
-      "words": 89,
-      "word_count": "89 字",
+      "updated": "2026-03-09T06:12:31+00:00",
+      "date": "2026-03-09",
+      "created": "2026-03-09T06:12:31+00:00",
+      "words": 127,
+      "word_count": "127 字",
       "minutes": 1,
-      "directory": "control/控制论"
-    },
-    {
-      "src": "about_me.md",
-      "title": "赤奈良瞳的自我介绍",
-      "url": "about_me/",
-      "section": "about_me.md",
-      "tags": [
-        "about_me.md"
-      ],
-      "updated": "2026-01-23T14:58:34+00:00",
-      "date": "2026-01-23",
-      "created": "2026-01-21T13:23:05+00:00",
-      "words": 135,
-      "word_count": "135 字",
-      "minutes": 1,
-      "directory": "."
-    },
-    {
-      "src": "others/数学建模/建模方案.md",
-      "title": "问题 1  分组方案",
-      "url": "others/数学建模/建模方案/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-07-13T17:50:49+00:00",
-      "date": "2026-07-13",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 2175,
-      "word_count": "2,175 字",
-      "minutes": 6,
-      "directory": "others/数学建模"
-    },
-    {
-      "src": "others/数学建模/初版结果说明/问题三解法.md",
-      "title": "问题三：小组赛比赛地点选择模型与改进结果",
-      "url": "others/数学建模/初版结果说明/问题三解法/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 3421,
-      "word_count": "3,421 字",
-      "minutes": 9,
-      "directory": "others/数学建模/初版结果说明"
-    },
-    {
-      "src": "others/数学建模/初版结果说明/问题二抽签方案.md",
-      "title": "问题二：公平透明的分组抽签方案",
-      "url": "others/数学建模/初版结果说明/问题二抽签方案/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 2223,
-      "word_count": "2,223 字",
-      "minutes": 6,
-      "directory": "others/数学建模/初版结果说明"
-    },
-    {
-      "src": "others/数学建模/初版结果说明/问题四解法.md",
-      "title": "问题四：赛制评价模型与合理化建议",
-      "url": "others/数学建模/初版结果说明/问题四解法/",
-      "section": "其他",
-      "tags": [
-        "其他",
-        "数学建模"
-      ],
-      "updated": "2026-05-14T11:10:36+00:00",
-      "date": "2026-05-14",
-      "created": "2026-05-14T11:10:36+00:00",
-      "words": 2848,
-      "word_count": "2,848 字",
-      "minutes": 8,
-      "directory": "others/数学建模/初版结果说明"
+      "directory": "control/esp32"
     }
   ]
 }

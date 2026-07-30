@@ -1,6 +1,26 @@
 {
   "pages": [
     {
+      "src": "others/read/被讨厌的勇气.md",
+      "title": "被讨厌的勇气",
+      "url": "others/read/被讨厌的勇气/",
+      "section": "其他",
+      "tags": [
+        "其他",
+        "read"
+      ],
+      "updated": "2026-07-24T13:52:04+00:00",
+      "date": "2026-07-24",
+      "created": "2026-07-13T17:50:49+00:00",
+      "words": 3475,
+      "word_count": "3,475 字",
+      "minutes": 9,
+      "directory": "others/read",
+      "outgoing": [],
+      "backlinks": [],
+      "related": []
+    },
+    {
       "src": "others/moments/moments.md",
       "title": "moments",
       "url": "others/moments/moments/",
@@ -38,64 +58,7 @@
       "directory": "zju-courses/材料力学",
       "outgoing": [],
       "backlinks": [],
-      "related": [
-        {
-          "src": "zju-courses/发展心理学/期末复习笔记.md",
-          "title": "期末复习笔记",
-          "url": "zju-courses/发展心理学/期末复习笔记/",
-          "section": "ZJU-Courses",
-          "date": "2026-07-13",
-          "updated": "2026-07-13T17:50:49+00:00",
-          "tags": [
-            "ZJU-Courses",
-            "发展心理学"
-          ],
-          "word_count": "1,174 字",
-          "minutes": 3
-        },
-        {
-          "src": "zju-courses/农业生物系统传输过程/工热例题.md",
-          "title": "工热例题",
-          "url": "zju-courses/农业生物系统传输过程/工热例题/",
-          "section": "ZJU-Courses",
-          "date": "2026-07-01",
-          "updated": "2026-07-01T09:03:30+00:00",
-          "tags": [
-            "ZJU-Courses",
-            "农业生物系统传输过程"
-          ],
-          "word_count": "140 字",
-          "minutes": 1
-        },
-        {
-          "src": "zju-courses/农业生物系统传输过程/工流例题.md",
-          "title": "旧版 ppt",
-          "url": "zju-courses/农业生物系统传输过程/工流例题/",
-          "section": "ZJU-Courses",
-          "date": "2026-07-01",
-          "updated": "2026-07-01T09:03:30+00:00",
-          "tags": [
-            "ZJU-Courses",
-            "农业生物系统传输过程"
-          ],
-          "word_count": "143 字",
-          "minutes": 1
-        },
-        {
-          "src": "zju-courses/发展心理学/笔记4.md",
-          "title": "笔记 4",
-          "url": "zju-courses/发展心理学/笔记4/",
-          "section": "ZJU-Courses",
-          "date": "2026-06-10",
-          "updated": "2026-06-10T02:23:58+00:00",
-          "tags": [
-            "ZJU-Courses",
-            "发展心理学"
-          ],
-          "word_count": "6,829 字",
-          "minutes": 18
-        }
-      ]
+      "related": []
     },
     {
       "src": "zju-courses/发展心理学/期末复习笔记.md",
@@ -220,34 +183,6 @@
           ],
           "word_count": "89 字",
           "minutes": 1
-        },
-        {
-          "src": "control/自动控制理论/自动控制理论.md",
-          "title": "自动控制理论",
-          "url": "control/自动控制理论/自动控制理论/",
-          "section": "控制",
-          "date": "2026-07-01",
-          "updated": "2026-07-01T09:03:30+00:00",
-          "tags": [
-            "控制",
-            "自动控制理论"
-          ],
-          "word_count": "3,493 字",
-          "minutes": 9
-        },
-        {
-          "src": "control/自动控制理论/小测复习.md",
-          "title": "小测复习",
-          "url": "control/自动控制理论/小测复习/",
-          "section": "控制",
-          "date": "2026-04-13",
-          "updated": "2026-04-13T02:02:08+00:00",
-          "tags": [
-            "控制",
-            "自动控制理论"
-          ],
-          "word_count": "39 字",
-          "minutes": 1
         }
       ]
     },
@@ -297,34 +232,6 @@
           ],
           "word_count": "89 字",
           "minutes": 1
-        },
-        {
-          "src": "control/自动控制理论/自动控制理论.md",
-          "title": "自动控制理论",
-          "url": "control/自动控制理论/自动控制理论/",
-          "section": "控制",
-          "date": "2026-07-01",
-          "updated": "2026-07-01T09:03:30+00:00",
-          "tags": [
-            "控制",
-            "自动控制理论"
-          ],
-          "word_count": "3,493 字",
-          "minutes": 9
-        },
-        {
-          "src": "control/自动控制理论/小测复习.md",
-          "title": "小测复习",
-          "url": "control/自动控制理论/小测复习/",
-          "section": "控制",
-          "date": "2026-04-13",
-          "updated": "2026-04-13T02:02:08+00:00",
-          "tags": [
-            "控制",
-            "自动控制理论"
-          ],
-          "word_count": "39 字",
-          "minutes": 1
         }
       ]
     },
@@ -359,48 +266,6 @@
             "自动控制理论"
           ],
           "word_count": "39 字",
-          "minutes": 1
-        },
-        {
-          "src": "control/控制论/控制论.md",
-          "title": "控制论",
-          "url": "control/控制论/控制论/",
-          "section": "控制",
-          "date": "2026-07-09",
-          "updated": "2026-07-09T02:17:38+00:00",
-          "tags": [
-            "控制",
-            "控制论"
-          ],
-          "word_count": "920 字",
-          "minutes": 3
-        },
-        {
-          "src": "control/控制论/复习课.md",
-          "title": "复习课",
-          "url": "control/控制论/复习课/",
-          "section": "控制",
-          "date": "2026-07-04",
-          "updated": "2026-07-04T12:41:24+00:00",
-          "tags": [
-            "控制",
-            "控制论"
-          ],
-          "word_count": "630 字",
-          "minutes": 2
-        },
-        {
-          "src": "control/控制论/讨论课复习.md",
-          "title": "讨论课复习",
-          "url": "control/控制论/讨论课复习/",
-          "section": "控制",
-          "date": "2026-06-17",
-          "updated": "2026-06-17T08:37:59+00:00",
-          "tags": [
-            "控制",
-            "控制论"
-          ],
-          "word_count": "89 字",
           "minutes": 1
         }
       ]
@@ -465,20 +330,6 @@
           ],
           "word_count": "1,608 字",
           "minutes": 5
-        },
-        {
-          "src": "zju-courses/材料力学/材料力学.md",
-          "title": "材料力学",
-          "url": "zju-courses/材料力学/材料力学/",
-          "section": "ZJU-Courses",
-          "date": "2026-07-13",
-          "updated": "2026-07-13T17:50:49+00:00",
-          "tags": [
-            "ZJU-Courses",
-            "材料力学"
-          ],
-          "word_count": "4,147 字",
-          "minutes": 11
         }
       ]
     },
@@ -542,20 +393,6 @@
           ],
           "word_count": "1,608 字",
           "minutes": 5
-        },
-        {
-          "src": "zju-courses/材料力学/材料力学.md",
-          "title": "材料力学",
-          "url": "zju-courses/材料力学/材料力学/",
-          "section": "ZJU-Courses",
-          "date": "2026-07-13",
-          "updated": "2026-07-13T17:50:49+00:00",
-          "tags": [
-            "ZJU-Courses",
-            "材料力学"
-          ],
-          "word_count": "4,147 字",
-          "minutes": 11
         }
       ]
     },
@@ -605,34 +442,6 @@
           ],
           "word_count": "630 字",
           "minutes": 2
-        },
-        {
-          "src": "control/自动控制理论/自动控制理论.md",
-          "title": "自动控制理论",
-          "url": "control/自动控制理论/自动控制理论/",
-          "section": "控制",
-          "date": "2026-07-01",
-          "updated": "2026-07-01T09:03:30+00:00",
-          "tags": [
-            "控制",
-            "自动控制理论"
-          ],
-          "word_count": "3,493 字",
-          "minutes": 9
-        },
-        {
-          "src": "control/自动控制理论/小测复习.md",
-          "title": "小测复习",
-          "url": "control/自动控制理论/小测复习/",
-          "section": "控制",
-          "date": "2026-04-13",
-          "updated": "2026-04-13T02:02:08+00:00",
-          "tags": [
-            "控制",
-            "自动控制理论"
-          ],
-          "word_count": "39 字",
-          "minutes": 1
         }
       ]
     },
@@ -773,20 +582,6 @@
           ],
           "word_count": "1,608 字",
           "minutes": 5
-        },
-        {
-          "src": "zju-courses/材料力学/材料力学.md",
-          "title": "材料力学",
-          "url": "zju-courses/材料力学/材料力学/",
-          "section": "ZJU-Courses",
-          "date": "2026-07-13",
-          "updated": "2026-07-13T17:50:49+00:00",
-          "tags": [
-            "ZJU-Courses",
-            "材料力学"
-          ],
-          "word_count": "4,147 字",
-          "minutes": 11
         }
       ]
     },
@@ -1120,20 +915,6 @@
           ],
           "word_count": "2,622 字",
           "minutes": 7
-        },
-        {
-          "src": "zju-courses/材料力学/材料力学.md",
-          "title": "材料力学",
-          "url": "zju-courses/材料力学/材料力学/",
-          "section": "ZJU-Courses",
-          "date": "2026-07-13",
-          "updated": "2026-07-13T17:50:49+00:00",
-          "tags": [
-            "ZJU-Courses",
-            "材料力学"
-          ],
-          "word_count": "4,147 字",
-          "minutes": 11
         }
       ]
     },
@@ -1169,48 +950,6 @@
           ],
           "word_count": "3,493 字",
           "minutes": 9
-        },
-        {
-          "src": "control/控制论/控制论.md",
-          "title": "控制论",
-          "url": "control/控制论/控制论/",
-          "section": "控制",
-          "date": "2026-07-09",
-          "updated": "2026-07-09T02:17:38+00:00",
-          "tags": [
-            "控制",
-            "控制论"
-          ],
-          "word_count": "920 字",
-          "minutes": 3
-        },
-        {
-          "src": "control/控制论/复习课.md",
-          "title": "复习课",
-          "url": "control/控制论/复习课/",
-          "section": "控制",
-          "date": "2026-07-04",
-          "updated": "2026-07-04T12:41:24+00:00",
-          "tags": [
-            "控制",
-            "控制论"
-          ],
-          "word_count": "630 字",
-          "minutes": 2
-        },
-        {
-          "src": "control/控制论/讨论课复习.md",
-          "title": "讨论课复习",
-          "url": "control/控制论/讨论课复习/",
-          "section": "控制",
-          "date": "2026-06-17",
-          "updated": "2026-06-17T08:37:59+00:00",
-          "tags": [
-            "控制",
-            "控制论"
-          ],
-          "word_count": "89 字",
-          "minutes": 1
         }
       ]
     },
@@ -1233,64 +972,7 @@
       "directory": "control/esp32",
       "outgoing": [],
       "backlinks": [],
-      "related": [
-        {
-          "src": "control/控制论/控制论.md",
-          "title": "控制论",
-          "url": "control/控制论/控制论/",
-          "section": "控制",
-          "date": "2026-07-09",
-          "updated": "2026-07-09T02:17:38+00:00",
-          "tags": [
-            "控制",
-            "控制论"
-          ],
-          "word_count": "920 字",
-          "minutes": 3
-        },
-        {
-          "src": "control/控制论/复习课.md",
-          "title": "复习课",
-          "url": "control/控制论/复习课/",
-          "section": "控制",
-          "date": "2026-07-04",
-          "updated": "2026-07-04T12:41:24+00:00",
-          "tags": [
-            "控制",
-            "控制论"
-          ],
-          "word_count": "630 字",
-          "minutes": 2
-        },
-        {
-          "src": "control/自动控制理论/自动控制理论.md",
-          "title": "自动控制理论",
-          "url": "control/自动控制理论/自动控制理论/",
-          "section": "控制",
-          "date": "2026-07-01",
-          "updated": "2026-07-01T09:03:30+00:00",
-          "tags": [
-            "控制",
-            "自动控制理论"
-          ],
-          "word_count": "3,493 字",
-          "minutes": 9
-        },
-        {
-          "src": "control/控制论/讨论课复习.md",
-          "title": "讨论课复习",
-          "url": "control/控制论/讨论课复习/",
-          "section": "控制",
-          "date": "2026-06-17",
-          "updated": "2026-06-17T08:37:59+00:00",
-          "tags": [
-            "控制",
-            "控制论"
-          ],
-          "word_count": "89 字",
-          "minutes": 1
-        }
-      ]
+      "related": []
     }
   ],
   "tags": [
@@ -1718,6 +1400,40 @@
       ]
     },
     {
+      "name": "其他",
+      "count": 2,
+      "pages": [
+        {
+          "src": "others/read/被讨厌的勇气.md",
+          "title": "被讨厌的勇气",
+          "url": "others/read/被讨厌的勇气/",
+          "section": "其他",
+          "date": "2026-07-24",
+          "updated": "2026-07-24T13:52:04+00:00",
+          "tags": [
+            "其他",
+            "read"
+          ],
+          "word_count": "3,475 字",
+          "minutes": 9
+        },
+        {
+          "src": "others/moments/moments.md",
+          "title": "moments",
+          "url": "others/moments/moments/",
+          "section": "其他",
+          "date": "2026-07-21",
+          "updated": "2026-07-21T15:10:20+00:00",
+          "tags": [
+            "其他",
+            "moments"
+          ],
+          "word_count": "76 字",
+          "minutes": 1
+        }
+      ]
+    },
+    {
       "name": "自动控制理论",
       "count": 2,
       "pages": [
@@ -1832,6 +1548,26 @@
       ]
     },
     {
+      "name": "read",
+      "count": 1,
+      "pages": [
+        {
+          "src": "others/read/被讨厌的勇气.md",
+          "title": "被讨厌的勇气",
+          "url": "others/read/被讨厌的勇气/",
+          "section": "其他",
+          "date": "2026-07-24",
+          "updated": "2026-07-24T13:52:04+00:00",
+          "tags": [
+            "其他",
+            "read"
+          ],
+          "word_count": "3,475 字",
+          "minutes": 9
+        }
+      ]
+    },
+    {
       "name": "ros2",
       "count": 1,
       "pages": [
@@ -1847,26 +1583,6 @@
             "ros2"
           ],
           "word_count": "301 字",
-          "minutes": 1
-        }
-      ]
-    },
-    {
-      "name": "其他",
-      "count": 1,
-      "pages": [
-        {
-          "src": "others/moments/moments.md",
-          "title": "moments",
-          "url": "others/moments/moments/",
-          "section": "其他",
-          "date": "2026-07-21",
-          "updated": "2026-07-21T15:10:20+00:00",
-          "tags": [
-            "其他",
-            "moments"
-          ],
-          "word_count": "76 字",
           "minutes": 1
         }
       ]
@@ -1923,15 +1639,15 @@
       "count": 6
     },
     {
+      "name": "其他",
+      "count": 2
+    },
+    {
       "name": "Resources",
       "count": 1
     },
     {
       "name": "Robotics",
-      "count": 1
-    },
-    {
-      "name": "其他",
       "count": 1
     }
   ]

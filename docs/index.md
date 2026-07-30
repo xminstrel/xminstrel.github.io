@@ -5,87 +5,75 @@ hide:
 comments: false
 ---
 
-<section class="home-hero" markdown>
+<div class="home-shell" data-home-shell markdown>
+
+<section class="home-hero home-reveal" data-home-hero markdown>
+
+<div class="home-hero__glow" aria-hidden="true"></div>
 
 <div class="home-hero__copy" markdown>
-<p class="home-kicker">Personal notes / ZJU courses / Robotics</p>
+<p class="home-eyebrow"><span data-home-greeting>欢迎来到我的知识花园</span><span class="home-live"><i aria-hidden="true"></i>持续生长中</span></p>
 
 # 赤奈良瞳的知识库
 
-这里记录课程笔记、工程学习、AI 工具和一些生活片段。  
-写着玩玩啦~
+<p class="home-intro">这里记录课程笔记以及一些生活片段，写着玩玩啦～</p>
 
-<div class="home-actions" markdown>
-<a class="md-button md-button--primary" href="zju-courses/材料力学/材料力学/" data-random-note>随机笔记</a>
-[关于赤奈](about_me.md){ .md-button }
+<div class="home-actions">
+  <a class="home-button home-button--primary" href="zju-courses/材料力学/材料力学/" data-random-note>
+    <span class="home-button__dice" aria-hidden="true">✦</span>
+    <span data-random-label>随机漫游</span>
+  </a>
+  <button class="home-button home-button--search" type="button" data-home-search>
+    <span aria-hidden="true">⌕</span>
+    <span>搜索知识库</span>
+    <kbd>/</kbd>
+  </button>
+  <a class="home-text-link" href="about_me/">关于我 <span aria-hidden="true">↗</span></a>
+</div>
+
+<div class="home-stats" data-site-stats aria-label="站点概览">
+  <span class="home-stat home-stat--empty">正在统计这座花园...</span>
 </div>
 </div>
 
-<div class="home-profile">
-  <img src="assets/images/avatar.png" alt="赤奈良瞳头像" class="home-avatar">
-  <p class="home-quote">“二泉映月，他才不管红与不红”</p>
-  <p class="home-note">随便看看吧，本站内容随缘更新中。</p>
-</div>
-
-</section>
-
-<section class="home-section" markdown>
-
-## 站点概览
-
-<div class="home-stats" data-site-stats>
-  <span class="home-stat home-stat--empty">正在统计站点内容...</span>
-</div>
-
-</section>
-
-<section class="home-section" markdown>
-
-## 常用入口
-
-<div class="home-grid">
-  <a class="home-tile home-tile--about" href="about_me/">
-    <span class="home-tile__icon" aria-hidden="true"></span>
-    <span class="home-tile__title">关于赤奈</span>
-    <span class="home-tile__text">背景、联系方式和建站缘起。</span>
-  </a>
-  <a class="home-tile home-tile--ai" href="ai/tools/">
-    <span class="home-tile__icon" aria-hidden="true"></span>
-    <span class="home-tile__title">AI 相关</span>
-    <span class="home-tile__text">工具记录、资料整理和实践备忘。</span>
-  </a>
-  <a class="home-tile home-tile--control" href="control/控制论/控制论/">
-    <span class="home-tile__icon" aria-hidden="true"></span>
-    <span class="home-tile__title">控制相关</span>
-    <span class="home-tile__text">控制论、自控、ESP32 与 STM32。</span>
-  </a>
-  <a class="home-tile home-tile--course" href="zju-courses/材料力学/材料力学/">
-    <span class="home-tile__icon" aria-hidden="true"></span>
-    <span class="home-tile__title">ZJU-Courses</span>
-    <span class="home-tile__text">课程笔记、复习整理和实验记录。</span>
-  </a>
-  <a class="home-tile home-tile--robot" href="robotic/技术栈/">
-    <span class="home-tile__icon" aria-hidden="true"></span>
-    <span class="home-tile__title">Robotics</span>
-    <span class="home-tile__text">ROS、强化学习和机器人工程栈。</span>
-  </a>
-  <a class="home-tile home-tile--others" href="others/moments/moments/">
-    <span class="home-tile__icon" aria-hidden="true"></span>
-    <span class="home-tile__title">其他笔记</span>
-    <span class="home-tile__text">生活随笔、知识库和杂项记录。</span>
-  </a>
+<div class="home-hero__visual" aria-label="赤奈良瞳的个人状态">
+  <div class="home-orbit" aria-hidden="true">
+    <span class="home-orbit__ring home-orbit__ring--one"></span>
+    <span class="home-orbit__ring home-orbit__ring--two"></span>
+    <span class="home-orbit__dot home-orbit__dot--one"></span>
+    <span class="home-orbit__dot home-orbit__dot--two"></span>
+    <img src="assets/images/avatar.png" alt="" class="home-avatar">
+  </div>
+  <span class="home-float-label home-float-label--course">ZJU Courses</span>
+  <span class="home-float-label home-float-label--robot">Robotics</span>
+  <span class="home-float-label home-float-label--notes">Notes &amp; Life</span>
+  <div class="home-quote">
+    <span aria-hidden="true">“</span>
+    <p>二泉映月，他才不管红与不红。</p>
+  </div>
 </div>
 
 </section>
 
-<section class="home-section home-section--compact" markdown>
+<section class="home-section home-updates-section home-reveal" markdown>
 
-## 最近更新笔记
+<div class="home-section__heading home-section__heading--updates">
+  <div>
+  <p class="home-section__eyebrow">Recently</p>
+  <h2>最近写了什么</h2>
+  </div>
+  <a class="home-text-link" href="resources/tags/">按标签浏览 <span aria-hidden="true">→</span></a>
+</div>
 
-<div class="home-filter" data-recent-filter></div>
-
-<div class="home-list home-updates" data-recent-notes>
+<div class="home-list home-updates" data-recent-notes aria-live="polite">
   <span class="home-update-card home-update-card--empty">正在读取最近更新...</span>
 </div>
 
 </section>
+
+<footer class="home-footer home-reveal">
+  <span>本站随缘更新中...</span>
+  <span data-home-date></span>
+</footer>
+
+</div>

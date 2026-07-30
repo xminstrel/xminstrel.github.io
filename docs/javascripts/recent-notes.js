@@ -1,6 +1,5 @@
 document$.subscribe(() => {
   const container = document.querySelector("[data-recent-notes]");
-  const recentFilter = document.querySelector("[data-recent-filter]");
   const statsContainer = document.querySelector("[data-site-stats]");
   const randomLink = document.querySelector("[data-random-note]");
   const tagsBrowser = document.querySelector("[data-tags-browser]");
@@ -23,7 +22,14 @@ document$.subscribe(() => {
           randomLink.addEventListener("click", (event) => {
             event.preventDefault();
             const page = randomPages[Math.floor(Math.random() * randomPages.length)];
-            window.location.href = resolveSiteUrl(page.url);
+            const label = randomLink.querySelector("[data-random-label]");
+            randomLink.classList.add("is-rolling");
+            if (label) {
+              label.textContent = "正在寻找一篇笔记…";
+            }
+            window.setTimeout(() => {
+              window.location.href = resolveSiteUrl(page.url);
+            }, 280);
           });
         }
       })
@@ -34,7 +40,7 @@ document$.subscribe(() => {
       });
   }
 
-  if (!container && !recentFilter && !tagsBrowser && !relationPanel) {
+  if (!container && !tagsBrowser && !relationPanel) {
     return;
   }
 
@@ -47,7 +53,7 @@ document$.subscribe(() => {
     })
     .then((garden) => {
       if (container) {
-        renderRecentNotes(container, recentFilter, garden);
+        renderRecentNotes(container, garden);
       }
       if (tagsBrowser) {
         renderTagsBrowser(tagsBrowser, garden);
@@ -64,8 +70,7 @@ document$.subscribe(() => {
         tagsBrowser.innerHTML = '<span class="home-update-card home-update-card--empty">标签暂时没有加载出来。</span>';
       }
       if (relationPanel) {
-        const body = relationPanel.querySelector(".garden-relations__body") || relationPanel;
-        body.innerHTML = '<span class="home-update-card home-update-card--empty">关联笔记暂时没有加载出来。</span>';
+        relationPanel.hidden = true;
       }
     });
 });
@@ -90,59 +95,17 @@ function resolveSiteUrl(path) {
   return new URL(normalized, document.location.origin + "/").toString();
 }
 
-function renderRecentNotes(container, filterContainer, garden) {
+function renderRecentNotes(container, garden) {
   const pages = sortedPages(garden.pages);
-  const sections = Array.isArray(garden.sections) ? garden.sections : buildSections(pages);
-  let activeSection = "全部";
-  const buttons = [];
-
-  const renderList = () => {
-    const items =
-      activeSection === "全部"
-        ? pages
-        : pages.filter((page) => page.section === activeSection);
-
-    container.innerHTML = "";
-    if (!items.length) {
-      container.innerHTML = '<span class="home-update-card home-update-card--empty">这个分区暂时没有公开笔记。</span>';
-      return;
-    }
-
-    items.slice(0, 6).forEach((note) => {
-      container.append(createUpdateCard(note));
-    });
-  };
-
-  if (filterContainer) {
-    filterContainer.innerHTML = "";
-
-    const addButton = (label, count) => {
-      const button = document.createElement("button");
-      button.className = "home-filter__button";
-      button.type = "button";
-      button.setAttribute("aria-pressed", label === activeSection ? "true" : "false");
-      button.textContent = `${label} ${count}`;
-      button.addEventListener("click", () => {
-        activeSection = label;
-        buttons.forEach((item) => {
-          const active = item.label === activeSection;
-          item.button.classList.toggle("is-active", active);
-          item.button.setAttribute("aria-pressed", active ? "true" : "false");
-        });
-        renderList();
-      });
-      buttons.push({ label, button });
-      filterContainer.append(button);
-    };
-
-    addButton("全部", pages.length);
-    sections.forEach((section) => addButton(section.name, section.count));
-    if (buttons[0]) {
-      buttons[0].button.classList.add("is-active");
-    }
+  container.innerHTML = "";
+  if (!pages.length) {
+    container.innerHTML = '<span class="home-update-card home-update-card--empty">这座花园还没有公开笔记。</span>';
+    return;
   }
 
-  renderList();
+  pages.slice(0, 5).forEach((note, index) => {
+    container.append(createUpdateCard(note, index));
+  });
 }
 
 function renderTagsBrowser(container, garden) {
@@ -231,7 +194,7 @@ function renderPageRelations(panel, garden) {
   const body = panel.querySelector(".garden-relations__body") || panel;
 
   if (!page) {
-    body.innerHTML = '<span class="home-update-card home-update-card--empty">没有找到这篇笔记的关联数据。</span>';
+    panel.hidden = true;
     return;
   }
 
@@ -244,7 +207,7 @@ function renderPageRelations(panel, garden) {
   body.innerHTML = "";
 
   if (!groups.length) {
-    body.innerHTML = '<span class="home-update-card home-update-card--empty">这篇笔记暂时还没有公开关联。</span>';
+    panel.hidden = true;
     return;
   }
 
@@ -266,10 +229,14 @@ function renderPageRelations(panel, garden) {
   });
 }
 
-function createUpdateCard(note) {
+function createUpdateCard(note, index = 0) {
   const link = document.createElement("a");
-  link.className = "home-update-card";
+  link.className = index === 0 ? "home-update-card home-update-card--featured" : "home-update-card";
   link.href = resolveSiteUrl(note.url);
+
+  const number = document.createElement("span");
+  number.className = "home-update-card__number";
+  number.textContent = String(index + 1).padStart(2, "0");
 
   const title = document.createElement("span");
   title.className = "home-update-card__title";
@@ -285,9 +252,14 @@ function createUpdateCard(note) {
 
   const meta = document.createElement("span");
   meta.className = "home-update-card__meta";
-  meta.textContent = `${note.section} · ${note.date} · 约 ${note.minutes} 分钟`;
+  meta.textContent = `${note.section} · ${note.date} · ${note.word_count || ""} · 约 ${note.minutes} 分钟`;
 
-  link.append(title);
+  const arrow = document.createElement("span");
+  arrow.className = "home-update-card__arrow";
+  arrow.setAttribute("aria-hidden", "true");
+  arrow.textContent = "↗";
+
+  link.append(number, title, arrow);
   if (tags.children.length) {
     link.append(tags);
   }
@@ -329,22 +301,10 @@ function sortedPages(pages) {
     : [];
 }
 
-function buildSections(pages) {
-  const map = new Map();
-  pages.forEach((page) => {
-    const section = page.section || "未分类";
-    map.set(section, (map.get(section) || 0) + 1);
-  });
-  return Array.from(map.entries())
-    .map(([name, count]) => ({ name, count }))
-    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "zh-Hans-CN"));
-}
-
 function renderSiteStats(container, stats) {
   const items = [
-    ["笔记", `${stats.article_count || 0} 篇`],
-    ["总字数", stats.total_word_count || "约 0 字"],
-    ["大类", `${stats.section_count || 0} 个`],
+    ["公开笔记", `${stats.article_count || 0} 篇`],
+    ["已记录", stats.total_word_count || "约 0 字"],
     ["最近更新", stats.date || "未知"],
   ];
 

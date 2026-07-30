@@ -38,10 +38,12 @@ nav:
   - 🖼️ 其他笔记: 
     - moments: others/moments/moments.md
     - 杭州美食？: others/知识库/food/杭州美食.md
-    - 读书记录: others/read/index.md
+    - 读书记录:
+      - 阅读索引: others/read/index.md
+      - 被讨厌的勇气: others/read/被讨厌的勇气.md
 # 自定义样式和脚本
 extra_css:
-  - stylesheets/extra.css?v=20260521-image-size
+  - stylesheets/extra.css?v=20260730-home-compact
   - https://unpkg.com/katex@0/dist/katex.min.css
 #主题配置
 theme:
@@ -86,7 +88,6 @@ theme:
 plugins:
   - search    # 开启默认的搜索功能
   - tags      # 开启标签系统
-  - blog      # 开启博客时间轴模式
 hooks:
   - hooks/recent_notes.py
 #md扩展
@@ -109,8 +110,8 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_javascript: # latex
-  - javascripts/extra.js?v=20260520-github-stars
-  - javascripts/recent-notes.js?v=20260520-garden-clean
+  - javascripts/home.js?v=20260730-home-compact
+  - javascripts/recent-notes.js?v=20260730-home-compact
   - javascripts/katex.js?v=20260518-green
   - https://unpkg.com/katex@0/dist/katex.min.js   
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
@@ -125,4 +126,3 @@ extra:
 repo_url: https://github.com/xminstrel/xminstrel.github.io
 repo_name: xminstrel
 edit_uri: edit/main/docs/
-

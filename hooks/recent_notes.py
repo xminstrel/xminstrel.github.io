@@ -9,19 +9,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-MAX_ITEMS = 6
-OUTPUT_PATH = Path("assets/data/recent_notes.json")
 SITE_STATS_PATH = Path("assets/data/site_stats.json")
 GARDEN_PATH = Path("assets/data/garden.json")
-SKIP_FILES = {"index.md"}
+SKIP_FILES = {"index.md", "about_me.md"}
 ARTICLE_MIN_WORDS = 20
 _PAGE_DATES: dict[str, dict[str, datetime]] = {}
-_PAGE_INFO: dict[str, dict] = {}
 _PUBLIC_PAGE_SET: set[str] = set()
 
 
 def on_config(config):
-    global _PAGE_DATES, _PAGE_INFO, _PUBLIC_PAGE_SET
+    global _PAGE_DATES, _PUBLIC_PAGE_SET
 
     docs_dir = Path(config["docs_dir"]).resolve()
     config_file = getattr(config, "config_file_path", None)
@@ -31,11 +28,9 @@ def on_config(config):
     git_updates = _git_date_map(project_dir, docs_dir)
     git_created = _git_date_map(project_dir, docs_dir, reverse=True)
     _PAGE_DATES = {}
-    _PAGE_INFO = {}
     _PUBLIC_PAGE_SET = set()
     raw_pages = {}
     notes = []
-    pages = []
 
     for path in docs_dir.rglob("*.md"):
         rel_path = path.relative_to(docs_dir).as_posix()
@@ -79,9 +74,6 @@ def on_config(config):
             "minutes": reading_minutes,
             "directory": str(Path(rel_path).parent).replace("\\", "/"),
         }
-        _PAGE_INFO[rel_path] = page_info
-        pages.append(page_info)
-
         if path.name not in SKIP_FILES and rel_path in nav_files:
             _PUBLIC_PAGE_SET.add(rel_path)
             notes.append(page_info)
@@ -89,23 +81,16 @@ def on_config(config):
     notes.sort(key=lambda item: item["updated"], reverse=True)
     garden = _build_garden_data(notes, raw_pages)
 
-    output = docs_dir / OUTPUT_PATH
-    output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(
-        json.dumps(notes, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-
-    pages.sort(key=lambda item: item["title"])
+    public_word_count = sum(item["words"] for item in notes)
     site_stats = {
-        "article_count": len(pages),
-        "section_count": len({item["section"] for item in pages}),
-        "total_words": sum(item["words"] for item in pages),
-        "total_word_count": _format_word_count(sum(item["words"] for item in pages)),
-        "updated": max((item["updated"] for item in pages), default=""),
-        "date": max((item["date"] for item in pages), default=""),
+        "article_count": len(notes),
+        "section_count": len({item["section"] for item in notes}),
+        "total_words": public_word_count,
+        "total_word_count": _format_word_count(public_word_count),
+        "updated": max((item["updated"] for item in notes), default=""),
+        "date": max((item["date"] for item in notes), default=""),
         "random_pages": notes,
-        "pages": pages,
+        "pages": notes,
     }
     stats_output = docs_dir / SITE_STATS_PATH
     stats_output.parent.mkdir(parents=True, exist_ok=True)
@@ -133,11 +118,14 @@ def on_page_markdown(markdown, page, config, files):
     if not dates:
         return markdown
 
-    created = dates["created"].strftime("%Y-%m-%d")
     updated = dates["updated"].strftime("%Y-%m-%d")
     word_count, reading_minutes = _reading_stats(markdown)
     stats_block = f"""
-<div class="article-dates article-dates--top" aria-label="文章概览">
+<div class="article-dates article-dates--top" aria-label="文章信息">
+  <span class="article-dates__item" title="更新时间" aria-label="更新时间">
+    <svg class="article-dates__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10.12h-6.78l2.74-2.82c-2.73-2.7-7.15-2.8-9.88-.1-2.73 2.71-2.73 7.08 0 9.79s7.15 2.71 9.88 0c1.36-1.35 2.05-3.11 2.05-4.89h2c0 2.29-.88 4.58-2.64 6.33-3.51 3.48-9.21 3.48-12.72 0s-3.51-9.15 0-12.63 9.12-3.48 12.63 0L21 3v7.12Z"/></svg>
+    <time datetime="{updated}">更新于 {updated}</time>
+  </span>
   <span class="article-dates__item" title="全文字数" aria-label="全文字数">
     <svg class="article-dates__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4v3h5.5v12h3V7H19V4H5m0 8h3v7h3v-7h3V9H5v3Z"/></svg>
     <span>约 {_format_word_count(word_count)}</span>
@@ -145,19 +133,6 @@ def on_page_markdown(markdown, page, config, files):
   <span class="article-dates__item" title="阅读时间" aria-label="阅读时间">
     <svg class="article-dates__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-18a10 10 0 1 1 0 20 10 10 0 0 1 0-20m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
     <span>约 {reading_minutes} 分钟</span>
-  </span>
-</div>
-"""
-    dates_block = f"""
-
-<div class="article-dates" aria-label="文章日期">
-  <span class="article-dates__item" title="发布时间" aria-label="发布时间">
-    <svg class="article-dates__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m0 16H5V8h14v11M7 10h5v5H7v-5Z"/></svg>
-    <time datetime="{created}">{created}</time>
-  </span>
-  <span class="article-dates__item" title="更新时间" aria-label="更新时间">
-    <svg class="article-dates__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10.12h-6.78l2.74-2.82c-2.73-2.7-7.15-2.8-9.88-.1-2.73 2.71-2.73 7.08 0 9.79s7.15 2.71 9.88 0c1.36-1.35 2.05-3.11 2.05-4.89h2c0 2.29-.88 4.58-2.64 6.33-3.51 3.48-9.21 3.48-12.72 0s-3.51-9.15 0-12.63 9.12-3.48 12.63 0L21 3v7.12Z"/></svg>
-    <time datetime="{updated}">{updated}</time>
   </span>
 </div>
 """
@@ -173,11 +148,7 @@ def on_page_markdown(markdown, page, config, files):
 </section>
 """
 
-    return (
-        _insert_after_title(markdown.rstrip(), stats_block).rstrip()
-        + dates_block
-        + relation_block
-    )
+    return _insert_after_title(markdown.rstrip(), stats_block).rstrip() + relation_block
 
 
 def _reading_stats(markdown: str) -> tuple[int, int]:
@@ -304,7 +275,7 @@ def _related_pages(
 ) -> list[str]:
     page_by_src = {page["src"]: page for page in public_pages}
     current = page_by_src[src]
-    current_tags = set(current.get("tags", []))
+    current_tags = set(current.get("tags", [])) - {current.get("section")}
     explicit = set(outgoing.get(src, [])) | backlinks.get(src, set())
     candidates = []
 
@@ -313,7 +284,8 @@ def _related_pages(
         if target == src or target in explicit:
             continue
 
-        shared = current_tags & set(page.get("tags", []))
+        candidate_tags = set(page.get("tags", [])) - {page.get("section")}
+        shared = current_tags & candidate_tags
         if not shared:
             continue
 
@@ -641,6 +613,5 @@ def _section_name(rel_path: str) -> str:
         "robotic": "Robotics",
         "scholar": "Scholar",
         "zju-courses": "ZJU-Courses",
-        "blog": "Blog",
     }
     return names.get(section, section)
