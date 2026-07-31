@@ -56,6 +56,39 @@ function initHomeExperience() {
   const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
   const hero = shell.querySelector("[data-home-hero]");
 
+  const quotes = [
+    { text: "二泉映月，他才不管红与不红。", source: "个人碎碎念" },
+    { text: "人生不是由别人赋予的，而是由自己选择的。", source: "《被讨厌的勇气》" },
+    { text: "决定自己人生的是活在“此时此刻”的你自己。", source: "《被讨厌的勇气》" },
+    { text: "健全的自卑感，不是来自与别人的比较。", source: "《被讨厌的勇气》" },
+    { text: "改变要承担代价和风险，但原地不动也有代价。", source: "读书时想到的" },
+    { text: "太多对确定性的追求，有时也会阻碍改变。", source: "读书时想到的" },
+    { text: "这里记录课程笔记和生活片段，写着玩玩啦。", source: "个人碎碎念" },
+  ];
+  const quoteButton = shell.querySelector("[data-home-quote-toggle]");
+  const quoteText = shell.querySelector("[data-home-quote]");
+  const quoteSource = shell.querySelector("[data-home-quote-source]");
+  const quoteBox = shell.querySelector(".home-quote");
+  let quoteIndex = 0;
+
+  if (quoteButton && quoteText && quoteSource && quoteBox) {
+    quoteButton.addEventListener("click", () => {
+      const nextCandidate = Math.floor(Math.random() * (quotes.length - 1));
+      quoteIndex = nextCandidate >= quoteIndex ? nextCandidate + 1 : nextCandidate;
+      quoteText.textContent = quotes[quoteIndex].text;
+      quoteSource.textContent = quotes[quoteIndex].source;
+
+      if (!reducedMotion) {
+        quoteBox.classList.remove("is-refreshed");
+        window.requestAnimationFrame(() => quoteBox.classList.add("is-refreshed"));
+      }
+    });
+
+    quoteBox.addEventListener("animationend", () => {
+      quoteBox.classList.remove("is-refreshed");
+    });
+  }
+
   if (hero && finePointer && !reducedMotion) {
     hero.addEventListener("pointermove", (event) => {
       const bounds = hero.getBoundingClientRect();
@@ -73,7 +106,11 @@ function initHomeExperience() {
     ];
 
     shell.addEventListener("click", (event) => {
-      if (event.detail === 0) {
+      const interactiveTarget =
+        event.target instanceof Element &&
+        event.target.closest("a, button, input, select, textarea, [role='button']");
+
+      if (event.detail === 0 || interactiveTarget) {
         return;
       }
 

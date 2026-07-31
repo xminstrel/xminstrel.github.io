@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4b958d2762af6164",
+        "id": "10e1ec31695893ce",
         "type": "tabs",
         "children": [
           {
-            "id": "203bb3a4c09f68a7",
+            "id": "a5b71525445f8496",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/others/妙妙小工具/vibetool.md",
+                "file": "docs/others/read/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vibetool"
+              "title": "index"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -229,8 +231,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "203bb3a4c09f68a7",
+  "active": "a5b71525445f8496",
   "lastOpenFiles": [
+    "docs/others/妙妙小工具/vibetool.md",
     "overrides/partials/comments.html",
     "docs/zju-courses/材料力学/考点.md",
     "docs/javascripts/toc-fold.js",
@@ -256,7 +259,6 @@
     "docs/others/moments/assets/675d58575d1070007c59c7b86f710d6e.jpg",
     "docs/others/moments/assets/17c5985c6c26fc97dba0b8f7e59fb2bf.jpg",
     "docs/scholar/启真问学/论文/2012.12411v1.pdf",
-    "docs/scholar/启真问学/论文",
     "docs/cs/cs50x/cs50x.md",
     "docs/cs/cs50x/set0/set0.md",
     "docs/blog/index.md",

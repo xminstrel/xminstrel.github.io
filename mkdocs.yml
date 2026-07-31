@@ -42,7 +42,7 @@ nav:
       - 被讨厌的勇气: others/read/被讨厌的勇气.md
 # 自定义样式和脚本
 extra_css:
-  - stylesheets/extra.css?v=20260731-article-draft
+  - stylesheets/extra.css?v=20260731-avatar-bookshelf
   - https://unpkg.com/katex@0/dist/katex.min.css
 #主题配置
 theme:
@@ -109,7 +109,7 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_javascript: # latex
-  - javascripts/home.js?v=20260730-home-compact
+  - javascripts/home.js?v=20260731-avatar-quotes
   - javascripts/recent-notes.js?v=20260731-cleanup
   - javascripts/toc-fold.js?v=20260731
   - https://unpkg.com/katex@0/dist/katex.min.js

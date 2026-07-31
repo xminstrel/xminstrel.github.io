@@ -37,19 +37,25 @@ comments: false
 </div>
 
 <div class="home-hero__visual" aria-label="赤奈良瞳的个人状态">
-  <div class="home-orbit" aria-hidden="true">
-    <span class="home-orbit__ring home-orbit__ring--one"></span>
-    <span class="home-orbit__ring home-orbit__ring--two"></span>
-    <span class="home-orbit__dot home-orbit__dot--one"></span>
-    <span class="home-orbit__dot home-orbit__dot--two"></span>
-    <img src="assets/images/avatar.png" alt="" class="home-avatar">
+  <div class="home-orbit">
+    <span class="home-orbit__ring home-orbit__ring--one" aria-hidden="true"></span>
+    <span class="home-orbit__ring home-orbit__ring--two" aria-hidden="true"></span>
+    <span class="home-orbit__dot home-orbit__dot--one" aria-hidden="true"></span>
+    <span class="home-orbit__dot home-orbit__dot--two" aria-hidden="true"></span>
+    <button class="home-avatar-button" type="button" data-home-quote-toggle aria-label="换一条书摘或碎碎念" aria-controls="home-quote-text" title="点我换一句">
+      <img src="assets/images/avatar.png" alt="" class="home-avatar">
+      <span class="home-avatar-button__hint" aria-hidden="true">换一句</span>
+    </button>
   </div>
   <span class="home-float-label home-float-label--course">ZJU Courses</span>
   <span class="home-float-label home-float-label--robot">Robotics</span>
   <span class="home-float-label home-float-label--notes">Notes &amp; Life</span>
-  <div class="home-quote">
+  <div class="home-quote" aria-live="polite" aria-atomic="true">
     <span aria-hidden="true">“</span>
-    <p>二泉映月，他才不管红与不红。</p>
+    <div class="home-quote__copy">
+      <p id="home-quote-text" data-home-quote>二泉映月，他才不管红与不红。</p>
+      <small data-home-quote-source>个人碎碎念</small>
+    </div>
   </div>
 </div>
 
