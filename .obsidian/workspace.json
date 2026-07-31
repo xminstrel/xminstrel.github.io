@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/材料力学/考点.md",
+                "file": "docs/others/妙妙小工具/vibetool.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "考点"
+              "title": "vibetool"
             }
           }
         ]
@@ -231,12 +231,13 @@
   },
   "active": "203bb3a4c09f68a7",
   "lastOpenFiles": [
+    "overrides/partials/comments.html",
+    "docs/zju-courses/材料力学/考点.md",
     "docs/javascripts/toc-fold.js",
     "docs/control/自动控制理论/小测复习.md",
     "docs/robotic/强化学习/强化学习.md",
     "docs/robotic/强化学习/李宏毅强化学习/李宏毅强化学习课程笔记.md",
     "docs/robotic/强化学习/李宏毅强化学习",
-    "docs/zju-courses/材料力学/考点.md",
     "docs/zju-courses/材料力学/组合变形知识与公式整理.md",
     "docs/zju-courses/材料力学/材料力学.md",
     "docs/zju-courses/材料力学/公式整理.md",
@@ -256,10 +257,9 @@
     "docs/others/moments/assets/17c5985c6c26fc97dba0b8f7e59fb2bf.jpg",
     "docs/scholar/启真问学/论文/2012.12411v1.pdf",
     "docs/scholar/启真问学/论文",
-    "docs/others/cs50x/cs50x.md",
-    "docs/others/cs50x/set0/set0.md",
+    "docs/cs/cs50x/cs50x.md",
+    "docs/cs/cs50x/set0/set0.md",
     "docs/blog/index.md",
-    "docs/blog/posts",
     "docs/robotic/技术栈积累.md",
     "docs/robotic/技术栈.md",
     "docs/robotic/机器人工程师学习计划.md",
