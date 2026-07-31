@@ -10,14 +10,14 @@ function initHomeExperience() {
   const hour = now.getHours();
   const greeting =
     hour < 6
-      ? "夜深了，欢迎来知识花园散步"
+      ? "夜深了，早点休息吧"
       : hour < 11
-        ? "早上好，来翻一页新笔记"
+        ? "早上好，睡个回笼觉吧"
         : hour < 14
-          ? "中午好，随便逛逛吧"
+          ? "中午好，今天吃什么呢"
           : hour < 18
-            ? "下午好，来捡一片知识碎片"
-            : "晚上好，欢迎来知识花园散步";
+            ? "下午好，晚上吃什么"
+            : "晚上好，记得早点睡觉哦";
 
   const greetingTarget = shell.querySelector("[data-home-greeting]");
   if (greetingTarget) {

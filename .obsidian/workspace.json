@@ -231,6 +231,7 @@
   },
   "active": "203bb3a4c09f68a7",
   "lastOpenFiles": [
+    "docs/javascripts/toc-fold.js",
     "docs/control/自动控制理论/小测复习.md",
     "docs/robotic/强化学习/强化学习.md",
     "docs/robotic/强化学习/李宏毅强化学习/李宏毅强化学习课程笔记.md",
@@ -268,7 +269,6 @@
     "docs/robotic/pytorch/note.md",
     "docs/resources/tags.md",
     "docs/ai/tools.md",
-    "docs/resources/tools.md",
     "docs/assets/images/avatar.png",
     "docs/assets/images/favicon.png",
     "docs/others/moments/assets/9ababb5553fcf88f4486acfdc3424d1a.jpg",

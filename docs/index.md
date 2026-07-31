@@ -62,7 +62,6 @@ comments: false
   <p class="home-section__eyebrow">Recently</p>
   <h2>最近写了什么</h2>
   </div>
-  <a class="home-text-link" href="resources/tags/">按标签浏览 <span aria-hidden="true">→</span></a>
 </div>
 
 <div class="home-list home-updates" data-recent-notes aria-live="polite">

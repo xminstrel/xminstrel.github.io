@@ -22,7 +22,6 @@ nav:
       - 期末极简复习: zju-courses/发展心理学/期末复习笔记.md
   - 💎 Resources: 
     - AI工具: resources/tools.md
-    - 标签索引: resources/tags.md
   - 🪡 控制相关:
     - 控制论: 
       - 笔记: control/控制论/控制论.md
@@ -43,7 +42,7 @@ nav:
       - 被讨厌的勇气: others/read/被讨厌的勇气.md
 # 自定义样式和脚本
 extra_css:
-  - stylesheets/extra.css?v=20260730-home-compact
+  - stylesheets/extra.css?v=20260731-article-draft
   - https://unpkg.com/katex@0/dist/katex.min.css
 #主题配置
 theme:
@@ -81,13 +80,13 @@ theme:
     - navigation.indexes     # 分组标题可直接进入该分组的封面页
     - navigation.path        # 在页面顶部显示面包屑导航
     - navigation.tracking    # 滚动时自动更新地址栏的锚点
+    - toc.follow             # 长文章目录跟随当前阅读位置
     - navigation.footer      # 显示“上一篇/下一篇”按钮
     - content.code.copy      # 为所有代码块添加“一键复制”按钮（小白最爱！）
     - content.code.annotate  # 允许在代码中添加注释气泡
 # 元数据
 plugins:
   - search    # 开启默认的搜索功能
-  - tags      # 开启标签系统
 hooks:
   - hooks/recent_notes.py
 #md扩展
@@ -111,10 +110,11 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_javascript: # latex
   - javascripts/home.js?v=20260730-home-compact
-  - javascripts/recent-notes.js?v=20260730-home-compact
-  - javascripts/katex.js?v=20260518-green
-  - https://unpkg.com/katex@0/dist/katex.min.js   
+  - javascripts/recent-notes.js?v=20260731-cleanup
+  - javascripts/toc-fold.js?v=20260731
+  - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - javascripts/katex.js?v=20260731-formula-fix
 # 社交媒体链接配置
 extra:
   social:
