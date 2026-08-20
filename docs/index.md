@@ -12,7 +12,7 @@ comments: false
 <div class="home-hero__glow" aria-hidden="true"></div>
 
 <div class="home-hero__copy" markdown>
-<p class="home-eyebrow"><span data-home-greeting>欢迎来到我的知识花园</span><span class="home-live"><i aria-hidden="true"></i>持续生长中</span></p>
+<p class="home-eyebrow"><span data-home-greeting>欢迎来到我的知识花园</span><span class="home-live"><i aria-hidden="true"></i>😇</span></p>
 
 # 赤奈良瞳的知识库
 

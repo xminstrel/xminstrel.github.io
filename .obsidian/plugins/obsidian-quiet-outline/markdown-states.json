@@ -1591,15 +1591,15 @@
     ]
   },
   "docs/others/moments/moments.md": {
-    "scroll": 25.85380565531188,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 5
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 31,
-        "ch": 5
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4538,7 +4538,7 @@
     "expandedKeys": []
   },
   "docs/others/read/index.md": {
-    "scroll": 23.89917297202182,
+    "scroll": 0.4342857142857143,
     "cursor": {
       "from": {
         "line": 14,
@@ -4575,6 +4575,20 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/cs/cs50x/cs50x.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 6
+      },
+      "to": {
+        "line": 16,
+        "ch": 6
       }
     },
     "expandedKeys": []
