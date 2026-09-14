@@ -4,21 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "21e2ab750ee8e976",
+        "id": "9539fc4398d328c8",
         "type": "tabs",
         "children": [
           {
-            "id": "a592345d7076cd24",
+            "id": "c148e252157417ed",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
+                "page": 13,
+                "left": -79,
+                "top": 199,
+                "zoom": 0.61
+              },
+              "icon": "lucide-file-text",
+              "title": "N第一章 诸论"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f9c8606b1a12cb41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0ce56c02aefa338",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/others/moments/moments.md",
+                "file": "docs/zju-courses/微机/note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "moments"
+              "title": "note"
             }
           }
         ]
@@ -80,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -231,34 +254,36 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a592345d7076cd24",
+  "active": "d0ce56c02aefa338",
   "lastOpenFiles": [
-    "docs/scholar/启真问学/pdfs/立项书pdf.pdf",
-    "docs/scholar/启真问学/论文/Hegde et al. - 2023 - Sensing in Soft Robotics.pdf",
+    "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
+    "docs/zju-courses/微机/note.md",
+    "docs/zju-courses/微机/assets/note.png",
+    "docs/zju-courses/微机/assets",
+    "docs/zju-courses/微机/ppt/微机提纲.pdf",
+    "docs/zju-courses/材料力学/材料力学.md",
+    "docs/zju-courses/微机/ppt",
+    "docs/others/知识库/pku计算机基础能力手册.docx",
+    "docs/zju-courses/微机",
+    "docs/others/飞跃手册/26泛cs飞跃手册.pdf",
+    "docs/scholar/启真问学/论文/Low-Hysteresis_High-Resolution_Nonparallel_Plate_Capacitive_Sensors_for_Soft_Robot_Shape_Perception.pdf",
+    "docs/scholar/启真问学/pdfs/项目相关.pdf",
     "docs/scholar/启真问学/未命名.md",
+    "docs/others/moments/moments.md",
+    "docs/others/moments/assets/玛莎拉.png",
+    "docs/scholar/启真问学/pdfs/立项书pdf.pdf",
     "docs/cs/cs50x/cs50x.md",
     "docs/cs/cs50x/set0/set0.md",
     "docs/others/read/index.md",
-    "docs/cs/前端学习",
     "docs/others/妙妙小工具/vibetool.md",
-    "overrides/partials/comments.html",
     "docs/zju-courses/材料力学/考点.md",
-    "docs/javascripts/toc-fold.js",
     "docs/control/自动控制理论/小测复习.md",
     "docs/robotic/强化学习/强化学习.md",
     "docs/robotic/强化学习/李宏毅强化学习/李宏毅强化学习课程笔记.md",
-    "docs/robotic/强化学习/李宏毅强化学习",
     "docs/zju-courses/材料力学/组合变形知识与公式整理.md",
-    "docs/zju-courses/材料力学/材料力学.md",
     "docs/zju-courses/材料力学/公式整理.md",
-    "docs/scholar/启真问学/论文/Low-Hysteresis_High-Resolution_Nonparallel_Plate_Capacitive_Sensors_for_Soft_Robot_Shape_Perception.pdf",
-    "docs/scholar/启真问学/论文/model-free-soft-structure-reconstruction-for-proprioception-137swmcled.pdf",
-    "docs/others/飞跃手册/26泛cs飞跃手册.pdf",
-    "docs/others/飞跃手册",
-    "docs/others/未命名文件夹",
     "docs/others/read/被讨厌的勇气.md",
     "docs/others/read/被讨厌的勇气~.md",
-    "docs/others/moments/moments.md",
     "转行的一些想法.md",
     "docs/others/moments/assets/675d58575d1070007c59c7b86f710d6e.jpg",
     "docs/others/moments/assets/17c5985c6c26fc97dba0b8f7e59fb2bf.jpg",
@@ -270,14 +295,11 @@
     "docs/robotic/ros2/ros2.md",
     "docs/robotic/ros2/指令.md",
     "docs/robotic/pytorch/note.md",
-    "docs/resources/tags.md",
     "docs/assets/images/avatar.png",
     "docs/assets/images/favicon.png",
     "docs/others/moments/assets/9ababb5553fcf88f4486acfdc3424d1a.jpg",
     "docs/zju-courses/cad/assets/22e21ababdef0d72227ec889233d7261.png",
     "docs/zju-courses/材料力学实验/assets/修约.jpg",
-    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-75.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-54.png",
-    "docs/zju-courses/农业生物系统传输过程/assets/工流例题-55.png"
+    "docs/zju-courses/农业生物系统传输过程/assets/工热例题-75.png"
   ]
 }

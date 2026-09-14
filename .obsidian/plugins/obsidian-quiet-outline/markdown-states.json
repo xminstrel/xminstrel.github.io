@@ -70,7 +70,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/材料力学/材料力学.md": {
-    "scroll": 0,
+    "scroll": 0.5206611570247934,
     "cursor": {
       "from": {
         "line": 10,
@@ -1591,15 +1591,15 @@
     ]
   },
   "docs/others/moments/moments.md": {
-    "scroll": 0,
+    "scroll": 11.141518124234338,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 36,
+        "ch": 19
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 36,
+        "ch": 19
       }
     },
     "expandedKeys": []
@@ -4592,5 +4592,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "docs/zju-courses/微机/note.md": {
+    "scroll": 1,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 2
+      },
+      "to": {
+        "line": 9,
+        "ch": 2
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }

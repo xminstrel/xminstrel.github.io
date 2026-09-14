@@ -32,3 +32,6 @@
 朝霞与晚霞
 ![](assets/675d58575d1070007c59c7b86f710d6e.jpg)
 ![](assets/17c5985c6c26fc97dba0b8f7e59fb2bf.jpg)
+
+8.21 玛莎拉
+![](assets/玛莎拉.png)
