@@ -452,12 +452,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 10
+        "line": 8,
+        "ch": 205
       },
       "to": {
-        "line": 2,
-        "ch": 10
+        "line": 8,
+        "ch": 205
       }
     },
     "expandedKeys": []
@@ -591,15 +591,15 @@
     ]
   },
   "docs/robotic/机器人工程师学习计划.md": {
-    "scroll": 74.31712962962963,
+    "scroll": 205.0146484375,
     "cursor": {
       "from": {
-        "line": 81,
+        "line": 182,
         "ch": 0
       },
       "to": {
-        "line": 81,
-        "ch": 0
+        "line": 182,
+        "ch": 270
       }
     },
     "expandedKeys": []
@@ -689,14 +689,14 @@
     "expandedKeys": []
   },
   "docs/robotic/技术栈.md": {
-    "scroll": 255.95703125,
+    "scroll": 183.86328125,
     "cursor": {
       "from": {
-        "line": 249,
-        "ch": 0
+        "line": 190,
+        "ch": 6
       },
       "to": {
-        "line": 249,
+        "line": 190,
         "ch": 0
       }
     },
@@ -4350,7 +4350,7 @@
     "expandedKeys": []
   },
   "课程回忆.md": {
-    "scroll": 69.23334513135127,
+    "scroll": 68.77962239583333,
     "cursor": {
       "from": {
         "line": 186,
@@ -4594,19 +4594,154 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/note.md": {
-    "scroll": 1,
+    "scroll": 85.90191234895737,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 2
+        "line": 91,
+        "ch": 27
       },
       "to": {
-        "line": 9,
-        "ch": 2
+        "line": 91,
+        "ch": 27
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-2"
     ]
+  },
+  "docs/zju-courses/机械制造基础/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/机械制造基础/note.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/化妆品工艺学/化妆品工艺学.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/习概/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/习概/note.md": {
+    "scroll": 14.933333333333334,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/robotic/具身智能与机器人学习长期学习路线图.md": {
+    "scroll": 257.9641927083333,
+    "cursor": {
+      "from": {
+        "line": 74,
+        "ch": 9
+      },
+      "to": {
+        "line": 74,
+        "ch": 9
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-4",
+      "item-1-8",
+      "item-1-11",
+      "item-1-15",
+      "item-1-27",
+      "item-1-19"
+    ]
+  },
+  "docs/cs/cs231n/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/cs/cs231n/note.md": {
+    "scroll": 0.09595959595959595,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 16
+      },
+      "to": {
+        "line": 11,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/社会心理学/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

@@ -1,11 +1,35 @@
 {
-  "article_count": 20,
+  "article_count": 21,
   "section_count": 5,
-  "total_words": 45586,
+  "total_words": 45988,
   "total_word_count": "4.6 万字",
-  "updated": "2026-07-31T02:43:24+00:00",
-  "date": "2026-07-31",
+  "updated": "2026-09-14T02:38:23+00:00",
+  "date": "2026-09-14",
   "random_pages": [
+    {
+      "src": "zju-courses/微机/note.md",
+      "title": "微机原理及其应用",
+      "url": "zju-courses/微机/note/",
+      "section": "ZJU-Courses",
+      "updated": "2026-09-14T02:38:23+00:00",
+      "date": "2026-09-14",
+      "created": "2026-09-14T02:38:23+00:00",
+      "words": 367,
+      "word_count": "367 字",
+      "minutes": 1
+    },
+    {
+      "src": "others/moments/moments.md",
+      "title": "moments",
+      "url": "others/moments/moments/",
+      "section": "其他",
+      "updated": "2026-09-14T02:38:23+00:00",
+      "date": "2026-09-14",
+      "created": "2026-04-21T13:26:44+00:00",
+      "words": 111,
+      "word_count": "111 字",
+      "minutes": 1
+    },
     {
       "src": "control/esp32/esp32.md",
       "title": "esp32",
@@ -53,18 +77,6 @@
       "words": 3475,
       "word_count": "3,475 字",
       "minutes": 9
-    },
-    {
-      "src": "others/moments/moments.md",
-      "title": "moments",
-      "url": "others/moments/moments/",
-      "section": "其他",
-      "updated": "2026-07-21T15:10:20+00:00",
-      "date": "2026-07-21",
-      "created": "2026-04-21T13:26:44+00:00",
-      "words": 76,
-      "word_count": "76 字",
-      "minutes": 1
     },
     {
       "src": "zju-courses/发展心理学/期末复习笔记.md",
@@ -249,6 +261,30 @@
   ],
   "pages": [
     {
+      "src": "zju-courses/微机/note.md",
+      "title": "微机原理及其应用",
+      "url": "zju-courses/微机/note/",
+      "section": "ZJU-Courses",
+      "updated": "2026-09-14T02:38:23+00:00",
+      "date": "2026-09-14",
+      "created": "2026-09-14T02:38:23+00:00",
+      "words": 367,
+      "word_count": "367 字",
+      "minutes": 1
+    },
+    {
+      "src": "others/moments/moments.md",
+      "title": "moments",
+      "url": "others/moments/moments/",
+      "section": "其他",
+      "updated": "2026-09-14T02:38:23+00:00",
+      "date": "2026-09-14",
+      "created": "2026-04-21T13:26:44+00:00",
+      "words": 111,
+      "word_count": "111 字",
+      "minutes": 1
+    },
+    {
       "src": "control/esp32/esp32.md",
       "title": "esp32",
       "url": "control/esp32/esp32/",
@@ -295,18 +331,6 @@
       "words": 3475,
       "word_count": "3,475 字",
       "minutes": 9
-    },
-    {
-      "src": "others/moments/moments.md",
-      "title": "moments",
-      "url": "others/moments/moments/",
-      "section": "其他",
-      "updated": "2026-07-21T15:10:20+00:00",
-      "date": "2026-07-21",
-      "created": "2026-04-21T13:26:44+00:00",
-      "words": 76,
-      "word_count": "76 字",
-      "minutes": 1
     },
     {
       "src": "zju-courses/发展心理学/期末复习笔记.md",
