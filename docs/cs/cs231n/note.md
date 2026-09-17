@@ -9,4 +9,5 @@ semantic gap
 
 **分类器**：
 
-Nearest Neighbor
+Nearest Neighbor：
+距离函数，判断目标图像和标记图像的相似度，输出标签

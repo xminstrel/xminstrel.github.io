@@ -1,21 +1,33 @@
 {
-  "article_count": 21,
+  "article_count": 22,
   "section_count": 5,
-  "total_words": 45988,
+  "total_words": 46025,
   "total_word_count": "4.6 万字",
-  "updated": "2026-09-14T02:38:23+00:00",
-  "date": "2026-09-14",
+  "updated": "2026-09-17T10:49:17+00:00",
+  "date": "2026-09-17",
   "random_pages": [
     {
       "src": "zju-courses/微机/note.md",
       "title": "微机原理及其应用",
       "url": "zju-courses/微机/note/",
       "section": "ZJU-Courses",
-      "updated": "2026-09-14T02:38:23+00:00",
-      "date": "2026-09-14",
+      "updated": "2026-09-17T10:49:17+00:00",
+      "date": "2026-09-17",
       "created": "2026-09-14T02:38:23+00:00",
       "words": 367,
       "word_count": "367 字",
+      "minutes": 1
+    },
+    {
+      "src": "zju-courses/社会心理学/note.md",
+      "title": "社会心理学",
+      "url": "zju-courses/社会心理学/note/",
+      "section": "ZJU-Courses",
+      "updated": "2026-09-17T10:49:17+00:00",
+      "date": "2026-09-17",
+      "created": "2026-09-17T10:49:17+00:00",
+      "words": 37,
+      "word_count": "37 字",
       "minutes": 1
     },
     {
@@ -265,11 +277,23 @@
       "title": "微机原理及其应用",
       "url": "zju-courses/微机/note/",
       "section": "ZJU-Courses",
-      "updated": "2026-09-14T02:38:23+00:00",
-      "date": "2026-09-14",
+      "updated": "2026-09-17T10:49:17+00:00",
+      "date": "2026-09-17",
       "created": "2026-09-14T02:38:23+00:00",
       "words": 367,
       "word_count": "367 字",
+      "minutes": 1
+    },
+    {
+      "src": "zju-courses/社会心理学/note.md",
+      "title": "社会心理学",
+      "url": "zju-courses/社会心理学/note/",
+      "section": "ZJU-Courses",
+      "updated": "2026-09-17T10:49:17+00:00",
+      "date": "2026-09-17",
+      "created": "2026-09-17T10:49:17+00:00",
+      "words": 37,
+      "word_count": "37 字",
       "minutes": 1
     },
     {

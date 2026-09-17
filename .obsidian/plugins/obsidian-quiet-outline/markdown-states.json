@@ -4720,12 +4720,12 @@
     "scroll": 0.09595959595959595,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 16
+        "line": 12,
+        "ch": 25
       },
       "to": {
-        "line": 11,
-        "ch": 16
+        "line": 12,
+        "ch": 25
       }
     },
     "expandedKeys": []
@@ -4740,6 +4740,20 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/社会心理学/note.md": {
+    "scroll": 3.667889908256881,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 8
+      },
+      "to": {
+        "line": 9,
+        "ch": 8
       }
     },
     "expandedKeys": []
