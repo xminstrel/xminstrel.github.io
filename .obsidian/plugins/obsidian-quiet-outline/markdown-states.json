@@ -158,9 +158,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "docs/others/index.md": {
     "scroll": 19.200747282608695,
@@ -1591,15 +1589,15 @@
     ]
   },
   "docs/others/moments/moments.md": {
-    "scroll": 11.141518124234338,
+    "scroll": 39.792765299479164,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 19
+        "line": 41,
+        "ch": 12
       },
       "to": {
-        "line": 36,
-        "ch": 19
+        "line": 41,
+        "ch": 12
       }
     },
     "expandedKeys": []
