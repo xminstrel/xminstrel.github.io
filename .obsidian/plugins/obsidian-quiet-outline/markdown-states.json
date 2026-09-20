@@ -4625,18 +4625,21 @@
     "expandedKeys": []
   },
   "docs/zju-courses/机械制造基础/note.md": {
-    "scroll": 0,
+    "scroll": 60.52301087883959,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 0
+        "line": 66,
+        "ch": 2
       },
       "to": {
-        "line": 7,
-        "ch": 0
+        "line": 66,
+        "ch": 2
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
   },
   "docs/zju-courses/化妆品工艺学/化妆品工艺学.md": {
     "scroll": 0,
@@ -4717,18 +4720,20 @@
     "expandedKeys": []
   },
   "docs/cs/cs231n/note.md": {
-    "scroll": 0.09595959595959595,
+    "scroll": 106.81361876652996,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 25
+        "line": 117,
+        "ch": 0
       },
       "to": {
-        "line": 12,
-        "ch": 25
+        "line": 117,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0"
+    ]
   },
   "docs/zju-courses/社会心理学/未命名.md": {
     "scroll": 0,
@@ -4754,6 +4759,34 @@
       "to": {
         "line": 9,
         "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/机械设计基础/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/机械设计基础/note.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 10
+      },
+      "to": {
+        "line": 0,
+        "ch": 10
       }
     },
     "expandedKeys": []
