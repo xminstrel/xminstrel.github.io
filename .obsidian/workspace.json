@@ -4,21 +4,43 @@
     "type": "split",
     "children": [
       {
+        "id": "f7299dfa7bbe667d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7aba81bf25ed6a47",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
+                "page": 33,
+                "left": -28,
+                "top": 228,
+                "zoom": 0.5614583333333334
+              },
+              "icon": "lucide-file-text",
+              "title": "N第二章 单片机结构"
+            }
+          }
+        ]
+      },
+      {
         "id": "9779187ac9eaeb54",
         "type": "tabs",
         "children": [
           {
-            "id": "f209ad3b6c77d134",
+            "id": "5c9f36207d5a6752",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/others/moments/moments.md",
+                "file": "docs/zju-courses/微机/note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "moments"
+              "title": "note"
             }
           }
         ]
@@ -80,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -140,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程回忆.md",
+                "file": "docs/zju-courses/微机/note.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +173,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "课程回忆 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -207,7 +230,8 @@
               "title": "发展心理学复习资料 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -230,23 +254,26 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f209ad3b6c77d134",
+  "active": "5c9f36207d5a6752",
   "lastOpenFiles": [
+    "docs/zju-courses/微机/assets/note-21.png",
+    "docs/zju-courses/微机/assets/note-20.png",
+    "docs/zju-courses/微机/assets/note-19.png",
+    "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
+    "docs/zju-courses/微机/note.md",
+    "docs/zju-courses/微机/assets/note-18.png",
+    "docs/zju-courses/微机/assets/note-17.png",
+    "docs/zju-courses/微机/assets/note-16.png",
+    "docs/zju-courses/微机/assets/note-15.png",
+    "docs/zju-courses/微机/assets/note-14.png",
+    "docs/zju-courses/微机/assets/note-13.png",
+    "docs/zju-courses/微机/assets/note-12.png",
+    "docs/others/moments/moments.md",
     "docs/others/moments/assets/ab87b0bd5903e06c3d194c4823f2e6ff.jpg",
-    "docs/others/moments/assets/wedding.jpg",
     "docs/index.md",
     "docs/cs/cs231n/note.md",
     "docs/zju-courses/机械制造基础/ppt/第1章 金属材料的力学性能-s(6).pdf",
     "docs/zju-courses/机械制造基础/note.md",
-    "docs/zju-courses/机械制造基础/assets/note-9.png",
-    "docs/zju-courses/机械制造基础/assets/note-8.png",
-    "docs/zju-courses/机械制造基础/assets/note-7.png",
-    "docs/zju-courses/机械制造基础/assets/note-6.png",
-    "docs/zju-courses/机械制造基础/assets/note-5.png",
-    "docs/zju-courses/机械制造基础/assets/note-4.png",
-    "docs/zju-courses/机械制造基础/assets/note-3.png",
-    "docs/zju-courses/机械制造基础/assets/note-2.png",
-    "docs/zju-courses/机械制造基础/assets/note-1.png",
     "docs/zju-courses/机械制造基础/assets",
     "docs/zju-courses/机械设计基础/ppt/机械设计基础总论.pdf",
     "docs/zju-courses/机械设计基础/ppt",
@@ -260,16 +287,13 @@
     "docs/cs/cs231n",
     "docs/zju-courses/习概/note.md",
     "docs/scholar/启真问学/未命名.md",
-    "docs/zju-courses/习概/assets",
     "docs/robotic/技术栈.md",
     "docs/robotic/机器人工程师学习计划.md",
     "docs/zju-courses/生物生产机器人/note.md",
     "docs/zju-courses/化妆品工艺学/化妆品工艺学.md",
-    "docs/zju-courses/微机/note.md",
     "docs/zju-courses/材料力学/材料力学.md",
     "课程回忆.md",
     "未命名.md",
-    "docs/others/moments/moments.md",
     "docs/cs/cs50x/cs50x.md",
     "docs/cs/cs50x/set0/set0.md",
     "docs/others/read/index.md",
