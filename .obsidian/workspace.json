@@ -4,33 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f7299dfa7bbe667d",
+        "id": "786c5cd541a13b53",
         "type": "tabs",
         "children": [
           {
-            "id": "7aba81bf25ed6a47",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
-                "page": 33,
-                "left": -28,
-                "top": 228,
-                "zoom": 0.5614583333333334
-              },
-              "icon": "lucide-file-text",
-              "title": "N第二章 单片机结构"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9779187ac9eaeb54",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5c9f36207d5a6752",
+            "id": "a0862492fae5c912",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -139,8 +117,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -211,8 +189,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -221,21 +199,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/zju-courses/发展心理学/发展心理学复习资料.pdf",
+                "file": "docs/zju-courses/微机/note.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "发展心理学复习资料 的大纲"
+              "title": "大纲"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 218.96484375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,53 +231,52 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5c9f36207d5a6752",
+  "active": "a0862492fae5c912",
   "lastOpenFiles": [
-    "docs/zju-courses/微机/assets/note-21.png",
-    "docs/zju-courses/微机/assets/note-20.png",
-    "docs/zju-courses/微机/assets/note-19.png",
+    "docs/zju-courses/机械制造基础/ppt/机械制造基础-3-铁碳合金.pdf",
+    "docs/zju-courses/机械制造基础/note.md",
+    "docs/zju-courses/机械制造基础/assets/note-21.png",
+    "docs/zju-courses/机械制造基础/assets/note-20.png",
     "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
     "docs/zju-courses/微机/note.md",
-    "docs/zju-courses/微机/assets/note-18.png",
-    "docs/zju-courses/微机/assets/note-17.png",
-    "docs/zju-courses/微机/assets/note-16.png",
-    "docs/zju-courses/微机/assets/note-15.png",
-    "docs/zju-courses/微机/assets/note-14.png",
-    "docs/zju-courses/微机/assets/note-13.png",
-    "docs/zju-courses/微机/assets/note-12.png",
+    "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
+    "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
+    "docs/zju-courses/微机/assets/note-29.png",
+    "docs/zju-courses/微机/assets/note-28.png",
+    "docs/zju-courses/社会心理学/note.md",
+    "docs/zju-courses/习概/note.md",
+    "docs/others/保研计划/保研流程.md",
+    "docs/others/保研计划/未命名.md",
+    "docs/others/保研计划/plan.md",
+    "docs/zju-courses/生物生产机器人/note.md",
+    "docs/others/保研计划/assets/plan-1.png",
+    "docs/zju-courses/生物生产机器人/assets/note-8.png",
+    "docs/zju-courses/生物生产机器人/assets/note-7.png",
+    "docs/zju-courses/生物生产机器人/assets/note-6.png",
+    "docs/zju-courses/生物生产机器人/assets/note-5.png",
+    "docs/zju-courses/生物生产机器人/assets/note-4.png",
+    "docs/zju-courses/生物生产机器人/assets",
+    "site/others/ASABE 2026/美签攻略/美签攻略小总结 初版 Teo.pdf",
+    "site/others/ASABE 2026/出国/ASABE出国宝典.pdf",
+    "site/others/ASABE 2026/比赛规则文件/2026 年 ASABE 学生机器人挑战赛 (1).pdf",
+    "docs/zju-courses/机械制造基础/ppt/第1章 金属材料的力学性能-s(6).pdf",
+    "课程回忆.md",
+    "docs/others/保研计划/assets",
     "docs/others/moments/moments.md",
-    "docs/others/moments/assets/ab87b0bd5903e06c3d194c4823f2e6ff.jpg",
     "docs/index.md",
     "docs/cs/cs231n/note.md",
-    "docs/zju-courses/机械制造基础/ppt/第1章 金属材料的力学性能-s(6).pdf",
-    "docs/zju-courses/机械制造基础/note.md",
-    "docs/zju-courses/机械制造基础/assets",
-    "docs/zju-courses/机械设计基础/ppt/机械设计基础总论.pdf",
-    "docs/zju-courses/机械设计基础/ppt",
-    "docs/cs/cs231n/assets",
     "docs/zju-courses/机械设计基础/note.md",
-    "docs/zju-courses/社会心理学/note.md",
-    "docs/zju-courses/机械设计基础",
-    "docs/zju-courses/社会心理学/assets",
-    "docs/zju-courses/社会心理学",
     "docs/robotic/具身智能与机器人学习长期学习路线图.md",
-    "docs/cs/cs231n",
-    "docs/zju-courses/习概/note.md",
     "docs/scholar/启真问学/未命名.md",
     "docs/robotic/技术栈.md",
     "docs/robotic/机器人工程师学习计划.md",
-    "docs/zju-courses/生物生产机器人/note.md",
     "docs/zju-courses/化妆品工艺学/化妆品工艺学.md",
     "docs/zju-courses/材料力学/材料力学.md",
-    "课程回忆.md",
     "未命名.md",
     "docs/cs/cs50x/cs50x.md",
     "docs/cs/cs50x/set0/set0.md",
     "docs/others/read/index.md",
     "docs/others/妙妙小工具/vibetool.md",
-    "docs/zju-courses/材料力学/考点.md",
-    "docs/control/自动控制理论/小测复习.md",
-    "docs/robotic/强化学习/强化学习.md",
-    "docs/robotic/强化学习/李宏毅强化学习/李宏毅强化学习课程笔记.md"
+    "docs/zju-courses/材料力学/考点.md"
   ]
 }
