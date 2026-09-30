@@ -236,35 +236,35 @@ CPU 时序
 
 **数据传送指令**
 
-1) 以 A 为目的的操作数  
+1. 以 A 为目的的操作数  
 	`MOV A,Rn` 
 	`MOV A,direct` 
 	`MOV A,@Ri` 
 	`MOV A,#data`
-2) 以 Rn 为目的的操作数  
+2. 以 Rn 为目的的操作数  
 	`MOV Rn,A` 
 	`MOV Rn,direct` 
 	`MOV Rn,#data`
-3) 以直接地址为目的的操作数
+3. 以直接地址为目的的操作数
 	`MOV direct,A` 
 	`MOV direct,Rn`
 	`MOV direct1,direct2` 
 	`MOV direct,@Ri` 
 	`MOV direct,#data` 
-4) 以寄存器间接地址为目的的操作数
+4. 以寄存器间接地址为目的的操作数
 	`MOV @Ri,A`
 	`MOV @Ri, direct`
 	`MOV @Ri,#data` 
-5) 16 位数传送
+5. 16 位数传送
 	`MOV DPTR,#data16` eg `MOV DPTR,#1234H`
-6) 外部 RAM 数据传送
+6. 外部 RAM 数据传送
 	读取指令：`MOVX A,@DPTR` `MOVX A,@Ri`
 	写指令：`MOVX @DPTR,A` `MOVX @Ri,A`
-7) 程序存储器数据传送
+7. 程序存储器数据传送
 	`MOVX A,@A+PC` `MOVX A,@A+DPTR`
-8) 数据交换指令
+8. 数据交换指令
 	![364](assets/note-30.png)
-9) 堆栈操作指令组  
+9. 堆栈操作指令组  
 	进栈：PUSH direct  
 	出栈： POP direct  
 
@@ -272,25 +272,25 @@ CPU 时序
 
 ![](assets/note-28.png)
 
-1) `MOV A,R7` `MOV R6,A`  
-	>  注：不能直接写 `MOV R6,R7`，8051 不支持两个工作寄存器之间直接传送，所以要通过累加器 A 中转
+1.  `MOV A,R7` `MOV R6,A`  
+>  注：不能直接写 `MOV R6,R7`，8051 不支持两个工作寄存器之间直接传送，所以要通过累加器 A 中转
 	$$
 	R7 \rightarrow A \rightarrow R6
 	$$
-2) `MOV A,20H` `MOV DPTR,#0020H` `MOVX @DPTR,A`   
-	> 注：DPTR 通常在访问外部存储器时使用，用于存放地址数据，先把内部 RAM `20H` 的内容读入 A，再用 `MOVX` 写入外部 RAM
+2.  `MOV A,20H` `MOV DPTR,#0020H` `MOVX @DPTR,A`   
+> 注：DPTR 通常在访问外部存储器时使用，用于存放地址数据，先把内部 RAM `20H` 的内容读入 A，再用 `MOVX` 写入外部 RAM
 	$$
 	内部RAM[20H]\rightarrow A\rightarrow 外部RAM[0020H]
 	$$
-3) `MOV DPTR,#0020H` `MOV A,#00H` `MOVC A,@A+DPTR` `MOV 20H,A`  
-	
+3. `MOV DPTR,#0020H` `MOV A,#00H` `MOVC A,@A+DPTR` `MOV 20H,A`  
 	$$
 	程序ROM[20H]\rightarrow A\rightarrow 内部RAM[20H]
 	$$
-4) `MOV A,20H` `SWAP A` `MOV 20H,A`   
-	>  注：SWAP 只能操作累加器 A，所以要先把 20H 取到 A
-5) `MOV A,20H` `XCH A,30H` `MOV 20,A`  
-	>  数据交换可以使用 XCH 指令
+4. `MOV A,20H` `SWAP A` `MOV 20H,A`   
+>  注：SWAP 只能操作累加器 A，所以要先把 20H 取到 A
+	
+5. `MOV A,20H` `XCH A,30H` `MOV 20,A`  
+>  数据交换可以使用 XCH 指令
 
 **算数运算指令**
 
