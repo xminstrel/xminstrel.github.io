@@ -1,4 +1,9 @@
 # 微机原理及其应用
+
+分为理论课和实验课，主要学习的是 8051 单片机。
+
+记录一些上课笔记，内容大部分和课件重合因为主要是防止上课会睡过去，然后增加一些辅助理解的东西。
+
 !!! info "成绩构成"
 
 
@@ -113,11 +118,28 @@ PSEN：控制ROM
 	**PSW**：程序状态字
 		![](assets/note-15.png)
 		> RS1 和 RS0 控制选择的寄存器区是哪一组
-	**DPTR**：数据指针，指针是存放地址的变量
+	**DPTR**：数据指针 `Data Pointer` ，指针是存放地址的变量
 		![](assets/note-16.png)
-	**SP**：堆栈指针：保存栈顶地址
+	**SP**：堆栈指针 `Stack Pointer`：保存栈顶地址
+		>  SP 本身也是一个寄存器，里面放的是一个 RAM 地址
+		
 
-**内部程序存储器**
+!!! note "堆栈"
+	堆栈是按照“先进后出、后进先出”原则进行存取的内存区域。存 abc 取 cba  
+	进栈：先 SP + 1，再写数据  
+	**例**：SP = 40H；A = 35H，把 A 保存到栈顶
+	PUSH ACC 
+	SP = SP + 1;SP = 41H
+	RAM[41H] = 35H
+
+POP：SP - 1 然后读数据
+
+堆栈的作用：  
+1. 临时保存数据
+2. 保存程序返回地址，保护程序断点和数据
+
+
+**内部程序存储器 ROM**
 
 通过 pc 指针读取指令代码
 
@@ -125,6 +147,19 @@ PSEN：控制ROM
 
 
 ![400](assets/note-17.png)
+
+
+R0、R1 可以作为普通的数据寄存器，也可以作为地址指针，通过@Ri 进行间接寻址  
+比如：
+```
+MOV R0,#30H
+MOV A,@R0
+```
+
+!!! note "指针"
+	指针是一个里面保存“地址”的东西。
+
+
 
 ### 单片机并行 I/O 口
 4 个 8 位并行口:P0,P1,P2,P3, 具有字节寻址和位寻址的功能。  
@@ -159,13 +194,6 @@ CPU 时序
 	![](assets/note-25.png)
 
 
-R0、R1 可以作为普通的数据寄存器，也可以作为地址指针，通过@Ri 进行间接寻址  
-比如：
-```
-MOV R0,#30H
-MOV A,@R0
-```
-
 
 
 
@@ -178,38 +206,91 @@ MOV A,@R0
 
 ### 寻址方式
 
-寻址方式：寻找操作数地址的方法。操作数的表示方法
+**寻址方式**：寻找操作数地址的方法。操作数的表示方法（CPU 如何找到操作的数据？）
 
-1. 立即寻址：存放在 ROM
-2. 直接寻址
-3. 寄存器寻址
-4. 寄存器间接寻址
-5. 变址寻址
-6. 相对寻址
-7. 位寻址
+分类还有一些例子
 
-![](assets/note-28.png)
+1. 立即寻址：操作数在指令中  
+	指令： 
+	`MOV A,#20H`
+	`MOV DPTR,#1234H`
+2. 直接寻址：内部RAM地址在指令中（直接写地址)  
+	指令：`MOV A,30H ` ➡️ `A = RAM[30H]`
+3. 寄存器寻址：操作数在寄存器中（写的是寄存器，比如 R0、R1）  
+	指令：`MOV RO,#10H` `MOV A,R0` ➡️ `A = 10H`
+4. 寄存器间接寻址：操作数地址在寄存器中
+	指令：`MOV A,@R0` 假如 `R0 = 30H,RAM[30H] = 66H` 则 `A = 66H`
+5. 变址寻址：操作数地址在基址寄存器和变址寄存器中，访问 ROM 中的数据
+	指令：`MOVC A,@A+DPTR` , `MOVC A,@A+PC`
+	例：`DPTR = 2000H ; A = 05H`  `MOVC A,@A+DPTR` ➡️ `A = ROM[2005H]`
+6. 相对寻址：转移地址（目的地址）的相对偏移量在指令中，主要用于跳转 
+	指令： `JC NEXT`
+7. 位寻址：位地址在指令中，操作一个 bit
+	指令 `MOV C,PSW.5`
 
-1) MOV A R7.    MOV R6 A
-2) MOV A 20H.  MOV DPTR # 20H. MOVX @DPTR A
-3) MOV A #0 . MOV DPTR # 20H   MOC A
-4) MOV A, 20H.  SWAP A.  MOV 20H, A
-5) 
 ### 指令系统
 
 符号约定
 
 ![](assets/note-27.png)
 
-| 符号       | 含义  |
-| -------- | --- |
-| Rn       |     |
-| Ri       |     |
-| direct   |     |
-| # data   |     |
-| # data16 |     |
+**数据传送指令**
 
+1) 以 A 为目的的操作数  
+	`MOV A,Rn` 
+	`MOV A,direct` 
+	`MOV A,@Ri` 
+	`MOV A,#data`
+2) 以 Rn 为目的的操作数  
+	`MOV Rn,A` 
+	`MOV Rn,direct` 
+	`MOV Rn,#data`
+3) 以直接地址为目的的操作数
+	`MOV direct,A` 
+	`MOV direct,Rn`
+	`MOV direct1,direct2` 
+	`MOV direct,@Ri` 
+	`MOV direct,#data` 
+4) 以寄存器间接地址为目的的操作数
+	`MOV @Ri,A`
+	`MOV @Ri, direct`
+	`MOV @Ri,#data` 
+5) 16 位数传送
+	`MOV DPTR,#data16` eg `MOV DPTR,#1234H`
+6) 外部 RAM 数据传送
+	读取指令：`MOVX A,@DPTR` `MOVX A,@Ri`
+	写指令：`MOVX @DPTR,A` `MOVX @Ri,A`
+7) 程序存储器数据传送
+	`MOVX A,@A+PC` `MOVX A,@A+DPTR`
+8) 数据交换指令
+	![364](assets/note-30.png)
+9) 堆栈操作指令组  
+	进栈：PUSH direct  
+	出栈： POP direct  
 
+例题：
+
+![](assets/note-28.png)
+
+1) `MOV A,R7` `MOV R6,A`  
+	>  注：不能直接写 `MOV R6,R7`，8051 不支持两个工作寄存器之间直接传送，所以要通过累加器 A 中转
+	$$
+	R7 \rightarrow A \rightarrow R6
+	$$
+2) `MOV A,20H` `MOV DPTR,#0020H` `MOVX @DPTR,A`   
+	> 注：DPTR 通常在访问外部存储器时使用，用于存放地址数据，先把内部 RAM `20H` 的内容读入 A，再用 `MOVX` 写入外部 RAM
+	$$
+	内部RAM[20H]\rightarrow A\rightarrow 外部RAM[0020H]
+	$$
+3) `MOV DPTR,#0020H` `MOV A,#00H` `MOVC A,@A+DPTR` `MOV 20H,A`  
+	
+	$$
+	程序ROM[20H]\rightarrow A\rightarrow 内部RAM[20H]
+	$$
+4) `MOV A,20H` `SWAP A` `MOV 20H,A`   
+	>  注：SWAP 只能操作累加器 A，所以要先把 20H 取到 A
+5) `MOV A,20H` `XCH A,30H` `MOV 20,A`  
+	>  数据交换可以使用 XCH 指令
 
 **算数运算指令**
 
