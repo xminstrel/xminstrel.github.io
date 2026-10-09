@@ -294,9 +294,17 @@ CPU 时序
 
 **算数运算指令**
 
-1. 加法指令
+1. 加法指令  
+		- 不带进位位加法：`ADD A,#data(direct,Rn,@Ri)`  
+		- 带进位位加法：`ADDC A,#data(direct,Rn,@Ri)`  
+		- 加 1 指令：`INC A(Rn,direct,@Ri,DPTR)`
+		- 十进制调整：`DA A`
 2. 减法指令
-3. 乘法指令
+	1. `SUBB A,Rn(direct,@Ri,#data)`
+	2. `DEC A(Rn,direct,@Ri)` 减 1 指令
+3. 乘法指令：`MUL AB` ➡️A * B 结果：B 为高八位，A 为低 8 位
+> 例：
+> 
 4. 除法指令
 
 

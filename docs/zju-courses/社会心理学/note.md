@@ -8,4 +8,26 @@
 
 
 
+作业 1ddl：10.29
+作业 2ddl：11.15
 
+
+
+
+![](assets/note-2.png)
+
+
+![](assets/note-3.png)
+
+
+![](assets/note-4.png)
+
+
+![](assets/note-5.png)
+
+### 情绪的定义
+
+
+### 情绪的理论
+
+认知评价理论

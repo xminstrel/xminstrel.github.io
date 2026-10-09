@@ -4592,15 +4592,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/note.md": {
-    "scroll": 272.81608018767326,
+    "scroll": 289.3037109375,
     "cursor": {
       "from": {
-        "line": 292,
-        "ch": 0
+        "line": 304,
+        "ch": 43
       },
       "to": {
-        "line": 292,
-        "ch": 0
+        "line": 304,
+        "ch": 43
       }
     },
     "expandedKeys": [
@@ -4720,7 +4720,7 @@
     "expandedKeys": []
   },
   "docs/cs/cs231n/note.md": {
-    "scroll": 106.81361876652996,
+    "scroll": 101.13122607206756,
     "cursor": {
       "from": {
         "line": 117,
@@ -4750,15 +4750,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/社会心理学/note.md": {
-    "scroll": 6.417901234567902,
+    "scroll": 25.459876543209877,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 0
+        "line": 32,
+        "ch": 6
       },
       "to": {
-        "line": 9,
-        "ch": 0
+        "line": 32,
+        "ch": 6
       }
     },
     "expandedKeys": []
@@ -4824,15 +4824,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/生物生产机器人/note.md": {
-    "scroll": 15.77815699658703,
+    "scroll": 24.077799479166668,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 21
+        "line": 37,
+        "ch": 0
       },
       "to": {
-        "line": 25,
-        "ch": 21
+        "line": 37,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4889,5 +4889,33 @@
       "item-1-113",
       "item-1-69"
     ]
+  },
+  "docs/zju-courses/社会心理学/作业1/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/社会心理学/作业1/作业1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

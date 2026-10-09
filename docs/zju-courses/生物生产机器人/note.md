@@ -1,4 +1,10 @@
 
+
+模糊控制
+
+
+![](assets/note-9.png)
+
 ![](assets/note.png)
 
 ![](assets/note-1.png)
@@ -26,3 +32,7 @@
 min，max 组合，看图像找值然后求集合
 
 ![](assets/note-8.png)
+
+
+power=0 时的隶属度要考虑
+
