@@ -323,6 +323,24 @@ CPU 时序
 	![](assets/note-44.png)
 
 
+**控制转移指令**
+
+1) 无条件转移指令
+	![](assets/note-46.png)
+2) 条件转移指令
+	![](assets/note-47.png)
+	![](assets/note-48.png)
+3) 子程序 `ACALL`；`LCALL`
+	![](assets/note-49.png)
+4) 空指令 `NOP`
+
+
+**位操作指令**
+
+![](assets/note-45.png)
+
+
+**伪指令**
 
 
 
@@ -333,6 +351,11 @@ CPU 时序
 
 ![](assets/note-29.png)
 
+
+
+![](assets/note-50.png)
+
+> 这里的 5.2 要好好考虑一下
 
 
 ## 4. 汇编语言程序设计
