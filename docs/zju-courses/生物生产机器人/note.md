@@ -1,3 +1,12 @@
+评分标准
+
+![](assets/note-10.png)
+
+
+研讨问题
+![](assets/note-11.png)
+
+![](assets/note-12.png)
 
 
 模糊控制

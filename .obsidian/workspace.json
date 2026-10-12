@@ -4,16 +4,69 @@
     "type": "split",
     "children": [
       {
-        "id": "fc277a4a6ce53c9d",
+        "id": "b86cfba452af7b13",
         "type": "tabs",
         "children": [
           {
-            "id": "f17e7a8efdbb9f5f",
+            "id": "3cc65646b395c82a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/机械设计基础/note.md",
+                "file": "docs/zju-courses/微机/实验/实验.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "实验"
+            }
+          },
+          {
+            "id": "65a91da4feccf162",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
+                "page": 25,
+                "left": -35,
+                "top": 279,
+                "zoom": 0.43125
+              },
+              "icon": "lucide-file-text",
+              "title": "N第三章 单片机指令系统"
+            }
+          },
+          {
+            "id": "7f10373a18a127aa",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
+                "page": 31,
+                "left": -35,
+                "top": 297,
+                "zoom": 0.43125
+              },
+              "icon": "lucide-file-text",
+              "title": "N第二章 单片机结构"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "174058e6f866d31b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "784cf778471598b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/zju-courses/微机/note.md",
                 "mode": "source",
                 "source": false
               },
@@ -42,7 +95,7 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
@@ -207,13 +260,11 @@
               "title": "大纲"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 218.96484375,
-    "collapsed": true
+    "width": 218.96484375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,42 +283,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f17e7a8efdbb9f5f",
+  "active": "784cf778471598b4",
   "lastOpenFiles": [
-    "docs/zju-courses/机械设计基础/ppt/机械设计基础总论.pdf",
-    "docs/zju-courses/微机/note.md",
+    "docs/zju-courses/微机/assets/note-44.png",
+    "docs/zju-courses/微机/assets/note-43.png",
     "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
+    "docs/zju-courses/微机/note.md",
+    "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
+    "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
+    "docs/zju-courses/微机/ppt/N第四章  汇编语言程序设计.pdf",
+    "docs/zju-courses/微机/ppt/微机提纲.pdf",
+    "docs/zju-courses/微机/实验/实验.md",
+    "docs/zju-courses/微机/实验/assets/实验-1.png",
+    "docs/zju-courses/微机/实验/assets/实验.png",
+    "docs/zju-courses/微机/实验/assets/实验-1.png",
+    "docs/zju-courses/微机/实验/assets/实验.png",
+    "docs/zju-courses/微机/实验/assets",
+    "docs/zju-courses/微机/实验",
+    "docs/zju-courses/微机/assets/note-42.png",
+    "docs/zju-courses/微机/assets/note-41.png",
+    "docs/zju-courses/微机/assets/note-40.png",
+    "docs/zju-courses/微机/assets/note-40.png",
+    "docs/zju-courses/微机/assets/note-39.png",
+    "docs/zju-courses/生物生产机器人/note.md",
+    "docs/zju-courses/机械设计基础/note.md",
+    "docs/zju-courses/机械设计基础/ppt/机械设计基础总论.pdf",
     "docs/zju-courses/社会心理学/note.md",
     "docs/cs/cs231n/note.md",
     "docs/zju-courses/社会心理学/作业1/作业1.md",
     "docs/zju-courses/社会心理学/作业1",
-    "docs/zju-courses/社会心理学/assets/note-5.png",
-    "docs/zju-courses/社会心理学/assets/note-4.png",
-    "docs/zju-courses/社会心理学/assets/note-3.png",
-    "docs/zju-courses/社会心理学/assets/note-2.png",
-    "docs/zju-courses/生物生产机器人/note.md",
-    "docs/zju-courses/生物生产机器人/assets/note-9.png",
-    "docs/zju-courses/微机/assets/note-30.png",
-    "docs/zju-courses/微机/ppt/微机提纲.pdf",
     "docs/zju-courses/机械制造基础/ppt/机械制造基础-3-铁碳合金.pdf",
     "docs/zju-courses/机械制造基础/note.md",
-    "docs/zju-courses/机械制造基础/assets/note-21.png",
-    "docs/zju-courses/机械制造基础/assets/note-20.png",
-    "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
-    "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
-    "docs/zju-courses/微机/assets/note-29.png",
-    "docs/zju-courses/微机/assets/note-28.png",
     "docs/zju-courses/习概/note.md",
     "docs/others/保研计划/保研流程.md",
     "docs/others/保研计划/未命名.md",
     "docs/others/保研计划/plan.md",
-    "docs/zju-courses/生物生产机器人/assets",
-    "site/others/ASABE 2026/美签攻略/美签攻略小总结 初版 Teo.pdf",
-    "site/others/ASABE 2026/出国/ASABE出国宝典.pdf",
     "课程回忆.md",
     "docs/others/moments/moments.md",
     "docs/index.md",
-    "docs/zju-courses/机械设计基础/note.md",
     "docs/robotic/具身智能与机器人学习长期学习路线图.md",
     "docs/scholar/启真问学/未命名.md",
     "docs/robotic/技术栈.md",
@@ -277,7 +330,6 @@
     "未命名.md",
     "docs/cs/cs50x/cs50x.md",
     "docs/cs/cs50x/set0/set0.md",
-    "docs/others/read/index.md",
-    "docs/others/妙妙小工具/vibetool.md"
+    "docs/others/read/index.md"
   ]
 }
