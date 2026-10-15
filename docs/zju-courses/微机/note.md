@@ -341,9 +341,11 @@ CPU 时序
 
 
 **伪指令**
+>  告诉汇编程序汇编方法的命令，不生成机器代码。
 
+汇编起始地址
 
-
+	
 
 **数据传送指令**
 
@@ -367,11 +369,53 @@ CPU 时序
 
 ![](assets/note-31.png)
 
+```
+
+ORG 0000H
+
+MOV R0,#52H \\存放地址
+MOV R1,#55H
+
+; 第一步：最低字节相加
+MOV A,@R0  \\寄存器间接寻址
+ADD A,@R1
+MOV @R0,A
+
+DEC R0
+DEC R1
+
+; 第二步：中间字节相加
+MOV A,@R0
+ADDC A,@R1
+MOV @R0,A
+
+DEC R0
+DEC R1
+
+; 第三步：最高字节相加
+MOV A,@R0
+ADDC A,@R1
+MOV @R0,A
+
+; 第四步：保存最终进位
+CLR A
+ADDC A,#00H
+MOV R0,#20H
+MOV @R0,A
+
+SJMP $
+END
+
+```
+
+
 
 >  三字节数 123456H  
->  这里我没太听懂
+>  加法运算要用累加器 A，A 是八位累加器，进位会放到 Cy 位中
+>  ADD 是不带进位的加法，ADDC 是带进位的加法
 >  `STMP $` 如果没有这个指令，cpu 会读取 rom 中程序单元之外的代码，不会停下来
->  
+
+
 
 
 ### 4.2 分支程序设计
@@ -383,6 +427,32 @@ CPU 时序
 
 ![](assets/note-32.png)
 
+```
+
+START:
+    CLR C
+    MOV DPTR,#ST1
+    MOVX A,@DPTR
+    MOV R2,A
+
+    INC DPTR
+    MOVX A,@DPTR
+
+    SUBB A,R2
+    JNC BIG1
+
+    XCH A,R2
+
+BIG0:
+    INC DPTR
+    MOVX @DPTR,A
+    RET
+
+BIG1:
+    MOVX A,@DPTR
+    SJMP BIG0
+
+```
 
 >  用 SUBB 判断正负的原理其实是看 cy 位，会不会借位
 
