@@ -4592,15 +4592,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/note.md": {
-    "scroll": 427.5837742504409,
+    "scroll": 497.9258382642998,
     "cursor": {
       "from": {
-        "line": 453,
-        "ch": 0
+        "line": 490,
+        "ch": 15
       },
       "to": {
-        "line": 453,
-        "ch": 0
+        "line": 490,
+        "ch": 15
       }
     },
     "expandedKeys": [
@@ -4751,18 +4751,20 @@
     "expandedKeys": []
   },
   "docs/zju-courses/社会心理学/note.md": {
-    "scroll": 25.459876543209877,
+    "scroll": 30.798628653915554,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 6
+        "line": 54,
+        "ch": 0
       },
       "to": {
-        "line": 32,
-        "ch": 6
+        "line": 54,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "docs/zju-courses/机械设计基础/未命名.md": {
     "scroll": 0,

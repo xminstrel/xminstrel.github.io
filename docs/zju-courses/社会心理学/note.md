@@ -30,4 +30,25 @@
 
 ### 情绪的理论
 
-认知评价理论
+达尔文情绪进化理论
+情绪认知评价理论
+情绪构建理论
+
+
+## 如何学习情绪
+
+
+情绪怎么测量
+
+- self- report
+- biological measures
+- nonverbal expressions
+	- facial expressions
+	- pupil dilation
+	- gesture
+	- touch
+	- voice
+
+
+
+## 态度

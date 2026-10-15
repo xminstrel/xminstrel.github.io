@@ -360,6 +360,11 @@ CPU 时序
 > 这里的 5.2 要好好考虑一下
 
 
+!!! note "总结整理"
+	汇编的指令硬记有点抽象，这里整理一下这些指令的完整名称还有功能、条件，这样方便记忆：
+	
+
+
 ## 4. 汇编语言程序设计
 
 ### 4.1 顺序程序设计
@@ -432,29 +437,30 @@ END
 START:
     CLR C
     MOV DPTR,#ST1
-    MOVX A,@DPTR
+    MOVX A,@DPTR \\访问外部存储器
     MOV R2,A
 
-    INC DPTR
+    INC DPTR \\+1指令
     MOVX A,@DPTR
 
-    SUBB A,R2
-    JNC BIG1
+    SUBB A,R2 \\做差比较
+    JNC BIG1  \\判断Cy位，为0则跳转BIG1
 
-    XCH A,R2
+    XCH A,R2  \\不为0，则借位，ST2小于ST1，字节交换
 
 BIG0:
-    INC DPTR
+    INC DPTR  \\+1变成ST3
     MOVX @DPTR,A
     RET
 
-BIG1:
+BIG1: \\无借位，ST2大于ST1
     MOVX A,@DPTR
     SJMP BIG0
 
 ```
 
->  用 SUBB 判断正负的原理其实是看 cy 位，会不会借位
+> 外部存储用 MOVX DPTR 访问外部数据存储器
+> 用 SUBB 判断正负的原理其实是看 Cy 位，会不会借位
 
 
 **多分支程序设计**
@@ -464,11 +470,33 @@ BIG1:
 >  不能用 SUBB，因为不需要借位， cy 位始终为 0
 
 
+
+
 先画流程图再编写程序
 ![306](assets/note-34.png)
 
 程序：
 ![313](assets/note-35.png)
+
+```
+
+        MOV A,R2
+        JNZ L1
+
+        MOV R3,#0
+        SJMP L3
+
+L1:     JB ACC.7,L2
+        MOV R3,#1
+        SJMP L3
+
+L2:     MOV R3,#0FFH \\-1补码
+
+L3:     SJMP L3
+        END
+
+```
+
 
 
 ### 4.3 循环程序设计
