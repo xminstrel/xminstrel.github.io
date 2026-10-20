@@ -529,3 +529,131 @@ L3:     SJMP L3
 ![](assets/note-41.png)
 
 ![](assets/note-42.png)
+
+### 4.6 运算程序
+
+!!! note "例题"
+	实现双字节数乘法
+
+
+![](assets/note-51.png)
+
+晚上把这个程序再写一下
+```
+DBMUL: MOV A,R3
+	MOV B,R7
+	MUL AB
+	XCH A,R7
+	MOV R5,B
+	MOV B,R2
+	MUL AB
+	ADD A,R5
+	MOV R4,A
+	CLR A
+	ADDC A,B
+	MOV R5,A
+	MOV B,R3
+	MUL AB
+	ADD A,R4
+	XCH A,R6
+	XCH A,B
+	ADDC A,R5
+	MOV R5,A
+	MOV F0,C
+	MOV A,R2
+	MUL AB
+	ADD A,R5
+	MOV R5,A
+	CLR A
+	MOV ACC.0,C
+	MOV C,F0
+	ADDC A,B
+	MOV R4
+	RET
+```
+
+把位扩展成字节 MOV ACC.0,C
+
+### 4.7 综合程序设计
+
+!!! note "例题"
+	把内部 RAM 中起始地址为 inbuf 的数据串传送到外部 RAM 以 outbuf 为首地址的区域，发现“$” 字符的 ASCII 码停止传送，数据串最大长度为 32 字节。
+	 1）循环程序包含分支程序。 
+	 2）计数循环，采用间接寻址。
+
+晚上研究一下
+
+```
+inbuf	
+```
+
+>  只有 R0，R1 能存放地址，R7 不行
+
+
+!!! note "例题"
+	在 P1.0 引脚输出 1HZ 方波信号
+
+```
+	ORG 0000H
+LOOP:MOV R1,#100;100次为5ms
+WAIT:LCALL DELAY
+	DJNZ R1 WAIT
+	CPL P1.0；取反
+	SJMP LOOP
+```
+
+> CPL 取反指令
+
+### 4.8 C51 程序设计
+
+![](assets/note-52.png)
+
+>  data、bdata、idata：内部 ram
+
+特殊功能寄存器
+
+sfr
+
+
+## MCS-51 内部资源
+
+### 中断系统
+>  中断：由外设向CPU提出请求，在满足一定条件下，CPU暂停现有程序的运行，而去运行中断服务程序（中断子程序），执行结束后返回原先的程序继续运行。
+
+![](assets/note-53.png)
+Q：为什么串口是用软件清除
+
+>  INT0: P3.2 外中断
+>  INT1：P3.3 外中断
+
+
+1. 定时器控制寄存器 TCON
+2. 串行口控制寄存器 SCON
+3. 中断允许控制寄存器 IE
+4. 中断优先级控制寄存器 IP
+
+
+### 中断程序设计
+
+入口地址
+主程序
+中断子程序
+
+
+![](assets/note-54.png)
+
+Q：为什么 SETB EX0 和 SETB EA 不写到一起：因为初始化的时间长
+Q：RETI 返回到哪条指令：回到 WAIT，WAIT 指令一直在循环，中断回到之前断开的位置
+
+![](assets/note-55.png)
+
+```
+；尝试写一下，看一下实验箱晶振频率
+
+
+
+```
+
+
+
+![](assets/note-56.png)

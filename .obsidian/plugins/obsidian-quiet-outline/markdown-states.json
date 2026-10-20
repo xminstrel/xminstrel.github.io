@@ -4592,22 +4592,23 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/note.md": {
-    "scroll": 497.9258382642998,
+    "scroll": 111.756366757961,
     "cursor": {
       "from": {
-        "line": 490,
-        "ch": 15
+        "line": 318,
+        "ch": 29
       },
       "to": {
-        "line": 490,
-        "ch": 15
+        "line": 318,
+        "ch": 29
       }
     },
     "expandedKeys": [
       "item-1-0",
       "item-2-2",
       "item-2-8",
-      "item-2-11"
+      "item-2-11",
+      "item-2-20"
     ]
   },
   "docs/zju-courses/机械制造基础/未命名.md": {
@@ -4625,21 +4626,22 @@
     "expandedKeys": []
   },
   "docs/zju-courses/机械制造基础/note.md": {
-    "scroll": 216.29459635416666,
+    "scroll": 239.18848081505217,
     "cursor": {
       "from": {
-        "line": 232,
+        "line": 258,
         "ch": 0
       },
       "to": {
-        "line": 232,
+        "line": 258,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
       "item-2-2",
-      "item-2-6"
+      "item-2-6",
+      "item-2-13"
     ]
   },
   "docs/zju-courses/化妆品工艺学/化妆品工艺学.md": {
@@ -4721,14 +4723,14 @@
     "expandedKeys": []
   },
   "docs/cs/cs231n/note.md": {
-    "scroll": 101.13122607206756,
+    "scroll": 213.71459999153868,
     "cursor": {
       "from": {
-        "line": 117,
+        "line": 236,
         "ch": 0
       },
       "to": {
-        "line": 117,
+        "line": 236,
         "ch": 0
       }
     },
@@ -4751,7 +4753,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/社会心理学/note.md": {
-    "scroll": 30.798628653915554,
+    "scroll": 41.4609375,
     "cursor": {
       "from": {
         "line": 54,
@@ -4781,15 +4783,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/机械设计基础/note.md": {
-    "scroll": 0,
+    "scroll": 15.108442428615607,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 10
+        "line": 18,
+        "ch": 22
       },
       "to": {
-        "line": 0,
-        "ch": 10
+        "line": 18,
+        "ch": 22
       }
     },
     "expandedKeys": []
@@ -4948,5 +4950,50 @@
       }
     },
     "expandedKeys": []
+  },
+  "docs/scholar/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/scholar/idea.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/微机/未命名.md": {
+    "scroll": 172.22446466171388,
+    "cursor": {
+      "from": {
+        "line": 240,
+        "ch": 43
+      },
+      "to": {
+        "line": 240,
+        "ch": 43
+      }
+    },
+    "expandedKeys": [
+      "item-2-4",
+      "item-3-9"
+    ]
   }
 }

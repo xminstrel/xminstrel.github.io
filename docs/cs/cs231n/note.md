@@ -115,3 +115,122 @@ optimize
 
 ![](assets/note-20.png)
 
+## 神经网络与反向传播
+激活函数 Activation functions
+ReLU 激活函数引入非线性变换
+sigmoid
+
+![](assets/note-21.png)
+
+![](assets/note-22.png)
+
+
+
+调整正则化超参数
+
+
+计算图
+![](assets/note-23.png)
+
+![](assets/note-24.png) 
+
+
+反向传播
+人怎么能这么聪明
+![](assets/note-25.png)
+
+
+![](assets/note-26.png)
+
+![](assets/note-27.png)
+
+
+![](assets/note-28.png)
+
+![](assets/note-29.png)
+
+
+# 感知和理解视觉世界
+
+## 卷积神经网络
+算子：卷积层、池化层
+
+
+特征提取范式，淘汰了
+
+
+卷积网络，端到端学习方式
+
+卷积层、全连接层
+
+加多个滤波器
+![](assets/note-30.png)
+
+滤波器怎么来？梯度下降学习出来的
+
+超参数：训练之前就确定好的参数，比如滤波器大小
+
+![](assets/note-31.png)
+
+卷积层之间加激活函数，非线性提高能力
+![](assets/note-32.png)
+
+
+
+带不长的卷积，快速增大后面的感受野
+![](assets/note-33.png)
+
+最大池化
+![](assets/note-34.png)
+
+
+
+## CNN 架构
+
+![](assets/note-35.png)
+
+多层网络性能优化，让其不比浅层模型差
+residual connection 残差连接
+![](assets/note-36.png)
+
+怎么确定初始权重
+Weight Initialization
+
+何恺明？
+MSRA Initialization
+
+**训练数据不足时如何训练 cnn**
+
+其实是预训练微调
+
+![](assets/note-37.png)
+![](assets/note-38.png)
+
+超参数选择
+
+
+![](assets/note-39.png)
+超参数搜索
+![](assets/note-40.png)
+
+## 循环神经网络 RNN
+
+工具：weights and biases
+
+![](assets/note-41.png)
+
+构建神经网络 
+
+```
+
+```
+
+![](assets/note-42.png)
+
+
+## 注意力与 Transformer
+
+Attention and Transformer
+
+Attention layer
+
