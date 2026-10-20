@@ -41,3 +41,7 @@
 
 9.19 又是栾树的季节
 ![](assets/ab87b0bd5903e06c3d194c4823f2e6ff.jpg)
+
+10.13 咪与桂花
+
+![](assets/e1c68c8a64955fb7c3a169ff4a8fdd99.jpg)
