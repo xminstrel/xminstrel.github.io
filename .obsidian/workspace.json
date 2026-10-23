@@ -25,10 +25,14 @@
             "id": "a94f82668b24ed0e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "课程回忆.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "课程回忆"
             }
           }
         ],
@@ -254,7 +258,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a94f82668b24ed0e",
+  "active": "0730e18f499e3b70",
   "lastOpenFiles": [
     "docs/zju-courses/微机/note.md",
     "docs/zju-courses/机械设计基础/ppt/机械设计基础总论.pdf",
