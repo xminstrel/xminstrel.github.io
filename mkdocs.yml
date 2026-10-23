@@ -1,6 +1,6 @@
 site_name: 赤奈良瞳的博客 | xminstrel's blog
 site_author: 赤奈良瞳
-site_url: 'https://xminstrel.github.io/'
+site_url: 'https://note.xminstrel.top/'
 # 站点基本信息
 nav:
   - "🎆 首页": index.md
@@ -48,8 +48,8 @@ nav:
       - 被讨厌的勇气: others/read/被讨厌的勇气.md
 # 自定义样式和脚本
 extra_css:
-  - stylesheets/extra.css?v=20260731-avatar-bookshelf
-  - https://unpkg.com/katex@0/dist/katex.min.css
+  - assets/vendor/fonts/fonts.css
+  - stylesheets/extra.css?v=20261023-performance
 #主题配置
 theme:
   name: material
@@ -58,9 +58,7 @@ theme:
   favicon: assets/images/favicon.png  # 这里写从 docs 目录开始的相对路径
   icon:
     repo: fontawesome/brands/github
-  font:
-    text: LXGW WenKai Screen GB Screen # Share Tech
-    code: JetBrains Mono
+  font: false  # 字体由本站提供，避免外部字体请求
   palette: 
     # 切换日间模式 (点击右上角按钮)
     - media: "(prefers-color-scheme: light)"
@@ -79,6 +77,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs        # 开启顶部导航栏 (像App一样)
     - navigation.top         # 返回顶部按钮
     - search.suggest         # 搜索建议
@@ -95,6 +95,7 @@ plugins:
   - search    # 开启默认的搜索功能
 hooks:
   - hooks/recent_notes.py
+  - hooks/performance.py
 #md扩展
 markdown_extensions:
   - wikilinks
@@ -115,12 +116,11 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_javascript: # latex
-  - javascripts/home.js?v=20260731-avatar-quotes
-  - javascripts/recent-notes.js?v=20260731-cleanup
+  - javascripts/home.js?v=20261023-performance
+  - javascripts/recent-notes.js?v=20261023-performance
   - javascripts/toc-fold.js?v=20260731
-  - https://unpkg.com/katex@0/dist/katex.min.js
-  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
-  - javascripts/katex.js?v=20260731-formula-fix
+  - javascripts/katex.js?v=20261023-performance
+  - javascripts/comments.js?v=20261023-performance
 # 社交媒体链接配置
 extra:
   social:

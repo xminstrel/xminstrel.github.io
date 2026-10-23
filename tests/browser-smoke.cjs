@@ -1,0 +1,98 @@
+const {chromium}=require('playwright');
+const fs=require('node:fs');
+const path=require('node:path');
+const siteDir=path.resolve(process.argv[2] || 'site');
+async function serve(route) {
+ let file=path.join(siteDir,decodeURIComponent(new URL(route.request().url()).pathname));
+ if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');
+ return fs.existsSync(file)?route.fulfill({path:file}):route.fulfill({status:404,body:'Missing test asset'});
+}
+const assert=require('node:assert/strict');
+const origin='https://note.xminstrel.top';
+const materials='/zju-courses/'+encodeURIComponent('材料力学')+'/'+encodeURIComponent('材料力学')+'/';
+const moments='/others/moments/moments/';
+let browser;
+(async()=>{
+ browser=await chromium.launch({channel:process.env.BROWSER_CHANNEL || 'chrome',headless:true});
+ const context=await browser.newContext({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+ const page=await context.newPage();
+ const errors=[],bad=[],external=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ page.on('response',r=>{if(r.url().startsWith(origin)&&r.status()>=400)bad.push([r.status(),r.url()]);});
+ await context.route('**/*',async route=>{
+  if(route.request().url().startsWith(origin)) return serve(route);
+  external.push(route.request().url());
+  if(route.request().url()==='https://giscus.app/client.js') return route.fulfill({contentType:'application/javascript',body:'const frame=document.createElement("iframe");frame.className="giscus-frame";document.currentScript.parentElement.append(frame);'});
+  return route.abort();
+ });
+ await page.goto(origin,{waitUntil:'networkidle'});
+ await page.waitForSelector('.home-update-card[href]');
+ assert.equal(await page.locator('script[src*="katex.min.js"]').count(),0,'home should not load math renderer');
+ assert.equal(await page.locator('script[src*="giscus.app"]').count(),0,'home should not load comments');
+ await page.evaluate(()=>{window.__navigationSentinel=42;});
+ // Exercise real tab navigation to the course's first page.
+ await page.locator('.md-tabs__link').filter({hasText:'ZJU-Courses'}).click();
+ await page.waitForURL('**'+materials);
+ await page.waitForSelector('.katex');
+ await page.waitForLoadState('networkidle');
+ assert.equal(await page.evaluate(()=>window.__navigationSentinel),42,'tab must use instant navigation');
+ assert.equal(await page.locator('.md-content img[loading="lazy"]').count(),93);
+ assert.equal(await page.locator('.md-content img[srcset]').count(),94);
+ assert.equal(await page.locator('.toc-fold__all').count(),1);
+ assert.equal(await page.locator('.katex-error').count(),0);
+ const imgMetrics=await page.evaluate(()=>({images:document.querySelectorAll('.md-content img').length,requested:performance.getEntriesByType('resource').filter(r=>r.initiatorType==='img'&&r.name.includes('/assets/')).map(r=>({url:r.name,bytes:r.encodedBodySize})),math:document.querySelectorAll('.katex').length}));
+ await page.screenshot({path:'/tmp/xmin-materials-desktop.png',fullPage:false});
+ await page.locator('.toc-fold__all').click();
+ assert.equal(await page.locator('.toc-fold__all').getAttribute('aria-expanded'),'true');
+ // An optimized image must retain a working full-resolution link.
+ const original=await page.locator('.md-content a:has(img[srcset])').first().getAttribute('href');
+ assert.ok(fs.statSync(path.join(siteDir,decodeURIComponent(new URL(original,page.url()).pathname))).size>0);
+ // Verify comments mount only near the article bottom.
+ await page.locator('.md-content img[srcset]').first().scrollIntoViewIfNeeded();
+ await page.waitForFunction(()=>{const i=document.querySelector('.md-content img[srcset]');return i.complete&&i.naturalWidth>0;});
+ await page.screenshot({path:'/tmp/xmin-materials-image.png',fullPage:false});
+ assert.equal(await page.locator('script[src="https://giscus.app/client.js"]').count(),0);
+ await page.locator('[data-comments]').scrollIntoViewIfNeeded();
+ await page.waitForSelector('.giscus-frame');
+ await page.getByTitle('Switch to dark mode').click();
+ await page.waitForFunction(()=>document.body.dataset.mdColorScheme==='slate');
+ await page.getByTitle('Switch to light mode').click();
+ await page.waitForFunction(()=>document.body.dataset.mdColorScheme==='default');
+ // Back navigation should restore the homepage and keep SPA state.
+ await page.goBack();
+ await page.waitForURL(origin+'/');
+ await page.waitForSelector('.home-update-card[href]');
+ assert.equal(await page.evaluate(()=>window.__navigationSentinel),42);
+ await page.locator('[data-home-quote-toggle]').click();
+ assert.equal(await page.locator('.home-shell').getAttribute('data-home-ready'),'true');
+ await page.locator('[data-home-search]').click();
+ await page.locator('.md-search__input').fill('材料');
+ await page.waitForSelector('.md-search-result__link');
+ await page.keyboard.press('Escape');
+ await page.waitForFunction(()=>!document.querySelector('input[data-md-toggle=search]').checked);
+ await page.locator('[data-random-note]').click();
+ await page.waitForURL(url=>url.href!==origin+'/');
+ assert.equal(await page.evaluate(()=>window.__navigationSentinel),42,'random note must use instant navigation');
+ await page.goto(origin+moments,{waitUntil:'networkidle'});
+ assert.equal(await page.locator('script[src*="katex.min.js"]').count(),0,'non-math note should not load renderer');
+ await page.evaluate(()=>{window.__navigationSentinel=43;});
+ await page.locator('a.md-header__button.md-logo').click();
+ await page.waitForURL(origin+'/');
+ assert.equal(await page.evaluate(()=>window.__navigationSentinel),43);
+ await page.screenshot({path:'/tmp/xmin-home-desktop.png',fullPage:false});
+ const mobile=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:2,isMobile:true,hasTouch:true});
+ await mobile.route('**/*',async r=>r.request().url().startsWith(origin)?serve(r):r.abort());
+ const mp=await mobile.newPage();
+ mp.on('pageerror',e=>errors.push(e.message));
+ await mp.goto(origin+materials,{waitUntil:'networkidle'});
+ await mp.waitForSelector('.katex');
+ await mp.screenshot({path:'/tmp/xmin-materials-mobile.png',fullPage:false});
+ const overflow=await mp.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);
+ assert.equal(overflow,false,'mobile page should not overflow');
+ assert.deepEqual(bad,[],'no new missing assets on representative pages');
+ assert.deepEqual(errors,[],'no JavaScript exceptions');
+ assert.equal(external.some(url=>/unpkg|jsdelivr|fonts\.googleapis|fonts\.gstatic/.test(url)),false,'critical resources should be local');
+ fs.writeFileSync('/tmp/xmin-browser-results.json',JSON.stringify({imgMetrics,bad,errors,external,mobileOverflow:overflow},null,2));
+ console.log(JSON.stringify({status:'PASS',math:imgMetrics.math,initialImageRequests:imgMetrics.requested.length,initialImageBytes:imgMetrics.requested.reduce((s,x)=>s+x.bytes,0),external,bad,errors}));
+ await browser.close();
+})().catch(async e=>{await browser?.close();console.error(e);process.exit(1);});
