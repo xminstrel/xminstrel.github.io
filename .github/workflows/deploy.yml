@@ -31,16 +31,14 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install jieba
-          pip install "mkdocs<2.0"
-          pip install mkdocs
-          pip install mkdocs-material
-          pip install mkdocs-glightbox
-          pip install mkdocs-git-revision-date-localized-plugin
-          pip install mkdocs-git-committers-plugin-2
-          pip install mkdocs-git-authors-plugin
-          pip install mkdocs-minify-plugin
-          pip install mkdocs-add-number-plugin
+          pip install -r requirements.txt
+
+      - name: Cache image variants
+        uses: actions/cache@v4
+        with:
+          path: .cache/image-variants
+          key: image-variants-v1-${{ runner.os }}-${{ hashFiles('hooks/performance.py', 'requirements.txt', 'docs/**/*.png', 'docs/**/*.jpg', 'docs/**/*.jpeg') }}
+          restore-keys: image-variants-v1-${{ runner.os }}-
 
       - name: Build site
         run: mkdocs build --clean

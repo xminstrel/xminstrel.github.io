@@ -1,3 +1,5 @@
+let siteStatsRequest;
+
 document$.subscribe(() => {
   const container = document.querySelector("[data-recent-notes]");
   const statsContainer = document.querySelector("[data-site-stats]");
@@ -7,13 +9,16 @@ document$.subscribe(() => {
     return;
   }
 
-  fetch(resolveDataPath("assets/data/site_stats.json"))
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`Failed to load site stats: ${response.status}`);
-      }
-      return response.json();
-    })
+  if (!siteStatsRequest) {
+    siteStatsRequest = fetch(resolveDataPath("assets/data/site_stats.json"))
+      .then((response) => {
+        if (!response.ok) throw new Error(`Failed to load site stats: ${response.status}`);
+        return response.json();
+      })
+      .catch((error) => { siteStatsRequest = null; throw error; });
+  }
+
+  siteStatsRequest
     .then((stats) => {
       if (statsContainer) {
         renderSiteStats(statsContainer, stats);
@@ -24,17 +29,15 @@ document$.subscribe(() => {
 
       const randomPages = Array.isArray(stats.random_pages) ? stats.random_pages : stats.pages;
       if (randomLink && Array.isArray(randomPages) && randomPages.length) {
-        randomLink.addEventListener("click", (event) => {
-          event.preventDefault();
+        const chooseNote = () => {
           const page = randomPages[Math.floor(Math.random() * randomPages.length)];
-          const label = randomLink.querySelector("[data-random-label]");
-          randomLink.classList.add("is-rolling");
-          if (label) {
-            label.textContent = "正在寻找一篇笔记…";
-          }
-          window.setTimeout(() => {
-            window.location.href = resolveSiteUrl(page.url);
-          }, 280);
+          randomLink.href = resolveSiteUrl(page.url);
+        };
+        chooseNote();
+        // Set the native link target before Material intercepts the click.
+        randomLink.addEventListener("pointerdown", chooseNote);
+        randomLink.addEventListener("keydown", (event) => {
+          if (event.key === "Enter") chooseNote();
         });
       }
     })

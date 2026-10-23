@@ -1,7 +1,4 @@
-/* Web fonts */
-@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
-
+/* Fonts are served locally via assets/vendor/fonts/fonts.css. */
 :root {
   --md-primary-fg-color: #426666;
   --md-primary-fg-color--light: #6f8f8b;

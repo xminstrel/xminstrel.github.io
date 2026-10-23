@@ -44,6 +44,7 @@ function initHomeExperience() {
       searchToggle.checked = true;
       searchToggle.dispatchEvent(new Event("change", { bubbles: true }));
       window.setTimeout(() => {
+        if (!searchToggle.checked || !searchToggle.isConnected) return;
         const searchInput = document.querySelector(".md-search__input");
         if (searchInput) {
           searchInput.focus();
