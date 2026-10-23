@@ -51,4 +51,16 @@
 
 
 
-## 态度
+## Attitudes and Behavior 态度和行为
+
+组成：
+
+- 情感
+- 认知
+- 行为
+
+### 态度的测量方法
+
+1. implicit measures
+
+
