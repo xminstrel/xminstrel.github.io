@@ -5,6 +5,13 @@ site_url: 'https://note.xminstrel.top/'
 nav:
   - "🎆 首页": index.md
   - 📚 ZJU-Courses:
+    - 控制论: 
+      - 笔记: control/控制论/控制论.md
+      - 讨论课复习: control/控制论/讨论课复习.md
+      - 复习课: control/控制论/复习课.md
+    - 自动控制理论:
+      - 笔记: control/自动控制理论/自动控制理论.md
+      - 小测复习: control/自动控制理论/小测复习.md
     - 材料力学: 
       - 笔记: zju-courses/材料力学/材料力学.md
       - 期末复习: zju-courses/材料力学/考点.md
@@ -28,18 +35,11 @@ nav:
       - 笔记: zju-courses/社会心理学/note.md
   - 💎 Resources: 
     - AI工具: resources/tools.md
-  - 🪡 控制相关:
-    - 控制论: 
-      - 笔记: control/控制论/控制论.md
-      - 讨论课复习: control/控制论/讨论课复习.md
-      - 复习课: control/控制论/复习课.md
-    - 自动控制理论:
-      - 笔记: control/自动控制理论/自动控制理论.md
-      - 小测复习: control/自动控制理论/小测复习.md
-    - Esp32 入门: control/esp32/esp32.md
   - 🤖 robotic:
     - ROS2 入门: robotic/ros2/ros2.md
     - 强化学习: robotic/强化学习/强化学习.md
+    - Esp32 入门: control/esp32/esp32.md
+    - cs231n: cs/cs231n/note.md
   - 🖼️ 其他笔记: 
     - moments: others/moments/moments.md
     - 杭州美食？: others/知识库/food/杭州美食.md

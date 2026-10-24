@@ -4348,7 +4348,7 @@
     "expandedKeys": []
   },
   "课程回忆.md": {
-    "scroll": 0,
+    "scroll": 103.32610677083333,
     "cursor": {
       "from": {
         "line": 66,
@@ -4592,7 +4592,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/note.md": {
-    "scroll": 528.5269038241248,
+    "scroll": 530.8863279390766,
     "cursor": {
       "from": {
         "line": 656,
@@ -4723,14 +4723,14 @@
     "expandedKeys": []
   },
   "docs/cs/cs231n/note.md": {
-    "scroll": 213.71459999153868,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 236,
+        "line": 4,
         "ch": 0
       },
       "to": {
-        "line": 236,
+        "line": 4,
         "ch": 0
       }
     },
@@ -4996,5 +4996,19 @@
       "item-2-4",
       "item-3-9"
     ]
+  },
+  "PERFORMANCE.md": {
+    "scroll": 35.312820512820515,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

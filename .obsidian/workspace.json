@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "65c388bb2cf31004",
+        "id": "08d05d7bea863b03",
         "type": "tabs",
         "children": [
           {
-            "id": "c5c4c9863f7593a1",
+            "id": "2c6300f02fce32f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/微机/note.md",
+                "file": "docs/cs/cs231n/note.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,17 +22,13 @@
             }
           },
           {
-            "id": "a94f82668b24ed0e",
+            "id": "6eefb0b23d523459",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程回忆.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "课程回忆"
+              "title": "新标签页"
             }
           }
         ],
@@ -260,14 +256,32 @@
   },
   "active": "0730e18f499e3b70",
   "lastOpenFiles": [
+    "docs/robotic/幻乐机械臂",
+    "docs/cs/cs231n/note.md",
+    "docs/robotic/pytorch/note.md",
+    "docs/cs/cs231n/assets/note-46.png",
+    "docs/cs/cs231n/assets/note-45.png",
+    "docs/cs/cs231n/assets/note-44.png",
+    "docs/cs/cs231n/assets/note-43.png",
+    "docs/about_me.md",
+    "VENDOR.md",
+    "PERFORMANCE.md",
+    "课程回忆.md",
     "docs/zju-courses/微机/note.md",
-    "docs/zju-courses/机械设计基础/ppt/机械设计基础总论.pdf",
-    "docs/zju-courses/社会心理学/98社会心理学笔记-方霞部分.pdf",
+    "tests/test_performance.py",
+    "tests/browser-smoke.cjs",
+    "tests",
+    "scripts/vendor_assets.py",
+    "scripts",
+    "hooks/performance.py",
+    "docs/javascripts/comments.js",
+    "docs/assets/vendor/katex/fonts/KaTeX_Typewriter-Regular.woff2",
+    "docs/assets/vendor/katex/fonts/KaTeX_Typewriter-Regular.woff",
+    "docs/assets/vendor/katex/fonts/KaTeX_Typewriter-Regular.ttf",
     "docs/zju-courses/社会心理学/note.md",
     "docs/zju-courses/机械设计基础/note.md",
     "docs/zju-courses/生物生产机器人/note.md",
     "docs/others/moments/moments.md",
-    "docs/cs/cs231n/note.md",
     "docs/others/moments/assets/e1c68c8a64955fb7c3a169ff4a8fdd99.jpg",
     "docs/zju-courses/机械制造基础/note.md",
     "docs/zju-courses/机械制造基础/assets/note-46.png",
@@ -275,35 +289,18 @@
     "docs/zju-courses/机械制造基础/assets/note-44.png",
     "docs/zju-courses/机械制造基础/assets/note-43.png",
     "docs/zju-courses/机械制造基础/assets/note-42.png",
-    "docs/zju-courses/机械制造基础/assets/note-41.png",
-    "docs/zju-courses/机械制造基础/assets/note-40.png",
-    "docs/zju-courses/机械制造基础/assets/note-39.png",
-    "docs/zju-courses/机械制造基础/assets/note-38.png",
-    "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
-    "docs/zju-courses/微机/ppt/N第四章  汇编语言程序设计.pdf",
     "docs/zju-courses/微机/未命名.md",
     "docs/scholar/idea.md",
-    "docs/zju-courses/机械设计基础/assets",
     "docs/zju-courses/社会心理学/作业1/作业1.md",
-    "docs/zju-courses/微机/ppt/微机提纲.pdf",
-    "docs/zju-courses/机械制造基础/ppt/机械制造基础-3-铁碳合金.pdf",
-    "docs/zju-courses/机械制造基础/ppt/机械制造基础-4-钢的热处理-1.pdf",
     "docs/zju-courses/微机/实验/实验.md",
-    "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
-    "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
     "docs/zju-courses/习概/note.md",
     "docs/others/保研计划/保研流程.md",
     "docs/others/保研计划/未命名.md",
     "docs/others/保研计划/plan.md",
-    "课程回忆.md",
     "docs/index.md",
     "docs/robotic/具身智能与机器人学习长期学习路线图.md",
     "docs/scholar/启真问学/未命名.md",
     "docs/robotic/技术栈.md",
-    "docs/robotic/机器人工程师学习计划.md",
-    "docs/zju-courses/化妆品工艺学/化妆品工艺学.md",
-    "docs/zju-courses/材料力学/材料力学.md",
-    "未命名.md",
-    "docs/cs/cs50x/cs50x.md"
+    "docs/robotic/机器人工程师学习计划.md"
   ]
 }

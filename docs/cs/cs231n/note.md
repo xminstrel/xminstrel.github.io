@@ -1,6 +1,7 @@
 semantic gap
 为什么研究机器视觉的时候都是在研究猫呢
 
+## assignment 1
 
 ## 2.图像分类与线性分类器
 
@@ -234,3 +235,18 @@ Attention and Transformer
 
 Attention layer
 
+
+编码器以及解码器
+
+![](assets/note-43.png)
+
+## 目标检测、图像分割与可视化
+
+
+vision transformer（ViT）
+patch➡️token➡️add position ➡️
+![](assets/note-44.png)
+
+![](assets/note-45.png)
+
+![](assets/note-46.png)
