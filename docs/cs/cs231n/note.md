@@ -282,3 +282,14 @@ Class Activation Mapping （CAM）类激活图算法
 
 
 ![](assets/note-51.png)
+
+
+## 大规模分布式训练
+
+GPU 用于并行计算
+
+TPU 训练
+
+梯度运算可以并行
+
+![](assets/note-53.png)

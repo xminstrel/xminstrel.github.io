@@ -3303,15 +3303,15 @@
     ]
   },
   "docs/others/知识库/food/杭州美食.md": {
-    "scroll": 0,
+    "scroll": 0.06611570247933884,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 2,
+        "ch": 7
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 2,
+        "ch": 7
       }
     },
     "expandedKeys": []
@@ -4723,15 +4723,15 @@
     "expandedKeys": []
   },
   "docs/cs/cs231n/note.md": {
-    "scroll": 271.9542449433789,
+    "scroll": 183.3046875,
     "cursor": {
       "from": {
-        "line": 275,
-        "ch": 7
+        "line": 294,
+        "ch": 23
       },
       "to": {
-        "line": 275,
-        "ch": 7
+        "line": 294,
+        "ch": 23
       }
     },
     "expandedKeys": [

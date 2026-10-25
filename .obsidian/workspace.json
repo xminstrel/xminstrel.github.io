@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "note"
             }
+          },
+          {
+            "id": "6a969e238ba1b057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/others/知识库/food/杭州美食.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "杭州美食"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -244,8 +258,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d5938c53d4e1cd81",
+  "active": "6a969e238ba1b057",
   "lastOpenFiles": [
+    "docs/ai/tools.md",
+    "docs/cs/cs231n/note.md",
+    "docs/cs/cs231n/assets/note-53.png",
+    "docs/cs/cs231n/assets/note-53.png",
     "docs/cs/cs231n/assets/note-52.png",
     "docs/cs/cs231n/assets/note-51.png",
     "docs/cs/cs231n/assets/note-50.png",
@@ -257,13 +275,10 @@
     "docs/robotic/ros2/ros2.md",
     "docs/robotic/ros2/github.md",
     "docs/robotic/ros2/指令.md",
-    "docs/cs/cs231n/note.md",
     "docs/robotic/幻乐机械臂",
     "docs/robotic/pytorch/note.md",
     "docs/cs/cs231n/assets/note-46.png",
     "docs/cs/cs231n/assets/note-45.png",
-    "docs/cs/cs231n/assets/note-44.png",
-    "docs/cs/cs231n/assets/note-43.png",
     "docs/about_me.md",
     "VENDOR.md",
     "PERFORMANCE.md",
@@ -282,7 +297,6 @@
     "docs/zju-courses/机械设计基础/note.md",
     "docs/zju-courses/生物生产机器人/note.md",
     "docs/others/moments/moments.md",
-    "docs/others/moments/assets/e1c68c8a64955fb7c3a169ff4a8fdd99.jpg",
     "docs/zju-courses/机械制造基础/note.md",
     "docs/zju-courses/微机/未命名.md",
     "docs/scholar/idea.md",
