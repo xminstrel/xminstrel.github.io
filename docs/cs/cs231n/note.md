@@ -250,3 +250,35 @@ patch➡️token➡️add position ➡️
 ![](assets/note-45.png)
 
 ![](assets/note-46.png)
+
+
+全卷积网络
+
+
+语义分割
+
+
+
+Object Detection 实例分割
+
+
+Single-Stage Object Detectors  
+**YOLO**
+![](assets/note-47.png)
+
+
+![](assets/note-48.png)
+
+![](assets/note-49.png)
+
+Mask R-CNN
+
+Mask 掩码
+![](assets/note-50.png)
+
+Class Activation Mapping （CAM）类激活图算法
+
+![](assets/note-52.png)
+
+
+![](assets/note-51.png)
