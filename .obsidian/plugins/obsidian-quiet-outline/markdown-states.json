@@ -3303,15 +3303,15 @@
     ]
   },
   "docs/others/知识库/food/杭州美食.md": {
-    "scroll": 0.06611570247933884,
+    "scroll": 0.01652892561983471,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 7
+        "line": 14,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 7
+        "line": 14,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4592,7 +4592,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/note.md": {
-    "scroll": 530.8863279390766,
+    "scroll": 530.9594359828653,
     "cursor": {
       "from": {
         "line": 656,
