@@ -349,3 +349,37 @@ DINO
 
 
 ![](assets/note-64.png)
+
+
+生成对抗网络 GAN
+![](assets/note-65.png)
+
+![](assets/note-66.png)
+
+
+## Diffusion Models 扩散模型
+关于在机器人中的应用可以看这篇论文
+
+![](assets/note-67.png)
+
+
+**修正流模型 Rectified Flow**
+
+![](assets/note-68.png)
+
+推理过程：
+![](assets/note-69.png)
+
+CFG
+![](assets/note-70.png)
+
+
+Latent Diffusion Models（LDMs） 潜在扩散模型
+
+![](assets/note-71.png)
+
+Diffusion Transformer
+
+## 3D Vision
+
+网格

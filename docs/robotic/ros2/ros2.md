@@ -134,3 +134,12 @@ ros2 pkg create example_py --build-type ament_python --dependencies rclpy
 
 
 ### service
+
+## RVIZ2
+
+尝试了一下微机的机械臂
+![](assets/ros2.png)
+
+![](assets/ros2-1.png)
+
+![](assets/ros2-2.png)
