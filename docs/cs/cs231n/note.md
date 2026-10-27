@@ -293,3 +293,59 @@ TPU 训练
 梯度运算可以并行
 
 ![](assets/note-53.png)
+
+
+## Self-Supervised Learning 自监督学习
+不用手工标注的数据集
+![](assets/note-54.png)
+
+![](assets/note-55.png)
+
+
+ predict rotation
+
+
+![](assets/note-56.png)
+
+
+
+掩码自编码器 MAE
+
+![](assets/note-57.png)
+
+
+
+SimCLR
+MoCo
+DINO
+
+
+## Generative Models 生成模型
+
+![](assets/note-58.png)
+
+贝叶斯法则 关联
+![](assets/note-59.png)
+
+![](assets/note-60.png)
+
+
+
+输出具有模糊性
+
+
+
+![](assets/note-61.png)
+
+
+自回归模型
+可用 RNN、Transformer
+![](assets/note-63.png)
+
+最大似然估计
+![](assets/note-62.png)
+
+变分自编码器 VAE
+
+
+![](assets/note-64.png)

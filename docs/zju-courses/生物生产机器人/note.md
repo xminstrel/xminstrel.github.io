@@ -46,3 +46,5 @@ min，max 组合，看图像找值然后求集合
 
 power=0 时的隶属度要考虑
 
+
+## Naoshi Kondo

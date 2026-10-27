@@ -1,11 +1,35 @@
 {
-  "article_count": 23,
-  "section_count": 5,
-  "total_words": 49818,
-  "total_word_count": "5.0 万字",
-  "updated": "2026-10-23T13:51:16+00:00",
-  "date": "2026-10-23",
+  "article_count": 25,
+  "section_count": 6,
+  "total_words": 51341,
+  "total_word_count": "5.1 万字",
+  "updated": "2026-10-26T02:01:38+00:00",
+  "date": "2026-10-26",
   "random_pages": [
+    {
+      "src": "others/知识库/food/杭州美食.md",
+      "title": "杭州美食？",
+      "url": "others/知识库/food/杭州美食/",
+      "section": "其他",
+      "updated": "2026-10-26T02:01:38+00:00",
+      "date": "2026-10-26",
+      "created": "2026-05-28T12:27:20+00:00",
+      "words": 221,
+      "word_count": "221 字",
+      "minutes": 1
+    },
+    {
+      "src": "cs/cs231n/note.md",
+      "title": "感知和理解视觉世界",
+      "url": "cs/cs231n/note/",
+      "section": "cs",
+      "updated": "2026-10-25T13:54:44+00:00",
+      "date": "2026-10-25",
+      "created": "2026-09-17T10:49:17+00:00",
+      "words": 829,
+      "word_count": "829 字",
+      "minutes": 3
+    },
     {
       "src": "zju-courses/社会心理学/note.md",
       "title": "社会心理学",
@@ -26,8 +50,8 @@
       "updated": "2026-10-20T13:57:01+00:00",
       "date": "2026-10-20",
       "created": "2026-09-17T10:49:17+00:00",
-      "words": 1389,
-      "word_count": "1,389 字",
+      "words": 1419,
+      "word_count": "1,419 字",
       "minutes": 4
     },
     {
@@ -50,9 +74,9 @@
       "updated": "2026-10-20T00:17:46+00:00",
       "date": "2026-10-20",
       "created": "2026-09-14T02:38:23+00:00",
-      "words": 2658,
-      "word_count": "2,658 字",
-      "minutes": 7
+      "words": 3101,
+      "word_count": "3,101 字",
+      "minutes": 8
     },
     {
       "src": "control/esp32/esp32.md",
@@ -285,6 +309,30 @@
   ],
   "pages": [
     {
+      "src": "others/知识库/food/杭州美食.md",
+      "title": "杭州美食？",
+      "url": "others/知识库/food/杭州美食/",
+      "section": "其他",
+      "updated": "2026-10-26T02:01:38+00:00",
+      "date": "2026-10-26",
+      "created": "2026-05-28T12:27:20+00:00",
+      "words": 221,
+      "word_count": "221 字",
+      "minutes": 1
+    },
+    {
+      "src": "cs/cs231n/note.md",
+      "title": "感知和理解视觉世界",
+      "url": "cs/cs231n/note/",
+      "section": "cs",
+      "updated": "2026-10-25T13:54:44+00:00",
+      "date": "2026-10-25",
+      "created": "2026-09-17T10:49:17+00:00",
+      "words": 829,
+      "word_count": "829 字",
+      "minutes": 3
+    },
+    {
       "src": "zju-courses/社会心理学/note.md",
       "title": "社会心理学",
       "url": "zju-courses/社会心理学/note/",
@@ -304,8 +352,8 @@
       "updated": "2026-10-20T13:57:01+00:00",
       "date": "2026-10-20",
       "created": "2026-09-17T10:49:17+00:00",
-      "words": 1389,
-      "word_count": "1,389 字",
+      "words": 1419,
+      "word_count": "1,419 字",
       "minutes": 4
     },
     {
@@ -328,9 +376,9 @@
       "updated": "2026-10-20T00:17:46+00:00",
       "date": "2026-10-20",
       "created": "2026-09-14T02:38:23+00:00",
-      "words": 2658,
-      "word_count": "2,658 字",
-      "minutes": 7
+      "words": 3101,
+      "word_count": "3,101 字",
+      "minutes": 8
     },
     {
       "src": "control/esp32/esp32.md",
