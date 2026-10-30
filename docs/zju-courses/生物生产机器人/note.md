@@ -48,3 +48,9 @@ power=0 时的隶属度要考虑
 
 
 ## Naoshi Kondo
+
+角质层：cuticular layer
+halation：光晕
+polarizing filter：偏振片
+
+
