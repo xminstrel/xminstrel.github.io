@@ -4,25 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "8c56e47203b7ac7d",
+        "id": "f6b0b8655d81aedb",
         "type": "tabs",
         "children": [
           {
-            "id": "1937f92e362e465f",
+            "id": "a3df68a6286c66ca",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
+                "page": 45,
+                "left": -63,
+                "top": 93,
+                "zoom": 0.5
+              },
+              "icon": "lucide-file-text",
+              "title": "N第五章 单片机内部资源"
+            }
+          },
+          {
+            "id": "422b88d4deb87b7a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
+                "page": 27,
+                "left": -29,
+                "top": 473,
+                "zoom": 0.5447916666666667
+              },
+              "icon": "lucide-file-text",
+              "title": "N第三章 单片机指令系统"
+            }
+          },
+          {
+            "id": "c58a1320fff8491a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/cs/cs231n/note.md",
+                "file": "docs/scholar/记录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "note"
+              "title": "记录"
             }
           },
           {
-            "id": "3acc7464db47292f",
+            "id": "21f153f487f2c6da",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,81 +66,31 @@
               "icon": "lucide-file",
               "title": "杭州美食"
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "5bb17ddebf48b655",
+        "type": "tabs",
+        "children": [
           {
-            "id": "16f6916c9c943244",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/robotic/ros2/ros2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ros2"
-            }
-          },
-          {
-            "id": "0a9f4aba4fe1c61f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/生物生产机器人/note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "note"
-            }
-          },
-          {
-            "id": "f196cd3f143e1b6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/机械制造基础/note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "note"
-            }
-          },
-          {
-            "id": "10b615f35c941e71",
+            "id": "035fa58e710510ba",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "docs/zju-courses/机械制造基础/ppt/机械制造基础-4-钢的热处理-1.pdf",
-                "page": 85,
-                "left": -23,
-                "top": 524,
-                "zoom": 0.67734375
+                "file": "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
+                "page": 45,
+                "left": -81,
+                "top": 173,
+                "zoom": 0.48
               },
               "icon": "lucide-file-text",
-              "title": "机械制造基础-4-钢的热处理-1"
-            }
-          },
-          {
-            "id": "6a31875935135ea2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/zju-courses/习概/note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "note"
+              "title": "N第五章 单片机内部资源"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -310,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.96484375
+    "width": 218.96484375,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -329,10 +312,19 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "6a31875935135ea2",
+  "active": "21f153f487f2c6da",
   "lastOpenFiles": [
-    "docs/zju-courses/机械制造基础/ppt/机械制造基础-4-钢的热处理-1.pdf",
+    "docs/scholar/记录.md",
+    "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
+    "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
+    "docs/cs/cs231n/note.md",
+    "docs/zju-courses/微机/ppt/N第六章 单片机系统扩展.pdf",
+    "docs/others/知识库/food/杭州美食.md",
+    "docs/robotic/ros2/ros2.md",
+    "docs/zju-courses/生物生产机器人/note.md",
     "docs/zju-courses/机械制造基础/note.md",
+    "docs/zju-courses/机械制造基础/ppt/机械制造基础-4-钢的热处理-1.pdf",
+    "docs/zju-courses/习概/note.md",
     "docs/zju-courses/机械设计基础/note.md",
     "docs/zju-courses/机械设计基础/assets/note-7.png",
     "docs/zju-courses/机械设计基础/assets/note-6.png",
@@ -342,20 +334,15 @@
     "docs/zju-courses/机械设计基础/assets/note-3.png",
     "docs/zju-courses/机械设计基础/assets/note-2.png",
     "docs/zju-courses/机械设计基础/ppt/机械设计基础总论.pdf",
-    "docs/zju-courses/生物生产机器人/note.md",
     "docs/control/自动控制理论/自动控制理论.md",
-    "docs/cs/cs231n/note.md",
-    "docs/robotic/ros2/ros2.md",
     "docs/robotic/ros2/assets/ros2-2.png",
     "docs/robotic/ros2/assets/ros2-1.png",
     "docs/robotic/ros2/assets/ros2.png",
     "docs/robotic/ros2/assets",
-    "docs/others/知识库/food/杭州美食.md",
     "hooks/__pycache__/performance.cpython-314.pyc",
     "docs/zju-courses/社会心理学/98社会心理学笔记-方霞部分.pdf",
     "docs/zju-courses/社会心理学/note.md",
     "docs/zju-courses/微机/note.md",
-    "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
     "docs/others/知识库/food/assets",
     "docs/ai/tools.md",
     "docs/robotic/强化学习/强化学习.md",
@@ -368,13 +355,10 @@
     "VENDOR.md",
     "PERFORMANCE.md",
     "课程回忆.md",
-    "tests/test_performance.py",
-    "tests/browser-smoke.cjs",
     "docs/others/moments/moments.md",
     "docs/zju-courses/微机/未命名.md",
     "docs/scholar/idea.md",
     "docs/zju-courses/社会心理学/作业1/作业1.md",
-    "docs/zju-courses/微机/实验/实验.md",
-    "docs/zju-courses/习概/note.md"
+    "docs/zju-courses/微机/实验/实验.md"
   ]
 }

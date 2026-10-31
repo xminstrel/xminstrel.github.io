@@ -383,3 +383,14 @@ Diffusion Transformer
 ## 3D Vision
 
 网格
+
+## Multi多模态基础模型
+
+SimCLR 
+
+CLIP
+
+
+文本编码器
+
+

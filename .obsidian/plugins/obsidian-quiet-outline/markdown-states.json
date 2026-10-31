@@ -3303,15 +3303,15 @@
     ]
   },
   "docs/others/知识库/food/杭州美食.md": {
-    "scroll": 0.6487603305785123,
+    "scroll": 4.166666666666667,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 57
+        "line": 14,
+        "ch": 97
       },
       "to": {
-        "line": 25,
-        "ch": 57
+        "line": 14,
+        "ch": 97
       }
     },
     "expandedKeys": [
@@ -4675,15 +4675,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/习概/note.md": {
-    "scroll": 29.028395061728396,
+    "scroll": 27.18428184281843,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 0
+        "line": 29,
+        "ch": 23
       },
       "to": {
-        "line": 14,
-        "ch": 0
+        "line": 29,
+        "ch": 23
       }
     },
     "expandedKeys": []
@@ -4725,15 +4725,15 @@
     "expandedKeys": []
   },
   "docs/cs/cs231n/note.md": {
-    "scroll": 378.3998559942398,
+    "scroll": 376.9215494791667,
     "cursor": {
       "from": {
-        "line": 384,
-        "ch": 2
+        "line": 395,
+        "ch": 0
       },
       "to": {
-        "line": 384,
-        "ch": 2
+        "line": 395,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -5026,6 +5026,20 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/scholar/记录.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
         "ch": 0
       }
     },
