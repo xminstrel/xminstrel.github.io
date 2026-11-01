@@ -1,21 +1,33 @@
 {
-  "article_count": 25,
+  "article_count": 26,
   "section_count": 6,
-  "total_words": 51341,
-  "total_word_count": "5.1 万字",
-  "updated": "2026-10-26T02:01:38+00:00",
-  "date": "2026-10-26",
+  "total_words": 51782,
+  "total_word_count": "5.2 万字",
+  "updated": "2026-11-01T07:46:54.279737+00:00",
+  "date": "2026-11-01",
   "random_pages": [
+    {
+      "src": "zju-courses/微机/微机复习.md",
+      "title": "单片机结构",
+      "url": "zju-courses/微机/微机复习/",
+      "section": "ZJU-Courses",
+      "updated": "2026-11-01T07:46:54.279737+00:00",
+      "date": "2026-11-01",
+      "created": "2026-11-01T07:46:54.279737+00:00",
+      "words": 231,
+      "word_count": "231 字",
+      "minutes": 1
+    },
     {
       "src": "others/知识库/food/杭州美食.md",
       "title": "杭州美食？",
       "url": "others/知识库/food/杭州美食/",
       "section": "其他",
-      "updated": "2026-10-26T02:01:38+00:00",
-      "date": "2026-10-26",
+      "updated": "2026-10-31T10:28:36+00:00",
+      "date": "2026-10-31",
       "created": "2026-05-28T12:27:20+00:00",
-      "words": 221,
-      "word_count": "221 字",
+      "words": 340,
+      "word_count": "340 字",
       "minutes": 1
     },
     {
@@ -23,12 +35,48 @@
       "title": "感知和理解视觉世界",
       "url": "cs/cs231n/note/",
       "section": "cs",
-      "updated": "2026-10-25T13:54:44+00:00",
-      "date": "2026-10-25",
+      "updated": "2026-10-31T10:28:36+00:00",
+      "date": "2026-10-31",
       "created": "2026-09-17T10:49:17+00:00",
-      "words": 829,
-      "word_count": "829 字",
+      "words": 902,
+      "word_count": "902 字",
       "minutes": 3
+    },
+    {
+      "src": "robotic/ros2/ros2.md",
+      "title": "ros2",
+      "url": "robotic/ros2/ros2/",
+      "section": "Robotics",
+      "updated": "2026-10-27T14:02:55+00:00",
+      "date": "2026-10-27",
+      "created": "2026-05-19T13:56:51+00:00",
+      "words": 313,
+      "word_count": "313 字",
+      "minutes": 1
+    },
+    {
+      "src": "zju-courses/机械制造基础/note.md",
+      "title": "机械制造基础",
+      "url": "zju-courses/机械制造基础/note/",
+      "section": "ZJU-Courses",
+      "updated": "2026-10-27T02:54:32+00:00",
+      "date": "2026-10-27",
+      "created": "2026-09-17T10:49:17+00:00",
+      "words": 1419,
+      "word_count": "1,419 字",
+      "minutes": 4
+    },
+    {
+      "src": "zju-courses/微机/note.md",
+      "title": "微机原理及其应用",
+      "url": "zju-courses/微机/note/",
+      "section": "ZJU-Courses",
+      "updated": "2026-10-27T02:54:32+00:00",
+      "date": "2026-10-27",
+      "created": "2026-09-14T02:38:23+00:00",
+      "words": 3107,
+      "word_count": "3,107 字",
+      "minutes": 8
     },
     {
       "src": "zju-courses/社会心理学/note.md",
@@ -43,18 +91,6 @@
       "minutes": 1
     },
     {
-      "src": "zju-courses/机械制造基础/note.md",
-      "title": "机械制造基础",
-      "url": "zju-courses/机械制造基础/note/",
-      "section": "ZJU-Courses",
-      "updated": "2026-10-20T13:57:01+00:00",
-      "date": "2026-10-20",
-      "created": "2026-09-17T10:49:17+00:00",
-      "words": 1419,
-      "word_count": "1,419 字",
-      "minutes": 4
-    },
-    {
       "src": "others/moments/moments.md",
       "title": "moments",
       "url": "others/moments/moments/",
@@ -65,18 +101,6 @@
       "words": 130,
       "word_count": "130 字",
       "minutes": 1
-    },
-    {
-      "src": "zju-courses/微机/note.md",
-      "title": "微机原理及其应用",
-      "url": "zju-courses/微机/note/",
-      "section": "ZJU-Courses",
-      "updated": "2026-10-20T00:17:46+00:00",
-      "date": "2026-10-20",
-      "created": "2026-09-14T02:38:23+00:00",
-      "words": 3101,
-      "word_count": "3,101 字",
-      "minutes": 8
     },
     {
       "src": "control/esp32/esp32.md",
@@ -245,18 +269,6 @@
       "words": 9722,
       "word_count": "9,722 字",
       "minutes": 25
-    },
-    {
-      "src": "robotic/ros2/ros2.md",
-      "title": "ros2",
-      "url": "robotic/ros2/ros2/",
-      "section": "Robotics",
-      "updated": "2026-05-19T13:56:51+00:00",
-      "date": "2026-05-19",
-      "created": "2026-05-19T13:56:51+00:00",
-      "words": 301,
-      "word_count": "301 字",
-      "minutes": 1
     },
     {
       "src": "zju-courses/发展心理学/笔记1.md",
@@ -309,15 +321,27 @@
   ],
   "pages": [
     {
+      "src": "zju-courses/微机/微机复习.md",
+      "title": "单片机结构",
+      "url": "zju-courses/微机/微机复习/",
+      "section": "ZJU-Courses",
+      "updated": "2026-11-01T07:46:54.279737+00:00",
+      "date": "2026-11-01",
+      "created": "2026-11-01T07:46:54.279737+00:00",
+      "words": 231,
+      "word_count": "231 字",
+      "minutes": 1
+    },
+    {
       "src": "others/知识库/food/杭州美食.md",
       "title": "杭州美食？",
       "url": "others/知识库/food/杭州美食/",
       "section": "其他",
-      "updated": "2026-10-26T02:01:38+00:00",
-      "date": "2026-10-26",
+      "updated": "2026-10-31T10:28:36+00:00",
+      "date": "2026-10-31",
       "created": "2026-05-28T12:27:20+00:00",
-      "words": 221,
-      "word_count": "221 字",
+      "words": 340,
+      "word_count": "340 字",
       "minutes": 1
     },
     {
@@ -325,12 +349,48 @@
       "title": "感知和理解视觉世界",
       "url": "cs/cs231n/note/",
       "section": "cs",
-      "updated": "2026-10-25T13:54:44+00:00",
-      "date": "2026-10-25",
+      "updated": "2026-10-31T10:28:36+00:00",
+      "date": "2026-10-31",
       "created": "2026-09-17T10:49:17+00:00",
-      "words": 829,
-      "word_count": "829 字",
+      "words": 902,
+      "word_count": "902 字",
       "minutes": 3
+    },
+    {
+      "src": "robotic/ros2/ros2.md",
+      "title": "ros2",
+      "url": "robotic/ros2/ros2/",
+      "section": "Robotics",
+      "updated": "2026-10-27T14:02:55+00:00",
+      "date": "2026-10-27",
+      "created": "2026-05-19T13:56:51+00:00",
+      "words": 313,
+      "word_count": "313 字",
+      "minutes": 1
+    },
+    {
+      "src": "zju-courses/机械制造基础/note.md",
+      "title": "机械制造基础",
+      "url": "zju-courses/机械制造基础/note/",
+      "section": "ZJU-Courses",
+      "updated": "2026-10-27T02:54:32+00:00",
+      "date": "2026-10-27",
+      "created": "2026-09-17T10:49:17+00:00",
+      "words": 1419,
+      "word_count": "1,419 字",
+      "minutes": 4
+    },
+    {
+      "src": "zju-courses/微机/note.md",
+      "title": "微机原理及其应用",
+      "url": "zju-courses/微机/note/",
+      "section": "ZJU-Courses",
+      "updated": "2026-10-27T02:54:32+00:00",
+      "date": "2026-10-27",
+      "created": "2026-09-14T02:38:23+00:00",
+      "words": 3107,
+      "word_count": "3,107 字",
+      "minutes": 8
     },
     {
       "src": "zju-courses/社会心理学/note.md",
@@ -345,18 +405,6 @@
       "minutes": 1
     },
     {
-      "src": "zju-courses/机械制造基础/note.md",
-      "title": "机械制造基础",
-      "url": "zju-courses/机械制造基础/note/",
-      "section": "ZJU-Courses",
-      "updated": "2026-10-20T13:57:01+00:00",
-      "date": "2026-10-20",
-      "created": "2026-09-17T10:49:17+00:00",
-      "words": 1419,
-      "word_count": "1,419 字",
-      "minutes": 4
-    },
-    {
       "src": "others/moments/moments.md",
       "title": "moments",
       "url": "others/moments/moments/",
@@ -367,18 +415,6 @@
       "words": 130,
       "word_count": "130 字",
       "minutes": 1
-    },
-    {
-      "src": "zju-courses/微机/note.md",
-      "title": "微机原理及其应用",
-      "url": "zju-courses/微机/note/",
-      "section": "ZJU-Courses",
-      "updated": "2026-10-20T00:17:46+00:00",
-      "date": "2026-10-20",
-      "created": "2026-09-14T02:38:23+00:00",
-      "words": 3101,
-      "word_count": "3,101 字",
-      "minutes": 8
     },
     {
       "src": "control/esp32/esp32.md",
@@ -547,18 +583,6 @@
       "words": 9722,
       "word_count": "9,722 字",
       "minutes": 25
-    },
-    {
-      "src": "robotic/ros2/ros2.md",
-      "title": "ros2",
-      "url": "robotic/ros2/ros2/",
-      "section": "Robotics",
-      "updated": "2026-05-19T13:56:51+00:00",
-      "date": "2026-05-19",
-      "created": "2026-05-19T13:56:51+00:00",
-      "words": 301,
-      "word_count": "301 字",
-      "minutes": 1
     },
     {
       "src": "zju-courses/发展心理学/笔记1.md",

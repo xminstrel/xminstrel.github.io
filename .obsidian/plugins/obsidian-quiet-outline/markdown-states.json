@@ -3307,11 +3307,11 @@
     "cursor": {
       "from": {
         "line": 14,
-        "ch": 97
+        "ch": 5
       },
       "to": {
         "line": 14,
-        "ch": 97
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -4594,23 +4594,19 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/note.md": {
-    "scroll": 798.3649162950337,
+    "scroll": 25.17916796753044,
     "cursor": {
       "from": {
-        "line": 804,
-        "ch": 6
+        "line": 9,
+        "ch": 8
       },
       "to": {
-        "line": 804,
-        "ch": 6
+        "line": 9,
+        "ch": 8
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-2",
-      "item-2-8",
-      "item-2-11",
-      "item-2-20"
+      "item-1-0"
     ]
   },
   "docs/zju-courses/机械制造基础/未命名.md": {
@@ -4987,7 +4983,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/未命名.md": {
-    "scroll": 172.22446466171388,
+    "scroll": 210.09993489583334,
     "cursor": {
       "from": {
         "line": 240,
@@ -4999,8 +4995,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-4",
-      "item-3-9"
+      "item-3-9",
+      "item-2-4"
     ]
   },
   "PERFORMANCE.md": {
@@ -5044,5 +5040,76 @@
       }
     },
     "expandedKeys": []
+  },
+  "docs/zju-courses/微机/未命名 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/微机/微机复习.md": {
+    "scroll": 131.53231003826568,
+    "cursor": {
+      "from": {
+        "line": 141,
+        "ch": 0
+      },
+      "to": {
+        "line": 141,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-1-6"
+    ]
+  },
+  "docs/zju-courses/微机/单片机指令系统记忆.md": {
+    "scroll": 398.2102864583333,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-7",
+      "item-2-11",
+      "item-1-18",
+      "item-2-20"
+    ]
+  },
+  "docs/others/知识库/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 240,
+        "ch": 43
+      },
+      "to": {
+        "line": 240,
+        "ch": 43
+      }
+    },
+    "expandedKeys": [
+      "item-3-9",
+      "item-2-4"
+    ]
   }
 }
