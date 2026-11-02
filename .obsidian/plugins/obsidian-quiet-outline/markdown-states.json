@@ -4594,19 +4594,20 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/note.md": {
-    "scroll": 25.17916796753044,
+    "scroll": 831.4505608481868,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 8
+        "line": 846,
+        "ch": 0
       },
       "to": {
-        "line": 9,
-        "ch": 8
+        "line": 846,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-20"
     ]
   },
   "docs/zju-courses/机械制造基础/未命名.md": {
@@ -5056,21 +5057,20 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/微机复习.md": {
-    "scroll": 131.53231003826568,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 141,
+        "line": 41,
         "ch": 0
       },
       "to": {
-        "line": 141,
+        "line": 42,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-1-3",
-      "item-1-6"
+      "item-2-5",
+      "item-2-0"
     ]
   },
   "docs/zju-courses/微机/单片机指令系统记忆.md": {

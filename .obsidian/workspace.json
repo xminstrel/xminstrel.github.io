@@ -4,6 +4,44 @@
     "type": "split",
     "children": [
       {
+        "id": "0a98e22d676717e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a9accfbd6232877",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/N第六章 单片机系统扩展.pdf",
+                "page": 72,
+                "left": -26,
+                "top": 287,
+                "zoom": 0.5875
+              },
+              "icon": "lucide-file-text",
+              "title": "N第六章 单片机系统扩展"
+            }
+          },
+          {
+            "id": "8b6047298c1b8590",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/微机提纲.pdf",
+                "page": 7,
+                "left": -81,
+                "top": 894,
+                "zoom": 0.18609766827980645
+              },
+              "icon": "lucide-file-text",
+              "title": "微机提纲"
+            }
+          }
+        ]
+      },
+      {
         "id": "1b6c6e37ed3a996b",
         "type": "tabs",
         "children": [
@@ -14,10 +52,10 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
-                "page": 27,
-                "left": -13,
-                "top": 490,
-                "zoom": 1.13125
+                "page": 26,
+                "left": -17,
+                "top": 124,
+                "zoom": 0.9031250000000001
               },
               "icon": "lucide-file-text",
               "title": "N第一章 诸论"
@@ -91,9 +129,9 @@
               "state": {
                 "file": "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
                 "page": 19,
-                "left": -17,
-                "top": 223,
-                "zoom": 0.903125
+                "left": -26,
+                "top": 42,
+                "zoom": 0.5875
               },
               "icon": "lucide-file-text",
               "title": "N第五章 单片机内部资源"
@@ -159,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a33e15a0d0342cde",
@@ -323,8 +362,15 @@
   },
   "active": "75ef7ea5c7649452",
   "lastOpenFiles": [
-    "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
+    "docs/zju-courses/微机/note.md",
+    "docs/zju-courses/微机/ppt/N第六章 单片机系统扩展.pdf",
+    "docs/zju-courses/微机/ppt/微机提纲.pdf",
+    "docs/zju-courses/微机/assets/note-80.png",
     "docs/zju-courses/微机/微机复习.md",
+    "docs/zju-courses/微机/assets/note-79.png",
+    "docs/zju-courses/微机/assets/note-78.png",
+    "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
+    "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
     "docs/zju-courses/微机/assets/微机复习-9.png",
     "docs/zju-courses/微机/assets/微机复习-8.png",
     "docs/zju-courses/微机/assets/微机复习-7.png",
@@ -334,16 +380,10 @@
     "docs/zju-courses/微机/assets/微机复习-3.png",
     "docs/zju-courses/微机/ppt/N第四章  汇编语言程序设计.pdf",
     "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
-    "docs/zju-courses/微机/note.md",
     "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
     "docs/zju-courses/微机/单片机指令系统记忆.md",
     "docs/others/知识库/网络/住宅IP.md",
     "docs/others/知识库/网络",
-    "docs/zju-courses/微机/ppt/N第六章 单片机系统扩展.pdf",
-    "docs/zju-courses/微机/assets/46b4d19455ef9940b981720f28b3110b.png",
-    "docs/zju-courses/微机/assets/b2cc4b8483509b3bbd7990fc45309fd2.png",
-    "docs/zju-courses/微机/assets/eba96705e863818ffb3d706612c454b6.png",
-    "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
     "docs/scholar/记录.md",
     "docs/others/知识库/food/杭州美食.md",
     "docs/cs/cs231n/note.md",
@@ -355,7 +395,6 @@
     "docs/zju-courses/机械设计基础/note.md",
     "docs/zju-courses/机械设计基础/ppt/机械设计基础总论.pdf",
     "docs/control/自动控制理论/自动控制理论.md",
-    "docs/robotic/ros2/assets",
     "docs/zju-courses/社会心理学/note.md",
     "docs/ai/tools.md",
     "docs/robotic/强化学习/强化学习.md",
