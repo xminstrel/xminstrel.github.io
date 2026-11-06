@@ -4594,15 +4594,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/note.md": {
-    "scroll": 831.4505608481868,
+    "scroll": 836.9117743569258,
     "cursor": {
       "from": {
-        "line": 846,
-        "ch": 0
+        "line": 848,
+        "ch": 11
       },
       "to": {
-        "line": 846,
-        "ch": 0
+        "line": 848,
+        "ch": 11
       }
     },
     "expandedKeys": [
@@ -4753,20 +4753,21 @@
     "expandedKeys": []
   },
   "docs/zju-courses/社会心理学/note.md": {
-    "scroll": 46.4205358095848,
+    "scroll": 59.077209302325585,
     "cursor": {
       "from": {
-        "line": 66,
+        "line": 78,
         "ch": 0
       },
       "to": {
-        "line": 66,
+        "line": 78,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-4"
+      "item-2-5",
+      "item-2-2"
     ]
   },
   "docs/zju-courses/机械设计基础/未命名.md": {
@@ -4784,15 +4785,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/机械设计基础/note.md": {
-    "scroll": 62.18987665492889,
+    "scroll": 62.2503098380973,
     "cursor": {
       "from": {
-        "line": 66,
-        "ch": 0
+        "line": 71,
+        "ch": 13
       },
       "to": {
-        "line": 66,
-        "ch": 0
+        "line": 71,
+        "ch": 13
       }
     },
     "expandedKeys": [
@@ -5057,24 +5058,24 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/微机复习.md": {
-    "scroll": 0,
+    "scroll": 243.03157552083334,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 0
+        "line": 273,
+        "ch": 10
       },
       "to": {
-        "line": 42,
-        "ch": 0
+        "line": 273,
+        "ch": 10
       }
     },
     "expandedKeys": [
-      "item-2-5",
-      "item-2-0"
+      "item-2-6",
+      "item-2-1"
     ]
   },
   "docs/zju-courses/微机/单片机指令系统记忆.md": {
-    "scroll": 398.2102864583333,
+    "scroll": 163.34635416666666,
     "cursor": {
       "from": {
         "line": 0,
