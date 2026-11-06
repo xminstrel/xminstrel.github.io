@@ -27,46 +27,112 @@
             "state": {
               "type": "pdf",
               "state": {
+                "file": "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
+                "page": 28,
+                "left": -13,
+                "top": 505,
+                "zoom": 1.13125
+              },
+              "icon": "lucide-file-text",
+              "title": "N第五章 单片机内部资源"
+            }
+          },
+          {
+            "id": "71a64006da55dc58",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
+                "page": 20,
+                "left": -13,
+                "top": 28,
+                "zoom": 1.13125
+              },
+              "icon": "lucide-file-text",
+              "title": "N第一章 诸论"
+            }
+          },
+          {
+            "id": "43e699c0652c7b2d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
+                "page": 30,
+                "left": -13,
+                "top": 447,
+                "zoom": 1.13125
+              },
+              "icon": "lucide-file-text",
+              "title": "N第二章 单片机结构"
+            }
+          },
+          {
+            "id": "5b214f27a044cde6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
                 "file": "docs/zju-courses/微机/ppt/N第六章 单片机系统扩展.pdf",
-                "page": 83,
-                "left": -126,
-                "top": 173,
-                "zoom": 0.87
+                "page": 71,
+                "left": -253,
+                "top": 462,
+                "zoom": 0.69
               },
               "icon": "lucide-file-text",
               "title": "N第六章 单片机系统扩展"
             }
           },
           {
-            "id": "578c87fbcef16439",
+            "id": "3ecada03877eabc7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "docs/zju-courses/社会心理学/note.md",
-                "mode": "source",
-                "source": false
+                "file": "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
+                "page": 17,
+                "left": -110,
+                "top": 59,
+                "zoom": 0.9
               },
-              "icon": "lucide-file",
-              "title": "note"
+              "icon": "lucide-file-text",
+              "title": "N第三章 单片机指令系统"
             }
           },
           {
-            "id": "91de73c6431156ef",
+            "id": "393add6e5cc2e62b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/zju-courses/微机/ppt/N第四章  汇编语言程序设计.pdf",
+                "page": 15,
+                "left": -11,
+                "top": 478,
+                "zoom": 1.14
+              },
+              "icon": "lucide-file-text",
+              "title": "N第四章  汇编语言程序设计"
+            }
+          },
+          {
+            "id": "2cbc84082fc4209a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zju-courses/机械设计基础/note.md",
+                "file": "docs/others/知识库/food/杭州美食.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "note"
+              "title": "杭州美食"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -288,24 +354,25 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "91de73c6431156ef",
+  "active": "2cbc84082fc4209a",
   "lastOpenFiles": [
-    "docs/zju-courses/机械设计基础/ppt/机械设计基础总论.pdf",
-    "docs/zju-courses/微机/ppt/N第六章 单片机系统扩展.pdf",
+    "docs/zju-courses/微机/ppt/N第四章  汇编语言程序设计.pdf",
+    "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
     "docs/zju-courses/微机/微机复习.md",
+    "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
+    "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
+    "docs/zju-courses/微机/ppt/N第六章 单片机系统扩展.pdf",
+    "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
     "docs/zju-courses/社会心理学/note.md",
+    "docs/zju-courses/机械设计基础/note.md",
+    "docs/zju-courses/机械制造基础/note.md",
+    "docs/zju-courses/机械制造基础/ppt/第1章 金属材料的力学性能-s(6).pdf",
+    "docs/zju-courses/机械设计基础/ppt/机械设计基础总论.pdf",
     "docs/zju-courses/微机/assets/微机复习-13.png",
     "docs/zju-courses/微机/单片机指令系统记忆.md",
     "docs/zju-courses/化妆品工艺学/化妆品工艺学.md",
     "docs/zju-courses/社会心理学/ppt/1 - overview.pdf",
     "docs/zju-courses/社会心理学/ppt/2 - intro & methods.pdf",
-    "docs/zju-courses/社会心理学/ppt/6 - social influence.pdf",
-    "docs/zju-courses/社会心理学/ppt/5 - persuasion.pdf",
-    "docs/zju-courses/社会心理学/ppt/4 - attitudes.pdf",
-    "docs/zju-courses/社会心理学/ppt/3 - emotion.pdf",
-    "docs/zju-courses/社会心理学/98社会心理学笔记-方霞部分.pdf",
-    "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
-    "docs/zju-courses/社会心理学/ppt",
     "docs/zju-courses/微机/assets/微机复习-12.png",
     "docs/zju-courses/微机/assets/微机复习-11.png",
     "docs/zju-courses/微机/assets/微机复习-10.png",
@@ -322,9 +389,7 @@
     "docs/cs/cs231n/note.md",
     "docs/robotic/ros2/ros2.md",
     "docs/zju-courses/生物生产机器人/note.md",
-    "docs/zju-courses/机械制造基础/note.md",
     "docs/zju-courses/习概/note.md",
-    "docs/zju-courses/机械设计基础/note.md",
     "docs/control/自动控制理论/自动控制理论.md",
     "docs/ai/tools.md",
     "docs/robotic/强化学习/强化学习.md",

@@ -3303,14 +3303,14 @@
     ]
   },
   "docs/others/知识库/food/杭州美食.md": {
-    "scroll": 4.166666666666667,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 5
+        "line": 8,
+        "ch": 0
       },
       "to": {
-        "line": 14,
+        "line": 8,
         "ch": 0
       }
     },
@@ -4753,7 +4753,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/社会心理学/note.md": {
-    "scroll": 59.077209302325585,
+    "scroll": 25.069135802469138,
     "cursor": {
       "from": {
         "line": 78,
@@ -4785,15 +4785,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/机械设计基础/note.md": {
-    "scroll": 62.2503098380973,
+    "scroll": 62.84834654653473,
     "cursor": {
       "from": {
-        "line": 71,
-        "ch": 13
+        "line": 89,
+        "ch": 0
       },
       "to": {
-        "line": 71,
-        "ch": 13
+        "line": 89,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -5058,15 +5058,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/微机复习.md": {
-    "scroll": 243.03157552083334,
+    "scroll": 3.2916666666666665,
     "cursor": {
       "from": {
-        "line": 273,
-        "ch": 10
+        "line": 6,
+        "ch": 14
       },
       "to": {
-        "line": 273,
-        "ch": 10
+        "line": 6,
+        "ch": 14
       }
     },
     "expandedKeys": [
