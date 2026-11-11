@@ -1589,15 +1589,15 @@
     ]
   },
   "docs/others/moments/moments.md": {
-    "scroll": 33.91306423611111,
+    "scroll": 52.332508680555556,
     "cursor": {
       "from": {
-        "line": 44,
-        "ch": 10
+        "line": 52,
+        "ch": 48
       },
       "to": {
-        "line": 44,
-        "ch": 10
+        "line": 52,
+        "ch": 48
       }
     },
     "expandedKeys": []
@@ -3303,15 +3303,15 @@
     ]
   },
   "docs/others/知识库/food/杭州美食.md": {
-    "scroll": 0,
+    "scroll": 4.916666666666667,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 0
+        "line": 15,
+        "ch": 77
       },
       "to": {
-        "line": 8,
-        "ch": 0
+        "line": 15,
+        "ch": 77
       }
     },
     "expandedKeys": [
@@ -4722,14 +4722,14 @@
     "expandedKeys": []
   },
   "docs/cs/cs231n/note.md": {
-    "scroll": 376.9215494791667,
+    "scroll": 249.47216044175167,
     "cursor": {
       "from": {
-        "line": 395,
+        "line": 231,
         "ch": 0
       },
       "to": {
-        "line": 395,
+        "line": 231,
         "ch": 0
       }
     },
@@ -4988,18 +4988,15 @@
     "scroll": 210.09993489583334,
     "cursor": {
       "from": {
-        "line": 240,
-        "ch": 43
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 240,
-        "ch": 43
+        "line": 0,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-9",
-      "item-2-4"
-    ]
+    "expandedKeys": []
   },
   "PERFORMANCE.md": {
     "scroll": 35.312820512820515,
@@ -5058,15 +5055,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/微机复习.md": {
-    "scroll": 3.2916666666666665,
+    "scroll": 213.52473958333334,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 14
+        "line": 215,
+        "ch": 0
       },
       "to": {
-        "line": 6,
-        "ch": 14
+        "line": 215,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -5111,6 +5108,25 @@
     "expandedKeys": [
       "item-3-9",
       "item-2-4"
+    ]
+  },
+  "docs/zju-courses/微机/查表程序设计.md": {
+    "scroll": 541.2229817708334,
+    "cursor": {
+      "from": {
+        "line": 552,
+        "ch": 59
+      },
+      "to": {
+        "line": 552,
+        "ch": 59
+      }
+    },
+    "expandedKeys": [
+      "item-2-18",
+      "item-2-22",
+      "item-2-25",
+      "item-1-30"
     ]
   }
 }

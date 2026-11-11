@@ -45,3 +45,9 @@
 10.13 咪与桂花
 
 ![](assets/e1c68c8a64955fb7c3a169ff4a8fdd99.jpg)
+
+11.10 🎵 La La Land 🎶
+
+![](assets/de5ccb7697b4739d23212fddf3e98b18.jpg)
+
+![](assets/587f33447ffc4ffd206e8432c29bbb14.jpg)
