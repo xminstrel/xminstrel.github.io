@@ -4594,7 +4594,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/note.md": {
-    "scroll": 836.9117743569258,
+    "scroll": 511.4595813785637,
     "cursor": {
       "from": {
         "line": 848,
@@ -4607,7 +4607,8 @@
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-20"
+      "item-2-20",
+      "item-2-11"
     ]
   },
   "docs/zju-courses/机械制造基础/未命名.md": {
@@ -4672,7 +4673,7 @@
     "expandedKeys": []
   },
   "docs/zju-courses/习概/note.md": {
-    "scroll": 27.18428184281843,
+    "scroll": 12.339506172839506,
     "cursor": {
       "from": {
         "line": 29,
@@ -4753,15 +4754,15 @@
     "expandedKeys": []
   },
   "docs/zju-courses/社会心理学/note.md": {
-    "scroll": 25.069135802469138,
+    "scroll": 31.235185185185184,
     "cursor": {
       "from": {
-        "line": 78,
-        "ch": 0
+        "line": 5,
+        "ch": 1
       },
       "to": {
-        "line": 78,
-        "ch": 0
+        "line": 5,
+        "ch": 1
       }
     },
     "expandedKeys": [
@@ -5055,24 +5056,23 @@
     "expandedKeys": []
   },
   "docs/zju-courses/微机/微机复习.md": {
-    "scroll": 213.52473958333334,
+    "scroll": 122.35528690003609,
     "cursor": {
       "from": {
-        "line": 215,
-        "ch": 0
+        "line": 125,
+        "ch": 9
       },
       "to": {
-        "line": 215,
-        "ch": 0
+        "line": 125,
+        "ch": 9
       }
     },
     "expandedKeys": [
-      "item-2-6",
       "item-2-1"
     ]
   },
   "docs/zju-courses/微机/单片机指令系统记忆.md": {
-    "scroll": 163.34635416666666,
+    "scroll": 162.0526026895984,
     "cursor": {
       "from": {
         "line": 0,
@@ -5111,7 +5111,7 @@
     ]
   },
   "docs/zju-courses/微机/查表程序设计.md": {
-    "scroll": 541.2229817708334,
+    "scroll": 541.2493489583334,
     "cursor": {
       "from": {
         "line": 552,
@@ -5127,6 +5127,36 @@
       "item-2-22",
       "item-2-25",
       "item-1-30"
+    ]
+  },
+  "docs/zju-courses/具身智能导论/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "docs/zju-courses/具身智能导论/note.md": {
+    "scroll": 23.144239000171204,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 22
+      },
+      "to": {
+        "line": 25,
+        "ch": 22
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }
