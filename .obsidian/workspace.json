@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
-                "page": 26,
+                "page": 9,
                 "left": -26,
-                "top": 346,
+                "top": 328,
                 "zoom": 0.5875
               },
               "icon": "lucide-file-text",
@@ -46,9 +46,9 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
-                "page": 15,
-                "left": -2,
-                "top": 483,
+                "page": 33,
+                "left": 5,
+                "top": 194,
                 "zoom": 0.67
               },
               "icon": "lucide-file-text",
@@ -62,9 +62,9 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/微机/ppt/N第四章  汇编语言程序设计.pdf",
-                "page": 38,
+                "page": 5,
                 "left": -26,
-                "top": 104,
+                "top": 71,
                 "zoom": 0.5875
               },
               "icon": "lucide-file-text",
@@ -78,9 +78,9 @@
               "type": "pdf",
               "state": {
                 "file": "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
-                "page": 41,
-                "left": -4,
-                "top": 41,
+                "page": 15,
+                "left": 41,
+                "top": 543,
                 "zoom": 0.69
               },
               "icon": "lucide-file-text",
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "e8fe96c9f441367d",
@@ -349,18 +349,18 @@
   },
   "active": "f165152602090668",
   "lastOpenFiles": [
-    "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
-    "docs/zju-courses/微机/微机复习.md",
-    "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
+    "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
     "docs/zju-courses/微机/ppt/N第一章 诸论.pdf",
     "docs/zju-courses/微机/ppt/N第六章 单片机系统扩展.pdf",
+    "docs/zju-courses/微机/微机复习.md",
+    "docs/zju-courses/微机/ppt/N第四章  汇编语言程序设计.pdf",
+    "docs/zju-courses/微机/ppt/N第三章 单片机指令系统.pdf",
+    "docs/zju-courses/微机/ppt/N第二章 单片机结构.pdf",
     "docs/zju-courses/微机/note.md",
-    "docs/zju-courses/微机/ppt/N第五章 单片机内部资源.pdf",
     "docs/zju-courses/微机/作业题.md",
     "docs/zju-courses/微机/assets/微机复习-23.png",
     "docs/zju-courses/微机/assets/微机复习-22.png",
     "docs/zju-courses/微机/assets/微机复习-21.png",
-    "docs/zju-courses/微机/ppt/N第四章  汇编语言程序设计.pdf",
     "docs/zju-courses/微机/assets/微机复习-20.png",
     "docs/zju-courses/微机/assets/微机复习-19.png",
     "docs/zju-courses/微机/assets/微机复习-18.png",
